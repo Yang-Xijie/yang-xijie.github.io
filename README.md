@@ -1,3 +1,3 @@
 # MWeb to GitHub pages
 **MY site**
-click [yang-xijie.github.io](yang-xijie.github.io) to view
+click [https://yang-xijie.github.io](https://yang-xijie.github.io) to view
