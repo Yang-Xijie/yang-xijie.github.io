@@ -146,32 +146,23 @@
 
 <p>然后就可以开始新建分类（注意只支持一级分类）和markdown文件了！</p>
 
-<h1 id="toc_2">发布前的准备</h1>
+<h1 id="toc_2">问题</h1>
 
-<p><figure><img src="media/16043336829296/16043367322122.jpg" alt="" style="width:595px;"/></figure></p>
-
-<p>只要不换模版，那么选择生成网站就好了，不用清除重新生成。<br/>
-发布脚本后打开网站好像有bug我这边打开了文件夹，用处也不大就关掉。<br/>
-脚本如下：</p>
-
-<pre><code class="language-bash">#!/bin/sh
-
-# Please set the name and email. 
-# Because MWeb can&#39;t get your github global setting.
-git config user.name &quot;yxj&quot;
-git config user.email &quot;564197835@qq.com&quot;
-
-git add .
-# git add --ignore-removal . # 没有使用自带的这句话，因为我希望删除的文件确实被删除掉
-git commit -m &quot;{{year}}-{{month}}-{{day}} {{time}}&quot; # 这里的环境变量是可以通过复制传递到终端的
-git push -u origin master # 加了参数-u后，以后即可直接用git push 代替git push origin master; -u 的作用其实就在于修改 git push/pull 时默认的 upstream（因为你可能有多个远端仓库）
-</code></pre>
+<p>好像存在一些问题。还是用命令行吧<br/>
+cd /Users/yangxijie/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/Site/my_site<br/>
+git clone [repo] my_site<br/>
+touch LICENSE<br/>
+touch .gitignore<br/>
+touch README.md</p>
 
 <h1 id="toc_3">发布</h1>
 
-<p>每次要发布的时候，在MWeb右键选择<code>复制发布脚本并打开终端…</code>，终端打开后复制即可<br/>
-<figure><img src="media/16043336829296/16043346166008.jpg" alt="" style="width:307px;"/></figure><br/>
-这时MWeb会调出你在偏好设置中写好的脚本，然后换掉其中的{{time}}等字符串；之后复制这段脚本到剪贴板，然后打开终端。你只需在终端⌘ V粘贴刚刚的那段脚本就好了。</p>
+<p>右键生成网站<br/>
+cd /Users/yangxijie/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/Site/my_site<br/>
+git clone [repo] my_site<br/>
+git add .<br/>
+git commit -m&quot;time&quot;<br/>
+git push</p>
 
 <h1 id="toc_4">References</h1>
 
@@ -257,8 +248,6 @@ Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
 
 
 
-
-<script src="asset/prism.js"></script>
 
 
 <style type="text/css">
