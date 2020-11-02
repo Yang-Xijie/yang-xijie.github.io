@@ -135,36 +135,30 @@
 <p>markdown编辑：macOS markdown编辑器<a href="https://apps.apple.com/cn/app/mweb">MWeb</a><br/>
 网页模版：MWeb自带的网页模版site-fondation-book呈现（不支持网站菜单）<a href="https://coderforart.com/objccndemo/">模版预览</a></p>
 
-<h1 id="toc_0">准备工作</h1>
+<h1 id="toc_0">准备</h1>
 
-<p>在MWeb的文档库新增静态网站分类，命名为<code>my_site</code><br/>
-在<code>my_site</code>的上级目录中先<code>rm -rf my_site</code>再<code>git clone [repo] my_site</code>其中<code>[repo]</code>为GitHub Pages的repository（我的上级目录：<code>/Users/yangxijie/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/Site</code>，我的<code>[repo]</code>：<code>https://github.com/Yang-Xijie/yang-xijie.github.io.git</code>）<br/>
-然后你应该添加<code>.gitignore</code>，比如不要上传.DS_store<br/>
-如果你的仓库公开，那么可以再添加如<code>README.md</code> <code>LICENSE</code>等文件。</p>
+<p>好像存在一些问题。还是用命令行吧<br/>
+cd /Users/yangxijie/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/Site<br/>
+rm -rf my_site<br/>
+git clone [repo] my_site<br/>
+touch LICENSE (MIT License and CC4.0)<br/>
+touch .gitignore (.DS_Store)<br/>
+touch README.md (<a href="https://yang-xijie.github.io">https://yang-xijie.github.io</a>)</p>
 
 <h1 id="toc_1">开始写作</h1>
 
-<p>然后就可以开始新建分类（注意只支持一级分类）和markdown文件了！</p>
+<p>然后就可以开始新建分类（注意只支持一级分类）和markdown文件了！<br/>
+标题不要起太长</p>
 
-<h1 id="toc_2">问题</h1>
+<h1 id="toc_2">发布</h1>
 
-<p>好像存在一些问题。还是用命令行吧<br/>
+<p>右键生成网站（第一次生成网站后者更改网站模版的时候需要清除重新生成）<br/>
 cd /Users/yangxijie/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/Site/my_site<br/>
-git clone [repo] my_site<br/>
-touch LICENSE<br/>
-touch .gitignore<br/>
-touch README.md</p>
-
-<h1 id="toc_3">发布</h1>
-
-<p>右键生成网站<br/>
-cd /Users/yangxijie/Library/Containers/com.coderforart.MWeb3/Data/Documents/themes/Site/my_site<br/>
-git clone [repo] my_site<br/>
 git add .<br/>
 git commit -m&quot;time&quot;<br/>
 git push</p>
 
-<h1 id="toc_4">References</h1>
+<h1 id="toc_3">References</h1>
 
 <p><a href="https://zh.mweb.im/mweb-static-blog.html">MWeb 生成静态网站 &amp; 博客</a><br/>
 <a href="https://zh.mweb.im/how_to_use_shell_script.html">如何使用“发布脚本”功能发布静态网站</a><br/>
