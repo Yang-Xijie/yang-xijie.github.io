@@ -29,7 +29,7 @@ jobs:
         with:
           mdbook-version: "0.3.7"
       
-      - run: mdbook build --dest-dir ../book ./docs
+      - run: mdbook build --dest-dir ../book ./mdbook
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
