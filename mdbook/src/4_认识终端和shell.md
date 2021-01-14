@@ -66,7 +66,7 @@ shell内建程序的独特之处是，我们在调用这些程序的时候只需
 ### which
 查看shell如何解释后面的命令
 
-```shell
+```bash
 which which
 which echo
 which history
@@ -78,7 +78,7 @@ which cd
 ### echo
 将后面输入的东西返回。看起来很没用，但是在显示变量的时候会显示变量的值而不是那个字符串
 
-```shell
+```bash
 echo hello
 echo $SHELL
 ```
@@ -86,7 +86,7 @@ echo $SHELL
 查看正在使用的shell `echo $SHELL`。其实还有好多其他的shell，但是我们用macOS默认的shell——zsh就好了。（小知识：在10.15Catalina之前macOS默认的shell是bash，其实二者的区别并不大，都可以解析你输入的命令）
 ### history
 
-```shell
+```bash
 history
 history -5
 ```
@@ -110,7 +110,7 @@ history -5
 接下来开始介绍文件路径——绝对路径和相对路径
 
 我们之前所说的路径都是绝对路径，也就是从根目录开始。但其实还有相对路径。
-```shell
+```bash
 pwd
 ```
 开始介绍shell的当前工作路径
@@ -152,14 +152,14 @@ pwd
 #### ls
 列出当前文件夹下的所有文件
 
-```shell
+```bash
 ls
 ls -a
 ls -l
 ```
 #### cat
 
-```shell
+```bash
 cat hello.txt
 ```
 #### clear
@@ -196,7 +196,7 @@ open -a Visual\ Studio\ Code.app foo.md
 #### 输出流重定向
 还记得`echo`吗？
 
-```shell
+```bash
 touch my.txt
 echo "hello world" > my.txt
 echo "hhhh" > my.txt
@@ -208,7 +208,7 @@ echo "hahahaha" >> my.txt
 
 比如我想看看我刚刚创建了什么文件夹来着：我可以一条一条翻，但是我也可以搜索啊！
 
-```shell
+```bash
 history
 history | grep "mkdir"
 ```
@@ -227,7 +227,7 @@ history | grep "mkdir"
 #### where
 where也是一个shell内建命令。where和which的功能差不多，也是告诉我们一个命令如何被shell解析。区别是，shell能够告诉我们shell去解析这个命令的全部可能性。
 
-```shell
+```bash
 where which
 ```
 
@@ -246,7 +246,7 @@ where which
 
 如果你希望一个文件有可执行权限：
 
-```shell
+```bash
 chmod a+x <file>
 ```
 
@@ -281,7 +281,7 @@ chmod a+x <file>
 ### 环境变量
 查看环境变量
 
-```shell
+```bash
 echo $PATH
 ```
 
@@ -306,6 +306,7 @@ homebrew（在哪里下载图形化界面的程序？App Store。那么在哪里
 终端配置(（拿我自己的电脑说一下事儿）（给出链接大家自己想配可以配置一下）如何配置很漂亮的终端）
 
 ![-w600](media/16023345749067/16104419908790.jpg)
+
 可以参考：
 
 [iTerm2 + Oh My Zsh 打造舒适终端体验](https://segmentfault.com/a/1190000014992947)
@@ -319,6 +320,7 @@ homebrew（在哪里下载图形化界面的程序？App Store。那么在哪里
 `man builtins`可以查看shell的所有内建命令
 
 ![-w600](media/16104420934135/16104423335475.jpg)
+
 `man zshbuiltins`可以查看到zsh的所有内建命令。（也可以先`man zsh`，然后在下方找到这个zshbuiltins）
 
 ## 结束
