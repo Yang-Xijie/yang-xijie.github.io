@@ -1,6 +1,6 @@
 [book]
 authors = ["yxj"]
-language = "en"
+language = "zh-cn"
 multilingual = false
 src = "src"
 title = "Site by yxj"
