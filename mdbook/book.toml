@@ -3,8 +3,8 @@ authors = ["yxj"]
 language = "zh-cn"
 multilingual = false
 src = "src"
-title = "Site by yxj"
+title = "yxj's Site"
 
 [output.html]
-git-repository-url = "https://yang-xijie.github.io/"
+git-repository-url = "https://github.com/Yang-Xijie/yang-xijie.github.io"
 git-repository-icon = "fa-github"
