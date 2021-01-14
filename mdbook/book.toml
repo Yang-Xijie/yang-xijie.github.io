@@ -1,0 +1,10 @@
+[book]
+authors = ["yxj"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Site by yxj"
+
+[output.html]
+git-repository-url = "https://yang-xijie.github.io/"
+git-repository-icon = "fa-github"
