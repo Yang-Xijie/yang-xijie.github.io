@@ -14,7 +14,7 @@ git-repository-url = "https://github.com/Yang-Xijie/yang-xijie.github.io"
 git-repository-icon = "fa-github"
 
 [output.html.print]
-enable = false
+enable = true
 
 [output.html.search]
 enable = false

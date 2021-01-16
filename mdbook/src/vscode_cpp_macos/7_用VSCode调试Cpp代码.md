@@ -18,9 +18,9 @@
 - [launch.json](#launchjson)
   - [从上到下讲……](#从上到下讲-1)
   - [hello_world.cpp](#hello_worldcpp)
-  - [调整终端和vscode的位置](#调整终端和vscode的位置)
-  - [使用VSCode的集成终端？](#使用vscode的集成终端)
-  - [斐波拉契数列周期](#斐波拉契数列周期)
+  - [调整终端和VS Code的位置](#调整终端和vs-code的位置)
+  - [使用VS Code的集成终端？](#使用vs-code的集成终端)
+  - [调试举例](#调试举例)
   - [其他调试技巧](#其他调试技巧)
 - [补充](#补充)
 - [总结](#总结-1)
@@ -167,7 +167,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 ## 从上到下讲……
 （最后的一点先留着，讲到debug的时候出问题再回来）
 ## Other two choices
-<img src="media/16104430276312/16107072035683.jpg" style="zoom:40%"/>
+<img src="media/16104430276312/16107072035683.jpg" style="zoom:30%"/>
 
 ## 总结
 你会发现你自己也能在`tasks.json`里面自己写一个`Code Runner`了是吧？确实是这样（不过`Code Runner`的功能还是多一些，也支持别的语言，更方便一些）
@@ -240,15 +240,14 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 [GitHub issue｜VS Code因权限无法打开系统终端](https://github.com/microsoft/vscode-cpptools/issues/5079)（大概1/2的地方）
 
-<img src="media/16104430276312/16107361192670.jpg" style="zoom:40%"/>
-
+<img src="media/16104430276312/16107361192670.jpg" style="zoom:30%"/>
 
 回到`tasks.json` ⇧⌘P执行，给`VS Code`打开终端的权限，解决问题
-## 调整终端和vscode的位置
+## 调整终端和VS Code的位置
 长按女色的按钮，终端放在屏幕左边，`VS Code`放在屏幕右边。
 
 在调试多次之后可以使用快捷键：⇧⌘W关闭全部。或直接⌘Q退出终端
-## 使用VSCode的集成终端？
+## 使用VS Code的集成终端？
 如何在调试的时候不使用系统的终端而使用`VS Code`的集成终端？
 
 你肯定觉得这么做很麻烦，`Code Runner`都可以让提示信息出现在集成终端，那我调试代码也把程序的输出放到集成终端可以吗？很遗憾，这件事情在`macOS`上做不到。
@@ -261,12 +260,22 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 [VS Code官方文档｜Configuring C/C++ debugging之externalConsole](https://code.visualstudio.com/docs/cpp/launch-json-reference#_externalconsole)
 
-<img src="media/16013676677088/16015722057456.jpg" style="zoom:40%"/>
+<img src="media/16013676677088/16015722057456.jpg" style="zoom:30%"/>
 
-## 斐波拉契数列周期
+## 调试举例
+我想了好久也没找到简单又有点意思的例子……真正要用到debug的时候我觉得应该是数据结构与算法的题目，但我这个只是简单教程，我也不想把数算题扯进来。所以真的很抱歉！这一块的调试大家在自己写的程序遇到bug的时候自行体验……
+
+```cpp
+#include <cstdio>
+
+int twoSum(int a, int b) { return a + b; }
+int fourSum(int a, int b, int c, int d) { return twoSum(a, b) + twoSum(c, d); }
+
+int main() { printf("Addition = %d\n", fourSum(1, 2, 3, 4)); }
+```
 
 ## 其他调试技巧
-<img src="media/16104430276312/16107116310057.jpg" style="zoom:50%"/>
+<img src="media/16104430276312/16107116310057.jpg" style="zoom:30%"/>
 
 大家自己体验一下，我就不做过多的解释了。
 
