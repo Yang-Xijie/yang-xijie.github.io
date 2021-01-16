@@ -14,7 +14,8 @@
 - [6 VSCode代码运行自动化](./vscode_cpp_macos/6_VSCode代码运行自动化.md)
 - [7 用VSCode调试Cpp代码](./vscode_cpp_macos/7_用VSCode调试Cpp代码.md)
 - [8 课程回顾](./vscode_cpp_macos/8_课程回顾.md)
-- [其他](./vscode_cpp_macos/9_others.md)
+
+[其他](./vscode_cpp_macos/9_others.md)
 
 ---
 

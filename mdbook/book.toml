@@ -1,7 +1,7 @@
 [book]
 title = "yxj"
 authors = ["yxj"]
-description = "yxj's own site"
+description = "Yang-Xijie's own site"
 src = "src"
 language = "zh-cn"
 multilingual = false
@@ -14,4 +14,7 @@ git-repository-url = "https://github.com/Yang-Xijie/yang-xijie.github.io"
 git-repository-icon = "fa-github"
 
 [output.html.print]
+enable = false
+
+[output.html.search]
 enable = false
