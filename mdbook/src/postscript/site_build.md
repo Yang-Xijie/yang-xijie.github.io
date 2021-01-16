@@ -1,11 +1,13 @@
 # How to Make This Site
 test
 
-[mdbook Official](https://rust-lang.github.io/mdBook/index.html)
+[GitHub | mdbook](https://github.com/rust-lang/mdBook)
 
-[mdbook Official | SUMMARY.md](https://rust-lang.github.io/mdBook/format/summary.html)
+[mdbook docs](https://rust-lang.github.io/mdBook/index.html)
 
-[mdbook Official | book.toml](https://rust-lang.github.io/mdBook/format/config.html)
+[mdbook docs | SUMMARY.md](https://rust-lang.github.io/mdBook/format/summary.html)
+
+[mdbook docs | book.toml](https://rust-lang.github.io/mdBook/format/config.html)
 
 [Download highlight.js](https://highlightjs.org)
 
@@ -13,5 +15,5 @@ test
 
 修改图片尺寸html代码：
 ```html
-<img src="" style="zoom:50%"/>
+<img src="" style="zoom:40%"/>
 ```

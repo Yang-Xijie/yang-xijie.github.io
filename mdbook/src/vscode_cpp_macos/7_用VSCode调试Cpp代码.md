@@ -1,6 +1,6 @@
-# 7 用VSCode调试Cpp代码
+# 7 用VS Code调试Cpp代码
 
-- [7 用VSCode调试Cpp代码](#7-用vscode调试cpp代码)
+- [7 用VS Code调试Cpp代码](#7-用vs-code调试cpp代码)
 - [前言](#前言)
 - [Important Docs](#important-docs)
   - [VS Code｜User Guide](#vs-codeuser-guide)
@@ -22,16 +22,15 @@
   - [使用VSCode的集成终端？](#使用vscode的集成终端)
   - [斐波拉契数列周期](#斐波拉契数列周期)
   - [其他调试技巧](#其他调试技巧)
-- [7 调试](#7-调试)
 - [补充](#补充)
 - [总结](#总结-1)
 
 # 前言
-调试是什么，就是debug（查看`Run -> Start Debugging`）。debug是什么：你在写代码的时候会有一些地方写的有问题，这些问题就被称作bug。bug原意为虫子。de前缀有去除的意思，debug就是指“去掉虫子”，也就是找代码中的错并改正。仔细看VSCode边栏的运行图标，发现就有一只虫子。
+调试是什么，就是`debug`（查看`Run -> Start Debugging`）。`debug`是什么：你在写代码的时候会有一些地方写的有问题，这些问题就被称作bug。bug原意为虫子。`de-`前缀有去除的意思，`debug`就是指“去掉虫子”，也就是找代码中的错并改正。仔细看`VS Code`边栏的运行图标，发现就有一只虫子。
 
-至于为什么debug被翻译为调试呢？大概就是说，你调一调（调整）代码，试着改一改代码，就把错误找出来了。
+至于为什么`debug`被翻译为调试呢？大概就是说，你调一调（调整）代码，试着改一改代码，就把错误找出来了。
 
-这一课会大量参考VS Code的官方文档，这是因为一份配置文件怎么写，不会有什么教程比官方文档写得更清楚了。是的，包括我现在正在录制的这一课的教程。我推荐你直接看官方的文档；不过，我还是有那么一丢丢自信比官网文档总结的好那么一点点。所以，你可以先听我讲的，如果觉得我哪里讲得不好，你可以移步官方文档查看对应的部分。
+这一课会大量参考`VS Code`的官方文档，这是因为一份配置文件怎么写，不会有什么教程比官方文档写得更清楚了。是的，包括我现在正在录制的这一课的教程。我推荐你直接看官方的文档；不过，我还是有那么一丢丢自信比官网文档总结的好那么一点点。所以，你可以先听我讲的，如果觉得我哪里讲得不好，你可以移步官方文档查看对应的部分。
 
 首先先简单看一看这些文档吧。
 # Important Docs
@@ -44,7 +43,7 @@ Workspace or folder specific tasks are configured from the `tasks.json` file in 
 
 [VS Code｜User Guide｜Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
 
-在VSCode中可以自定义一些task（任务），这些任务会帮你自动化执行一些东西。任务的配置文件是`tasks.json`
+在`VS Code`中可以自定义一些task（任务），这些任务会帮你自动化执行一些东西。任务的配置文件是`tasks.json`
 ### User Guide｜Debugging
 One of the key features of Visual Studio Code is its great debugging support. VS Code's built-in debugger helps accelerate your edit, compile and debug loop.
 
@@ -52,7 +51,7 @@ VS Code keeps debugging configuration information in a `launch.json` file locate
 
 [VS Code｜User Guide｜Debugging](https://code.visualstudio.com/docs/editor/debugging)
 
-如果你需要debug，那么VSCode提供了这样的平台。debug的配置文件是`launch.json`
+如果你需要`debug`，那么`VS Code`提供了这样的平台。`debug`的配置文件是`launch.json`
 ### 实用技巧：输入输出重定向
 [VS Code｜User Guide｜Debugging | Redirect input/output to/from the debug target](https://code.visualstudio.com/docs/editor/debugging#_redirect-inputoutput-tofrom-the-debug-target)
 ## VS Code｜C++
@@ -69,68 +68,215 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 
 [VS Code Official Docs | Configuring C/C++ debugging](https://code.visualstudio.com/docs/cpp/launch-json-reference)
 
-（很重要的文档，几乎说明了C++调试配置文件launch.json所有选项的含义）
+（很重要的文档，几乎说明了`C++`调试配置文件`launch.json`所有选项的含义）
 
 # tasks.json
 ```json
+{
+  // Tasks in VS Code can be configured to run scripts and start processes
+  // so that many of these existing tools can be used from within VS Code 
+  // without having to enter a command line or write new code.
+  // Workspace or folder specific tasks are configured from the tasks.json file in the .vscode folder for a workspace.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      // The task's label used in the user interface.
+      // Terminal -> Run Task... 看到的名字
+      "label": "g++ compile",
+      // The task's type. For a custom task, this can either be shell or process.
+      // If shell is specified, the command is interpreted as a shell command (for example: bash, cmd, or PowerShell).
+      // If process is specified, the command is interpreted as a process to execute.
+      "type": "shell",
+      // The actual command to execute.
+      // 因为g++已经在环境变量中了，所以我们这里写命令就行不用写g++的绝对路径
+      "command": "g++",
+      "args": [
+        "${file}", // 表示当前文件（绝对路径）
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "-W",
+        "-Wall",
+        "-g",
+        "-std=c++17",
+      ],
+      // Defines to which execution group this task belongs to.
+      // It supports "build" to add it to the build group and "test" to add it to the test group.
+      // Tasks that belong to the build/test group can be executed by running Run Build/Test Task from the Command Palette (sft cmd P).
+      // Valid values:
+      //   "build",
+      //   {"kind":"build","isDefault":true}, 
+      //   "test",
+      //   {"kind":"test","isDefault":true}, 
+      //   "none".
+      "group": {
+        "kind": "build",
+        "isDefault": true, // Defines if this task is the default task in the group.
+      },
+      // (这里在演示的时候删掉"default"改成“build”，因为你之后都不需要默认了，tasks那边已经关联了这个build任务，这里只是说明一下它的类型)
+      // Configures the panel that is used to present the task's output and reads its input.
+      "presentation": {
+        // Controls whether the executed command is echoed to the panel. Default is true.
+        "echo": true, // 打开可以看到编译的命令
+        // Controls whether the terminal running the task is revealed or not. Default is "always".
+        //   always: Always reveals the terminal when this task is executed.
+        //   silent: Only reveals the terminal if the task exits with an error or the problem matcher finds an error.(会显示错误，但不会显示警告)
+        //   never: Never reveals the terminal when this task is executed.
+        "reveal": "silent", // 控制在集成终端中是否显示。如果没问题那我不希望终端被切换、如果有问题我希望能看到编译过程哪里出错，所以选silent(可能always会好一些)
+        // Controls whether the panel takes focus. Default is false.
+        "focus": false, // 我的理解是：是否将鼠标移过去。因为这个是编译任务，我们不需要输入什么东西，所以选false
+        // Controls if the panel is shared between tasks, dedicated to this task or a new one is created on every run.
+        "panel": "shared", // shared:任务的输出使用同一个终端panel（为了少生成几个panel我们选shared）
+        // Controls whether to show the `Terminal will be reused by tasks, press any key to close it` message.
+        "showReuseMessage": true, // 就一句话，你想看就true，不想看就false
+        // Controls whether the terminal is cleared before executing the task.
+        "clear": false, // 还是保留之前的task输出信息比较好。所以不清理
+      },
+      // Other two choices: options & runOptions (cmd I to use IntelliSense)
+      "options": {
+        // The current working directory of the executed program or script. If omitted Code's current workspace root is used.
+        "cwd": "${workspaceFolder}",// 默认就是这个，删掉也没问题
+      },
+      // problemMatcher: 用正则表达式提取g++的输出中的错误信息并将其显示到VS Code下方的Problems窗口
+      // check: https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+      "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5,
+        },
+      },
+      // 官网教程 https://code.visualstudio.com/docs/cpp/config-clang-mac#_build-helloworldcpp 
+      // 提到了另一种problemMatcher，但试了之后好像不起作用，甚至还把我原本的电脑搞出了一些问题……
+    },
+    {
+      "label": "Open Terminal.app",
+      "type": "shell",
+      "command": "osascript -e 'tell application \"Terminal\"\ndo script \"echo now VS Code is able to open Terminal.app\"\nend tell'",
+      "problemMatcher": [],
+      "group": "none",
+    }
+  ]
+}
 ```
+
 ## 从上到下讲……
-最后的一点先留着，讲到debug的时候再说。
+（最后的一点先留着，讲到debug的时候出问题再回来）
 ## Other two choices
-![-w899](media/16104430276312/16107072035683.jpg)
+<img src="media/16104430276312/16107072035683.jpg" style="zoom:40%"/>
+
 ## 总结
-你会发现你自己也能在tasks.json里面自己写一个Code Runner了是吧？确实是这样（不过Code Runner的功能还是多一些，也支持别的语言，更方便一些）
+你会发现你自己也能在`tasks.json`里面自己写一个`Code Runner`了是吧？确实是这样（不过`Code Runner`的功能还是多一些，也支持别的语言，更方便一些）
 
-在下拉框选中之后就可以直接F5开始调试了
+
 # launch.json
+
+```json
+{
+  // One of the key features of Visual Studio Code is its great debugging support.
+  // VS Code's built-in debugger helps accelerate your edit, compile and debug loop.
+  // VS Code keeps debugging configuration information in a launch.json file
+  // located in a .vscode folder in your workspace (project root folder).
+  "version": "0.2.0",
+  "configurations": [
+    {
+      /* ------ these three options are mandatory ------ */
+      // The type of debugger to use for this launch configuration.
+      "type": "cppdbg", // C++ debug
+      // The request type of this launch configuration. Currently, launch and attach are supported.
+      //   If you come from a server or desktop background, 
+      //   it's quite normal to have your editor launch your process for you, 
+      //   and your editor automatically attaches its debugger to the newly launched process.
+      //   A launch configuration starts your app in debug mode before VS Code attaches to it.
+      // 大概意思是说，如果你开始debug的时候你的项目已经启起来了，那就attach（把debug的工具附加上去）
+      // 如果你开始debug的时机和你启动项目的时机是相同的，那就launch
+      "request": "launch", // debug的类型，launch表示启动，attach表示附加
+      // The reader-friendly name to appear in the Debug launch configuration drop-down.
+      "name": "C++ Debug", // 在VSCode侧边栏Run那里看到的名字（可以随便起）
+      /* ------ some optional attributes available to all launch configurations ------ */
+      // To launch a task before the start of a debug session, set this attribute to the label of a task specified in tasks.json.
+      "preLaunchTask": "g++ compile", //在调试之前要进行的工作 compile是在 tasks.json 的编译任务里面的label
+      /* ------ Many debuggers support some of the following attributes: ------ */
+      // executable or file to run when launching the debugger
+      "program": "${fileDirname}/${fileBasenameNoExtension}.out", // debug的对象(-g编译出来的二进制文件)，需要和.vscode/tasks.json中生成的可执行文件一致
+      // arguments passed to the program to debug
+      "args": [], // 比如运行你的程序添加输入参数（argc/argv），需要在这里添加
+      // Environment variables to add to the environment for the program
+      "environment": [], // 放置环境变量
+      // current working directory for finding dependencies and other files
+      "cwd": "${workspaceFolder}",
+      // break immediately when the program launches
+      "stopAtEntry": false,
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "externalConsole": true,
+      // 为true则会打开系统终端在其中进行交互
+      // 如果为 true，则为调试对象启动控制台。如果为 false，它在 Linux 和 Windows 上会显示在集成控制台中
+      // macOS不适用：https://code.visualstudio.com/docs/cpp/launch-json-reference#_externalconsole
+      /* ------ Customizing GDB or LLDB ------ */
+      // Indicates the debugger that VS Code will connect to. Must be set to gdb or lldb. 
+      // 但是macOS只安装了llbd（有可能是安装命令行工具的时候安装的），那就用lldb吧
+      "MIMode": "lldb",
+    }
+  ]
+}
+```
+
 ## 从上到下讲……
+
 ## hello_world.cpp
-你会发现出现问题，终端没有打印信息
+```cpp
+#include <cstdio>
 
-[GitHub issue｜VS Code因权限无法打开系统终端](https://github.com/microsoft/vscode-cpptools/issues/5079)
+int main() { printf("\n\nHello, world!\n\n"); }
+```
 
-![-w997](media/16104430276312/16107361192670.jpg)
+直接`F5`开始调试（可能需要在边栏Run哪里勾选）
 
-回到`tasks.json`⇧⌘P执行解决问题
+你会发现出现问题，终端没有`Hello, world!`。这是什么原因呢？？？
+
+[GitHub issue｜VS Code因权限无法打开系统终端](https://github.com/microsoft/vscode-cpptools/issues/5079)（大概1/2的地方）
+
+<img src="media/16104430276312/16107361192670.jpg" style="zoom:40%"/>
+
+
+回到`tasks.json` ⇧⌘P执行，给`VS Code`打开终端的权限，解决问题
 ## 调整终端和vscode的位置
-关闭全部 ⇧⌘W
+长按女色的按钮，终端放在屏幕左边，`VS Code`放在屏幕右边。
+
+在调试多次之后可以使用快捷键：⇧⌘W关闭全部。或直接⌘Q退出终端
 ## 使用VSCode的集成终端？
-如何在调试的时候不使用系统的终端而使用VSCode的集成终端？
+如何在调试的时候不使用系统的终端而使用`VS Code`的集成终端？
 
-你肯定觉得这么做很麻烦，Code Runner都可以让提示信息出现在集成终端，那我调试代码也把程序的输出放到集成终端可以吗？很遗憾，这件事情在macOS上做不到。
+你肯定觉得这么做很麻烦，`Code Runner`都可以让提示信息出现在集成终端，那我调试代码也把程序的输出放到集成终端可以吗？很遗憾，这件事情在`macOS`上做不到。
 
-当时GitHub issues上也有人问过这件事情。
+当时`GitHub issues`上也有人问过这件事情。
 
 [GitHub｜issue: Open the externalConsole inside the VSCode Terminal in OSX](https://github.com/microsoft/vscode-cpptools/issues/3338)
 
-（查看我的回答；图片会挂是因为GitHub的服务器在国外……）非常遗憾，也许之后能支持，但是现在not available。（真的很可惜）
+（查看我的回答；图片会挂是因为GitHub的服务器在国外……）非常遗憾，也许之后能支持，但是现在**not available**。（真的很可惜）
 
 [VS Code官方文档｜Configuring C/C++ debugging之externalConsole](https://code.visualstudio.com/docs/cpp/launch-json-reference#_externalconsole)
 
-![-w951](media/16013676677088/16015722057456.jpg)
+<img src="media/16013676677088/16015722057456.jpg" style="zoom:40%"/>
 
 ## 斐波拉契数列周期
 
 ## 其他调试技巧
-![-w910](media/16104430276312/16107116310057.jpg)
+<img src="media/16104430276312/16107116310057.jpg" style="zoom:50%"/>
+
 大家自己体验一下，我就不做过多的解释了。
 
-
-
-# 7 调试
-
-
-
-在VSCode设置里面的首选项的`file.exclude`里面添加`**/*.dSYM`和`**/*.out`
-
-
 # 补充
-我的想法是希望你在一个文件夹`Cpp`中写所有的Cpp代码，这在学习Cpp和编写简单Cpp代码时是非常合适的（我这么做发现很方便）。但是请注意：如果你用VS Code来做一个`C++`项目，那最好还是另开一个新的文件夹；毕竟在VSCode中，一个文件夹就是一个项目。
+我的想法是希望你在一个文件夹`Cpp`中写所有的Cpp代码，这在学习`Cpp`和编写简单`Cpp`代码时是非常合适的（我这么做发现很方便）。但是请注意：如果你用`VS Code`来做一个`C++`项目，那最好还是另开一个新的文件夹；毕竟在`VS Code`中，一个文件夹就是一个项目。（但其实在我们现在用的这个`Cpp`文件夹新建一个文件夹也足够了）
 # 总结
-这节课我们主要学习了如何写两份配置文件：`tasks.json`可以用配置任务实现自动化；`launch.json`用来配置VSCode调试的方法。现在，如果你只是要执行你的代码，⌘R直接用插件Code Runner解决问题，非常快。如果你需要调试，那就打上断点，然后F5（或者触控栏上的播放按钮）；由于可能需要多次打开调试，这时你需要将终端和VSCode分屏获得好一些的体验。
+这节课我们主要学习了如何写两份配置文件：`tasks.json`可以用配置任务实现自动化；`launch.json`用来配置`VS Code`调试的方法。现在，如果你只是要执行你的代码，⌘R直接用插件`Code Runner`解决问题，非常快。如果你需要调试，那就打上断点，然后F5（或者触控栏上的播放按钮）；由于可能需要多次打开调试，这时你需要将终端和`VS Code`分屏获得好一些的体验。
 
 上节课说这是最后一节课，但我之后应该还会录制两节课。一节是课程回顾，会讲讲这门课的设计思路，同时也会安利一些我自己用的插件，顺便也推荐一些可以深入学习的地方。另一节准备做一个极速版的教程，因为对于一些心急的人来说，可能总共加起来快5个小时的视频教程还是有一些长；另外对于认真听完课程的同学，可能也需要一个快速回顾如何配置编程环境的总结性视频。
 
-如果你跟着这六节课（除去最开始的一节）走下来，我相信你会少走很多弯路。以后写代码也会觉得很舒适。还记得我在第一节课说的课程目标吗？我希望这份教程能让一年半前刚刚拿着mac入门Cpp编程的我少一年的迷茫，我想我应该做到了这一点。
+如果你跟着这六节课（除去最开始的一节）走下来，我相信你会少走很多弯路。以后写代码也会觉得很舒适。还记得我在第一节课说的课程目标吗？我希望这份教程能让一年半前刚刚拿着`mac`入门`Cpp`编程的我少一年的迷茫，我想我应该做到了这一点。
 
 这一节课就到这里了！

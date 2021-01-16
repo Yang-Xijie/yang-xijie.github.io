@@ -6,7 +6,7 @@
 
 [Cpp in VSCode on macOS](./vscode_cpp_macos/0_about.md)
 
-- [1 前言和课程说明](./vscode_cpp_macos/1_前言_课程说明.md)
+- [1 前言和课程说明](./vscode_cpp_macos/1_前言和课程说明.md)
 - [2 认识mac的文件系统](./vscode_cpp_macos/2_认识mac的文件系统.md)
 - [3 认识程序](./vscode_cpp_macos/3_认识程序.md)
 - [4 认识终端和shell](./vscode_cpp_macos/4_认识终端和shell.md)
@@ -17,10 +17,12 @@
 
 [其他](./vscode_cpp_macos/9_others.md)
 
+[极速版教程]()
+
 ---
 
 [Support](./postscript/support.md)
 
 ---
 
-[About](./postscript/site_build.md)
+[About the Site](./postscript/site_build.md)
