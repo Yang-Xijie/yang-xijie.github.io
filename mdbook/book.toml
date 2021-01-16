@@ -1,10 +1,17 @@
 [book]
+title = "yxj"
 authors = ["yxj"]
+description = "yxj's own site"
+src = "src"
 language = "zh-cn"
 multilingual = false
-src = "src"
-title = "yxj's Site"
 
 [output.html]
+default-theme = "Ayu"
+preferred-dark-theme = "Ayu"
+no-section-label = true
 git-repository-url = "https://github.com/Yang-Xijie/yang-xijie.github.io"
 git-repository-icon = "fa-github"
+
+[output.html.print]
+enable = false
