@@ -26,7 +26,7 @@
 - [总结](#总结-1)
 
 # 前言
-调试是什么，就是`debug`（查看`Run -> Start Debugging`）。`debug`是什么：你在写代码的时候会有一些地方写的有问题，这些问题就被称作bug。bug原意为虫子。`de-`前缀有去除的意思，`debug`就是指“去掉虫子”，也就是找代码中的错并改正。仔细看`VS Code`边栏的运行图标，发现就有一只虫子。
+调试是什么，就是`debug`（查看`Run -> Start Debugging`）。`debug`是什么：你在写代码的时候会有一些地方写的有问题，这些问题就被称作`bug`。`bug`原意为虫子。`de-`前缀有去除的意思，`debug`就是指“去掉虫子”，也就是找代码中的错并改正。仔细看`VS Code`边栏的运行图标，发现就有一只虫子。
 
 至于为什么`debug`被翻译为调试呢？大概就是说，你调一调（调整）代码，试着改一改代码，就把错误找出来了。
 
@@ -165,7 +165,8 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 ```
 
 ## 从上到下讲……
-（最后的一点先留着，讲到debug的时候出问题再回来）
+（打开终端的task先留着，讲到`debug`的时候出问题再回来）
+
 ## Other two choices
 <img src="media/16104430276312/16107072035683.jpg" style="zoom:30%"/>
 
@@ -238,7 +239,7 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 你会发现出现问题，终端没有`Hello, world!`。这是什么原因呢？？？
 
-[GitHub issue｜VS Code因权限无法打开系统终端](https://github.com/microsoft/vscode-cpptools/issues/5079)（大概1/2的地方）
+[GitHub issue｜VS Code因权限无法打开系统终端](https://github.com/microsoft/vscode-cpptools/issues/5079)（大概`1/2`的地方）
 
 <img src="media/16104430276312/16107361192670.jpg" style="zoom:30%"/>
 
@@ -256,7 +257,7 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 [GitHub｜issue: Open the externalConsole inside the VSCode Terminal in OSX](https://github.com/microsoft/vscode-cpptools/issues/3338)
 
-（查看我的回答；图片会挂是因为GitHub的服务器在国外……）非常遗憾，也许之后能支持，但是现在**not available**。（真的很可惜）
+（查看我的回答；图片会挂是因为`GitHub`的服务器在国外……）非常遗憾，也许之后能支持，但是现在**not available**。（真的很可惜）
 
 [VS Code官方文档｜Configuring C/C++ debugging之externalConsole](https://code.visualstudio.com/docs/cpp/launch-json-reference#_externalconsole)
 
