@@ -17,7 +17,7 @@
 
 [其他](./vscode_cpp_macos/9_others.md)
 
-[极速版]()
+[极速版](./vscode_cpp_macos/10_极速版.md)
 
 ---
 

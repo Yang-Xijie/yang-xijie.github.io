@@ -18,7 +18,7 @@
 ## 对访达进行设置
 <img src="media/16023345749067/16102065476101.jpg" style="zoom:50%"/>
 
-打开`Show all filename extensions`（举例）
+打开`Show all filename extensions`
 
 <img src="media/16023345749067/16102066225601.jpg" style="zoom:50%"/>
 

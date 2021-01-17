@@ -94,6 +94,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
       "command": "g++",
       "args": [
         "${file}", // 表示当前文件（绝对路径）
+        // 在这里添加你还需要链接的.cpp文件
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}.out",
         "-W",
@@ -114,7 +115,6 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
         "kind": "build",
         "isDefault": true, // Defines if this task is the default task in the group.
       },
-      // (这里在演示的时候删掉"default"改成“build”，因为你之后都不需要默认了，tasks那边已经关联了这个build任务，这里只是说明一下它的类型)
       // Configures the panel that is used to present the task's output and reads its input.
       "presentation": {
         // Controls whether the executed command is echoed to the panel. Default is true.
