@@ -1,5 +1,4 @@
 # Build /docs to gh-pages
-
 name: mdbookBuild
 
 # Controls when the action will run. 

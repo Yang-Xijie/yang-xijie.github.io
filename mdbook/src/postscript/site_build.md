@@ -7,7 +7,7 @@
 
 
 ## Intro
-I use [mdbook](https://github.com/rust-lang/mdBook) to generate this website where I can put my lecture mterials. 
+I use [mdbook](https://github.com/rust-lang/mdBook) to generate this website where I can put my lecture materials. 
 
 ## Repository
 The original markdowns, codes and configurations of this site are stored on my [GitHub repository](https://github.com/Yang-Xijie/yang-xijie.github.io). Click to visit it.
