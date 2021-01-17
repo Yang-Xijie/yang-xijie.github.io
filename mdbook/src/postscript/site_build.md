@@ -1,7 +1,24 @@
-# How to Make This Site
-test
+# Build This Site
+- [Build This Site](#build-this-site)
+  - [Intro](#intro)
+  - [Repository](#repository)
+  - [Docs](#docs)
+- [Others](#others)
 
-[GitHub | mdbook](https://github.com/rust-lang/mdBook)
+
+## Intro
+I use [mdbook](https://github.com/rust-lang/mdBook) to generate this website where I can put my lecture mterials. 
+
+## Repository
+The original markdowns, codes and configurations of this site are stored on my [GitHub repository](https://github.com/Yang-Xijie/yang-xijie.github.io). Click to visit it.
+
+You could also go to GitHub by clicking the icon of GitHub on the top right corner of this site.
+
+Any [issue](https://github.com/Yang-Xijie/yang-xijie.github.io/issues) or [pull-request](https://github.com/Yang-Xijie/yang-xijie.github.io/pulls) are welcome. You could also discuss about something by using the [Discussions](https://github.com/Yang-Xijie/yang-xijie.github.io/discussions) panel.
+
+## Docs
+
+
 
 [mdbook docs](https://rust-lang.github.io/mdBook/index.html)
 
@@ -11,9 +28,10 @@ test
 
 [Download highlight.js](https://highlightjs.org)
 
-下载`highlight.js`的时候添加了`Applescript`和`MATLAB`
+**ps.** Added `Applescript` and `MATLAB` when downloading `highlight.js`.
 
-修改图片尺寸html代码：
+# Others
+Change images from MWeb.app (markdown) to html tags.
 ```html
 <img src="" style="zoom:40%"/>
 ```

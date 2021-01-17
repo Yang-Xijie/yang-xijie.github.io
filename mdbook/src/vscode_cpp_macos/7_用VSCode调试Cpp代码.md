@@ -30,35 +30,37 @@
 
 至于为什么`debug`被翻译为调试呢？大概就是说，你调一调（调整）代码，试着改一改代码，就把错误找出来了。
 
-这一课会大量参考`VS Code`的官方文档，这是因为一份配置文件怎么写，不会有什么教程比官方文档写得更清楚了。是的，包括我现在正在录制的这一课的教程。我推荐你直接看官方的文档；不过，我还是有那么一丢丢自信比官网文档总结的好那么一点点。所以，你可以先听我讲的，如果觉得我哪里讲得不好，你可以移步官方文档查看对应的部分。
+这一课会大量参考`VS Code`的官方文档，这是因为一份配置文件怎么写，不会有什么教程比官方文档写得更清楚了。是的，包括我现在正在录制的这一课的教程。我推荐你直接看官方的文档；不过，我还是有那么一丢丢自信比官网文档总结的好那么一点点（因为自己在配置的时候总会遇到一些坑，我会帮你跳过这些坑）。所以，你可以先听我讲的，如果觉得我哪里讲得不好，你可以移步官方文档查看对应的部分。
 
 首先先简单看一看这些文档吧。
 # Important Docs
 [VS Code｜docs](https://code.visualstudio.com/docs)
 ## VS Code｜User Guide
 ### User Guide｜Tasks
-Tasks in VS Code can be configured to run scripts and start processes so that many of these existing tools can be used from within VS Code without having to enter a command line or write new code.
+Tasks in VS Code can be configured to **run scripts** and **start processes** so that many of these existing tools can be used from within VS Code **without having to enter a command line** or write new code.
 
 Workspace or folder specific tasks are configured from the `tasks.json` file in the `.vscode` folder for a workspace.
 
 [VS Code｜User Guide｜Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
 
-在`VS Code`中可以自定义一些task（任务），这些任务会帮你自动化执行一些东西。任务的配置文件是`tasks.json`
+在`VS Code`中可以自定义一些task（任务），这些任务会帮你自动化执行一些东西。任务的配置文件是`tasks.json`。我们希望定义一个编译程序的task，以后调试（`debug`）之前都会自动执行这个task。
 ### User Guide｜Debugging
-One of the key features of Visual Studio Code is its great debugging support. VS Code's built-in debugger helps accelerate your edit, compile and debug loop.
+One of the key features of Visual Studio Code is its great **debugging support**. VS Code's **built-in debugger** helps accelerate your edit, compile and debug loop.
 
-VS Code keeps debugging configuration information in a `launch.json` file located in a `.vscode` folder in your workspace (project root folder).
+VS Code keeps **debugging configuration information** in a `launch.json` file located in a `.vscode` folder in your workspace (project root folder).
 
 [VS Code｜User Guide｜Debugging](https://code.visualstudio.com/docs/editor/debugging)
 
-如果你需要`debug`，那么`VS Code`提供了这样的平台。`debug`的配置文件是`launch.json`
+如果你需要`debug`，那么`VS Code`提供了这样的平台。`debug`的配置文件是`launch.json`。
 ### 实用技巧：输入输出重定向
 [VS Code｜User Guide｜Debugging | Redirect input/output to/from the debug target](https://code.visualstudio.com/docs/editor/debugging#_redirect-inputoutput-tofrom-the-debug-target)
+
+这一点大家可以在这节课后自行了解，我觉得还是挺有用的一个知识点。
 ## VS Code｜C++
 ### C++｜Clang on macOS
 [VS Code | C++ | Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 
-（但是我觉得这一篇实在误人子弟……至少我觉得两处不太妥当；还是看上面的那个`User Guide｜Tasks`和`User Guide｜Debugging`吧）
+（虽然这是专门为macOS写的文档，但我觉得这一篇实在误人子弟……至少我觉得两处不太妥当；还是看上面的那个`User Guide｜Tasks`和`User Guide｜Debugging`吧）
 ### C++｜Debug
 [VS Code | C++ | Debug C++ in Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-debug)
 
@@ -86,7 +88,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
       // The task's type. For a custom task, this can either be shell or process.
       // If shell is specified, the command is interpreted as a shell command (for example: bash, cmd, or PowerShell).
       // If process is specified, the command is interpreted as a process to execute.
-      "type": "shell",
+      "type": "shell",// shell: 输入命令
       // The actual command to execute.
       // 因为g++已经在环境变量中了，所以我们这里写命令就行不用写g++的绝对路径
       "command": "g++",
@@ -116,7 +118,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
       // Configures the panel that is used to present the task's output and reads its input.
       "presentation": {
         // Controls whether the executed command is echoed to the panel. Default is true.
-        "echo": true, // 打开可以看到编译的命令
+        "echo": true, // 打开可以看到编译的命令，把命令本身输出一次
         // Controls whether the terminal running the task is revealed or not. Default is "always".
         //   always: Always reveals the terminal when this task is executed.
         //   silent: Only reveals the terminal if the task exits with an error or the problem matcher finds an error.(会显示错误，但不会显示警告)
@@ -125,7 +127,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
         // Controls whether the panel takes focus. Default is false.
         "focus": false, // 我的理解是：是否将鼠标移过去。因为这个是编译任务，我们不需要输入什么东西，所以选false
         // Controls if the panel is shared between tasks, dedicated to this task or a new one is created on every run.
-        "panel": "shared", // shared:任务的输出使用同一个终端panel（为了少生成几个panel我们选shared）
+        "panel": "shared", // shared:不同任务的输出使用同一个终端panel（为了少生成几个panel我们选shared）
         // Controls whether to show the `Terminal will be reused by tasks, press any key to close it` message.
         "showReuseMessage": true, // 就一句话，你想看就true，不想看就false
         // Controls whether the terminal is cleared before executing the task.
@@ -165,14 +167,15 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 ```
 
 ## 从上到下讲……
-（打开终端的task先留着，讲到`debug`的时候出问题再回来）
+（打开终端的task简单讲一下结构，讲到`debug`的时候出问题再回来看这个task）
 
 ## Other two choices
 <img src="media/16104430276312/16107072035683.jpg" style="zoom:30%"/>
 
 ## 总结
-你会发现你自己也能在`tasks.json`里面自己写一个`Code Runner`了是吧？确实是这样（不过`Code Runner`的功能还是多一些，也支持别的语言，更方便一些）
+我们已经在`tasks.json`中创建了一个编译`Cpp`代码的`task`，接下来我们就要用编译出来的附带着调试信息的可执行文件去调试我们的代码。
 
+（你会发现你自己也能在`tasks.json`里面自己写一个`Code Runner`了是吧？确实是这样（不过`Code Runner`的功能还是多一些，也支持别的语言，更方便一些）
 
 # launch.json
 
@@ -212,7 +215,8 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
       "cwd": "${workspaceFolder}",
       // break immediately when the program launches
       "stopAtEntry": false,
-      "internalConsoleOptions": "openOnFirstSessionStart",
+      // If true, a console is launched for the debuggee.
+      // If false, on Linux and Windows, it will appear in the Integrated Console.
       "externalConsole": true,
       // 为true则会打开系统终端在其中进行交互
       // 如果为 true，则为调试对象启动控制台。如果为 false，它在 Linux 和 Windows 上会显示在集成控制台中
@@ -228,6 +232,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 
 ## 从上到下讲……
 
+
 ## hello_world.cpp
 ```cpp
 #include <cstdio>
@@ -235,7 +240,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 int main() { printf("\n\nHello, world!\n\n"); }
 ```
 
-直接`F5`开始调试（可能需要在边栏Run哪里勾选）
+直接`F5`开始调试（如果你设置了多个launch可能需要在边栏Run哪里勾选相应的）
 
 你会发现出现问题，终端没有`Hello, world!`。这是什么原因呢？？？
 
@@ -245,7 +250,7 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 回到`tasks.json` ⇧⌘P执行，给`VS Code`打开终端的权限，解决问题
 ## 调整终端和VS Code的位置
-长按女色的按钮，终端放在屏幕左边，`VS Code`放在屏幕右边。
+长按绿色的按钮，将终端放在屏幕左边，`VS Code`放在屏幕右边。
 
 在调试多次之后可以使用快捷键：⇧⌘W关闭全部。或直接⌘Q退出终端
 ## 使用VS Code的集成终端？
@@ -264,7 +269,7 @@ int main() { printf("\n\nHello, world!\n\n"); }
 <img src="media/16013676677088/16015722057456.jpg" style="zoom:30%"/>
 
 ## 调试举例
-我想了好久也没找到简单又有点意思的例子……真正要用到debug的时候我觉得应该是数据结构与算法的题目，但我这个只是简单教程，我也不想把数算题扯进来。所以真的很抱歉！这一块的调试大家在自己写的程序遇到bug的时候自行体验……
+我想了好久也没找到简单又有点意思的例子……真正要用到`debug`的时候我觉得应该是数据结构与算法的题目，但我这个只是简单教程，我也不想把数算题扯进来。所以真的很抱歉！这一块的调试大家在自己写的程序遇到`bug`的时候自行体验……
 
 ```cpp
 #include <cstdio>
@@ -283,10 +288,10 @@ int main() { printf("Addition = %d\n", fourSum(1, 2, 3, 4)); }
 # 补充
 我的想法是希望你在一个文件夹`Cpp`中写所有的Cpp代码，这在学习`Cpp`和编写简单`Cpp`代码时是非常合适的（我这么做发现很方便）。但是请注意：如果你用`VS Code`来做一个`C++`项目，那最好还是另开一个新的文件夹；毕竟在`VS Code`中，一个文件夹就是一个项目。（但其实在我们现在用的这个`Cpp`文件夹新建一个文件夹也足够了）
 # 总结
-这节课我们主要学习了如何写两份配置文件：`tasks.json`可以用配置任务实现自动化；`launch.json`用来配置`VS Code`调试的方法。现在，如果你只是要执行你的代码，⌘R直接用插件`Code Runner`解决问题，非常快。如果你需要调试，那就打上断点，然后F5（或者触控栏上的播放按钮）；由于可能需要多次打开调试，这时你需要将终端和`VS Code`分屏获得好一些的体验。
+这节课我们主要学习了如何写两份配置文件：`tasks.json`可以用配置任务实现自动化；`launch.json`用来配置`VS Code`调试的方法。现在，如果你只是要执行你的代码，⌘R直接用插件`Code Runner`解决问题，非常快。如果你需要调试，那就打上断点，然后`F5`（或者触控栏上的播放按钮）；由于可能需要多次打开调试，这时你需要将终端和`VS Code`分屏获得好一些的体验。
 
 上节课说这是最后一节课，但我之后应该还会录制两节课。一节是课程回顾，会讲讲这门课的设计思路，同时也会安利一些我自己用的插件，顺便也推荐一些可以深入学习的地方。另一节准备做一个极速版的教程，因为对于一些心急的人来说，可能总共加起来快5个小时的视频教程还是有一些长；另外对于认真听完课程的同学，可能也需要一个快速回顾如何配置编程环境的总结性视频。
 
 如果你跟着这六节课（除去最开始的一节）走下来，我相信你会少走很多弯路。以后写代码也会觉得很舒适。还记得我在第一节课说的课程目标吗？我希望这份教程能让一年半前刚刚拿着`mac`入门`Cpp`编程的我少一年的迷茫，我想我应该做到了这一点。
 
-这一节课就到这里了！
+这一节课就到这里了！感谢大家听到现在，希望大家能通过这几节课的教程有所收获！
