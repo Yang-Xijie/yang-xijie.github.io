@@ -33,11 +33,11 @@
 
 [6 VS Code代码运行自动化](https://www.bilibili.com/video/BV14K411u7SN)
 
-[7 用VS Code调试Cpp代码]()
+[7 用VS Code调试Cpp代码](https://www.bilibili.com/video/BV13y4y1m7WK)
 
-[8 课程回顾]()
+[8 课程回顾](https://www.bilibili.com/video/BV1Up4y1x7ve)
 
-[极速版]()
+[极速版](https://www.bilibili.com/video/BV14y4y1m7Bs)
 
 ## 附
 很用心做的一期教程，因为觉得很有这么做的必要！做这份教程的原因我在第一课和第八课都有提到～
