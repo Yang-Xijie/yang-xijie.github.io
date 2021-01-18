@@ -6,15 +6,11 @@
     - [想对使用Windows的同学说的话](#想对使用windows的同学说的话)
 
 ## 简介
-系列教程——如何在`macOS`上使用`VS Code`优雅的写`C++`代码。
+系列教程——如何在`macOS`上使用`VS Code`优雅的写`C++`代码。教你从零开始配置你自己的`C++`编程环境。
 
 点击页面左上角的图标可以切换页面查看[此课程的讲稿](./1_前言和课程说明.md)。
 
 点击下方的链接跳转[Bilibili视频教程](https://space.bilibili.com/24502827)。
-
-交流讨论与反馈可以到GitHub的[Discussions板块](https://github.com/Yang-Xijie/yang-xijie.github.io/discussions/categories/cpp-in-vscode-on-macos)
-
-帮助我修改此讲稿可以跳转到此网站的[GitHub repo](https://github.com/Yang-Xijie/yang-xijie.github.io)
 
 ## 在Bilibili查看视频教程
 注：所有视频录制及上传分辨率均为`3360x2100`，如果观看时感到视频模糊，请调整画质到`4K 超清`；由于视频比例为`16:10`，建议使用相同比例的显示器全屏播放以获得最佳观看体验。
@@ -50,5 +46,3 @@
 之前提到“应该”会出一个`Windows`版，但是做完这份教程觉得，做教程太花时间了，我大概是没有经历再出一份相同思路的`Windows`版教程；另外，我对`Windows`系统可能也没有那么熟悉，做出来的教程质量很难保证。如果可以，我非常希望有熟悉`Windows`的同学出一份相应的视频教程，帮助大一新入学的同学们配置好属于自己的`C++`编程环境。
 
 另外，即使你在使用`Windows`系统，也可以通过我的这份教程从思路上了解配置的过程，让你的环境配置更顺利（也许）！
-
-
