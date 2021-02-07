@@ -1,8 +1,8 @@
 # MY SITE
 
-My own site where to show my personal info and my lecture materials mainly in Chinese. Use `mdbook` to build and `GitHub Pages` to issue.
+My own site where to show my personal info and my lecture materials mainly in Chinese. Use `mdbook` to build and `github-pages` to issue.
 
-个人主页，主要放置个人介绍、课程讲稿等。由`mdbook`生成，`GitHub Pages`发布。
+个人主页，主要放置个人介绍、课程讲稿等。由`mdbook`生成，`github-pages`发布。
 
 Click [https://yang-xijie.github.io](https://yang-xijie.github.io) to view.
 

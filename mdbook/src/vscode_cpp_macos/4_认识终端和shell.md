@@ -187,10 +187,11 @@ cat hello.txt
 open foo.md
 open -a Visual\ Studio\ Code.app foo.md
 open $(pwd)
+open .
 ```
 `-a`参数制定打开的程序（需要使用程序全名）
 
-`$(pwd)`表示当前目录，`open $(pwd)`表示用`Finder`打开`shell`当前的工作目录
+`$(pwd)`表示当前目录，`open $(pwd)`表示用`Finder`打开`shell`当前的工作目录 (`open .`也可)
 
 #### man
 以`date`为例
