@@ -21,10 +21,13 @@
 
 ---
 
-[Share between Mac and Android](./sharing_mac_android/0_main.md)
+[Python in VSCode on macOS](./vscode_python_macos/0_main.md)
 
 ---
 
+[Sharing between Mac and Android](./sharing_mac_android/0_main.md)
+
+---
 [Support](./postscript/support.md)
 
 ---
