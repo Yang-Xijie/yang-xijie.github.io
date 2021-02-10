@@ -1,7 +1,7 @@
 # 在macOS上用VS Code写Python、配置Python环境的一种思路
-本教程使用Intel MacBook Pro，搭载macOS 11.2 Big Sur录制。python3版本3.9.1，VSCode版本1.53.0。
+本教程使用`Intel` `MacBook Pro`，搭载`macOS 11.1 Big Sur`录制。`Python3`版本`3.9.1`，`VS Code`版本`1.53.0`。
 
-注：本教程不一定适用于M1 Mac。不一定适用于10.14 (Mojave)及以前的系统。
+注：本教程不一定适用于`M1 Mac`。不一定适用于`10.14 (Mojave)`及以前的系统。
 
 大家好，我是杨希杰。今天给大家带来的是用`macOS`在`VS Code`上写`python`的教程。注意，我的这份教程并不教你怎么写`python`代码，而是告诉你一种配置`python`环境的方式，让你用`VS Code`、舒舒服服的敲`python`。
 
@@ -16,8 +16,6 @@
 `Command Line Tools`是什么？如果你已经开始写了某种语言的代码，但是你还没有安装`Command Line Tools`，那我强烈推荐你安装。`Command Line Tools`是苹果推出的命令行工具，里面包含了很多东西——比如`C/C++`的编译器、调试器，比如`Swift`的语言包，当然应该也包括我们想要的的`python`。如果你之后要使用`MATLAB`，那么`MATLAB`也会依赖`Command Line Tools`。所以要写代码一定要安装哦！
 
 那么如何安装呢？有两种方式。
-
-那么在哪里下载`g++`这个程序呢？
 
 苹果的开发集成工具是`Xcode.app`，其中就带着`Command Line Tools`，安装了`Xcode`相当于安装了`Command Line Tools`，那么我们可以直接在`App Store`下载`Xcode`。不过你打开一看，12G！！太大了吧。
 `Command Line Tools`不过400MB多一点。如果你不从事苹果平台的软件开发，不需要使用`Xcode`，下载`Xcode`这么大的东西占电脑的存储空间，实在划不来。不过如果你已经安装了`Xcode`，那已经可以跳过这一步了。
@@ -56,7 +54,6 @@
 
 
 ```py
-import os
 import sys
 
 print("Current python version:")
@@ -153,7 +150,7 @@ alias pip='pip3'
 #!/usr/bin/env python3
 ```
 
-（原因：python解释器在不同系统中可能被安装于不同的目录，如在 macOS 中装在 `/usr/local/bin/python`，但是在 linux 上装在 `/usr/bin/python` 中；`env` 可以在系统的 `PATH 目录 ` 中查找所需要的解释器，因此你在 Mac 上写的 py 脚本直接复制到 Linux 一样可以执行（Windows 不是这么执行脚本的所以我也不清楚复制过去行不行哈））
+（原因：`python`解释器在不同系统中可能被安装于不同的目录，如在 `macOS` 中装在 `/usr/local/bin/python`，但是在 `linux` 上装在 `/usr/bin/python` 中；`env` 可以在系统的 `PATH 目录 ` 中查找所需要的解释器，因此你在 `Mac` 上写的 `py` 脚本直接复制到 `Linux` 一样可以执行（`Windows` 不是这么执行脚本的所以我也不清楚复制过去行不行哈））
 
 再次尝试绝对路径和相对路径，成功。
 
