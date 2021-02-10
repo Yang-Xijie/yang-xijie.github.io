@@ -21,6 +21,10 @@
 
 ---
 
+[Share between Mac and Android](./sharing_mac_android/Mac连接安卓传输数据.md)
+
+---
+
 [Support](./postscript/support.md)
 
 ---
