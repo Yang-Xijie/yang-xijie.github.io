@@ -73,6 +73,10 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 （很重要的文档，几乎说明了`C++`调试配置文件`launch.json`所有选项的含义）
 
 # tasks.json
+注意：请尽量不要在任何关于代码和程序的地方出现空格。空格作为`shell`分隔命令的符号，在路径或文件名中出现空格可能会导致意想不到的后果。你可以将空格替换为下划线，或者直接删掉空格。如将`VS Code`的文件夹改名为`VS_Code`或`VSCode`
+
+我所写的讲稿中`Code Runner`和`编译`对空格有很好的处理，但是`调试`总是处于两难的境地，有了空格就不能调试。很抱歉到现在才发现问题(210110)
+
 ```json
 {
   // Tasks in VS Code can be configured to run scripts and start processes
@@ -206,6 +210,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
       "preLaunchTask": "g++ compile", //在调试之前要进行的工作 compile是在 tasks.json 的编译任务里面的label
       /* ------ Many debuggers support some of the following attributes: ------ */
       // executable or file to run when launching the debugger
+      // ！！不要在程序和代码的路径及文件名中出现空格！！否则无法调试（我尝试解决这个问题，但真的无法解决）
       "program": "${fileDirname}/${fileBasenameNoExtension}.out", // debug的对象(-g编译出来的二进制文件)，需要和.vscode/tasks.json中生成的可执行文件一致
       // arguments passed to the program to debug
       "args": [], // 比如运行你的程序添加输入参数（argc/argv），需要在这里添加

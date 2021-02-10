@@ -64,6 +64,7 @@ g++ say_hi.cpp -o say_hi.out -W -Wall -O2 -std=c++17
     //   $fileName: The base name of the code file being run, that is the file without the directory
     //   $fileNameWithoutExt: The base name of the code file being run without its extension
     /* ------ 编译、运行只有一个文件的cpp文件 ------ */
+    // 注：路径中有空格不会出现问题
     "cpp": "g++ $fullFileName -o $dir\"$fileNameWithoutExt\"\".out\" -W -Wall -O2 -std=c++17 && $dir\"$fileNameWithoutExt\"\".out\"",
     // 其中 $fullFileName 是绝对路径，是主文件
     // 自己决定是否加入 && rm $dir\"$fileNameWithoutExt\"\".out\"（也可以添加"files.exclude"）
