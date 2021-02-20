@@ -1,4 +1,26 @@
 # 在macOS上用VS Code写Python、配置Python环境的一种思路
+
+- [在macOS上用VS Code写Python、配置Python环境的一种思路](#在macos上用vs-code写python配置python环境的一种思路)
+- [安装必要工具](#安装必要工具)
+  - [下载安装Command Line Tools](#下载安装command-line-tools)
+  - [安装Homebrew](#安装homebrew)
+  - [掌握终端和命令行的使用](#掌握终端和命令行的使用)
+- [安装python、用命令行执行python脚本](#安装python用命令行执行python脚本)
+  - [查看系统自带的python](#查看系统自带的python)
+  - [用Homebrew安装python3](#用homebrew安装python3)
+  - [用python3执行代码](#用python3执行代码)
+  - [创建python的链接](#创建python的链接)
+  - [用绝对路径和相对路径执行python脚本](#用绝对路径和相对路径执行python脚本)
+- [配置VS Code写python代码的环境](#配置vs-code写python代码的环境)
+  - [下载VS Code](#下载vs-code)
+  - [安装python插件](#安装python插件)
+  - [在settings.json中添加](#在settingsjson中添加)
+  - [用VS Code调试python代码](#用vs-code调试python代码)
+  - [安装其他插件](#安装其他插件)
+  - [安装插件Code Runner](#安装插件code-runner)
+- [结语](#结语)
+- [其他](#其他)
+
 本教程使用`Intel` `MacBook Pro`，搭载`macOS 11.1 Big Sur`录制。`Python3`版本`3.9.1`，`VS Code`版本`1.53.0`。
 
 注：本教程不一定适用于`M1 Mac`。不一定适用于`10.14 (Mojave)`及以前的系统。
@@ -230,3 +252,6 @@ VS Code图标：`vscode-icons-mac`
 希望这份教程能对大家有帮助！
 
 如果还想深入了解如何在`VS Code`中更好的写`python`，可以查看[VS Code官方文档](https://code.visualstudio.com/docs)
+
+# 其他
+[CSDN | VS Code python 包导入报错 unresolved import 的解决措施](https://blog.csdn.net/qq_45379253/article/details/113879292)
