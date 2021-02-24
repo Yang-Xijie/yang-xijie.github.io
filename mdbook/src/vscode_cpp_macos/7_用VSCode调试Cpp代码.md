@@ -23,6 +23,8 @@
   - [调试举例](#调试举例)
   - [其他调试技巧](#其他调试技巧)
 - [补充](#补充)
+  - [需要新建工作区吗？](#需要新建工作区吗)
+  - [有些其他教程里面的c_cpp_properties.json是干什么的？](#有些其他教程里面的c_cpp_propertiesjson是干什么的)
 - [总结](#总结-1)
 
 # 前言
@@ -291,7 +293,24 @@ int main() { printf("Addition = %d\n", fourSum(1, 2, 3, 4)); }
 大家自己体验一下，我就不做过多的解释了。
 
 # 补充
+## 需要新建工作区吗？
 我的想法是希望你在一个文件夹`Cpp`中写所有的Cpp代码，这在学习`Cpp`和编写简单`Cpp`代码时是非常合适的（我这么做发现很方便）。但是请注意：如果你用`VS Code`来做一个`C++`项目，那最好还是另开一个新的文件夹；毕竟在`VS Code`中，一个文件夹就是一个项目。（但其实在我们现在用的这个`Cpp`文件夹新建一个文件夹也足够了）
+
+## 有些其他教程里面的c_cpp_properties.json是干什么的？
+(210224补充)
+
+我们可以直接查看`VS Code`官网关于这份文件的文档：
+
+[VS Code Docs | c_cpp_properties.json reference](https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference)
+
+[VS Code Docs | Customizing default settings](https://code.visualstudio.com/docs/cpp/customize-default-settings-cpp)
+
+之前没了解过这个文件，看了文档之后，我感觉`c_cpp_properties.json`仅仅是用来替换掉在`设置`或者是`settings.json`中出现的 `C_Cpp.default.*`的这些选项，把这些设置提了出来放到这个文件里面，这个文件也会对这些设置提供一些好的语法，让你更方便的设置这些项；也可以在`tasks.json`和`launch.json`中调用这些配置。
+
+如果不需要设置`C_Cpp.default.*`里面的选项，那么就不需要这个`c_cpp_properties.json`。
+
+我的教程直接从命令行入手了，这里面的设置我都直接用`g++`编译器的参数代替了，所以不需要设置这些选项。
+
 # 总结
 这节课我们主要学习了如何写两份配置文件：`tasks.json`可以用配置任务实现自动化；`launch.json`用来配置`VS Code`调试的方法。现在，如果你只是要执行你的代码，⌘R直接用插件`Code Runner`解决问题，非常快。如果你需要调试，那就打上断点，然后`F5`（或者触控栏上的播放按钮）；由于可能需要多次打开调试，这时你需要将终端和`VS Code`分屏获得好一些的体验。
 
