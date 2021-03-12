@@ -563,6 +563,10 @@ open .
 </code></pre>
 <p><code>-a</code>参数制定打开的程序（需要使用程序全名）</p>
 <p><code>$(pwd)</code>表示当前目录，<code>open $(pwd)</code>表示用<code>Finder</code>打开<code>shell</code>当前的工作目录 (<code>open .</code>也可)</p>
+<p>补充：在安装好<code>VS Code</code>之后，可以在<code>~/.zshrc</code>中添加：</p>
+<pre><code class="language-zsh">export PATH=&quot;$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin&quot;
+</code></pre>
+<p>之后用在shell中敲命令<code>code &lt;folder&gt;</code>用<code>VS Code</code>打开文件夹（工作区）。</p>
 <h4><a class="header" href="#man" id="man">man</a></h4>
 <p>以<code>date</code>为例</p>
 <p>（有的没有）</p>
