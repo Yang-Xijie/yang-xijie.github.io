@@ -193,6 +193,14 @@ open .
 
 `$(pwd)`表示当前目录，`open $(pwd)`表示用`Finder`打开`shell`当前的工作目录 (`open .`也可)
 
+补充：在安装好`VS Code`之后，可以在`~/.zshrc`中添加：
+
+```zsh
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+```
+
+之后用在shell中敲命令`code <folder>`用`VS Code`打开文件夹（工作区）。
+
 #### man
 以`date`为例
 
