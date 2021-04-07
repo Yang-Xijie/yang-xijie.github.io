@@ -255,7 +255,8 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 <img src="media/16104430276312/16107361192670.jpg" style="zoom:30%"/>
 
-回到`tasks.json` ⇧⌘P执行，给`VS Code`打开终端的权限，解决问题
+回到`tasks.json` ⇧⌘P调出`VS Code`的命令窗口，搜索`task`，点击`Tasks: Run Task`，选择`Open Terminal.app`；给`VS Code`打开终端的权限，解决问题
+
 ## 调整终端和VS Code的位置
 长按绿色的按钮，将终端放在屏幕左边，`VS Code`放在屏幕右边。
 
