@@ -389,7 +389,7 @@ int main() { printf(&quot;\n\nHello, world!\n\n&quot;); }
 <p>你会发现出现问题，终端没有<code>Hello, world!</code>。这是什么原因呢？？？</p>
 <p><a href="https://github.com/microsoft/vscode-cpptools/issues/5079">GitHub issue｜VS Code因权限无法打开系统终端</a>（大概<code>1/2</code>的地方）</p>
 <img src="media/16104430276312/16107361192670.jpg" style="zoom:30%"/>
-<p>回到<code>tasks.json</code> ⇧⌘P执行，给<code>VS Code</code>打开终端的权限，解决问题</p>
+<p>回到<code>tasks.json</code> ⇧⌘P调出<code>VS Code</code>的命令窗口，搜索<code>task</code>，点击<code>Tasks: Run Task</code>，选择<code>Open Terminal.app</code>；给<code>VS Code</code>打开终端的权限，解决问题</p>
 <h2><a class="header" href="#调整终端和vs-code的位置" id="调整终端和vs-code的位置">调整终端和VS Code的位置</a></h2>
 <p>长按绿色的按钮，将终端放在屏幕左边，<code>VS Code</code>放在屏幕右边。</p>
 <p>在调试多次之后可以使用快捷键：⇧⌘W关闭全部。或直接⌘Q退出终端</p>
