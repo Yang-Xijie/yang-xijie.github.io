@@ -4,6 +4,10 @@
 
 ---
 
+[Linux](./Linux/linux.md)
+
+---
+
 [Cpp in VSCode on macOS](./vscode_cpp_macos/0_about.md)
 
 - [1 前言和课程说明](./vscode_cpp_macos/1_前言和课程说明.md)

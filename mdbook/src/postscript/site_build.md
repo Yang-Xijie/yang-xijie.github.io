@@ -18,8 +18,6 @@ Any [issue](https://github.com/Yang-Xijie/yang-xijie.github.io/issues) or [pull-
 
 ## Docs
 
-
-
 [mdbook docs](https://rust-lang.github.io/mdBook/index.html)
 
 [mdbook docs | SUMMARY.md](https://rust-lang.github.io/mdBook/format/summary.html)
