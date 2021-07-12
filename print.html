@@ -183,6 +183,9 @@
 </li>
 <li><a href="Linux/linux.html#%E6%96%87%E4%BB%B6">文件</a>
 <ul>
+<li><a href="Linux/linux.html#%E7%BA%AF%E6%96%87%E6%9C%AC%E6%96%87%E4%BB%B6">纯文本文件</a></li>
+<li><a href="Linux/linux.html#%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6">媒体文件</a></li>
+<li><a href="Linux/linux.html#%E7%A8%8B%E5%BA%8F">程序</a></li>
 <li><a href="Linux/linux.html#%E6%80%BB%E7%BB%93-2">总结</a></li>
 </ul>
 </li>
@@ -226,7 +229,7 @@
 <li><a href="Linux/linux.html#%E4%B8%8E%E7%BA%AF%E6%96%87%E6%9C%AC%E7%9B%B8%E5%85%B3">与纯文本相关</a></li>
 <li><a href="Linux/linux.html#%E4%B8%8E%E5%91%BD%E4%BB%A4%E7%9B%B8%E5%85%B3">与命令相关</a></li>
 <li><a href="Linux/linux.html#%E4%B8%8E%E8%BF%9B%E7%A8%8B%E7%9B%B8%E5%85%B3">与进程相关</a></li>
-<li><a href="Linux/linux.html#%E5%85%B6%E4%BB%96shell%E7%9A%84%E6%93%8D%E4%BD%9C">其他shell的操作</a>
+<li><a href="Linux/linux.html#%E5%85%B6%E4%BB%96shell%E6%93%8D%E4%BD%9C">其他shell操作</a>
 <ul>
 <li><a href="Linux/linux.html#which-where">which where</a></li>
 <li><a href="Linux/linux.html#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81%E9%87%8D%E5%AE%9A%E5%90%91">输入输出流重定向</a></li>
@@ -310,12 +313,7 @@
 <li><a href="Linux/linux.html#%E6%80%BB%E7%BB%93-4">总结</a>
 <ul>
 <li><a href="Linux/linux.html#%E8%AF%BE%E5%90%8E%E7%AD%94%E7%96%91">课后答疑</a></li>
-<li><a href="Linux/linux.html#%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A">课程作业</a>
-<ul>
-<li><a href="Linux/linux.html#%E6%8F%90%E4%BA%A4%E6%96%B9%E5%BC%8F">提交方式</a></li>
-<li><a href="Linux/linux.html#%E4%BD%9C%E4%B8%9A">作业</a></li>
-</ul>
-</li>
+<li><a href="Linux/linux.html#%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A">课程作业</a></li>
 </ul>
 </li>
 <li><a href="Linux/linux.html#%E5%90%8E%E8%AE%B0">后记</a>
@@ -324,13 +322,7 @@
 <li><a href="Linux/linux.html#%E9%A2%84%E4%B9%A0---git">预习 - Git</a></li>
 </ul>
 </li>
-<li><a href="Linux/linux.html#%E8%AF%BE%E5%90%8E%E7%AD%94%E7%96%91%E4%B8%8E%E4%BD%9C%E4%B8%9A%E9%97%AE%E9%A2%98">课后答疑与作业问题</a>
-<ul>
-<li><a href="Linux/linux.html#%E8%AF%BE%E5%90%8E%E7%AD%94%E7%96%91-1">课后答疑</a></li>
-<li><a href="Linux/linux.html#%E4%BD%9C%E4%B8%9A%E9%97%AE%E9%A2%98">作业问题</a></li>
-</ul>
-</li>
-<li><a href="Linux/linux.html#%E6%9B%B4%E6%96%B0%E7%AD%94%E6%A1%88">更新答案</a></li>
+<li><a href="Linux/linux.html#%E4%BD%9C%E4%B8%9A%E7%AD%94%E6%A1%88">作业答案</a></li>
 </ul>
 <h1><a class="header" href="#开场" id="开场">开场</a></h1>
 <p>自我介绍：大家好，我是无97班的杨希杰，一年前我加入电子系科协软件部。</p>
@@ -361,24 +353,24 @@
 <p>（文件引言）我们在使用程序的时候，很多时候都是对<strong>文件</strong>进行操作。比如<code>Microsoft Word</code>，我们可以对<code>.docx</code>文件进行操作，在完成编辑之后，导出<code>.pdf</code>文件；比如音乐播放器，实际上就是打开音乐文件（<code>.mp3</code> <code>.wav</code>）。刚刚说了<code>.app</code>程序和<code>.exe</code>程序，这些本质上也是文件啦。这些文件本质上是什么呢，它们在计算机里面存在哪里呢？我们接下来就来介绍这部分的内容。</p>
 <p>（计算机中文件的本质）我们想在大脑中存储一个东西，这个原理肯定很复杂，这方面的研究也是当前的前沿科研领域。但是计算机存储是非常简单的，<strong>只有</strong><code>0</code>和<code>1</code>；稍微讲一些硬件的东西，如果是机械磁盘，磁介质的两种磁化方式对应<code>0</code>和<code>1</code>；如果是SSD，电容充电与否为<code>0</code>和<code>1</code>；那么如何读取数据呢，一个bit的数据传输线上，<code>0</code>为低电平，<code>1</code>为高电平。</p>
 <p>总结一下刚刚说的，你在计算机中处理的文件，只有一种，里面写满了<code>0</code>和<code>1</code>。那么你如何才能通过这些<code>0</code>和<code>1</code>得到你想要的文件内容呢？这时就需要程序出手了。</p>
-<hr />
-<p>（先说说<strong>纯文本文件</strong>）学过编程的同学大概会知道<strong>编码</strong>。比如如下的一个<code>.txt</code>文件：</p>
+<h3><a class="header" href="#纯文本文件" id="纯文本文件">纯文本文件</a></h3>
+<p>学过编程的同学大概会知道<strong>编码</strong>。比如如下的一个<code>.txt</code>文件：</p>
 <pre><code>Hello, world!
 </code></pre>
 <p>这个文件存在你的硬盘上，本质上是一串<code>0</code>和<code>1</code>。如下所示（共 14 Byte）：</p>
 <p>注：可以使用<code>xxd -b &lt;file&gt;</code>命令来查看文件的内容（<code>0</code>和<code>1</code>）</p>
 <pre><code>01001000 01100101 01101100 01101100 01101111 00101100 00100000 01110111 01101111 01110010 01101100 01100100 00100001 00001010
 </code></pre>
-<p>（使用对应的编码读取纯文本文件）由于这个文件是纯文本文件，所以我们需要通过<strong>编码</strong>来确定里面缩写的字符串的具体内容。该文件使用<code>UTF-8</code>编码，通过查看<code>UTF-8</code>的编码编码表（由于我们只写了英文字符，而英文字符部分<code>UTF-8</code>兼容<code>ASCII</code>，我们可以直接查看<code>ASCII</code>码），我们可以将上述文本和编码一一对应。</p>
+<p>（使用对应的编码读取纯文本文件）由于这个文件是纯文本文件，所以我们需要通过<strong>编码</strong>来确定里面所写的字符串的具体内容。该文件使用<code>UTF-8</code>编码，通过查看<code>UTF-8</code>的编码编码表（由于我们只写了英文字符，而英文字符部分<code>UTF-8</code>兼容<code>ASCII</code>，我们可以直接查看<code>ASCII</code>码），我们可以将上述文本和编码一一对应。</p>
 <p>（常见的纯文本文件）上面我们所说的是<strong>纯文本文件</strong>，其实你所接触的绝大多数与文字相关的文件都是纯文本文件。比如刚刚所说的 <code>.txt</code>，常用的 <code>.md</code>（<code>Markdown</code>风格文本），还有大家编写代码可能遇到的 <code>.c</code> <code>.h</code> <code>.cpp</code> <code>.py</code>，写过网页的同学 应该也会回忆起来 <code>.html</code> <code>.xml</code>这些格式文本，还有一些配置文件和不带后缀的文件，也都是纯文本文件。打开它们需要一个能读懂相应文字 / 字符编码的软件或程序，一般这种程序的名字是<code>文本编辑器</code>。</p>
-<hr />
-<p>（再说说<code>0</code>和<code>1</code>组织的<strong>媒体文件</strong>）文件只有一种，就是<code>0</code>和<code>1</code>的串。分类刚刚说了一种，是纯文本文件。那么如何存储一些媒体文件呢？或者说，如何把媒体映射成<code>0</code>和<code>1</code>的串呢？举个例子，一张<strong>电子图片</strong>，本质上是一个二维矩阵，存储着每个像素的色彩——我们先用两个整数分别表示矩阵的行和列，然后使用一连串的整数，表示从第一块像素到最后一块像素的色彩值；再将这些整数都变成<code>0</code>和<code>1</code>，我们就得到了用<code>0</code>和<code>1</code>表示的媒体文件；<strong>电子音乐</strong>也是一样的，我们可以对连续的音乐响度进行采样，将采样得到的数值变为<code>0</code>和<code>1</code>，挨个排起来，就得到了<code>0</code>和<code>1</code>组成的一首音乐；我们将这个过程称为<strong>编码</strong>。不过我们当然要约定如何打开这些文件了，比如按照刚刚的思路，如果有个软件想打开某种图片，它得知道这个图片是怎么生成的，然后用相反的方式进行<strong>解码</strong>。也就是说，这种<strong>媒体文件，需要专门开发的程序来打开，对文件做解析才能得到对人来说有意义的媒体内容</strong>。</p>
+<h3><a class="header" href="#媒体文件" id="媒体文件">媒体文件</a></h3>
+<p>文件只有一种，就是<code>0</code>和<code>1</code>的串。分类刚刚说了一种，是纯文本文件。那么如何存储一些媒体文件呢？或者说，如何把媒体映射成<code>0</code>和<code>1</code>的串呢？举个例子，一张<strong>电子图片</strong>，本质上是一个二维矩阵，存储着每个像素的色彩——我们先用两个整数分别表示矩阵的行和列，然后使用一连串的整数，表示从第一块像素到最后一块像素的色彩值；再将这些整数都变成<code>0</code>和<code>1</code>，我们就得到了用<code>0</code>和<code>1</code>表示的媒体文件；<strong>电子音乐</strong>也是一样的，我们可以对连续的音乐响度进行采样，将采样得到的数值变为<code>0</code>和<code>1</code>，挨个排起来，就得到了<code>0</code>和<code>1</code>组成的一首音乐；我们将这个过程称为<strong>编码</strong>。不过我们当然要约定如何打开这些文件了，比如按照刚刚的思路，如果有个软件想打开某种图片，它得知道这个图片是怎么生成的，然后用相反的方式进行<strong>解码</strong>。也就是说，这种<strong>媒体文件，需要专门开发的程序来打开，对文件做解析才能得到对人来说有意义的媒体内容</strong>。</p>
 <p>（常见的媒体文件）其实最常见的媒体文件就是图片（<code>.jpg</code> <code>.png</code> <code>.raw</code>）、视频（<code>.h264</code> <code>.hevc</code> <code>.yuv</code>）、音乐（<code>.mp3</code> <code>.flac</code> <code>.wav</code>）了。当然将这些媒体组合起来的文件也都是媒体文件。比如你可以在<code>Microsoft Word</code>里面插入图片，在<code>Microsoft Powerpoint</code>里插入音乐，那么<code>.docx</code> <code>.pptx</code>当然算是这类文件；<code>.pdf</code>当然也算。把视频和音频轨道组装在一起的封装文件，比如<code>.mp4</code>，也是这样的文件；压缩文件<code>.zip</code> <code>.rar</code>也算是。</p>
 <p>（通过文件后缀决定打开方式）那么如何打开这类文件呢？本质都是<code>0</code>和<code>1</code>，怎么知道里面是音乐还是视频呢？这就要说到<strong>后缀名</strong>了。每个文件都有一个名字，比如<code>TODO.txt</code> <code>Journey.mp3</code> <code>剪辑导出.mp4</code>，名字一般分为两部分，<code>.</code>前面是文件名，<code>.</code>后面是后缀名。<strong>操作系统</strong>通过后缀名来决定这个文件可以用什么程序来打开；将一个文件送入一个<strong>应用程序</strong>，这个应用程序也会根据后缀名来决定如何处理这个文件；比如上面的三个文件。所以说后缀名还是很重要的。（注：后缀名是文件名字的一部分）</p>
-<hr />
-<p>（机器码组成的程序）然后来说说最后一种<code>0</code>和<code>1</code>组成的文件，<strong>程序</strong>。如果大家学过<code>数字逻辑与处理器基础</code>或者<code>计算机组成架构</code>或者<code>操作系统</code>这样的课程、对<strong>处理器（CPU）的工作方式</strong>有一定的了解，那么会知道——我们用代码编写的程序<strong>经过编译链接会变成一系列的机器指令</strong>；这些机器指令一条就是<code>64个</code>（或<code>32个</code>）<code>0</code>和<code>1</code>，不同的指令顺序排列，就变成了程序（如<code>.exe</code>文件）。<strong>打开一个程序，本质上是开始执行程序中机器码的过程</strong>。（讲到这里我们其实和命令行程序已经非常接近了！）</p>
+<h3><a class="header" href="#程序" id="程序">程序</a></h3>
+<p>然后来说说最后一种<code>0</code>和<code>1</code>组成的文件，<strong>程序</strong>。如果大家学过<code>数字逻辑与处理器基础</code>或者<code>计算机组成架构</code>或者<code>操作系统</code>这样的课程、对<strong>处理器（CPU）的工作方式</strong>有一定的了解，那么会知道——我们用代码编写的程序<strong>经过编译链接会变成一系列的机器指令</strong>；这些机器指令一条就是<code>64个</code>（或<code>32个</code>）<code>0</code>和<code>1</code>，不同的指令顺序排列，就变成了程序（如<code>.exe</code>文件）。<strong>打开一个程序，本质上是开始执行程序中机器码的过程</strong>。（讲到这里我们其实和命令行程序已经非常接近了！）</p>
 <h3><a class="header" href="#总结-2" id="总结-2">总结</a></h3>
-<p>做一个小节，计算机中文件存储在硬盘里面，本质上都是<code>0</code>和<code>1</code>。如果分类可以大致分为<strong>纯文本文件</strong>（由字符编码组成）、<strong>媒体文件</strong>（由按照一定方式组织的媒体信息构成）、<strong>程序</strong>（由CPU可以直接运行的机器码构成）。</p>
+<p>做一个小结，计算机中文件存储在硬盘里面，本质上都是<code>0</code>和<code>1</code>。如果分类可以大致分为<strong>纯文本文件</strong>（由字符编码组成）、<strong>媒体文件</strong>（由按照一定方式组织的媒体信息构成）、<strong>程序</strong>（由CPU可以直接运行的机器码构成）。</p>
 <p><strong>文件的名字</strong>一般由两部分构成，前半部分为可以随便起的<strong>文件名称</strong>，后半部分用<strong>后缀名</strong>来表示该文件的类型，一般由生成该文件的软件进行确定，用户不必更改；操作系统则通过文件后缀名决定可以用哪个 / 些程序来打开该文件。</p>
 <p>接下来我们需要来认识文件在操作系统的文件系统中到底放在哪里，初步对文件系统有一个了解。</p>
 <h2><a class="header" href="#文件系统" id="文件系统">文件系统</a></h2>
@@ -585,7 +577,7 @@ xx --help (-h) # 查看某个命令行程序内置的帮助
 kill # send a signal to a process
 </code></pre>
 <p><code>ps</code>可以查看当前的进程，<code>kill</code>可以给进程发送一些信号。由于我还没上过操作系统，对这些不是特别了解，大家可以直接用<code>man</code>命令来查看<code>ps</code>和<code>kill</code>的帮助（或百度）</p>
-<h3><a class="header" href="#其他shell的操作" id="其他shell的操作">其他shell的操作</a></h3>
+<h3><a class="header" href="#其他shell操作" id="其他shell操作">其他shell操作</a></h3>
 <h4><a class="header" href="#which-where" id="which-where">which where</a></h4>
 <pre><code class="language-shell">which # 查看shell如何解析你的输入
 where # 查看shell可能如何解析你的输入，第一条为which的结果
@@ -691,7 +683,7 @@ $ chmod 644 my.txt # owner可读写 同组和其他用户只可读。
 <p><strong>脚本</strong>（<code>script</code>），是使用一种特定的描述性语言，依据一定的格式编写的<strong>可执行文件</strong>。（来自百度百科）</p>
 <p>这里所说的<strong>可执行文件</strong>和之前的命令行程序是有区别的；脚本本质上是还是纯文本文件，它能执行是因为有<strong>解释器</strong>来对其中每一行命令做解析。比如<code>shell 脚本</code>就由<code>shell</code>来解析；<code>python 脚本 / 程序</code>就由<code>python</code>解释器来解析。</p>
 <h4><a class="header" href="#尝试编写shell脚本" id="尝试编写shell脚本">尝试编写shell脚本</a></h4>
-<p>比如我们希望创建这样一个程序——批量显示当前文件夹下的所有文件和文件夹。注意，这不是<code>ls</code>命令，我想要递归显示。</p>
+<p>比如我们希望创建这样一个脚本——来批量显示当前文件夹下的所有文件和文件夹。注意，这不是<code>ls</code>命令，我想要递归显示。</p>
 <p>我们使用下面的<code>shell</code>脚本<a href="https://github.com/kddeisz/tree/blob/master/tree.sh">kddeisz | GitHub | tree.sh</a>做一个演示：</p>
 <pre><code class="language-sh">#!/usr/bin/env bash
 
@@ -987,7 +979,7 @@ $ cd x265_3.5/build/linux
 $ ./make-Makefiles.bash
 $ make
 
-⌃D b # 退出当前 tmux session
+⌃B d # 退出当前 tmux session
 
 ⌃ D # 退出服务器
 
@@ -1010,9 +1002,7 @@ $ tmux attach -t x265 # 重新连接会话，可以看到已经编译完成了
 <p>推荐线下的同学直接和我面对面交流，我一直认为这种方式是效率最高的交流方式。线上的同学可以通过腾讯会议的聊天窗口提问，我看到就会回答，没看到的话你可以多发几遍。</p>
 <p>课后大家可以通过<code>B站私信</code>向「我不是小杰」提问。</p>
 <h2><a class="header" href="#课程作业" id="课程作业">课程作业</a></h2>
-<h3><a class="header" href="#提交方式" id="提交方式">提交方式</a></h3>
-<p>复制下面的作业内容并在括号中填空。</p>
-<h3><a class="header" href="#作业" id="作业">作业</a></h3>
+<p>复制下面的作业内容并在括号中填空，完成后提交。（作业答案在此次讲稿的最下方，推荐认真做完后自行订对）</p>
 <p>「程序」</p>
 <p>〇 GUI是英文（）的缩写。</p>
 <p>〇 使用系统的思想：我们可以将应用程序看作是一个（）：用户通过（）来告诉应用程序自己做的事情，通过（）来得知应用程序的运行结果。</p>
@@ -1052,10 +1042,8 @@ $ tmux attach -t x265 # 重新连接会话，可以看到已经编译完成了
 <li><code>Git</code>也是一款软件，它是命令行程序，但是也有<code>GUI</code>程序，不过我推荐大家把学习的经历放在<strong>命令行Git</strong>上</li>
 <li><code>Git</code>按行管理文件（也就是纯文本文件）：它没法管理二进制文件；推荐大家学一下<code>Markdown</code>，也许明天也会用到。我之前也做过<code>Markdown</code>的教程，大家可以参考<a href="https://www.bilibili.com/video/BV1jV411j7mz">Bilibili | 我不是小杰 | 面向开发的Markdown教程</a></li>
 </ul>
-<h1><a class="header" href="#课后答疑与作业问题" id="课后答疑与作业问题">课后答疑与作业问题</a></h1>
-<h2><a class="header" href="#课后答疑-1" id="课后答疑-1">课后答疑</a></h2>
-<h2><a class="header" href="#作业问题" id="作业问题">作业问题</a></h2>
-<h1><a class="header" href="#更新答案" id="更新答案">更新答案</a></h1>
+<hr />
+<h1><a class="header" href="#作业答案" id="作业答案">作业答案</a></h1>
 <p>TODO 待更新</p>
 <h1><a class="header" href="#在macos上用vs-code写c代码" id="在macos上用vs-code写c代码">在macOS上用VS Code写C++代码</a></h1>
 <ul>
