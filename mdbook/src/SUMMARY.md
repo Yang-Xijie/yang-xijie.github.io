@@ -4,10 +4,6 @@
 
 ---
 
-[Linux](./Linux/linux.md)
-
----
-
 [Cpp in VSCode on macOS](./vscode_cpp_macos/0_about.md)
 
 - [1 前言和课程说明](./vscode_cpp_macos/1_前言和课程说明.md)
@@ -22,6 +18,22 @@
 [其他](./vscode_cpp_macos/9_others.md)
 
 [极速版](./vscode_cpp_macos/10_极速版.md)
+
+---
+
+[Linux](./Linux/linux.md)
+
+---
+
+[番剧评价](./Anime/anime_rating.md)
+
+[神作](./anime_rating_extraordinary.md)
+
+[上乘](./anime_rating_great.md)
+
+[好](./anime_rating_good.md)
+
+[可爱的二次元女生](./Anime/anime_kawaii.md)
 
 ---
 
