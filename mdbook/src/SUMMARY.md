@@ -25,15 +25,15 @@
 
 ---
 
-[番剧评价](./Anime/anime_rating.md)
+[番剧评价](./anime/anime_rating.md)
 
-[神作](./anime_rating_extraordinary.md)
+[神作](./anime/anime_rating_extraordinary.md)
 
-[上乘](./anime_rating_great.md)
+[上乘](./anime/anime_rating_great.md)
 
-[好](./anime_rating_good.md)
+[好](./anime/anime_rating_good.md)
 
-[可爱的二次元女生](./Anime/anime_kawaii.md)
+[可爱的二次元女生](./anime/anime_kawaii.md)
 
 ---
 
@@ -48,4 +48,4 @@
 
 ---
 
-[About the Site](./postscript/site_build.md)
+[About this Site](./postscript/site_build.md)
