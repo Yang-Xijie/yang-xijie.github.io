@@ -6,6 +6,8 @@
 
 - [讲稿]()
 - [Linux](LECTURE_/linux/linux.md)
+- [Markdown](LECTURE_/markdown/markdown.md)
+- [Git](LECTURE_/git/git.md)
 - [在macOS上用VSCode写C++代码](LECTURE_/vscode_cpp_macos/0_about.md)
     - [1 前言和课程说明](LECTURE_/vscode_cpp_macos/1_前言和课程说明.md)
     - [2 认识mac的文件系统](LECTURE_/vscode_cpp_macos/2_认识mac的文件系统.md)

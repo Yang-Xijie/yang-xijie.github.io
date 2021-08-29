@@ -1,8 +1,8 @@
 # 在macOS上用VS Code写Python、配置Python环境的一种思路
 
-> `v1.0` 210211 添加视频链接
-
 > [Bilibili 视频版](https://www.bilibili.com/video/BV1Y5411E7yc)
+
+> `v1.0` 210211 添加视频链接
 
 - [在macOS上用VS Code写Python、配置Python环境的一种思路](#在macos上用vs-code写python配置python环境的一种思路)
 - [安装必要工具](#安装必要工具)

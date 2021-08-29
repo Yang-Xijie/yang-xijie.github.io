@@ -1,8 +1,8 @@
 # Mac连接安卓传输数据
 
-> `v1.0` 210210 添加视频
-
 > [Bilibili 视频版](https://www.bilibili.com/video/BV14A411M7Yh)
+
+> `v1.0` 210210 添加视频
 
 大家好，我是杨希杰。
 

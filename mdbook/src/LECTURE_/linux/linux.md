@@ -7,7 +7,7 @@
 > 作者：电子系九字班 [杨希杰](https://github.com/Yang-Xijie)
 > 
 > 课程录屏 <https://www.bilibili.com/video/BV12h41167Lk>
-> 
+
 > `v1.0` 210713 添加视频
 
 - [Linux 讲稿 - 2021信院联合暑培](#linux-讲稿---2021信院联合暑培)
