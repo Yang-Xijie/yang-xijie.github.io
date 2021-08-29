@@ -18,15 +18,22 @@
     - [其他](LECTURE_/vscode_cpp_macos/9_others.md)
     - [极速版](LECTURE_/vscode_cpp_macos/10_极速版.md)
 - [在macOS上用VSCode写Python](LECTURE_/vscode_python_macos/0_main.md)
+
+---
+
 - [番]()
 - [番剧评价](ANIME_/anime_rating.md))
     - [神作](ANIME_/anime_rating_extraordinary.md)
     - [上乘](ANIME_/anime_rating_great.md)
     - [好](ANIME_/anime_rating_good.md)
 
+---
+
 - [二次元]()
 - [可爱的二次元女生](ANIME_/ANIME__kawaii.md)
 - [喜欢的画师](INTEREST_/fanbox_with_PSD.md)
+
+---
 
 - [经验分享]()
 - [macOS与Android的文件传输](LECTURE_/sharing_mac_android/0_main.md)
