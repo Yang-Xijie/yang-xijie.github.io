@@ -1,5 +1,8 @@
 # Mac连接安卓传输数据
-此次视频录制于210210
+
+> `v1.0` 210210 添加视频
+
+> [Bilibili 视频版](https://www.bilibili.com/video/BV14A411M7Yh)
 
 大家好，我是杨希杰。
 
