@@ -1,7 +1,7 @@
 [book]
 title = "yxj"
 authors = ["yxj"]
-description = "Yang-Xijie's own site"
+description = "Yang-Xijie's personal webpage"
 src = "src"
 language = "zh-cn"
 multilingual = false

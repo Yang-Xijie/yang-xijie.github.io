@@ -1,8 +1,6 @@
 # Introduction of Me and My Site
 
-点击左上角的图标打开切换菜单
-
-Click icon at the top left corner of this site to switch to other parts.
+点击左上角图标打开目录。 / Click icon at the top left corner to toggle table of contents.
 
 # My Accounts / 我的个人账号
 
