@@ -1,4 +1,4 @@
-# Support me
+# Support Me
 
 <img src="../media/頑張ります.png" style="zoom:45%"/>
 

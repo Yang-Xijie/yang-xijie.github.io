@@ -8,7 +8,7 @@
 
 ## Intro
 
-I use [mdbook](https://github.com/rust-lang/mdBook) to generate this website where I can put my blogs and articles. 
+I use [mdBook](https://github.com/rust-lang/mdBook) to generate this website where I can put my blogs and articles. 
 
 ## Repository
 
