@@ -6,10 +6,10 @@
 
 Buy me a cup of coffee?
 
-Alipay
+**Alipay**
 
 <img src="../media/支付宝二维码.jpg" style="zoom:17.29%"/>
 
-WeChat Pay
+**WeChat Pay**
 
 <img src="../media/微信支付二维码.png" style="zoom:20%"/>
