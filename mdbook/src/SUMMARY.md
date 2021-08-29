@@ -33,7 +33,7 @@
 
 - [二次元]()
 - [可爱的二次元女生](ANIME_/anime_kawaii.md)
-- [喜欢的画师](INTEREST_/fanbox_with_PSD.md)
+- [喜欢的画师](INTEREST_/喜欢的画师.md)
 
 ---
 
