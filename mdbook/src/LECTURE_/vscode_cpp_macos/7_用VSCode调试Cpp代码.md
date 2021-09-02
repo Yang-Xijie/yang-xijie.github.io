@@ -1,5 +1,27 @@
 # 7 用VS Code调试Cpp代码
 
+> `v1.1` 210902
+
+大家好，今天有同学跟我反映说教程中`Intel Mac`无法调试，具体表现为：按F5开启调试之后弹出终端，终端一片空白，没有任何输出；上滑后发现一些从来没见过的命令。我在自己的电脑上试了一下也出现了这样的情况。
+
+通过查看`GitHub microsoft/vscode-cpptools` 仓库的`issues`，确认这是在扩展商店安装的`C++扩展插件`新版本`v1.6.0 (August 24, 2021)`的bug，工程师已经发现了这个问题并且在代码中修复，在下一个版本的更新中应该会解决这个问题。
+
+最近需要进行调试的同学可以先将`C++插件`降级为`1.5.1 (July 9, 2021)`，降级方法如下：
+1. 打开`VS Code`设置（⌘,）搜索`c_cpp.update`，将选项从`Insiders`更改为`Default`（关闭C++插件的自动更新）
+2. 退出重启`VS Code`
+3. 打开插件商店，找到安装的扩展`C/C++`，右键选择`Install Another Version`，选择`v1.5.1`
+4. 退出重启`VS Code`，等待`v1.5.1`版本的`C/C++扩展`安装完毕即可。
+
+问题描述：
+<https://github.com/microsoft/vscode-cpptools/issues/5079#issuecomment-903149903>
+<https://github.com/microsoft/vscode-cpptools/issues/8008#issue-974146751>
+
+解决方案：
+<https://github.com/microsoft/vscode-cpptools/issues/8008#issuecomment-902336978>
+
+代码修复：
+<https://github.com/microsoft/MIEngine/pull/1201>
+
 - [7 用VS Code调试Cpp代码](#7-用vs-code调试cpp代码)
 - [前言](#前言)
 - [Important Docs](#important-docs)
@@ -28,6 +50,7 @@
 - [总结](#总结-1)
 
 # 前言
+
 调试是什么，就是`debug`（查看`Run -> Start Debugging`）。`debug`是什么：你在写代码的时候会有一些地方写的有问题，这些问题就被称作`bug`。`bug`原意为虫子。`de-`前缀有去除的意思，`debug`就是指“去掉虫子”，也就是找代码中的错并改正。仔细看`VS Code`边栏的运行图标，发现就有一只虫子。
 
 至于为什么`debug`被翻译为调试呢？大概就是说，你调一调（调整）代码，试着改一改代码，就把错误找出来了。
@@ -35,10 +58,15 @@
 这一课会大量参考`VS Code`的官方文档，这是因为一份配置文件怎么写，不会有什么教程比官方文档写得更清楚了。是的，包括我现在正在录制的这一课的教程。我推荐你直接看官方的文档；不过，我还是有那么一丢丢自信比官网文档总结的好那么一点点（因为自己在配置的时候总会遇到一些坑，我会帮你跳过这些坑）。所以，你可以先听我讲的，如果觉得我哪里讲得不好，你可以移步官方文档查看对应的部分。
 
 首先先简单看一看这些文档吧。
+
 # Important Docs
+
 [VS Code｜docs](https://code.visualstudio.com/docs)
+
 ## VS Code｜User Guide
+
 ### User Guide｜Tasks
+
 Tasks in VS Code can be configured to **run scripts** and **start processes** so that many of these existing tools can be used from within VS Code **without having to enter a command line** or write new code.
 
 Workspace or folder specific tasks are configured from the `tasks.json` file in the `.vscode` folder for a workspace.
@@ -46,7 +74,9 @@ Workspace or folder specific tasks are configured from the `tasks.json` file in 
 [VS Code｜User Guide｜Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
 
 在`VS Code`中可以自定义一些task（任务），这些任务会帮你自动化执行一些东西。任务的配置文件是`tasks.json`。我们希望定义一个编译程序的task，以后调试（`debug`）之前都会自动执行这个task。
+
 ### User Guide｜Debugging
+
 One of the key features of Visual Studio Code is its great **debugging support**. VS Code's **built-in debugger** helps accelerate your edit, compile and debug loop.
 
 VS Code keeps **debugging configuration information** in a `launch.json` file located in a `.vscode` folder in your workspace (project root folder).
@@ -54,20 +84,29 @@ VS Code keeps **debugging configuration information** in a `launch.json` file lo
 [VS Code｜User Guide｜Debugging](https://code.visualstudio.com/docs/editor/debugging)
 
 如果你需要`debug`，那么`VS Code`提供了这样的平台。`debug`的配置文件是`launch.json`。
+
 ### 实用技巧：输入输出重定向
+
 [VS Code｜User Guide｜Debugging | Redirect input/output to/from the debug target](https://code.visualstudio.com/docs/editor/debugging#_redirect-inputoutput-tofrom-the-debug-target)
 
 这一点大家可以在这节课后自行了解，我觉得还是挺有用的一个知识点。
+
 ## VS Code｜C++
+
 ### C++｜Clang on macOS
+
 [VS Code | C++ | Using Clang in Visual Studio Code](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 
 （虽然这是专门为macOS写的文档，但我觉得这一篇实在误人子弟……至少我觉得两处不太妥当；还是看上面的那个`User Guide｜Tasks`和`User Guide｜Debugging`吧）
+
 ### C++｜Debug
+
 [VS Code | C++ | Debug C++ in Visual Studio Code](https://code.visualstudio.com/docs/cpp/cpp-debug)
 
 （和`User Guide｜Debugging`相比没有什么新东西）
+
 ### C++｜launch.json
+
 The `launch.json` file is used to configure the debugger in Visual Studio Code.
 
 [VS Code Official Docs | Configuring C/C++ debugging](https://code.visualstudio.com/docs/cpp/launch-json-reference)
@@ -75,6 +114,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 （很重要的文档，几乎说明了`C++`调试配置文件`launch.json`所有选项的含义）
 
 # tasks.json
+
 注意：请尽量不要在任何关于代码和程序的地方出现空格。空格作为`shell`分隔命令的符号，在路径或文件名中出现空格可能会导致意想不到的后果。你可以将空格替换为下划线，或者直接删掉空格。如将`VS Code`的文件夹改名为`VS_Code`或`VSCode`
 
 我所写的讲稿中`Code Runner`和`编译`对空格有很好的处理，但是`调试`总是处于两难的境地，有了空格就不能调试。很抱歉到现在才发现问题(210110)
@@ -173,12 +213,15 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 ```
 
 ## 从上到下讲……
+
 （打开终端的task简单讲一下结构，讲到`debug`的时候出问题再回来看这个task）
 
 ## Other two choices
+
 <img src="media/16104430276312/16107072035683.jpg" style="zoom:30%"/>
 
 ## 总结
+
 我们已经在`tasks.json`中创建了一个编译`Cpp`代码的`task`，接下来我们就要用编译出来的附带着调试信息的可执行文件去调试我们的代码。
 
 （你会发现你自己也能在`tasks.json`里面自己写一个`Code Runner`了是吧？确实是这样（不过`Code Runner`的功能还是多一些，也支持别的语言，更方便一些）
@@ -239,8 +282,8 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 
 ## 从上到下讲……
 
-
 ## hello_world.cpp
+
 ```cpp
 #include <cstdio>
 
@@ -258,10 +301,13 @@ int main() { printf("\n\nHello, world!\n\n"); }
 回到`tasks.json` ⇧⌘P调出`VS Code`的命令窗口，搜索`task`，点击`Tasks: Run Task`，选择`Open Terminal.app`；给`VS Code`打开终端的权限，解决问题
 
 ## 调整终端和VS Code的位置
+
 长按绿色的按钮，将终端放在屏幕左边，`VS Code`放在屏幕右边。
 
 在调试多次之后可以使用快捷键：⇧⌘W关闭全部。或直接⌘Q退出终端
+
 ## 使用VS Code的集成终端？
+
 如何在调试的时候不使用系统的终端而使用`VS Code`的集成终端？
 
 你肯定觉得这么做很麻烦，`Code Runner`都可以让提示信息出现在集成终端，那我调试代码也把程序的输出放到集成终端可以吗？很遗憾，这件事情在`macOS`上做不到。
@@ -277,6 +323,7 @@ int main() { printf("\n\nHello, world!\n\n"); }
 <img src="media/16013676677088/16015722057456.jpg" style="zoom:30%"/>
 
 ## 调试举例
+
 我想了好久也没找到简单又有点意思的例子……真正要用到`debug`的时候我觉得应该是数据结构与算法的题目，但我这个只是简单教程，我也不想把数算题扯进来。所以真的很抱歉！这一块的调试大家在自己写的程序遇到`bug`的时候自行体验……
 
 ```cpp
@@ -289,15 +336,19 @@ int main() { printf("Addition = %d\n", fourSum(1, 2, 3, 4)); }
 ```
 
 ## 其他调试技巧
+
 <img src="media/16104430276312/16107116310057.jpg" style="zoom:30%"/>
 
 大家自己体验一下，我就不做过多的解释了。
 
 # 补充
+
 ## 需要新建工作区吗？
+
 我的想法是希望你在一个文件夹`Cpp`中写所有的Cpp代码，这在学习`Cpp`和编写简单`Cpp`代码时是非常合适的（我这么做发现很方便）。但是请注意：如果你用`VS Code`来做一个`C++`项目，那最好还是另开一个新的文件夹；毕竟在`VS Code`中，一个文件夹就是一个项目。（但其实在我们现在用的这个`Cpp`文件夹新建一个文件夹也足够了）
 
 ## 有些其他教程里面的c_cpp_properties.json是干什么的？
+
 (210224补充)
 
 我们可以直接查看`VS Code`官网关于这份文件的文档：
@@ -313,6 +364,7 @@ int main() { printf("Addition = %d\n", fourSum(1, 2, 3, 4)); }
 我的教程直接从命令行入手了，这里面的设置我都直接用`g++`编译器的参数代替了，所以不需要设置这些选项。
 
 # 总结
+
 这节课我们主要学习了如何写两份配置文件：`tasks.json`可以用配置任务实现自动化；`launch.json`用来配置`VS Code`调试的方法。现在，如果你只是要执行你的代码，⌘R直接用插件`Code Runner`解决问题，非常快。如果你需要调试，那就打上断点，然后`F5`（或者触控栏上的播放按钮）；由于可能需要多次打开调试，这时你需要将终端和`VS Code`分屏获得好一些的体验。
 
 上节课说这是最后一节课，但我之后应该还会录制两节课。一节是课程回顾，会讲讲这门课的设计思路，同时也会安利一些我自己用的插件，顺便也推荐一些可以深入学习的地方。另一节准备做一个极速版的教程，因为对于一些心急的人来说，可能总共加起来快5个小时的视频教程还是有一些长；另外对于认真听完课程的同学，可能也需要一个快速回顾如何配置编程环境的总结性视频。
