@@ -2,27 +2,8 @@
 
 > `v1.1` 210902
 
-大家好，今天有同学跟我反映说教程中`Intel Mac`无法调试，具体表现为：按F5开启调试之后弹出终端，终端一片空白，没有任何输出；上滑后发现一些从来没见过的命令。我在自己的电脑上试了一下也出现了这样的情况。
-
-通过查看`GitHub microsoft/vscode-cpptools` 仓库的`issues`，确认这是在扩展商店安装的`C++扩展插件`新版本`v1.6.0 (August 24, 2021)`的bug，工程师已经发现了这个问题并且在代码中修复，在下一个版本的更新中应该会解决这个问题。
-
-最近需要进行调试的同学可以先将`C++插件`降级为`1.5.1 (July 9, 2021)`，降级方法如下：
-1. 打开`VS Code`设置（⌘,）搜索`c_cpp.update`，将选项从`Insiders`更改为`Default`（关闭C++插件的自动更新）
-2. 退出重启`VS Code`
-3. 打开插件商店，找到安装的扩展`C/C++`，右键选择`Install Another Version`，选择`v1.5.1`
-4. 退出重启`VS Code`，等待`v1.5.1`版本的`C/C++扩展`安装完毕即可。
-
-问题描述：
-<https://github.com/microsoft/vscode-cpptools/issues/5079#issuecomment-903149903>
-<https://github.com/microsoft/vscode-cpptools/issues/8008#issue-974146751>
-
-解决方案：
-<https://github.com/microsoft/vscode-cpptools/issues/8008#issuecomment-902336978>
-
-代码修复：
-<https://github.com/microsoft/MIEngine/pull/1201>
-
 - [7 用VS Code调试Cpp代码](#7-用vs-code调试cpp代码)
+  - [Intel Mac由于VS Code官方插件bug无法调试的说明](#intel-mac由于vs-code官方插件bug无法调试的说明)
 - [前言](#前言)
 - [Important Docs](#important-docs)
   - [VS Code｜User Guide](#vs-codeuser-guide)
@@ -48,6 +29,35 @@
   - [需要新建工作区吗？](#需要新建工作区吗)
   - [有些其他教程里面的c_cpp_properties.json是干什么的？](#有些其他教程里面的c_cpp_propertiesjson是干什么的)
 - [总结](#总结-1)
+
+## Intel Mac由于VS Code官方插件bug无法调试的说明
+
+大家好，今天(210902)有同学跟我反映说教程中`Intel Mac`无法调试，具体表现为：按F5开启调试之后弹出终端，终端一片空白，没有任何输出；上滑后发现一些从来没见过的命令。我在自己的电脑上试了一下也出现了这样的情况。
+
+通过查看`GitHub microsoft/vscode-cpptools` 仓库的`issues`，确认这是在扩展商店安装的`C++扩展插件`新版本`v1.6.0 (August 24, 2021)`的bug，工程师已经发现了这个问题并且在代码中修复，在下一个版本的更新中应该会解决这个问题。
+
+最近需要进行调试的同学可以先将`C++插件`降级为`1.5.1 (July 9, 2021)`，降级方法如下：
+
+1. 打开`VS Code`设置（⌘,）搜索`c_cpp.update`，将选项从`Insiders`更改为`Default`（关闭C++插件的自动更新）
+2. 退出重启`VS Code`
+3. 打开插件商店，找到安装的扩展`C/C++`，右键选择`Install Another Version`，选择`v1.5.1`
+4. 退出重启`VS Code`，等待`v1.5.1`版本的`C/C++扩展`安装完毕即可。
+
+问题描述：
+
+<https://github.com/microsoft/vscode-cpptools/issues/5079#issuecomment-903149903>
+
+<https://github.com/microsoft/vscode-cpptools/issues/8008#issue-974146751>
+
+解决方案：
+
+<https://github.com/microsoft/vscode-cpptools/issues/8008#issuecomment-902336978>
+
+代码修复：
+
+<https://github.com/microsoft/MIEngine/pull/1201>
+
+- - -
 
 # 前言
 

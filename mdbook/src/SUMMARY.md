@@ -10,7 +10,7 @@
 - [Git](LECTURE/git/git.md)
 - [在macOS上用VSCode写C++代码](LECTURE/vscode_cpp_macos/0_about.md)
     - [1 前言和课程说明](LECTURE/vscode_cpp_macos/1_前言和课程说明.md)
-    - [2 认识mac的文件系统](LECTURE/vscode_cpp_macos/2_认识mac的文件系统.md)
+    - [2 认识macOS的文件系统](LECTURE/vscode_cpp_macos/2_认识macOS的文件系统.md)
     - [3 认识程序](LECTURE/vscode_cpp_macos/3_认识程序.md)
     - [4 认识终端和shell](LECTURE/vscode_cpp_macos/4_认识终端和shell.md)
     - [5 开启VSCode的大门](LECTURE/vscode_cpp_macos/5_开启VSCode的大门.md)
