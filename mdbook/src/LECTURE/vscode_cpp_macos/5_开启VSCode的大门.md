@@ -100,7 +100,11 @@ int main(){
 
 <img src="media/16104429789963/16104689069722.jpg" style="zoom:30%"/>
 
-苹果也考虑了这种情况，所以在苹果官方开发者的网站上会有单独的命令行工具的下载。这个大小只有大概`400MB`，还算比较小（不过其实装好需要2.5G左右的空间，这个确实无法避免啦）
+苹果也考虑了这种情况，所以在苹果官方开发者的网站上会有*单独的命令行工具*的下载。这个大小只有大概`400MB`，还算比较小（不过其实装好需要2.5G左右的空间，这个确实无法避免啦）
+
+```
+The Command Line Tools enable UNIX-style development via Terminal by installing command line developer tools, as well as macOS SDK frameworks and headers. Many useful tools are included, such as the Apple LLVM compiler, linker, and Make. If you use Xcode, these tools are also embedded within the Xcode IDE.
+```
 
 [在苹果开发者网站下载Command Line Tool](https://developer.apple.com/download/more/)
 
