@@ -32,7 +32,7 @@
 ---
 
 - [二次元]()
-- [可爱的二次元女生](NIJIGENN/anime_kawaii.md)
+- [可爱的二次元女生](NIJIGENN/nijigenn_kawaii.md)
 - [喜欢的画师](NIJIGENN/sukina_ekaki.md)
 
 ---
