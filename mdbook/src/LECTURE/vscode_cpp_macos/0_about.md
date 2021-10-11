@@ -58,3 +58,5 @@
 ### 其他想说的话
 
 这份教程是`AS-IS`的，意思是说，这份教程我做出来就放在这里它就是这个样子。至于你看不看这份教程，这是你自己的选择。如果你看了这份教程然后觉得我讲的不行，那我觉得可能你并不适合这份教程，或者确实我这份教程做的不好；但请注意这是你自己的选择。如果你想给我的课程提一些建议，我非常欢迎，不过如果可以，我希望你的语气能委婉一些。
+
+提问前请先仔细阅读[提问的智慧（中文版）](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)（the original version in English [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) ）。
