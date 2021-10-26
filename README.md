@@ -6,4 +6,4 @@
 
 点击[https://yang-xijie.github.io](https://yang-xijie.github.io)查看。 / Click [https://yang-xijie.github.io](https://yang-xijie.github.io) to view.
 
-想支持可以请我[喝一杯咖啡](https://yang-xijie.github.io/postscript/support.html). / Support me [here](https://yang-xijie.github.io/postscript/support.html).
+想支持可以请我[喝一杯咖啡](https://yang-xijie.github.io/SITE/postscript/support.html). / Support me [here](https://yang-xijie.github.io/SITE/postscript/support.html).
