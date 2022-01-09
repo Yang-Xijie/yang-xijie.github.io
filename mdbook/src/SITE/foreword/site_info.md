@@ -17,5 +17,12 @@
 * 技术博客 / blogs
 
 [简书 Jinashu](https://www.jianshu.com/u/76b034c9f995)
-* 个人日记 / personal diary
-* 随笔记及杂记 / essays and prose
+* 文集 / collections of essays
+  * [今日 / Today](https://www.jianshu.com/nb/44166980)
+  * [杂记 / Essays](https://www.jianshu.com/nb/43089559)
+  * [学习笔记 / Learning Notes](https://www.jianshu.com/nb/51920861)
+  * [学习相关 / Learning](https://www.jianshu.com/nb/51920861)
+  * [吃 / Eating](https://www.jianshu.com/nb/51813647)
+  * [随笔记 / Jottings](https://www.jianshu.com/nb/46310605)
+  * [动漫 / Animation](https://www.jianshu.com/nb/46310214)
+  * [转载 / Sharing](https://www.jianshu.com/nb/46983940)
