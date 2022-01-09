@@ -1,8 +1,8 @@
 # 面向开发的Markdown学习
 
-> [Bilibili视频教程](https://www.bilibili.com/video/BV1jV411j7mz)
-
 > `v1.0` 210523 添加视频教程
+
+> [Bilibili视频教程](https://www.bilibili.com/video/BV1jV411j7mz)
 
 - [面向开发的Markdown学习](#面向开发的markdown学习)
 - [表达与说明的方式](#表达与说明的方式)

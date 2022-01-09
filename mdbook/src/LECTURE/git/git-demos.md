@@ -26,6 +26,7 @@
   - [向GitHub上的开源项目提交代码](#向github上的开源项目提交代码)
  
 ## git init/add/status/diff/commit/status/add/commit/log/diff
+
 ### 初始化仓库
 ```
 $ cd ~/Desktop
@@ -50,6 +51,7 @@ $ cat markdown_learn.md
 ```
 
 ### 查看状态
+
 ```
 $ git status
 On branch main
@@ -64,6 +66,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ### 添加文件到暂存区
+
 ```
 $ git add markdown_learn.md
 $ git status
@@ -77,6 +80,7 @@ Changes to be committed:
 ```
 
 ### 再添加一篇文件
+
 ```
 $ touch git_learn.md
 $ vim git_learn.md
@@ -91,6 +95,7 @@ Git is a free and open source distributed version control system designed to han
 ```
 
 ### 查看状态
+
 ```
 $ git status
 On branch main
@@ -107,6 +112,7 @@ Untracked files:
 ```
 
 ### 修改文件
+
 ```
 $ vim markdown_learn.md
 # Markdown Note
@@ -123,6 +129,7 @@ $ vim markdown_learn.md
 ```
 
 ### 再次查看状态
+
 ```
 $ git status
 On branch main
@@ -165,6 +172,7 @@ Changes to be committed:
 ```
 
 ### 提交
+
 ```
 $ git commit -m "add two notes"
 [main (root-commit) bdf79c8] add two notes
@@ -175,6 +183,7 @@ $ git commit -m "add two notes"
 ```
 
 ### 查看状态
+
 ```
 $ git status
 On branch main
@@ -182,6 +191,7 @@ nothing to commit, working tree clean
 ```
 
 ### 添加和提交
+
 ```
 $ vim git_learn.md
 $ cat git_learn.md
@@ -201,6 +211,7 @@ $ git commit -m "add new git commands"
 ```
 
 ### 查看log
+
 ```
 $ git log
 commit c874462dba874eb098a4445f8ff6a15b2e381fc7 (HEAD -> main)
@@ -217,7 +228,9 @@ Date:   Thu May 20 20:40:03 2021 +0800
 ```
 
 ### 比较差异
+
 比较两次commit的差异（其中前面有加号的是第二次提交添加的，剩下的信息并不那么重要）：
+
 ```
 $ git diff bdf79c c87446
 diff --git a/git_learn.md b/git_learn.md
@@ -232,10 +245,13 @@ index 575b88e..1b60d22 100644
 ```
 
 ## git restore
+
 TODO
 
 ## git brancn/switch
+
 ### 新建仓库
+
 ```
 $ cd ~/Desktop
 $ mkdir teamwork
@@ -244,6 +260,7 @@ $ git init
 ```
 
 ### 添加文件在main分支至少有一次commit
+
 ```
 $ touch README.md
 $ echo  'This is our teamwork!'  >> README.md
@@ -302,7 +319,9 @@ Date:   Fri May 21 18:30:57 2021 +0800
 ```
 
 ### 在goodMorning分支上写代码
+
 同上述`在sayHello分支上写代码`的内容，之后也是回到`main分支`进行合并
 
 ## 向GitHub上的开源项目提交代码
+
 TODO

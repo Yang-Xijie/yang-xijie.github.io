@@ -1,9 +1,10 @@
 # Git讲座
 
-> [Bilibili视频教程](https://www.bilibili.com/video/BV1eh411v7gt)
-> [Git实例](./git-demos.md)
-
 > `v1.0` 210523 更新视频教程
+
+> [Bilibili视频教程](https://www.bilibili.com/video/BV1eh411v7gt)
+> 
+> [Git实例](./git-demos.md)
 
 - [Git讲座](#git讲座)
 - [为什么要用Git](#为什么要用git)
