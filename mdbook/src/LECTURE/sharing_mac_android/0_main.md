@@ -52,11 +52,11 @@ scrcpy
 
 30MB/s
 
-![-w200](media/15971353157286/16129272527593.jpg)
+<img src="media/15971353157286/16129272527593.jpg" style="zoom:20%"/>
 
 [官网下载Android File Transfer](https://www.android.com/filetransfer/)
 
-![-w466](media/15971353157286/16129280421120.jpg)
+<img src="media/15971353157286/16129280421120.jpg" style="zoom:20%"/>
 
 ## 通过蓝牙传输数据
 
@@ -64,25 +64,25 @@ scrcpy
 
 ### Mac to Android
 
-![-w600](media/15971353157286/16129271283013.jpg)
+<img src="media/15971353157286/16129271283013.jpg" style="zoom:30%"/>
 
 ### Android to Mac
 
-![-w668](media/15971353157286/16129281059651.jpg)
+<img src="media/15971353157286/16129281059651.jpg" style="zoom:30%"/>
 
-![-w400](media/15971353157286/16129271553176.jpg)
+<img src="media/15971353157286/16129271553176.jpg" style="zoom:20%"/>
 
 ## 通过连接同一Wi-Fi共享Mac文件夹
 
-![-w668](media/15971353157286/16129281462820.jpg)
+<img src="media/15971353157286/16129281462820.jpg" style="zoom:30%"/>
 
 ## 用U盘传输数据
 
-![-w400](media/15971353157286/IMG_20210210_122802.jpg)
+<img src="media/15971353157286/IMG_20210210_122802.jpg" style="zoom:18%"/>
 
 ## 华为手机使用官方开发的应用
 
-![-w200](media/15971353157286/16129314106342.jpg)
+<img src="media/15971353157286/16129314106342.jpg" style="zoom:20%"/>
 
 ## ftp
 
@@ -90,4 +90,4 @@ scrcpy
 
 但是操作过于复杂连接也不够稳定。至少我很少用
 
-![-w500](media/15971353157286/16129315438220.jpg)
+<img src="media/15971353157286/16129315438220.jpg" style="zoom:20%"/>
