@@ -22,7 +22,6 @@
     - [其他](LECTURE/vscode_cpp_macos/9_others.md)
     - [极速版](LECTURE/vscode_cpp_macos/10_极速版.md)
 - [在macOS上用VSCode写Python](LECTURE/vscode_python_macos/0_main.md)
-- [macOS与Android的文件传输](LECTURE/sharing_mac_android/0_main.md)
 - [英语音标教学](LECTURE/english/phonetic-symbol.md)
 
 ---
@@ -38,6 +37,8 @@
 - [macOS]()
 - [使用tree命令和访达进行任务管理](BLOG/macOS/tree.md)
 - [辅助功能缩放](BLOG/macOS/zoom.md)
+- [Mac与Android的文件传输](LECTURE/sharing_mac_android/0_main.md)
+- [MAD制作流程](BLOG/macOS/mad.md)
 
 - [C]()
 - [C常用函数](BLOG/C/final.md)
