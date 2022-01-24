@@ -37,6 +37,9 @@
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
+- [C]()
+- [C期末](BLOG/C/final.md)
+
 - [Cpp]()
 - [1 C++的几个基本问题](BLOG/Cpp/1.md)
 - [2 函数重载](BLOG/Cpp/2.md)
