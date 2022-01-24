@@ -44,6 +44,9 @@
 - [SwiftUI]()
     - [Data Essentials](DEV/SwiftUI/data-essentials.md)
 
+- [Network]()
+    - [GraphQL Hasura](DEV/network/graphql.md)
+
 ---
 
 - [macOS]()
