@@ -20,12 +20,8 @@
     - [其他](LECTURE/vscode_cpp_macos/9_others.md)
     - [极速版](LECTURE/vscode_cpp_macos/10_极速版.md)
 - [在macOS上用VSCode写Python](LECTURE/vscode_python_macos/0_main.md)
-- [英语音标教学](LECTURE/english/phonetic-symbol.md)
-
----
-
-- [经验分享]()
 - [macOS与Android的文件传输](LECTURE/sharing_mac_android/0_main.md)
+- [英语音标教学](LECTURE/english/phonetic-symbol.md)
 
 ---
 
