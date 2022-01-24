@@ -39,6 +39,7 @@
 
 - [电子工程]()
 - [各种存储器间的关系](BLOG/EE/storage.md)
+- [二阶线性时不变电路](BLOG/EE/five-elements.md)
 
 - [C]()
 - [C常用函数](BLOG/C/final.md)
