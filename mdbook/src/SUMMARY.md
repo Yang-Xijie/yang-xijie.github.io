@@ -35,6 +35,11 @@
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
+- [SwiftUI]()
+- [Data Essentials](DEV/SwiftUI/data-essentials.md)
+
+---
+
 - [macOS]()
 - [使用tree命令和访达进行任务管理](BLOG/macOS/tree.md)
 - [辅助功能缩放](BLOG/macOS/zoom.md)
