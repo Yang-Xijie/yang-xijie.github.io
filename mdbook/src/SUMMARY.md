@@ -41,6 +41,9 @@
 - [Mac与Android的文件传输](LECTURE/sharing_mac_android/0_main.md)
 - [MAD制作流程](BLOG/macOS/mad.md)
 
+- [Linux]()
+- [vim笔记](BLOG/Linux/vim.md)
+
 - [C]()
 - [C常用函数](BLOG/C/final.md)
 - [C语言知识点](BLOG/C/review.md)
