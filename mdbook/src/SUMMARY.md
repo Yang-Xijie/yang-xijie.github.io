@@ -58,6 +58,9 @@
 - [MATLAB]()
 - [MATLAB入门](BLOG/MATLAB/tour.md)
 
+- [Math]()
+- [线性代数笔记](BLOG/math/linear.md)
+
 - [博客]()
 - [Markdown语法初学习](BLOG/markdown/grammars.md)
 - [Latex简易符号](BLOG/markdown/latex.md)
