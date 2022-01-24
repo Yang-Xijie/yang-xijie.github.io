@@ -81,7 +81,7 @@
 
 `linspace(first,last,number_of_elements)`
 - `x=linspace(1,10,5)` 1 开头 10 结尾包含五个元素
-- `x=linspace(1,2*pi,100)`创建$1\sim 2\pi$的等距数组
+- `x=linspace(1,2*pi,100)`创建 \\( 1\sim 2\pi \\)的等距数组
 
 # 4.3 数组创建函数
 
