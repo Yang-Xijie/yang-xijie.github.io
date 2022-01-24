@@ -1,10 +1,10 @@
 [book]
-title = "yxj"
-authors = ["yxj"]
-description = "Yang-Xijie's personal webpage"
+title = "YangXijie"
+authors = ["YangXijie"]
+description = "Yang-Xijie's personal site"
 src = "src"
 language = "zh-cn"
-multilingual = false
+multilingual = true
 
 [output.html]
 default-theme = "Ayu"
