@@ -40,9 +40,13 @@
 - [Swift]()
     - [并行计算](DEV/Swift/parallel.md)
     - [Swift教学作业](DEV/Swift/hw.md)
+    - [Language Guide (TODO)](DEV/Swift/guide.md)
 
 - [SwiftUI]()
     - [Data Essentials](DEV/SwiftUI/data-essentials.md)
+
+- [AppKit]()
+    - [纯代码创建项目](DEV/AppKit/programmatically.md)
 
 - [Network]()
     - [GraphQL Hasura](DEV/network/graphql.md)
