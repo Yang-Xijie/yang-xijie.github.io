@@ -45,6 +45,7 @@
 - [5 类的继承与派生](BLOG/Cpp/5.md)
 - [6 模版](BLOG/Cpp/6.md)
 - [7 异常处理](BLOG/Cpp/7.md)
+- [8 流类库的输入与输出](BLOG/Cpp/8.md)
 - [List](BLOG/Cpp/List.md)
 - [Stack](BLOG/Cpp/Stack.md)
 - [类数据成员](BLOG/Cpp/class-properties.md)
