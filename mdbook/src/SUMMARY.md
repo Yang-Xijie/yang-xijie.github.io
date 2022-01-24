@@ -37,6 +37,9 @@
     - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
     - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
+- [Swift]()
+    - [并行计算](DEV/Swift/parallel.md)
+
 - [SwiftUI]()
     - [Data Essentials](DEV/SwiftUI/data-essentials.md)
 
