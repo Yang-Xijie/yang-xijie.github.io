@@ -37,9 +37,9 @@
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
-- [电子工程]()
-- [各种存储器间的关系](BLOG/EE/storage.md)
-- [二阶线性时不变电路](BLOG/EE/rlc.md)
+- [macOS]()
+- [使用tree命令和访达进行任务管理](BLOG/macOS/tree.md)
+- [辅助功能缩放](BLOG/macOS/zoom.md)
 
 - [C]()
 - [C常用函数](BLOG/C/final.md)
@@ -73,11 +73,14 @@
 - [Physics]()
 - [电磁学期末复习](BLOG/physics/electromagnetics.md)
 
-- [博客]()
+- [电子工程]()
+- [各种存储器间的关系](BLOG/EE/storage.md)
+- [二阶线性时不变电路](BLOG/EE/rlc.md)
+
+- [其他]()
 - [Markdown语法初学习](BLOG/markdown/grammars.md)
 - [Latex简易符号](BLOG/markdown/latex.md)
 - [视频信息初探](BLOG/video/info.md)
-- [使用tree命令和访达进行任务管理](BLOG/macOS/tree.md)
 
 ---
 
