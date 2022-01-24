@@ -48,6 +48,7 @@
 - [博客]()
 - [Markdown语法初学习](BLOG/markdown/grammars.md)
 - [Latex简易符号](BLOG/markdown/latex.md)
+- [电磁学期末复习](BLOG/others/physics-electromagnetics.md)
 
 ---
 
