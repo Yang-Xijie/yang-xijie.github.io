@@ -65,10 +65,12 @@
 - [Math]()
 - [线性代数笔记](BLOG/math/linear.md)
 
+- [Physics]()
+- [电磁学期末复习](BLOG/physics/electromagnetics.md)
+
 - [博客]()
 - [Markdown语法初学习](BLOG/markdown/grammars.md)
 - [Latex简易符号](BLOG/markdown/latex.md)
-- [电磁学期末复习](BLOG/others/physics-electromagnetics.md)
 - [视频信息初探](BLOG/video/info.md)
 
 ---
