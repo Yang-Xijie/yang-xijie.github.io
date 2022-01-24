@@ -76,6 +76,7 @@
 - [Markdown语法初学习](BLOG/markdown/grammars.md)
 - [Latex简易符号](BLOG/markdown/latex.md)
 - [视频信息初探](BLOG/video/info.md)
+- [使用tree命令和访达进行任务管理](BLOG/macOS/tree.md)
 
 ---
 
