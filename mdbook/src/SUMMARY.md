@@ -37,6 +37,9 @@
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
+- [电子工程]()
+- [各种存储器间的关系](BLOG/EE/storage.md)
+
 - [C]()
 - [C常用函数](BLOG/C/final.md)
 - [C语言知识点](BLOG/C/review.md)
