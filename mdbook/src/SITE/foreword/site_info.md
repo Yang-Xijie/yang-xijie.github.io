@@ -1,5 +1,7 @@
 # 主页 / Home
 
+杨希杰的个人主页。/ Yang Xijie's personal site.
+
 点击左上角图标打开目录。 / Click icon at the top left corner to toggle table of contents.
 
 ## 我的个人账号 / My Accounts
@@ -12,9 +14,6 @@
 * 讲座视频及录屏 / lecture videos and screencasts
 * 根据我的个人兴趣制作的视频 / videos concerning my interests
 * 我感兴趣的动态 / posts of things I concerned
-
-[CSDN](https://blog.csdn.net/qq_45379253)
-* 技术博客 / blogs
 
 [简书 Jinashu](https://www.jianshu.com/u/76b034c9f995)
 * 文集 / collections of essays
