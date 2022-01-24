@@ -173,10 +173,10 @@ a31|a32|a33
 ```
 
 ```
-右边是链接[CSDN](https://www.csdn.net "CSDN首页")
+右边是链接[GitHub](https://github.com "GitHub")
 ```
 
-右边是链接[CSDN](https://www.csdn.net "CSDN首页")
+右边是链接[GitHub](https://github.com "GitHub")
 
 ### 插入图片
 
