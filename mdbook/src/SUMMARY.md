@@ -24,6 +24,16 @@
 
 ---
 
+- [经验分享]()
+- [macOS与Android的文件传输](LECTURE/sharing_mac_android/0_main.md)
+
+---
+
+- [博客]()
+- [Set Build Number in Xcode](BLOG/xcode/set-build-number.md)
+
+---
+
 - [番]()
 - [番剧评价](ANIME/anime_rating.md))
     - [神作](ANIME/anime_rating_extraordinary.md)
@@ -35,11 +45,6 @@
 - [二次元]()
 - [可爱的二次元女生](NIJIGENN/nijigenn_kawaii.md)
 - [喜欢的画师](NIJIGENN/sukina_ekaki.md)
-
----
-
-- [经验分享]()
-- [macOS与Android的文件传输](LECTURE/sharing_mac_android/0_main.md)
 
 ---
 
