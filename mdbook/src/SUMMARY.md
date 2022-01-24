@@ -38,7 +38,8 @@
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
 - [C]()
-- [C期末](BLOG/C/final.md)
+- [C常用函数](BLOG/C/final.md)
+- [C语言知识点](BLOG/C/review.md)
 
 - [Cpp]()
 - [1 C++的几个基本问题](BLOG/Cpp/1.md)
