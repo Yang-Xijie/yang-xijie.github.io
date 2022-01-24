@@ -57,6 +57,7 @@
 
 - [MATLAB]()
 - [MATLAB入门](BLOG/MATLAB/tour.md)
+- [抛硬币的涨落问题](BLOG/MATLAB/coin.md)
 
 - [Python]()
 - [复制拷贝](BLOG/Python/copy.md)
