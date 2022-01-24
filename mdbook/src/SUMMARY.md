@@ -29,18 +29,18 @@
 
 ---
 
-- [应用开发]()
-- [Set Build Number in Xcode](BLOG/xcode/set-build-number.md)
-- [常用快捷键](BLOG/xcode/shortcuts.md)
+- [Xcode]()
+- [Set Build Number in Xcode](DEV/Xcode/set-build-number.md)
+- [常用快捷键](DEV/Xcode/shortcuts.md)
 
 - [ExNotes]()
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
 - [Cpp]()
-- [C++的几个基本问题](BLOG/Cpp/1.md)
-- [函数重载](BLOG/Cpp/2.md)
-- [类](BLOG/Cpp/3.md)
+- [1 C++的几个基本问题](BLOG/Cpp/1.md)
+- [2 函数重载](BLOG/Cpp/2.md)
+- [3 类](BLOG/Cpp/3.md)
 - [单链表封装](BLOG/Cpp/List.md)
 - [类数据成员 const static](BLOG/Cpp/class-properties.md)
 - [Google风格](BLOG/Cpp/google-format.md)

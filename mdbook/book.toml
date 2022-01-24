@@ -12,9 +12,10 @@ preferred-dark-theme = "Ayu"
 no-section-label = true
 git-repository-url = "https://github.com/Yang-Xijie/yang-xijie.github.io"
 git-repository-icon = "fa-github"
+mathjax-support = true
 
 [output.html.print]
-enable = true
+enable = false
 
 [output.html.search]
-enable = false
+enable = true
