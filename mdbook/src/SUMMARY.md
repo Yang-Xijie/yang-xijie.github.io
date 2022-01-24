@@ -8,6 +8,8 @@
 - [Linux](LECTURE/linux/linux.md)
 - [Markdown](LECTURE/markdown/markdown.md)
 - [Git](LECTURE/git/git.md)
+    - [Git demos](LECTURE/git/git-demos.md)
+    - [Git teamwork](LECTURE/git/git-teamwork.md)
 - [在macOS上用VSCode写C++代码](LECTURE/vscode_cpp_macos/0_about.md)
     - [1 前言和课程说明](LECTURE/vscode_cpp_macos/1_前言和课程说明.md)
     - [2 认识macOS的文件系统](LECTURE/vscode_cpp_macos/2_认识macOS的文件系统.md)
