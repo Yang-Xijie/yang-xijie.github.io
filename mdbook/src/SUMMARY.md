@@ -68,6 +68,7 @@
 - [Math]()
 - [线性代数笔记](BLOG/math/linear.md)
 - [Gauss公式和Stokes公式](BLOG/math/guass-stokes.md)
+- [常用泰勒级数](BLOG/math/taylor.md)
 
 - [Physics]()
 - [电磁学期末复习](BLOG/physics/electromagnetics.md)
