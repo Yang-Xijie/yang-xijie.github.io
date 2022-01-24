@@ -39,6 +39,7 @@
 
 - [Swift]()
     - [并行计算](DEV/Swift/parallel.md)
+    - [Swift教学作业](DEV/Swift/hw.md)
 
 - [SwiftUI]()
     - [Data Essentials](DEV/SwiftUI/data-essentials.md)
