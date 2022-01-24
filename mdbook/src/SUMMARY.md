@@ -41,8 +41,9 @@
 - [1 C++的几个基本问题](BLOG/Cpp/1.md)
 - [2 函数重载](BLOG/Cpp/2.md)
 - [3 类](BLOG/Cpp/3.md)
-- [单链表封装](BLOG/Cpp/List.md)
-- [类数据成员 const static](BLOG/Cpp/class-properties.md)
+- [List](BLOG/Cpp/List.md)
+- [Stack](BLOG/Cpp/Stack.md)
+- [类数据成员](BLOG/Cpp/class-properties.md)
 - [Google风格](BLOG/Cpp/google-format.md)
 
 - [博客]()
