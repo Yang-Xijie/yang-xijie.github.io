@@ -58,6 +58,9 @@
 - [MATLAB]()
 - [MATLAB入门](BLOG/MATLAB/tour.md)
 
+- [Python]()
+- [复制拷贝](BLOG/Python/copy.md)
+
 - [Math]()
 - [线性代数笔记](BLOG/math/linear.md)
 
