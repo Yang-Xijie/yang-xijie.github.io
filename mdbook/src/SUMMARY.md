@@ -33,7 +33,7 @@
 - [Set Build Number in Xcode](BLOG/xcode/set-build-number.md)
 - [常用快捷键](BLOG/xcode/shortcuts.md)
 
-- [ExNotes]
+- [ExNotes]()
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
