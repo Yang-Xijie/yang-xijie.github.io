@@ -31,6 +31,7 @@
 
 - [应用开发]()
 - [Set Build Number in Xcode](BLOG/xcode/set-build-number.md)
+- [常用快捷键](BLOG/xcode/shortcuts.md)
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 
 ---
