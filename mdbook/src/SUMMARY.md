@@ -37,6 +37,11 @@
 - [ExNotes设计文档](DEV/ExNotes/exnotes-doc.md)
 - [ExNotes开发考量](DEV/ExNotes/learning.md)
 
+- [Cpp]()
+
+- [博客]()
+- [Markdown语法初学习](BLOG/markdown/grammars.md)
+
 ---
 
 - [番]()
