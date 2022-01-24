@@ -42,6 +42,7 @@
 - [2 函数重载](BLOG/Cpp/2.md)
 - [3 类](BLOG/Cpp/3.md)
 - [4 操作符重载](BLOG/Cpp/4.md)
+- [5 类的继承与派生](BLOG/Cpp/5.md)
 - [List](BLOG/Cpp/List.md)
 - [Stack](BLOG/Cpp/Stack.md)
 - [类数据成员](BLOG/Cpp/class-properties.md)
