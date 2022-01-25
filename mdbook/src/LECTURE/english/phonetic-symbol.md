@@ -202,8 +202,8 @@ There are three persons who support the fourth player.
 * Lucy `/'lu:sɪ/` `/'lu: sɪ/` `/lu: 'sɪ/`
 * awake `/ə'weɪk/` `/'əweɪk/` `/'weɪk/` > `/ə'weɪk/`
 
-- [watermelon](https://www.ldoceonline.com/dictionary/watermelon) `/'wɔːtəmelən/` `/'wɔːtəmelən/` 
-- [helicopter](https://www.ldoceonline.com/dictionary/helicopter) `/'helɪkɒptə/` `/'helɪkɒptə/`
+- [watermelon](https://www.ldoceonline.com/dictionary/watermelon) `/'wɔːtəmelən/` `/'wɔː tə me lən/` 
+- [helicopter](https://www.ldoceonline.com/dictionary/helicopter) `/'helɪkɒptə/` `/'he lɪ kɒp tə/`
 
 词典中单词中的小点点一般隔开了不同音节（其实这么说是不严谨的，因为这个小点点是回车的时候做单词拆分用的；但大致上隔开了不同音节）
 
@@ -238,7 +238,7 @@ There are three persons who support the fourth player.
 
 ## 1 熟悉基本的音标
 
-**任务**：阅读所有音标的例词，记住所有音标的发音。
+**任务**：读所有音标的例词，记住所有音标的发音。
 
 **目标**：
 * 看到单词音标就能想到例词，读出发音
