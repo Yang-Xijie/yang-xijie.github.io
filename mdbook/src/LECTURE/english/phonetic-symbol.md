@@ -85,8 +85,8 @@
 * `/e/` egg bed 嘴的大小为两个指头
 * `/ɒ/` hot dog
 
-* `/ə/` asleep awake
-* `/ʌ/` up umbrella
+- `/ə/` asleep awake
+- `/ʌ/` up umbrella
 
 ## 长元音
 
@@ -112,8 +112,8 @@
 * `/eə/` pear chair
 * `/ʊə/` tour sure
 
-* `/əʊ/` coat okay 
-* `/aʊ/` mouse mouth 
+- `/əʊ/` coat okay 
+- `/aʊ/` mouse mouth 
 
 ## 清辅音
 
@@ -126,8 +126,8 @@
 * `/ʃ/` fish
 * `/tʃ/` chair
 
-* `/f/` fat
-* `/θ/` mouth
+- `/f/` fat
+- `/θ/` mouth
 
 ## 浊辅音
 
@@ -148,8 +148,8 @@
 * `/dr/` dress
 * `/ŋ/` sing ink
 
-* `/v/` vet
-* `/ð/` they
+- `/v/` vet
+- `/ð/` they
 
  ## 对比
  
@@ -158,8 +158,8 @@
 * `/f/` fat 咬嘴唇
 * `/v/` vet 咬嘴唇 （`/w/` 不咬嘴唇）
 
-* five `/faɪv/` 咬两次嘴唇
-* Give me five! （Give me five fingers!）`/ɡɪv/ /mi:/ /faɪv/` 咬三次嘴唇
+- five `/faɪv/` 咬两次嘴唇
+- Give me five! （Give me five fingers!）`/ɡɪv/ /mi:/ /faɪv/` 咬三次嘴唇
 
 ### θ ð s z
 
@@ -200,8 +200,8 @@ There are three persons who support the fourth player.
 * Lucy `/'lu:sɪ/` `/'lu: sɪ/` `/lu: 'sɪ/`
 * awake `/ə'weɪk/` `/'əweɪk/` `/'weɪk/` > `/ə'weɪk/`
 
-* [watermelon](https://www.ldoceonline.com/dictionary/watermelon) `/'wɔːtəmelən/` `/'wɔːtəmelən/` 
-* [helicopter](https://www.ldoceonline.com/dictionary/helicopter) `/'helɪkɒptə/` `/'helɪkɒptə/`
+- [watermelon](https://www.ldoceonline.com/dictionary/watermelon) `/'wɔːtəmelən/` `/'wɔːtəmelən/` 
+- [helicopter](https://www.ldoceonline.com/dictionary/helicopter) `/'helɪkɒptə/` `/'helɪkɒptə/`
 
 词典中单词中的小点点一般隔开了不同音节（其实这么说是不严谨的，因为这个小点点是回车的时候做单词拆分用的；但大致上隔开了不同音节）
 
@@ -229,7 +229,6 @@ There are three persons who support the fourth player.
 
 **练习方法**：每天早上或晚上抽出10-15min进行朗读，坚持7天甚至更久，直到自己记住所有的音标（读法和写法）。
 
-持续时间
 ## 2 读音标
 
 **任务**：不用看单词，只看音标，读任意一本英语书的单词表（推荐使用人教版高中英语必修x）。遇到读不出来的词可以听官方的磁带或者在查词软件中播放读音。
