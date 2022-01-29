@@ -20,6 +20,7 @@
         - [7 用VSCode调试Cpp代码](LECTURE/vscode_cpp_macos/7_用VSCode调试Cpp代码.md)
         - [8 课程回顾](LECTURE/vscode_cpp_macos/8_课程回顾.md)
         - [其他](LECTURE/vscode_cpp_macos/9_others.md)
+        - [补充](LECTURE/vscode_cpp_macos/11_补充.md)
         - [极速版](LECTURE/vscode_cpp_macos/10_极速版.md)
     - [在macOS上用VSCode写Python](LECTURE/vscode_python_macos/0_main.md)
     - [英语音标教学](LECTURE/english/phonetic-symbol.md)
