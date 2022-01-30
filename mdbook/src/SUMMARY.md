@@ -67,7 +67,7 @@
     - [C常用函数](BLOG/C/final.md)
     - [C语言知识点](BLOG/C/review.md)
 
-- [Cpp]()
+- [C++]()
     - [1 C++的几个基本问题](BLOG/Cpp/1.md)
     - [2 函数重载](BLOG/Cpp/2.md)
     - [3 类](BLOG/Cpp/3.md)
@@ -89,24 +89,28 @@
 - [Python]()
     - [复制拷贝](BLOG/Python/copy.md)
 
-- [Math]()
+- [数学]()
+    - [Latex简易符号](BLOG/markdown/latex.md)
     - [线性代数笔记](BLOG/math/linear.md)
     - [Gauss公式和Stokes公式](BLOG/math/guass-stokes.md)
     - [常用泰勒级数](BLOG/math/taylor.md)
 
-- [Physics]()
+- [物理]()
     - [电磁学期末复习](BLOG/physics/electromagnetics.md)
 
-- [电子工程]()
+- [电子]()
     - [各种存储器间的关系](BLOG/EE/storage.md)
     - [二阶线性时不变电路](BLOG/EE/rlc.md)
 
 - [其他]()
     - [Markdown语法初学习](BLOG/markdown/grammars.md)
-    - [Latex简易符号](BLOG/markdown/latex.md)
     - [视频信息初探](BLOG/video/info.md)
 
 ---
+
+- [二次元]()
+    - [可爱的二次元女生](NIJIGENN/nijigenn_kawaii.md)
+    - [喜欢的画师](NIJIGENN/sukina_ekaki.md)
 
 - [番]()
     - [番剧评价](ANIME/anime_rating.md))
@@ -116,9 +120,8 @@
 
 ---
 
-- [二次元]()
-    - [可爱的二次元女生](NIJIGENN/nijigenn_kawaii.md)
-    - [喜欢的画师](NIJIGENN/sukina_ekaki.md)
+- [三次元]()
+    - [日记说明与索引](ARTICLES/diary_index.md)
 
 ---
 
