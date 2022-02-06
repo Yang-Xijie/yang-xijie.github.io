@@ -27,6 +27,9 @@
 
 ---
 
+- [OS]()
+    - [rCore学习笔记](BLOG/OS/rcore-learning.md)
+
 - [Xcode]()
     - [Markup Syntax](DEV/Xcode/markup.md)
     - [常用快捷键](DEV/Xcode/shortcuts.md)
