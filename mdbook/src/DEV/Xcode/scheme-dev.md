@@ -21,3 +21,32 @@
 
 〇 5 (Optioinal) 修改app名称
 `Project` -> `Targets` -> `Build Configuration` -> `Packaging` -> `Product Name` -> set `Debug/Dev/Release`
+
+## -DDEV
+
+```sh
+$ swiftc --help | grep -- -D
+-D <value>    Marks a conditional compilation flag as true
+```
+
+```
+$ vim hello.swift
+```
+
+```swift
+#if DEV
+print("Hello, developer!")
+#else
+print("Hello!")
+#endif
+```
+
+```sh
+$ swiftc hello.swift
+$ ./hello
+Hello!
+
+$ swiftc hello.swift -DDEV
+$ ./hello
+Hello, developer!
+```
