@@ -62,6 +62,7 @@
     - [辅助功能缩放](BLOG/macOS/zoom.md)
     - [Mac与Android的文件传输](LECTURE/sharing_mac_android/0_main.md)
     - [MAD制作流程](BLOG/macOS/mad.md)
+    - [OBS开直播](BLOG/macOS/stream.md)
 
 - [Linux]()
     - [vim笔记](BLOG/Linux/vim.md)
