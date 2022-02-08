@@ -46,6 +46,9 @@
 # [Xcode 13 Missing Info.plist](https://useyourloaf.com/blog/xcode-13-missing-info.plist/)
 # [Info.plist Is Missing in Xcode 13 — Here’s How To Get It Back](https://betterprogramming.pub/info-plist-is-missing-in-xcode-13-heres-how-to-get-it-back-1a7abf3e2514)
 
+# [Author]
+# [Yang-Xijie](https://github.com/Yang-Xijie)
+
 git=$(sh /etc/profile; which git)
 number_of_commits=$("$git" rev-list HEAD --count)
 git_release_version=$("$git" describe --tags --always --abbrev=0)\
