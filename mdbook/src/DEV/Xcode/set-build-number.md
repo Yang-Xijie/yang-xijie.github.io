@@ -4,6 +4,10 @@
 > 
 > 220125
 
+For `Xcode 13` or later:
+
+<https://useyourloaf.com/blog/xcode-13-missing-info.plist/>
+
 ```shell
 #!/bin/sh
 
