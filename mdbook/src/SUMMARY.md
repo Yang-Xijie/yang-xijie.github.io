@@ -44,7 +44,7 @@
 - [Swift]()
     - [并行计算](DEV/Swift/parallel.md)
     - [Swift教学作业](DEV/Swift/hw.md)
-    - [Language Guide (TODO)](DEV/Swift/guide.md)
+    - [Language Guide TODO](DEV/Swift/guide.md)
 
 - [SwiftUI]()
     - [Data Essentials](DEV/SwiftUI/data-essentials.md)
@@ -125,7 +125,7 @@
 ---
 
 - [三次元]()
-    - [日记说明与索引 TODO](ARTICLES/diary_index.md)
+    - [日记说明与索引](ARTICLES/diary_index.md)
 
 ---
 

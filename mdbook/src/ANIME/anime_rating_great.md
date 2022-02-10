@@ -4,7 +4,7 @@
   - [A Channel](#a-channel)
   - [AIURA](#aiura)
   - [Charlotte](#charlotte)
-  - [NEW GAME S1](#new-game-s1)
+  - [NEW GAME! S1](#new-game-s1)
   - [Slow Start](#slow-start)
   - [Tari Tari](#tari-tari)
   - [一起一起这里那里](#一起一起这里那里)
@@ -42,7 +42,7 @@
 
 
 
-## NEW GAME S1
+## NEW GAME! S1
 
 
 
@@ -139,3 +139,5 @@
 
 
 ## 龙与虎
+
+
