@@ -24,6 +24,8 @@
 
 ## -DDEV
 
+[Bilibili |【Swift】swiftc -D参数 使用指南](https://www.bilibili.com/video/BV1Au41197qG)
+
 ```sh
 $ swiftc --help | grep -- -D
 -D <value>    Marks a conditional compilation flag as true

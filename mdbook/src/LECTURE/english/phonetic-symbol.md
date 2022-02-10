@@ -7,6 +7,12 @@
 > 创建日期：220125
 > 
 > 更新日期：220125
+> 
+> - [Bilibili | 脚踏实地教你掌握英语音标 1 为什么要学音标](https://www.bilibili.com/video/BV1zu41117pX)
+> - [Bilibili | 脚踏实地教你掌握英语音标 2 音标基础](https://www.bilibili.com/video/BV1z3411h71d)
+> - [Bilibili | 脚踏实地教你掌握英语音标 3 音标练习](https://www.bilibili.com/video/BV1r3411h7kf)
+> - [Bilibili | 脚踏实地教你掌握英语音标 4 音标与单词拼写的联系](https://www.bilibili.com/video/BV1GL4y1t7SK)
+> - [Bilibili | 脚踏实地教你掌握英语音标 5 作业](https://www.bilibili.com/video/BV1nr4y1e7VP)
 
 - [英语音标教学](#英语音标教学)
 - [英语和音标](#英语和音标)

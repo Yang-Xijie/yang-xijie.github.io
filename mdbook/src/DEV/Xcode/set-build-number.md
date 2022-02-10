@@ -3,6 +3,8 @@
 > Author: [Yang-Xijie](https://github.com/Yang-Xijie)
 > 
 > Updated in 220208 for Xcode 13.
+> 
+> [Bilibili |【Xcode】Version & Build Number](https://www.bilibili.com/video/BV1bL4y1375M)
 
 ```sh
 #!/bin/sh
