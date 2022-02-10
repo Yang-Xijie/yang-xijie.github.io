@@ -10,6 +10,7 @@
   - [たんたんめん](#たんたんめん)
   - [しぐれうい](#しぐれうい)
   - [いちはや](#いちはや)
+  - [rurudo](#rurudo)
 
 ## たんたんめん
 
@@ -46,3 +47,7 @@
 [Skeb](https://skeb.jp/@NVHhD7tkDr)
 
 [Fantia](https://fantia.jp/fanclubs/3743)
+
+## rurudo
+
+喜欢的是るるちゃん，画的画不是我的菜
