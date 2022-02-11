@@ -53,7 +53,7 @@
     - [纯代码创建项目](DEV/AppKit/programmatically.md)
 
 - [Network]()
-    - [GraphQL Hasura](DEV/network/graphql.md)
+    - [GraphQL Hasura](DEV/Network/graphql.md)
 
 ---
 
