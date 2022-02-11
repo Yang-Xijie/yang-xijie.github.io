@@ -1,4 +1,4 @@
-# vim学习笔记
+# Vim 学习笔记
 
 > Author: 杨希杰 [Yang Xijie](https://github.com/Yang-Xijie)
 > 
@@ -6,7 +6,7 @@
 > 
 > Notes: 记录了vim一些简单实用的操作
 
-- [vim学习笔记](#vim学习笔记)
+- [Vim 学习笔记](#vim-学习笔记)
   - [基本](#基本)
   - [移动](#移动)
     - [移动页面](#移动页面)
