@@ -24,8 +24,13 @@ Tab替换为4个空格
 ### 文章级
 
 标题 # ## ### 可以无限下去
-目录 ===toc=== or ===toc
-分割线 ===sep=== or ===sep or ===
+目录 ---toc--- or ---toc
+分割线 ---sep--- or ---sep or ---
+文章属性
+[[info
+author: xxx
+tags: xxx, xxx
+]]
 
 ### 块级
 
@@ -35,12 +40,13 @@ content
 
 #### 属性
 
-块代码 空白则渲染为空 code; code language 其中内容不作ExMark渲染
+块代码 空白则渲染为空 code; code language; code language number(-n) 其中内容不作ExMark渲染
 块公式 math
-无序列表 有序列表 任务列表 list; list number; list task 用4个空格的缩进来区分层级
-表格 table; table noheader 表中用|隔开即可, title xxx 列可以设置对齐 left center right
-提示和警告等预设
+无序列表 有序列表 任务列表 list; list number(-n); list task 用4个空格的缩进来区分层级
+表格 table; table noheader 表中用|隔开即可, title xxx 列可以设置对齐 left center right; table csv
 引用 quote
+(提示和警告等预设)
+段落 剩下的都是段落
 
 块标题 title xxx
 块说明 caption xxx

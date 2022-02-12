@@ -113,7 +113,7 @@
 - [Markdown]()
     - [Markdown语法初学习](BLOG/markdown/grammars.md)
     - [Latex简易符号](BLOG/markdown/latex.md)
-    <!-- - [Markdown yxj规范](BLOG/markdown/my-spec.md) -->
+    - [TODO ExMark规范](BLOG/markdown/yxj-spec.txt)
 
 - [其他]()
     - [视频信息初探](BLOG/video/info.md)
