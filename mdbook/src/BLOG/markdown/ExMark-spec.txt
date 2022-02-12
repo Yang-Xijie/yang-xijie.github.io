@@ -1,20 +1,22 @@
 # ExMark
 
+ExMark pronounced [E X mark]
+
 ## 目标
 
 适用于API文档 技术博客 个人文章 的 平文本转格式文本 的 轻量级标记语言，满足 以所写内容为主 平文本能够让人看出格式 的要求。
 
 ## 规定
 
-不考虑换行文本：只要有\n，就算做新的一行
-空行正常渲染为回车
 不支持html的语法嵌入
-行首的空格正常渲染为空格
 专注文章内容而不是格式
 Tab替换为4个空格
+不考虑换行文本：只要有\n，就算做新的一行
+空行正常渲染为回车
 对中文支持良好：逗号区分不同格式可以使用中英文逗号 |可以使用中文竖线
 后缀为.exmark
 解决Markdown不能调整图片大小的问题
+块级均不支持相互嵌套
 
 ## 标准
 
@@ -22,46 +24,52 @@ Tab替换为4个空格
 文段有属性 还有样式
 主要分为文章级，块级，行级
 
-### 文章级
+### 文章级 document level
 
 标题 # ## ### #### ##### ######
+    不渲染 只支持纯文本
 目录 ---toc---
+    由解析软件自动生成
 分割线 ---sep--- or ---
 文章属性
     [[doc
-    author: xxx
+    author: [xxx](link https://xxx)
     tags: xxx, xxx
     ]]
     一篇文章中的第二个会被忽略 
-    内部支持ExMark行内
+    body只支持ExMark行内
+    信息录入到document内 可渲染可不渲染
 
-### 块级 block
+### 块级 block level
 
 [[格式 参数, 格式 参数
 content
 ]]
     从第一个[[开始 如果有不匹配的[[ ]] 匹配到最远的]]
+    所有块 只支持嵌套行内ExMark
 
 #### 属性
 
 块代码 code; code language; code language number(-n)
     空白则渲染为空 
-    其中内容不作ExMark渲染
+    body不渲染
     不可与块公式嵌套
 块公式 math
-    其中内容不作ExMark渲染
+    body不渲染
     不可与块代码嵌套
 
-无序列表 有序列表 list; list order
+无序列表 有序列表 list; list order / 引用 quote
     用4个空格的缩进来区分层级
+    body行内渲染
     可以考虑不同层级的符号如何设置
-引用 quote
-    用4个空格的缩进来区分层级
 表格 table; table noheader, title xxx; table csv
-    表中用|隔开即可
     列可以设置对齐 left center right
+    表条目用 | 隔开即可
+    body行内渲染
+
 段落 paragraph
-    剩下的都是段落
+    剩下的都是普通段落
+    body行内渲染
 
 块标题 title xxx
 块说明 caption xxx
@@ -69,25 +77,36 @@ content
 #### 样式
 
 左对齐 居中 右对齐 left center right
+    默认left
+    因层级有多个属性则按照嵌套内部属性
+    因同级有多个属性则无效
+边框 frame
 
 字号调整 size 2; size 0.5
-    与正文字号的倍数关系
+    与正文字号的绝对倍数关系
     百分数也可以
+    会对所有文段产生影响 除非其中有嵌套指定块/行size
 背景颜色 字颜色 bgcolor 66ccff; color lightblue
 
-### 行级
+### 行级 line level
 
-[content](格式 参数) 这里如果都采用一样的语法其实有点难以用肉眼看出区别 但是这一点可以通过编辑器做到 比如适当调整颜色或字体、大小等
+[content](格式 参数)
+    这里如果都采用一样的语法其实有点难以用肉眼看出区别 但是这一点可以通过编辑器做到 比如适当调整颜色或字体、大小等
 
-行代码 [ ](code) or [ ] or ` `
-    其中内容不做ExMark渲染
-行公式 [ ](math) or $ $
-网页链接 [ ](link https://xxx);
-文件链接 [ ](file absolute_path/ralative_path)
-目录引用 [ ](toc 1.1); [ ](toc 样式-1)
-    本篇文章的序号或者标题名称
+行代码 [ ](code); [ ](code language); [ ]; ` `
+    body不渲染
+行公式 [ ](math); $ $
+
 图片 [alt text](image); [alt text](image, title xxx, caption xxx, size origin/1/0.5/4)
     size origin 表示与图片原始大小相同 倍数表示图片高度相当于多少行
+网页链接 [ ](link https://xxx);
+文件链接 [ ](file absolute_path/ralative_path)
+
+目录引用 [ ](toc 1.1); [ ](toc 样式-1)
+    本篇文章的序号或者标题名称
+位置标记 [ ](anchor unique_id)
+内容跳转 [ ](to unique_id)
+    
 注释 [ ](comment)
     不渲染
 
@@ -96,6 +115,6 @@ content
 粗体 斜体 [](bold) [](italic) [](italic, bold) or ** ** * * __ __ _ _
 
 字号调整 size 2; size 0.5
-    与正文字号的倍数关系
+    与正文字号的绝对倍数关系
     百分数也可以
 背景颜色 字颜色 bgcolor 66ccff; color lightblue
