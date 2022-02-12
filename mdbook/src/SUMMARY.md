@@ -99,7 +99,6 @@
     - [复制拷贝](BLOG/Python/copy.md)
 
 - [数学]()
-    - [Latex简易符号](BLOG/markdown/latex.md)
     - [线性代数笔记](BLOG/math/linear.md)
     - [Gauss公式和Stokes公式](BLOG/math/guass-stokes.md)
     - [常用泰勒级数](BLOG/math/taylor.md)
@@ -111,8 +110,12 @@
     - [各种存储器间的关系](BLOG/EE/storage.md)
     - [二阶线性时不变电路](BLOG/EE/rlc.md)
 
-- [其他]()
+- [Markdown]()
     - [Markdown语法初学习](BLOG/markdown/grammars.md)
+    - [Latex简易符号](BLOG/markdown/latex.md)
+    <!-- - [Markdown yxj规范](BLOG/markdown/my-spec.md) -->
+
+- [其他]()
     - [视频信息初探](BLOG/video/info.md)
 
 ---
