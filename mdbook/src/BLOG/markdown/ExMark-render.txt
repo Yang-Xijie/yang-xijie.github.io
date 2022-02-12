@@ -1,0 +1,17 @@
+# ExMark
+
+[[list
+line parser
+block parser
+body parser
+]]
+
+line parser
+    根据每行开始的符号来确定行作用
+block parser
+    将不同行拼接形成块 主要是对 block_start block_end 之间的 paragraph 进行拼接
+    每个block必须有一个属性
+    注意嵌套
+body parser
+    对行内格式进行解析
+    注意嵌套
