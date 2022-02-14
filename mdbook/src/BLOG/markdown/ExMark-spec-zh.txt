@@ -101,7 +101,7 @@ content
 [content](格式 参数)
     这里如果都采用一样的语法其实有点难以用肉眼看出区别 但是这一点可以通过编辑器做到 比如适当调整颜色或字体、大小等
 
-行代码 [ ](code); [](); [ ](code language); [ ]; ` `
+行代码 [ ](code); ` `
     body不渲染
 行公式 [ ](math); $ $
 
@@ -110,11 +110,11 @@ content
 网页链接 [ ](link https://xxx);
 文件链接 [ ](file absolute_path/ralative_path)
 
-目录引用 [ ](toc 1.1); [ ](toc 样式-1)
+目录引用 [ ](to 1.1); [ ](to 样式-1)
     本篇文章的序号或者标题名称
+    内容跳转 [ ](to unique_id)
 位置标记 [ ](anchor unique_id)
-内容跳转 [ ](to unique_id)
-    
+
 注释 [ ](comment)
     不渲染
 
