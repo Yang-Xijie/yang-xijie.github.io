@@ -126,10 +126,11 @@
 - [喜欢的画师](NIJIGENN/sukina_ekaki.md)
 - [喜欢的画](NIJIGENN/sukina_e.md)
 - [番]()
-    - [番剧评价](ANIME/anime_rating.md))
+    - [番剧评价](ANIME/anime_rating.md)
     - [神作](ANIME/anime_rating_extraordinary.md)
     - [上乘](ANIME/anime_rating_great.md)
     - [好](ANIME/anime_rating_good.md)
+    - [制作公司](ANIME/anime_production.md)
 
 ---
 
