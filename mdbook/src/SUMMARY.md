@@ -61,6 +61,7 @@
 
 - [OS]()
     - [rCore学习笔记](BLOG/OS/rcore-learning.md)
+    - [TODO OS设计](BLOG/OS/os-design.md)
 
 - [macOS]()
     - [使用tree命令和访达进行任务管理](BLOG/macOS/tree.md)
