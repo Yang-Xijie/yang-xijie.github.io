@@ -100,11 +100,13 @@
     - [复制拷贝](BLOG/Python/copy.md)
 
 - [数学]()
+    - [Latex简易符号](BLOG/math/latex.md)
     - [线性代数笔记](BLOG/math/linear.md)
-    - [Gauss公式和Stokes公式](BLOG/math/guass-stokes.md)
     - [常用泰勒级数](BLOG/math/taylor.md)
+    - [最大似然估计](BLOG/math/max-pr.md)
 
 - [物理]()
+    - [Gauss公式和Stokes公式](BLOG/physics/guass-stokes.md)
     - [电磁学期末复习](BLOG/physics/electromagnetics.md)
 
 - [电子]()
@@ -113,8 +115,7 @@
 
 - [Markdown]()
     - [Markdown语法初学习](BLOG/markdown/grammars.md)
-    - [Latex简易符号](BLOG/markdown/latex.md)
-    - [TODO ExMark规范]()
+    - [TODO ExMark规范](BLOG/markdown/ExMark-spec-zh.txt)
 
 - [其他]()
     - [视频信息初探](BLOG/video/info.md)
