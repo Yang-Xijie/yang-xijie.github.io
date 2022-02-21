@@ -144,3 +144,4 @@
 
 - [Support](SITE/postscript/support.md)
 - [About](SITE/postscript/site_build.md)
+- [Test](SITE/test.md)
