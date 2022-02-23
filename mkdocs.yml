@@ -21,9 +21,10 @@ theme:
         icon: material/weather-sunny
         name: 切换至日间模式
   features:
-    - navigation.tabs # tab bars
-    - navigation.top # back to top button
-    - navigation.indexes
+    - navigation.tabs # 使用Tab来进行分类
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
+    - navigation.expand # 打开Tab时左侧目录全部展开
   language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
@@ -165,25 +166,24 @@ nav:
     - 网站构建: MY/build.md
     - 测试: MY/test.md
 
+plugins:
+  - search # 现在还不支持中文搜索 支持之后可以设置语言
+
 markdown_extensions:
   - pymdownx.arithmatex: # latex support
       generic: true
-  - tables
-  - md_in_html
-  - attr_list
+  - attr_list # 给图片后面添{width="300"}
   - toc:
-      permalink: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
+  - pymdownx.superfences # 代码块高亮插件
 
 extra_javascript:
-  - mkdocs/javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-plugins:
-  - search # 现在还不支持中文搜索
+  - mkdocs/javascripts/mathjax.js # latex support
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 # latex support
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # latex support
 
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
