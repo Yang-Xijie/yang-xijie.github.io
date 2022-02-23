@@ -12,11 +12,11 @@ Q(n/N)= P(n/N)/ P(n/N=1/2)
 
 ## 思路与实现
 
-可以得到：$ Q(\frac{n}{N})=\frac{comb(N,\ n)}{comb(N,\ N/2)} $
+可以得到：$Q(\frac{n}{N})=\frac{comb(N,\ n)}{comb(N,\ N/2)}$
 
 但是这个数太大了，要是直接用组合数公式算计算机也吃不消
 
-考虑Stirling公式 $ n ! \approx \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n} $
+考虑Stirling公式 $n ! \approx \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}$
 
 考虑取了对数搞回去，写出如下的 MATLAB 函数`proQ.m`
 

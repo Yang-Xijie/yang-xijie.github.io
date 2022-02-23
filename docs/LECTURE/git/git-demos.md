@@ -280,7 +280,7 @@ Fast-forward
  sayHello.swift | 3 +++
  1 file changed, 3 insertions(+)
  create mode 100644 sayHello.swift
- $ git log
+$ git log
  Untracked files:
 commit e30ff7a9797f9577b056c91cdbc46b37bff71168 (HEAD -> main, sayHello)
 Author: yxj <564197835@qq.com>
