@@ -1,8 +1,8 @@
 # [Project]
-site_name: 杨希杰的个人主页 # top-left corner
+site_name: 杨希杰的个人网站 # top-left corner
 site_url: https://yang-xijie.github.io
 site_author: 杨希杰
-site_description: 杨希杰的个人主页
+site_description: 杨希杰的个人网站
 
 # [top]
 theme:
@@ -23,6 +23,7 @@ theme:
   features:
     - navigation.tabs # tab bars
     - navigation.top # back to top button
+    - navigation.indexes
   language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
@@ -47,12 +48,8 @@ extra:
 
 # [Navigtion]
 nav:
-  - 主页: 
-    - 欢迎: SITE/foreword/site_info.md
-    - 支持: SITE/postscript/support.md
-    - 关于: SITE/postscript/site_build.md
-    - 测试: SITE/test.md
   - 讲稿: 
+    - LECTURE/index.md 
     - Linux: LECTURE/linux/linux.md
     - Markdown: LECTURE/markdown/markdown.md
     - Git: 
@@ -75,6 +72,7 @@ nav:
     - 在macOS上用VSCode写Python: LECTURE/vscode_python_macos/0_main.md
     - 英语音标教学: LECTURE/english/phonetic-symbol.md
   - 博客:
+    - BLOG/index.md
     - OS:
       - TODO rCore笔记: BLOG/OS/rcore-learning.md
       - TODO yxj OS设计: BLOG/OS/os-design.md
@@ -125,6 +123,7 @@ nav:
     - 其他:
       - 视频信息初探: BLOG/video/info.md
   - 开发:
+    - DEV/index.md
     - Xcode:
       - Markup Syntax: DEV/Xcode/markup.md
       - 常用快捷键: DEV/Xcode/shortcuts.md
@@ -145,6 +144,7 @@ nav:
     - Network:
       - GraphQL Hasura: DEV/Network/graphql.md
   - 二次元:
+    - 2/index.md
     - 可爱的二次元女生: 2/nijigenn_kawaii.md
     - 喜欢的画师: 2/sukina_ekaki.md
     - 喜欢的画: 2/sukina_e.md
@@ -155,11 +155,20 @@ nav:
       - 好: 2/ANIME/anime_rating_good.md
       - 制作公司: 2/ANIME/anime_production.md
   - 三次元:
+    - 3/index.md
     - 日记说明与索引: 3/diary_index.md
+  - 我的: 
+    - index.md
+    - 个人账号: MY/accounts.md
+    # - 简历: 
+    - 支持: MY/support.md
+    - 网站构建: MY/build.md
+    - 测试: MY/test.md
 
 markdown_extensions:
   - pymdownx.arithmatex: # latex support
       generic: true
+  - tables
   - md_in_html
   - attr_list
   - toc:

@@ -1,9 +1,5 @@
 # MY SITE
 
-[English README](./README_en.md)
-
-- - -
-
 <https://yang-xijie.github.io>
 
 杨希杰的个人主页。主要放置课程讲稿、博客等。
