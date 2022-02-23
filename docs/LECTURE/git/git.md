@@ -295,7 +295,7 @@ Restore the working tree files with the content from the given tree. If not spec
 Specify the restore location. If neither option is specified, by default the working tree is restored.
 ```
 
-![git restore](../media/git-restore.jpg)
+![git restore](./media/git-restore.jpg)
 
 ##### 案例：关于git restore
 
@@ -317,7 +317,7 @@ git revert <commit> # Git帮你提交
 git revert -n <commit> # -n: --no-commit，自己提交
 ```
 
-![reset --hard vs. revert](../media/git-revert-reset.jpg)
+![reset --hard vs. revert](./media/git-revert-reset.jpg)
 
 两种回退的分析：
 

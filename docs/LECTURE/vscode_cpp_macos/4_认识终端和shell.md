@@ -343,7 +343,7 @@ echo $PATH
 
 终端配置(（拿我自己的电脑说一下事儿）（给出链接大家自己想配可以配置一下）如何配置很漂亮的终端）
 
-<img src="media/16023345749067/16104419908790.jpg" style="zoom:30%"/>
+![](media/16023345749067/16104419908790.jpg){width="300"}
 
 可以参考：
 
@@ -361,7 +361,7 @@ echo $PATH
 
 `man builtins`可以查看shell的所有内建命令
 
-<img src="media/16104420934135/16104423335475.jpg" style="zoom:30%"/>
+![](media/16104420934135/16104423335475.jpg){width="300"}
 
 `man zshbuiltins`可以查看到zsh的所有内建命令。（也可以先`man zsh`，然后在下方找到这个`zshbuiltins`）
 

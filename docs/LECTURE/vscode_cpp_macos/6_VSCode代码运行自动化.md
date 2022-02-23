@@ -108,11 +108,11 @@ g++ say_hi.cpp -o say_hi.out -W -Wall -O2 -std=c++17
 
 原本的快捷键太不顺手了
 
-<img src="media/16104435266580/16107331462916.jpg" style="zoom:20%"/>
+![](media/16104435266580/16107331462916.jpg){width="300"}
 
 修改为：⌘R ⇧⌘R（搜索code run）
 
-<img src="media/my/run_code_shortcuts.png" style="zoom:40%"/>
+![](media/my/run_code_shortcuts.png){width="300"}
 
 ## 最后说几句
 

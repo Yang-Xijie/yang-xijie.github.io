@@ -35,7 +35,7 @@ $\frac{\dot{X}}{\dot{S}}=\frac{\dot{S}_ {X} / \dot{S}}{s^{2}+2 \xi \omega_{0} s+
 
 ## 求解方法：待定系数法
 
-$x(t)=x_{\infty}(t)+\left\{\begin{array}{lr}A e^{\lambda_{1} t}+B e^{\lambda_{2} t} & \xi>1 \\\\ A e^{-\omega_{0} t}+B t e^{-\omega_{0} t} & \xi=1 \\\\ e^{-\xi \omega_{0} t}\left(A \cos \sqrt{1-\xi^{2}} \omega_{0} t+B \sin \sqrt{1-\xi^{2}} \omega_{0} t\right) & 0<\xi<1\end{array}\right.$
+$x(t)=x_{\infty}(t)+\left\{\begin{array}{lr}A e^{\lambda_{1} t}+B e^{\lambda_{2} t} & \xi>1 \\ A e^{-\omega_{0} t}+B t e^{-\omega_{0} t} & \xi=1 \\ e^{-\xi \omega_{0} t}\left(A \cos \sqrt{1-\xi^{2}} \omega_{0} t+B \sin \sqrt{1-\xi^{2}} \omega_{0} t\right) & 0<\xi<1\end{array}\right.$
 
 其中：$\lambda_{1,2}=\left(-\xi \pm \sqrt{1-\xi^{2}}\right) \omega_{0}$；A、B为待定系数，由电路初始状态$x(0^+)\ \frac{d}{dt}x(0^+)$决定
 

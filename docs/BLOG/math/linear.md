@@ -22,7 +22,7 @@
 
 ### 列向量
 
-\\[
+$$
 \boldsymbol{a}=
 \begin{pmatrix}
 a_1 \\
@@ -30,7 +30,7 @@ a_2 \\
 \vdots \\
 a_n
 \end{pmatrix}
-\\]
+$$
 
 其中 $a_i$ 为向量 $\boldsymbol{a}$ 的第 $i$ 个分量
 
@@ -327,11 +327,11 @@ $\Longrightarrow \hat{\boldsymbol x}$ 是 $A^TA \boldsymbol x=A^T \boldsymbol v$
 
 ### 正交化过程
 
-\\[
+$$
 \boldsymbol w_1=\boldsymbol v_1 \\
 \boldsymbol w_2=\boldsymbol v_2-\frac{{\boldsymbol w_1}^T \boldsymbol v_2}{{\boldsymbol w_1}^T \boldsymbol w_1}\boldsymbol w_1 \\
 \boldsymbol w_3=\boldsymbol v_3-\frac{{\boldsymbol w_1}^T \boldsymbol v_3}{{\boldsymbol w_1}^T \boldsymbol w_1}\boldsymbol w_1-\frac{{\boldsymbol w_2}^T \boldsymbol v_3}{{\boldsymbol w_2}^T \boldsymbol w_2}\boldsymbol w_2
-\\]
+$$
 
 再进行单位化 $\boldsymbol q_i=\frac{\boldsymbol w_i}{\left \| \boldsymbol w_i \right \|}$
 
@@ -339,15 +339,15 @@ $\Longrightarrow \hat{\boldsymbol x}$ 是 $A^TA \boldsymbol x=A^T \boldsymbol v$
 
 举例:
 
-\\[
+$$
 A=(\boldsymbol v_1,\boldsymbol v_2, \boldsymbol v_3)=\begin{pmatrix}1&1&0 \\ 1&0&1 \\ 0&1&1 \end{pmatrix}
-\\]
+$$
 
-\\[
+$$
 A=QR=\begin{pmatrix} \frac{1}{\sqrt 2}&\frac{1}{\sqrt 6}&-\frac{1}{\sqrt 3} \\
 \frac{1}{\sqrt 2}&-\frac{1}{\sqrt 6}&\frac{1}{\sqrt 3}\\0&\frac{2}{\sqrt 6}&\frac{1}{\sqrt 3} \end{pmatrix}\begin{pmatrix} \frac{2}{\sqrt 2}&\frac{1}{\sqrt 2}&\frac{1}{\sqrt 2} \\
 0&\frac{3}{\sqrt 6}&\frac{1}{\sqrt 6}\\0&0&\frac{2}{\sqrt 3} \end{pmatrix}
-\\]
+$$
 
 $R$ 是对角元为正数的上三角矩阵
 
@@ -395,7 +395,7 @@ $$ \det A=|{a_{ij}}|_ {n\times n}=a_ {i1}C_ {i1}+a_{i2}C_{i2}+\cdots+a_{in}C_{in
 
 ### n 阶范德蒙德行列式
 
-\\[ 
+$$ 
 D_{n}=\left|\begin{array}{ccccc}
 1 & 1 & 1 & \cdots & 1 \\
 x_{1} & x_{2} & x_{3} & \cdots & x_{n} \\
@@ -403,7 +403,7 @@ x_{1}^{2} & x_{2}^{2} & x_{3}^{2} & \cdots & x_{n}^{2} \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
 x_{1}^{n-1} & x_{2}^{n-1} & x_{3}^{n-1} & \cdots & x_{n}^{n-1}
 \end{array}\right|=\prod_{1 \leq i<j \leq n}\left(x_{j}-x_{i}\right)
-\\]
+$$
 
 ## 18 Cramer 法则及行列式的几何意义
 
@@ -420,14 +420,14 @@ $$
 
 下面的矩阵称为 $A$ 的伴随矩阵
 
-\\[
+$$
 A^*=adj(A)=\left(\begin{array}{cccc}
 C_{11} & C_{21} & \cdots & C_{n 1} \\
 C_{12} & C_{22} & \cdots & C_{n 2} \\
 \vdots & \vdots & & \vdots \\
 C_{1 n} & C_{2 n} & \cdots & C_{n n}
 \end{array}\right)
-\\]
+$$
 
 $(A^*)^T$:$A$ 的代数余子式矩阵
 
@@ -441,9 +441,9 @@ $A^{-1}=\frac{adj(A)}{|A|}$
 
 定理 (Cramer's Rule): 设 $A$ 是 $n$ 阶可逆阵,$\boldsymbol b \in \mathbb{R}^{n}$, 令 $B_{k}$ 是将 $A$ 的 第 $k$ 列换成向量 $\boldsymbol b$ 后所得的矩阵. 则 $A \boldsymbol {x}=\boldsymbol {b}$ 的唯一解为
 
-\\[
+$$
 \boldsymbol {x}=\left(x_{1}, \cdots, x_{n}\right)^{T}, \quad x_{1}=\frac{\operatorname{det}\left(B_{1}\right)}{\operatorname{det} A}, \cdots, x_{n}=\frac{\operatorname{det}\left(B_{n}\right)}{\operatorname{det} A}
-\\]
+$$
 
 ### 向量的叉积 / 外积
 
@@ -480,7 +480,7 @@ $\prod_{i=1}^n=\det A$
 ## 20 矩阵的对角化
 
 设 $n\times n$ 矩阵 $A$ 有 $n$ 个线性无关的特征向量 $\boldsymbol x_1 ,\boldsymbol x_2,\cdots, \boldsymbol x_n, A \boldsymbol x_i=\lambda_i \boldsymbol x_i$, 令 $S=(\boldsymbol x_1 ,\boldsymbol x_2,\cdots, \boldsymbol x_n)$, 则 $S^{-1}AS$ 是一个对角矩阵 $\Lambda$, 其对角元素是 $A$ 的特征值
-\\[S^{-1}AS=\Lambda=\begin{pmatrix}\lambda_1& & \\ & \ddots& \\ & &\lambda_n\end{pmatrix}\\]
+$$S^{-1}AS=\Lambda=\begin{pmatrix}\lambda_1& & \\ & \ddots& \\ & &\lambda_n\end{pmatrix}$$
 
 若存在可逆矩阵 $S$, 使得 $S^{-1}AS$ 为对角矩阵, 则称矩阵 $A$ 是可对角化的
 
@@ -553,9 +553,9 @@ $$
 
 设 $A$ 是一个 $n$ 阶实对称矩阵, 则存在正交变量代换 $\mathbf x = Q\mathbf y$, 使得二次型
 
-\\[
+$$
 \mathbf{x}^{T} A \mathbf{x}=\mathbf{y}^{T} \Lambda \mathbf{y}=\sum_{i=1}^{n} \lambda_{i} y_{i}^{2}
-\\]
+$$
 
 变为对角形的二次型, 其中 $Q^{T} A Q=\Lambda=\operatorname{diag}\left(\lambda_{1}, \cdots, \lambda_{n}\right)$, $\lambda_{1}, \cdots, \lambda_{n}$ 为 $A$ 的所有特征值.
 
@@ -582,9 +582,9 @@ $$
 
 设 $A$ 是一个 $m\times n$ 矩阵, 则存在 $m$ 阶正交矩阵 $U$ 和 $n$ 阶正交矩阵 $V$, 满足:
 
-\\[
+$$
 A=U\begin{pmatrix}\sigma_1&&&\\&\ddots&&\\&&\sigma_2&\\&&&\boldsymbol 0\end{pmatrix}V^T=U\Sigma V^T
-\\]
+$$
 
 其中 $r=rank(A)$. 习惯上, 取 $\sigma_1≥\sigma_2≥\cdots≥\sigma_r≥0$, 称 $\sigma_1, \sigma_2 ,\cdots,\sigma_r$ 为奇异值, 称 $U$ 和 $V$ 的前 $r$ 列向量为奇异向量. 这个分解称为奇异值分解, 简称 $SVD$.
 
@@ -617,9 +617,9 @@ $T(\boldsymbol x+ \boldsymbol y)=T(\boldsymbol x)+T(\boldsymbol y),\ T(k \boldsy
 
 定义: 设 $\tau \in \mathcal{L}(U, V), \sigma \in \mathcal{L}(V, W) .$ 定义线性变换的乘积 $\sigma \tau: U \rightarrow W$ 为:
 
-\\[ 
+$$ 
 (\sigma \tau)(\mathbf{u})=\sigma(\tau(\mathbf{u})), \quad \forall \mathbf{u} \in U
-\\]
+$$
 
 直接验证得 $\sigma \tau \in \mathcal{L}(U, W)$
 

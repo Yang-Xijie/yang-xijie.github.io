@@ -200,7 +200,7 @@ The `launch.json` file is used to configure the debugger in Visual Studio Code.
 
 ### Other two choices
 
-<img src="media/16104430276312/16107072035683.jpg" style="zoom:30%"/>
+![](media/16104430276312/16107072035683.jpg){width="300"}
 
 ### 总结
 
@@ -278,7 +278,7 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 [GitHub issue｜VS Code因权限无法打开系统终端](https://github.com/microsoft/vscode-cpptools/issues/5079)（大概`1/2`的地方）
 
-<img src="media/16104430276312/16107361192670.jpg" style="zoom:30%"/>
+![](media/16104430276312/16107361192670.jpg){width="300"}
 
 回到`tasks.json` ⇧⌘P调出`VS Code`的命令窗口，搜索`task`，点击`Tasks: Run Task`，选择`Open Terminal.app`；给`VS Code`打开终端的权限，解决问题
 
@@ -302,7 +302,7 @@ int main() { printf("\n\nHello, world!\n\n"); }
 
 [VS Code官方文档｜Configuring C/C++ debugging之externalConsole](https://code.visualstudio.com/docs/cpp/launch-json-reference#_externalconsole)
 
-<img src="media/16013676677088/16015722057456.jpg" style="zoom:30%"/>
+![](media/16013676677088/16015722057456.jpg){width="300"}
 
 ### 调试举例
 
@@ -319,7 +319,7 @@ int main() { printf("Addition = %d\n", fourSum(1, 2, 3, 4)); }
 
 ### 其他调试技巧
 
-<img src="media/16104430276312/16107116310057.jpg" style="zoom:30%"/>
+![](media/16104430276312/16107116310057.jpg){width="300"}
 
 大家自己体验一下，我就不做过多的解释了。
 

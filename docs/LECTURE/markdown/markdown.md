@@ -243,10 +243,10 @@ Content in the first column | Content in the second column
 我们在插入链接的时候，会使用：
 
 ```
-[Google](www.google.com) is your best friend!
+[Google](https://www.google.com) is your best friend!
 ```
 
-[Google](www.google.com) is your best friend!
+[Google](https://www.google.com) is your best friend!
 
 方括号里面放你要呈现的名字，圆括号里面放网页的链接。
 

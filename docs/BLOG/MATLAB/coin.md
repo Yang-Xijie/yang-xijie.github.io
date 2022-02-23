@@ -8,15 +8,15 @@
 
 Q(n/N)= P(n/N)/ P(n/N=1/2)
 
-以n/N为横轴,Q为纵轴为作Q(n/N)~ n/N曲线图, 分别取 \\(N=10^4, 10^6, 10^8\\)，电脑画图.所有的图取同一尺度,比较对照后, 你能得出什么结论? 
+以n/N为横轴,Q为纵轴为作Q(n/N)~ n/N曲线图, 分别取 $N=10^4, 10^6, 10^8$，电脑画图.所有的图取同一尺度,比较对照后, 你能得出什么结论? 
 
 ## 思路与实现
 
-可以得到：\\( Q(\frac{n}{N})=\frac{comb(N,\ n)}{comb(N,\ N/2)} \\)
+可以得到：$ Q(\frac{n}{N})=\frac{comb(N,\ n)}{comb(N,\ N/2)} $
 
 但是这个数太大了，要是直接用组合数公式算计算机也吃不消
 
-考虑Stirling公式 \\( n ! \approx \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n} \\)
+考虑Stirling公式 $ n ! \approx \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n} $
 
 考虑取了对数搞回去，写出如下的 MATLAB 函数`proQ.m`
 
