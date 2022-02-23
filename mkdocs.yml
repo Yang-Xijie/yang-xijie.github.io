@@ -1,14 +1,53 @@
-site_name: yang-xijie.github.io
+# [Project]
+site_name: 杨希杰的个人主页 # top-left corner
+site_url: https://yang-xijie.github.io
+site_author: 杨希杰
+site_description: 杨希杰的个人主页
 
+# [top]
 theme:
   name: material
+  palette: 
+    - scheme: default # light mode
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: 切换至夜间模式
+    - scheme: slate # dark mode
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
   features:
-    - navigation.tabs
+    - navigation.tabs # tab bars
+    - navigation.top # back to top button
+  language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io
-repo_name: Yang-Xijie
+  static_templates:
+    - SITE/forward/site_info.md
+edit_uri: edit/main/docs # edit buttons
 
+# [top-right corner]
+repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io 
+repo_name: yang-xijie.github.io
+
+# [bottom-left corner]
+copyright: Copyright &copy; 2022 杨希杰
+
+# [bottom-right corner]
+extra:
+  social: # icons
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/24502827
+      name: Bilibili | 我不是小杰
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yang-Xijie
+      name: GitHub | Yang-Xijie
+
+# [Navigtion]
 nav:
   - 主页: 
     - 欢迎: SITE/foreword/site_info.md
@@ -121,7 +160,7 @@ nav:
     - 日记说明与索引: 3/diary_index.md
 
 markdown_extensions:
-  - pymdownx.arithmatex:
+  - pymdownx.arithmatex: # latex support
       generic: true
   - md_in_html
   - attr_list
@@ -135,3 +174,6 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search # 现在还不支持中文搜索
