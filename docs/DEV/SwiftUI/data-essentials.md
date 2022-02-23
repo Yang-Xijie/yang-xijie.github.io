@@ -1,6 +1,6 @@
 # Apple Developer Notes | Data Essentials in SwiftUI
 
-# Instantiate a Model Object in a View
+## Instantiate a Model Object in a View
 
 Connect `data to show in views` with `data defined in Model`.
 
@@ -32,7 +32,7 @@ struct BookView: View {
 }
 ```
 
-# Share an Object Throughout the App
+## Share an Object Throughout the App
 
 Save your time to pass arguments again and again if there are plenty of layers.
 
@@ -58,7 +58,7 @@ struct LibraryView: View {
 }
 ```
 
-# Manage Mutable Values
+## Manage Mutable Values
 
 〇 当层View中需要更改的值定义为`@State var`(因为要保存这个值，而不是每次refresh UI的时候值都回到初始值)
 
@@ -100,7 +100,7 @@ struct PlayButton: View {
 }
 ```
 
-# References
+## References
 
 〇 Main
 

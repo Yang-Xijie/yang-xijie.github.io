@@ -1,7 +1,5 @@
 # Self-defined Shortcuts by Yang-Xijie - Programming in IDE
 
-[toc]
-
 ## Common
 
 * Copy `⌘C`

@@ -1,14 +1,6 @@
 # ExNotes Considerations and Learning
 
-- [ExNotes Considerations and Learning](#exnotes-considerations-and-learning)
-- [Metal](#metal)
-  - [Notability](#notability)
-- [Apple Pencil](#apple-pencil)
-  - [PencilKit](#pencilkit)
-- [Stroke](#stroke)
-  - [stroke](#stroke-1)
-
-# Metal
+## Metal
 
 * <https://donaldpinckney.com/metal/2018/07/05/metal-intro-1.html#what-is-metal-and-why-use-it>
     * This blog clearly teach you to use Metal to draw a triangle on you screen step by step. really recommended
@@ -28,7 +20,7 @@ Google搜索`apple pencil metal`，看到这个链接<https://apps.apple.com/us/
 
 freshly rewritten in Metal，说明还是得使用底层的渲染框架来做到无延时。也就是WWDC19: Introducing to the PencilKit所说的步骤。
 
-# Apple Pencil
+## Apple Pencil
 
 * [WWDC19 | Introducing PencilKit](https://developer.apple.com/wwdc19/221)
     * The first xx minutes shows that you should using Metal and series of techs to lower the latency. It tells you how to exert full ability of Apple Pencil.
@@ -58,7 +50,7 @@ canvas.tool = PKInkingTool(.pen, color: .black, width: 20)
 
 但个人使用感觉很难用。默认的书写工具只提供`.pen`和`.pencil`，压感不强，书写形式较单一。而且由于使用了ML来预测笔画，书写提速时会发生画面抖动厉害的情况（不如不降低延迟）。即使是2020年引入了新的一些方法，我仍然不愿意使用PencilKit进行开发。
 
-# Stroke
+## Stroke
 
 * https://stackoverflow.com/a/42891040/14298786
     * use vectors
@@ -80,6 +72,7 @@ canvas.tool = PKInkingTool(.pen, color: .black, width: 20)
 Maybe you could raymarch a surface in a pixel shader. You could render a bounding geometry using triangles just to limit the number of pixels running the shader. That's done somewhat often for 2D curves, but I've not seen it done for 3D curved surfaces besides https://blog.demofox.org/2016/12/16/analyticsurfacesvolumesgpu/
 
 SDF
+
 * https://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm
 * https://www.labri.fr/perso/nrougier/python-opengl/#distance-based-anti-aliasing
 
@@ -95,6 +88,7 @@ SDF
 * 看一下PDF的标准，基本上和PDF一致吧
 
 画一笔的过程：
+
 * Pencil挨到屏幕，数据采集开始，收到第一个点，存储第一个点；
 * Pencil开始滑动，收到第二个点；
 * Pencil继续滑动，收到第三个点；

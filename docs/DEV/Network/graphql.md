@@ -10,11 +10,11 @@
   - [GraphQL Server｜Hasura + Databse](#graphql-serverhasura--databse)
   - [对象存储服务](#对象存储服务)
   - [登录验证](#登录验证)
-- [Hasura Tutorial](#hasura-tutorial)
-  - [Introduction to GraphQL](#introduction-to-graphql)
-  - [Frontend GraphQL Tutorial](#frontend-graphql-tutorial)
-  - [Hasura Tutorials](#hasura-tutorials)
-  - [Sample Apps](#sample-apps)
+  - [Hasura Tutorial](#hasura-tutorial)
+    - [Introduction to GraphQL](#introduction-to-graphql)
+    - [Frontend GraphQL Tutorial](#frontend-graphql-tutorial)
+    - [Hasura Tutorials](#hasura-tutorials)
+    - [Sample Apps](#sample-apps)
 
 ## GraphQL
 
@@ -103,25 +103,25 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 
 token、jwt需要去了解一下，密码加盐如何前后端中分别实现？
 
-# Hasura Tutorial
+## Hasura Tutorial
 
 [Hasura | Tutorial](https://hasura.io/learn/)
 * 一条龙的教程资源整合。非常详细的文档。总之就是非常推荐
 * [GitHub｜Hasura | Tutorials](https://github.com/hasura/learn-graphql)
     * 所有教程代码的存放仓库
 
-## Introduction to GraphQL
+### Introduction to GraphQL
 
 [Hasura Tutorial｜GraphQL intro](https://hasura.io/learn/graphql/intro-graphql/introduction/)
 * **IMPORTANT**
 * `GraphQL`简介，包括：`GraphQL`是什么，`GraphQL`与`REST`的区别，`GraphQL`中的核心概念和术语，`GraphQL`三种请求数据的方式，`GraphQL Clients`和`GraphQL Servers`
 
-## Frontend GraphQL Tutorial
+### Frontend GraphQL Tutorial
 
 [Hasura Tutorial｜GraphQL Client with iOS](https://hasura.io/learn/graphql/ios/introduction/)
 * **IMPORTANT**
 
-## Hasura Tutorials
+### Hasura Tutorials
 
 [Hasura Tutorial｜Hasura Basics](https://hasura.io/learn/graphql/hasura/introduction/)
 * **IMPORTANT**
@@ -132,7 +132,7 @@ token、jwt需要去了解一下，密码加盐如何前后端中分别实现？
 [Hasura Tutorial｜Hasura Advanced]()
 * **IMPORTANT**
 
-## Sample Apps
+### Sample Apps
 
 [Hasura Tutorial｜WhatsApp Clone](https://whatsapp-clone.demo.hasura.app/sign-in)
 * [GitHub｜whatsapp-clone-typescript-react](https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/whatsapp-clone-typescript-react)

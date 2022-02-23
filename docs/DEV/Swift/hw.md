@@ -6,30 +6,6 @@
 >
 > 作业：[杨希杰](https://github.com/Yang-Xijie)
 
-- [Swift教学课后作业](#swift教学课后作业)
-  - [Introduction](#introduction)
-  - [基础](#基础)
-    - [查文档](#查文档)
-    - [强类型](#强类型)
-    - [可选类型](#可选类型)
-    - [函数](#函数)
-    - [统计各个专业的人数](#统计各个专业的人数)
-  - [进阶](#进阶)
-    - [Error Handling](#error-handling)
-    - [Log()](#log)
-  - [其他](#其他)
-- [答案](#答案)
-  - [基础](#基础-1)
-    - [查文档](#查文档-1)
-    - [强类型](#强类型-1)
-    - [可选类型](#可选类型-1)
-    - [函数](#函数-1)
-    - [统计各个专业的人数](#统计各个专业的人数-1)
-  - [进阶](#进阶-1)
-    - [Error Handling](#error-handling-1)
-    - [Log()](#log-1)
-  - [其他](#其他-1)
-
 ## Introduction
 
 * 基础部分为基本要求，进阶部分可自选；题目前有`Optional`也是选做。
@@ -282,7 +258,9 @@ Try typing `print` and select the code snippet.
 
 〇 （Optional）如果你还没有学习过Git，可以花时间掌握一下这个合作开发的必备工具。社团往期培训课程传送门 [Git基础与进阶](https://www.bilibili.com/video/BV1eh411v7gt)
 
-# 答案
+---
+
+## 答案
 
 ## 基础
 
