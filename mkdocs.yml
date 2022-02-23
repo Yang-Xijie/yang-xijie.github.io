@@ -184,3 +184,6 @@ extra_javascript:
 
 plugins:
   - search # 现在还不支持中文搜索
+
+extra_css:
+  - mkdocs/css/no-footer.css # 不使用底部的翻页
