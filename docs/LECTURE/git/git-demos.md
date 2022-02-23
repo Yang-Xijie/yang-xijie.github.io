@@ -1,33 +1,9 @@
 # Git实例
 
-- [Git实例](#git实例)
-  - [git init/add/status/diff/commit/status/add/commit/log/diff](#git-initaddstatusdiffcommitstatusaddcommitlogdiff)
-    - [初始化仓库](#初始化仓库)
-    - [添加一个文件](#添加一个文件)
-    - [查看状态](#查看状态)
-    - [添加文件到暂存区](#添加文件到暂存区)
-    - [再添加一篇文件](#再添加一篇文件)
-    - [查看状态](#查看状态-1)
-    - [修改文件](#修改文件)
-    - [再次查看状态](#再次查看状态)
-    - [添加gitignore](#添加gitignore)
-    - [提交](#提交)
-    - [查看状态](#查看状态-2)
-    - [添加和提交](#添加和提交)
-    - [查看log](#查看log)
-    - [比较差异](#比较差异)
-  - [git restore](#git-restore)
-  - [git brancn/switch](#git-brancnswitch)
-    - [新建仓库](#新建仓库)
-    - [添加文件在main分支至少有一次commit](#添加文件在main分支至少有一次commit)
-    - [在sayHello分支上写代码](#在sayhello分支上写代码)
-    - [回到main分支进行合并](#回到main分支进行合并)
-    - [在goodMorning分支上写代码](#在goodmorning分支上写代码)
-  - [向GitHub上的开源项目提交代码](#向github上的开源项目提交代码)
- 
 ## git init/add/status/diff/commit/status/add/commit/log/diff
 
 ### 初始化仓库
+
 ```
 $ cd ~/Desktop
 $ mkdir notes
@@ -37,6 +13,7 @@ Initialized empty Git repository in /Users/yangxijie/Desktop/notes/.git/
 ```
 
 ### 添加一个文件
+
 ```
 $ touch markdown_learn.md
 $ vim markdown_learn.md

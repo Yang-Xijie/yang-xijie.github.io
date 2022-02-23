@@ -4,51 +4,13 @@
 
 > [Bilibili视频教程](https://www.bilibili.com/video/BV1jV411j7mz)
 
-- [面向开发的Markdown学习](#面向开发的markdown学习)
-- [表达与说明的方式](#表达与说明的方式)
-  - [Markdown引言](#markdown引言)
-    - [Markdown举例](#markdown举例)
-  - [Markdown语法](#markdown语法)
-    - [具体语法](#具体语法)
-      - [Headers 标题](#headers-标题)
-      - [Emphasis 加粗和斜体](#emphasis-加粗和斜体)
-      - [Lists 列表](#lists-列表)
-        - [Unordered 无序列表](#unordered-无序列表)
-        - [Ordered 有序列表](#ordered-有序列表)
-        - [Task Lists 任务列表](#task-lists-任务列表)
-      - [Links 链接](#links-链接)
-      - [Images 图片](#images-图片)
-      - [Inline Code 行内代码](#inline-code-行内代码)
-      - [Code Block 代码块](#code-block-代码块)
-      - [Blockquotes 引用](#blockquotes-引用)
-      - [Tables 表格](#tables-表格)
-    - [其他GitHub支持的语法](#其他github支持的语法)
-    - [对文件路径的理解](#对文件路径的理解)
-    - [对url资源的理解](#对url资源的理解)
-    - [添加目录](#添加目录)
-    - [其他一些注意事项](#其他一些注意事项)
-  - [Markdown工具介绍](#markdown工具介绍)
-    - [macOS](#macos)
-      - [Typora](#typora)
-      - [VS Code](#vs-code)
-      - [Xcode](#xcode)
-      - [其他](#其他)
-    - [网络平台](#网络平台)
-  - [关于不同风格和扩展的说明](#关于不同风格和扩展的说明)
-  - [Markdown的导出](#markdown的导出)
-  - [Markdown的发布](#markdown的发布)
-  - [文字编辑效率up技巧](#文字编辑效率up技巧)
-- [Homework](#homework)
-  - [Answer](#answer)
-
-
 **说明**：所讲的内容包括但不限于：使用`markdown`的原因、`markdown`基础语法、对`markdown`中路径和互联网资源的理解、`markdown`编写工具、导出、发布……
 
 **面向对象**：需要进行合作编程开发的同学（主要）；没有使用过`markdown`风格写过文字的同学。教程以使用`macOS`的同学为主。
 
 **Lecture特色**：不仅仅讲`markdown`本身，会从`markdown`延伸出去，有一些扩展的内容
 
-# 表达与说明的方式
+## 表达与说明的方式
 我们要给别人说明一样东西、一样事情的时候，往往需要至少一种的表达方式：比如用语言、用文字、用图片、视频、音乐等媒体；或者将它们结合起来，比如`PPT`。
 
 但其实一般来说，更方便的保留和传播的一种方式是文字。但如果只有文字，总是会让人觉得有些索然无味。这时，带格式的文字作为一种增强的表达方式出现了。大家最常用的可能就是`Microsoft Word`。你在`Word`中敲好文字，然后添加一些格式，比如加粗、斜体、居中、设置段落格式、艺术字和颜色调整；这样文字也变得有表现力了起来。
@@ -66,14 +28,14 @@ Hello, world!
 
 那么，这个txt文件其中的内容就是`H`后面跟上`e`再跟上…再跟上一个英文`!`再跟上一个换行符`\n`…再跟上一个中文`！`最后跟上一个文件结束符`EOF`（End of File）。而这些字符都是可以由计算机系统直接读取并且显示出来的，（当然了，本质上这些符号在计算机内还是以`0～1`的形式存储的），因此读取要比`Word`方便（不需要特定的软件）、读取速度要比`Word`快得多；由于其中不带格式，大小也要比`Word`文档小得多。
 
-## Markdown引言
+### Markdown引言
 刚刚我们说了文字是很常见的一种表达方式，用`txt`文件就可以在计算机中方便的呈现文字；我们也说了格式是可以增强文本的表现力的，比如用`Word`给这些文字添加格式。但问题是单单`txt`的表现能力捉急，`Word`中添加格式的操作成本、存储成本都太高了（后面讲`Git`还会说，由于`.docx`文件是二进制文件，其无法用`Git`进行逐行管理），能不能找到二者的平衡呢？
 
 有，这个东西就是`Markdown`。
 
 `Markdown`其实是一种写作风格/方式，我们用这种风格/方式写出来的**纯文本文件**（和`.txt`是一样的）叫做**markdown文件**，一般以`.md`作为文件后缀（而不是`.txt`）。`.md`文件虽然是纯文本，但其中用一些特殊的字符（如`* # [] () …`）给纯文本带来格式（这与`html`文件是相似的，也可以将`markdown`看作是简单的`html`）。这些格式通过某种方式进行渲染（注：渲染：指将计算机中的某些数据呈现在屏幕上）你就可以看到它们代表的格式了！
 
-### Markdown举例
+#### Markdown举例
 说了这么多，我们还没看到过`markdown`文件呢，来看几个例子吧：
 
 〇 （刚刚说到）开发者在写软件说明书的时候会用到`markdown`：
@@ -99,29 +61,29 @@ Hello, world!
 比如`Xcode`支持的`markup`注释风格（类似，换了个名字hh）
 [CSDN｜Swift Markup Formatting Syntax](https://blog.csdn.net/qq_45379253/article/details/113253433)
 
-## Markdown语法
+### Markdown语法
 下面我们来介绍`markdown`文件到底怎么写：
 
 说“语法”什么的有点专业了。刚刚我们说到——`markdown`用一些特殊的字符（如`* # [] () …`）给纯文本带来格式，其实语法指的就是这些规则。那么下面我们就来学习如何用这些特殊符号来在纯文本中表达格式。
 
-### 具体语法
+#### 具体语法
 [GitHub Guides | Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 `markdown`有不少扩展的语法，我们主要学习它最基础的语法，和一些`GitHub`支持的语法，因为我们之后写`markdown`文件可能主要是用来写项目的`README.md`，而这些项目的代码仓库，我们很可能就在`GitHub`存放。
 
-#### Headers 标题
+##### Headers 标题
 `1`～`6`个井号加一个空格再加上标题的名称
 
 ```
-# 一级标题
-## 二级标题
+## 一级标题
+### 二级标题
 ……
 ###### 六级标题
 ```
 
 有的同学可能会问，那七级标题呢？嗯，是没有的。事实上，五级标题和六级标题都很少会用到，这些绝对够用了
 
-#### Emphasis 加粗和斜体
+##### Emphasis 加粗和斜体
 ```
 *This text will be italic*
 _This will also be italic_
@@ -144,8 +106,8 @@ _You **can** combine them_
 
 一般我们单个使用的时候用`*`多一些，但是两种格式组合使用的时候就随意了。
 
-#### Lists 列表
-##### Unordered 无序列表
+##### Lists 列表
+###### Unordered 无序列表
 这里可以缩进的哦
 
 ```
@@ -160,7 +122,7 @@ _You **can** combine them_
   * Item 2a
   * Item 2b
 
-##### Ordered 有序列表
+###### Ordered 有序列表
 这里可以缩进的哦，缩进会重新编号，或者变成小标题（如`1.1` `2.1.3`这样）
 
 ```
@@ -177,7 +139,7 @@ _You **can** combine them_
    1. Item 3a
    2. Item 3b
 
-##### Task Lists 任务列表
+###### Task Lists 任务列表
 ```
 - [x] this is a complete item
 - [ ] this is an incomplete item
@@ -186,7 +148,7 @@ _You **can** combine them_
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
-#### Links 链接
+##### Links 链接
 `[Text](url)`：中括号，后面小括号。小括号里面放链接，中括号里面放说明（必须）；不需要说明的话，可以直接写链接
 
 直接写链接会直接被转换为可以点击的链接；也可以在两侧加上`<`和`>`
@@ -204,7 +166,7 @@ https://github.com
 
 <https://github.com>
 
-#### Images 图片
+##### Images 图片
 `![Text](url)`：感叹号，中括号，小括号。小括号里面放图片链接，中括号里面放图片说明（不必须；写了的话会在图片下方或某处显示说明，当因为某种原因图片无法加载的时候，显示时也会用说明替代图片）
 
 ```
@@ -215,14 +177,14 @@ https://github.com
 
 关于链接我们之后会详细来说。
 
-#### Inline Code 行内代码
+##### Inline Code 行内代码
 ```
 `Swift`中，`var`定义变量，`let`定义常量
 ```
 
 `Swift`中，`var`定义变量，`let`定义常量
 
-#### Code Block 代码块
+##### Code Block 代码块
 用一对三个反撇\`\`\`包裹，在最开始三个反撇后可以加代码的语言名称或简写以在渲染时获得高亮支持。
 
 \`\`\`swift
@@ -241,7 +203,7 @@ print(natural_numbers.capacity)
 
 一般支持的代码高亮会有很多，比如：`shell`、`bash`、`c`、`cpp`、`java`、`objectivec`、`python`、`swift`、`yaml`、`html`、`xml`等
 
-#### Blockquotes 引用
+##### Blockquotes 引用
 ```
 As Tim Cook said:
 
@@ -258,7 +220,7 @@ As Tim Cook said:
 
 我一般会用它来在文章开头写一下文档的更新日期和作者。
 
-#### Tables 表格
+##### Tables 表格
 
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 
@@ -274,10 +236,10 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-### 其他GitHub支持的语法
+#### 其他GitHub支持的语法
 更多`Github`支持的`markdown`语法可以查看[GitHub Guides | Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-### 对文件路径的理解
+#### 对文件路径的理解
 我们在插入链接的时候，会使用：
 
 ```
@@ -303,7 +265,7 @@ Content in the first column | Content in the second column
 点击跳转到这篇markdown的[Intro部分](#intro)
 ```
 
-### 对url资源的理解
+#### 对url资源的理解
 在我们插入图片的时候，我们使用了这样的语法：
 
 ```
@@ -324,12 +286,12 @@ Content in the first column | Content in the second column
 
 有的时候，图片和代码相比起来，是个庞然大物（`1KB` vs `1MB`），这时我们不希望将图片加入到项目中（指不希望项目的体积很大，别人从`GitHub`上下载项目时花的时间过久），可是在项目说明中还需要加入图片进行说明，这时怎么办呢？最简单的，将图片压缩一下（`1MB->100KB`）扔进项目文件夹，这是最省心的…但要是图比较多，一般来说，我们会选择某些厂商的对象存储服务，将这些图片资源放到比如阿里云的服务器上，然后这个服务把图片的网络链接给你，你就可以在`markdown`中使用这个链接了。如果没有那么正式，那么这种服务叫做图床。比如我一直在用的[聚合图床](https://www.superbed.cn)，你把图片丢进去，它帮你将图片转为一个链接。但是使用这种服务也有需要注意的地方，如果运营图床的工作室哪天跑路了，你放进去的图片可能就没了。
 
-### 添加目录
+#### 添加目录
 不少平台都支持使用`[toc]`来添加目录。你只需要输入`[toc]`，平台就会帮你自动渲染生成目录。
 
 但也有一些平台不支持这样，这时你需要使用VS Code中的`Markdown All in One`插件，使用这个插件提供的`自动生成目录`功能来添加目录。
 
-### 其他一些注意事项
+#### 其他一些注意事项
 有的时候你在`markdown`明明换行了，可是上传到`GitHub`上面一看，文字都粘在一起了。这是为什么呢？
 
 英文在分段的时候，不像我们写文章段前空两格，他们会直接在两段之间多空一行。一般的回车只是用来方便阅读，不然一行的内容太长了。
@@ -338,36 +300,36 @@ Content in the first column | Content in the second column
 
 （注：多于2个的连续回车markdown会将它们当作一个回车哦）
 
-## Markdown工具介绍
-### macOS
-#### Typora
+### Markdown工具介绍
+#### macOS
+##### Typora
 [Typora官网](https://www.typora.io)
 
 所见即所得的`markdown`编辑软件，全平台；各种意义上都应该是`markdown`编辑的首选！
 
 主要用来写单独的markdown（比如我今天要写讲稿了，用markdown写的话我就会考虑Typora）；也可以开一个文件夹专门放自己的笔记……
 
-#### VS Code
+##### VS Code
 安装插件`Markdown All in One`，会支持不少快捷操作。
 
 `VS Code`作为程序员中口碑最好的编辑器，写写`markdown`什么的肯定没问题！拖入一个文件夹新建`markdown文件`就可以编辑了！
 
 一般来说，软件开发的项目中，代码都是和`markdown文件`在一起的，以后如果有一些需要在`VS Code`打开的项目，使用`VS Code`编写`README.md`或者其他的`markdown文件`也是很方便的一个选择。
 
-#### Xcode
+##### Xcode
 在`Xcode`中也可以和添加`代码文件`一样添加`markdown文件`。
 
-#### 其他
+##### 其他
 如果你在听了这次lecture之后，打算和我一样以后自己的文稿都用`markdown`来写，那我觉得你可以考虑一些功能更强大的软件。这些软件基本都是付费的，在`App Store`搜索`markdown`就有很多；有些是买断制的，有些是订阅制的；都各自有一些独特的功能，比如发布服务、自动备份、图片上传等等，感兴趣的同学也可以看看知乎等平台的安利文章，自己下载试用版试用。
 
-### 网络平台
+#### 网络平台
 `CSDN`和`简书`支持`Markdown`写作。
 
 `CSDN`对各种语法支持的比较好；`简书`只支持比较基础的`Markdown`语法。
 
 `CSDN`的主要文章都是技术文章；`简书`可能偏杂文多一些，但也有不少质量很高的技术文章。大家以后自己的学习经历、开发笔记也都可以上传到这些平台让更多人看到。
 
-## 关于不同风格和扩展的说明
+### 关于不同风格和扩展的说明
 如果我们只是写简单的`Markdown`文稿，上面的这些语法已经完全够用了。
 
 不过既然能用符号表示格式，那么能不能添加更多的语法进来呢？当然可以，比如在`markdown`里面使用`$y=x^2$`表示这是一个`LaTeX`公式（怎么敲`LaTeX`可以查看我之前整理的[LaTeX整理 | 简易符号 Markdown公式编辑](https://blog.csdn.net/qq_45379253/article/details/105368552)），如果渲染`markdown`的软件支持，那么它就会被显示为$y=x^2$；比如说很多编辑器都支持`[toc]`表示插入全文目录（但可惜的是`GitHub`不支持，一般会用`VS Code`的插件来创建目录）；前面我们讲了表格，语法更多的`markdown`还可以以某种方式设定表格每列的对齐方式；由于`markdown`最终会被渲染为网页（`html文件`），因此你在其中加入`html标签`也是可以的。这些其他的格式大家都可以去`CSDN`搜索`markdown`教程找到，但是在使用的时候也要注意看自己的`markdown`编辑器是不是支持这些语法哦。
@@ -376,7 +338,7 @@ Content in the first column | Content in the second column
 
 还有一点，反斜线还有行内代码可以用来输入可能会被当作`markdown`语法的符号。比如你想在markdown中输入一个星号`*`，可能你一不小心就发现星号被markdown渲染成了格式。这时你可以用行内代码包裹，\`\*\`，或者用反斜线`\*`，这样markdown就不会把这些符号当成格式了。
 
-## Markdown的导出
+### Markdown的导出
 有的时候（大多数时候）我们都需要将自己写的`markdown`发个别人看，这时当然我们希望别人看到的是带格式的，而不是纯文本文件。
 
 如果我们在`GitHub`上上传了`README.md`，那么`GitHub`会帮我们自动把`.md`文件渲染为带格式的网页方便查看。在`CSDN`和`简书`等平台发布也是一样的。
@@ -387,7 +349,7 @@ Content in the first column | Content in the second column
 * 也可以直接导出为`图片`（一些软件支持）；
 * 或者我们还可以导出为`网页`（html），这样对方需要用浏览器才能打开也有些麻烦…不过如果你是导出为网页再部署，那么对方通过链接就可以访问，这就变得很方便了
 
-## Markdown的发布
+### Markdown的发布
 下面的内容有些进阶也没那么重要。我讲这一块呢，是想告诉大家大家现在看到的这份讲稿和这个页面是怎么做出来的。一方面是想让大家了解`markdown文件`发布的过程，另一方面是希望大家学了Git、了解了GitHub之后也能一起修改现在网页上的这些讲稿。
 
 感兴趣的同学可以认真听一下；因为我不会花很多时间在这上面，也希望其他同学听一听：
@@ -420,7 +382,7 @@ mdbook server
 
 那么如何将这个文件夹上传至`GitHub`呢？我们可以将刚刚得到的`book`文件夹上传至`GitHub`，然后开启`GitHub Pages`的服务。但更方便的是，直接把这个文件夹传上去，使用`GitHub Action`将这个文件夹在另一个`Git`分支生成网页，然后用`GitHub Pages`发布出去；这样做的好处是：每次修改上传，发布都是自动的，这样被人看到你的网页/讲稿就总是最新的。如果大家也想帮忙一起建设`THU iOS Club`的`Tutorial`，在学了`Git`之后就可以提`Pull Request`喽！
 
-## 文字编辑效率up技巧
+### 文字编辑效率up技巧
 最后呢，再教大家一些快速写文档的方法。这种方法在macOS上的大多数文字/代码编辑软件上都适用（包括`Xcode`）。
 
 〇 双击选中一个词：这里词指一个中文的词语或者一个英文的单词
@@ -437,7 +399,7 @@ mdbook server
 
 〇 ⌥⌫、⌘⌫；fn⌫：删除词、删除到行首；向后删除 delete；⌘X也是一种删除的方式
 
-# Homework
+## Homework
 〇 （markdown语法：粗体/斜体）
 
 用`markdown`写出带格式的文字：`Hello, world!`其中`Hello`用**粗体**，`world`用*斜体*。
@@ -454,7 +416,7 @@ mdbook server
 
 阅览`Github`支持的`markdown`语法[GitHub Guides | Mastering Markdown](https://guides.github.com/features/mastering-markdown/)，使用删除线语法在右边的文字中只添加符号来表示“Google是你最好的朋友”）：`Baidu Google is your best friend.`（提示：`crossed out`）
 
-## Answer
+### Answer
 〇 （markdown语法：粗体/斜体）
 
 用`markdown`写出带格式的文字：`Hello, world!`其中`Hello`用**粗体**，`world`用*斜体*。
