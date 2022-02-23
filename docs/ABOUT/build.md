@@ -1,21 +1,17 @@
-# Build Site
+# 网站构建
 
-## Intro
+## 介绍
 
-I use [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) to generate this website where I can put my blogs and articles. 
+我使用 [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) 将 `Markdown文件` 渲染为 `HTML网页` 并使用 `GitHub Pages` 进行发布
 
-[Material for MkDocs docs](https://squidfunk.github.io/mkdocs-material/)
+[Material for MkDocs 文档](https://squidfunk.github.io/mkdocs-material/)
 
-## Repository
+## 仓库
 
-The original markdown files, codes and configurations of this site are stored on [my GitHub repository](https://github.com/Yang-Xijie/yang-xijie.github.io). Click to visit it.
+此网站的 Markdown源文件 存储在 [Yang-Xijie/yang-xijie.github.io](https://github.com/Yang-Xijie/yang-xijie.github.io)
 
-[Issues](https://github.com/Yang-Xijie/yang-xijie.github.io/issues) or [Pull requests](https://github.com/Yang-Xijie/yang-xijie.github.io/pulls) are welcome. You could also discuss about something by using the [Discussions](https://github.com/Yang-Xijie/yang-xijie.github.io/discussions) panel on GitHub.
+如果你希望提出一些建议，可以：
 
-## Others
-
-Resize images.
-
-```
-![](image/path){width="300"}
-```
+- 在 [Issues](https://github.com/Yang-Xijie/yang-xijie.github.io/issues)板块 提出问题
+- 在 [Pull requests](https://github.com/Yang-Xijie/yang-xijie.github.io/pulls)板块 修改源文件
+- 点击文章标题右侧的编辑按钮对文章进行修改

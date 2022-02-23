@@ -1,8 +1,8 @@
-# Support Me
+# 支持
 
 ![](./media/頑張ります.png){ width="300" }
 
-请我一杯咖啡吧？Buy me a cup of coffee?
+可以的话 请我喝一杯咖啡吧
 
 **支付宝** **Alipay**
 
