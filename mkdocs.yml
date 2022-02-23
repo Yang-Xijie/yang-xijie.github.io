@@ -1,10 +1,11 @@
-# [Project]
+# [Info]
 site_name: 杨希杰的个人网站 # top-left corner
 site_url: https://yang-xijie.github.io
 site_author: 杨希杰
 site_description: 杨希杰的个人网站
 
-# [top]
+# [UI]
+## [top]
 theme:
   name: material
   palette: 
@@ -29,15 +30,12 @@ theme:
   icon:
     repo: fontawesome/brands/github
 edit_uri: edit/main/docs # edit buttons
-
-# [top-right corner]
+## [top-right corner]
 repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io 
 repo_name: yang-xijie.github.io
-
-# [bottom-left corner]
+## [bottom-left corner]
 copyright: Copyright &copy; 2022 杨希杰
-
-# [bottom-right corner]
+## [bottom-right corner]
 extra:
   social: # icons
     - icon: fontawesome/brands/bilibili
@@ -158,32 +156,29 @@ nav:
   - 三次元:
     - 3/index.md
     - 日记说明与索引: 3/diary_index.md
-  - 我的: 
+  - 关于: 
     - index.md
-    - 个人账号: MY/accounts.md
-    # - 简历: 
-    - 支持: MY/support.md
-    - 网站构建: MY/build.md
-    - 测试: MY/test.md
+    - 网站构建: ABOUT/build.md
+    - 个人账号: ABOUT/accounts.md
+    - 支持: ABOUT/support.md
+    - 测试: ABOUT/test.md
 
+# [Extensions]
 plugins:
   - search # 现在还不支持中文搜索 支持之后可以设置语言
-
 markdown_extensions:
-  - pymdownx.arithmatex: # latex support
+  - pymdownx.arithmatex: # latex支持
       generic: true
-  - attr_list # 给图片后面添{width="300"}
+  - attr_list # 给图片后面添加{width="300"}设置大小
   - toc:
       permalink: true # 固定标题位置为当前位置
   - pymdownx.highlight: # 代码块高亮
-      anchor_linenums: true # 显示行号
-      auto_title: true # 显示编程语言名称
+      # linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
-
 extra_javascript:
-  - mkdocs/javascripts/mathjax.js # latex support
-  - https://polyfill.io/v3/polyfill.min.js?features=es6 # latex support
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # latex support
-
+  - mkdocs/javascripts/mathjax.js # latex支持
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 # latex支持
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # latex支持
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
