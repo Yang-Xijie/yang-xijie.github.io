@@ -385,7 +385,9 @@ $M_{ij}$ 是 $A$ 划去第 $i$ 行第 $j$ 列得到的 $n-1$ 阶矩阵
 
 ### 行列式展开定理
 
-$$ \det A=|{a_{ij}}|_ {n\times n}=a_ {i1}C_ {i1}+a_{i2}C_{i2}+\cdots+a_{in}C_{in},\forall i,j=1,\cdots,n $$
+$$
+\det A=|{a_{ij}}|_ {n\times n}=a_ {i1}C_ {i1}+a_{i2}C_{i2}+\cdots+a_{in}C_{in},\forall i,j=1,\cdots,n
+$$
 
 ### 典型计算方法
 

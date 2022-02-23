@@ -75,6 +75,12 @@ nav:
     - OS:
       - TODO rCore笔记: BLOG/OS/rcore-learning.md
       - TODO yxj OS设计: BLOG/OS/os-design.md
+    - 机器学习:
+      - TODO 动手学深度学习笔记: BLOG/deeplearning/动手学深度学习.md
+    - 日语:
+      - TODO 动词整理: BLOG/japanese/verb-note.md
+      - TODO 形容词整理: BLOG/japanese/adj-note.md
+      - TODO 名词整理: BLOG/japanese/noun-note.md
     - macOS:
       - 使用tree命令和访达进行任务管理: BLOG/macOS/tree.md
       - 辅助功能缩放: BLOG/macOS/zoom.md
