@@ -241,6 +241,7 @@ MyPrint() // 36
 〇 （Optional）尝试如下步骤在`Xcode`中添加`code snippet`：
 
 To create a `code snippet`:
+
 1. Select: print(Log().string + "<\hashinfo\hash>")
 2. Go to `Xcode -> Editor -> Create Code Snippet`.
 3. Change `\hash` to `#`.
@@ -330,6 +331,7 @@ let fruits: [String] = ["apple", "orange", "pear", "pineapple"]
 如果你想直接在大括号中写函数的话，`$0`和`$1`可以分别指代第1个和第2个参数。
 
 答案：
+
 ```swift
 print(fruits.sorted(by: { $0.count > $1.count }))
 ```
@@ -380,6 +382,7 @@ let studentList: [Student] = [
 ```
 
 一种解答：
+
 ```swift
 var studentDict: [Major: [Student]] = [Major.A: [], Major.B: [], Major.C: [], Major.D: []]
 
@@ -551,6 +554,7 @@ public var string: String {
 〇 （Optional）尝试如下步骤在`Xcode`中添加`code snippet`：
 
 To create a `code snippet`:
+
 1. Select: print(Log().string + "<\hashinfo\hash>")
 2. Go to `Xcode -> Editor -> Create Code Snippet`.
 3. Change `\hash` to `#`.

@@ -66,6 +66,7 @@ The Command Line Tools enable UNIX-style development via Terminal by installing 
 安装好后，我们直接编译就好了。可以先执行`which g++`看看`shell`怎么解析这条命令，发现返回了一个路径`/usr/bin/g++`，也就是说，虽然`g++`这个程序在`/usr/bin/g++`，但你用一个单词/命令告诉终端终端就会知道你要执行的程序在这里（与环境变量相关，`/usr/bin`在环境变量中）
 
 编译：执行：
+
 ```bash
 g++ hello_word.cpp
 ```

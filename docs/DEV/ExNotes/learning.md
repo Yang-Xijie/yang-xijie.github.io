@@ -37,6 +37,7 @@ freshly rewritten in Metal，说明还是得使用底层的渲染框架来做到
 ## PencilKit
 
 首先明确Apple推出的PencilKit：
+
 * PencilKit 2019年推出，使用最简单的框架给开发者提供调用Apple Pencil绘图的方法
 * 2020年升级，加入了可以自定义的Stroke。
 
@@ -104,4 +105,5 @@ SDF
     * 在Pencil完成一笔的时候，我们将确定存储的这些数据写入文件，完成一笔的绘制。
 
 渲染过程：
+
 * 差值为曲线即可

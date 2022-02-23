@@ -19,6 +19,7 @@ echo "alias task='cd [dir_TASK] && [dir_TASK]/.tree.py'" >> [file_runcom]
 ```
 
 其中：
+
 - `[dir_git]` -> clone GitHub项目时的目录：`/Users/yangxijie/yxj/CODE/Git`
 - `[dir_TASK]` -> 存放任务的根目录：`/Users/yangxijie/Desktop/TASK`
 - `[file_runcom]` -> shell启动时读取的配置文件：`~/.zshrc`

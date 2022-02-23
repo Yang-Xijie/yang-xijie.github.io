@@ -22,17 +22,21 @@
 **Git**就是这样的一个工具，只不过，我们一般不同它来管理论文，我们会用`Git`来管理项目。什么是项目，软件开发的一堆代码文件合在一起算一个项目，一本大家一起来写教程书算是一个项目……我们用`Git`来对这些项目进行管理、结合代码托管平台（比如`GitHub`），大家一起合作开发，修改代码或文章。
 
 ## Git准备
+
 要学习`Git`，因为`Git`本身就是命令行程序，所以首先是要对`终端`、`Shell`、`命令行`有一些认识和理解。但因为大家之后可能在开发中不会很用到终端这一块，所以这里只会简单讲一些浅显的部分。对于之后要进行网络应用开发的同学，之后应该还会有关于服务器、Linux命令行等的讲解。
 
 ### 认识Mac的文件系统
+
 文件是什么呢？就是存储在硬盘里面的一些东西。我们怎么在Finder里面看到更清楚的看到这些文件呢？我们需要对Finder进行一些设置
 
 #### 对访达进行设置
+
 `Advanced`打开`Show all filename extensions`
 
 `Sidebar`打开`Hard disks`从而看到挂载的磁盘，打开你的家目录（一个房子的图标，我的是`yangxijie`）从而看到家目录
 
 #### 继续调整访达
+
 在菜单栏的`View`里面调整：
 
 ⌘2：按照列表查看
@@ -46,6 +50,7 @@
 ⌘/：打开状态栏
 
 #### 观察根目录/初识目录
+
 什么是根目录？所有的文件和文件夹都存在根目录下。这里根目录就是你的内置硬盘`Macintosh HD`
 
 `Applications`：你安装的应用程序都在这个文件夹
@@ -57,9 +62,11 @@
 `User`：个人的文件就在这里。其中`/User/yangxijie`（或者你的用户名）是你的家目录，也可以直接在边栏点击打开。
 
 ##### 观察树状结构
+
 通过展开、折叠列表了解文件夹间的层级关系
 
 ##### 文件夹路径
+
 观察下方的路径栏，尝试写出当前的路径；知道每个文件夹都有一个路径。
 
 其中：根目录`/` == `Macintosh HD`，家目录`~` == `/Users/yangxijie`（你的用户名）
@@ -67,26 +74,31 @@
 （之后在终端输入带有空格的路径时记得加上双引号…）
 
 ##### 查看文件属性中的路径
+
 ⌘I查看文件属性，尝试写出文件的路径
 
 尝试在某个文件夹中写出文件的相对路径：`.`当前文件夹，`..`上一级文件夹，`...`上上级文件夹
 
 #### 隐藏文件
+
 ⇧⌘. ：显示隐藏文件
 
 `.`开头的文件夹和文件会被隐藏，一些不以`.`开头的文件或文件夹也会被隐藏。这是因为有些文件可能比较繁琐或者对用户来说完全没有用处，或者普通用户对其进行操作比较危险，所以创建这个文件/文件夹的时候就带上了`.`、或者直接由系统将其隐藏将其隐藏不让一般用户看到。
 
 #### 文件名后缀的说明
+
 文件名后缀不过是文件名的一部分，文件名后缀只是为了告诉系统该程序默认由哪个应用程序来打开（`txt` 文本编辑，`jpg` 预览，`mp4` QuickTime Player），一般后缀能标志一个文件的类型
 
 常见纯文本文件的后缀为：无后缀（如一些配置文件`~/.zshrc`），文本文件`<filename>.txt`（一般也会省略`.txt`变为无后缀），markdown风格文件`<filename>.md`……
 
 ### 认识终端、Shell、命令行
+
 软件按照使用方式来分可以分成有`UI`（`User Interface`，用户界面）的图形界面程序，还有没有`UI`的命令行程序。从使用的角度来说，，图形界面应用方便实用，那么为什么一些程序使用命令行呢？因为命令行简洁，开发起来容易，功能多样，和系统的联系较近。
 
 我们今天要学习的`Git`，就是没有`UI`的命令行程序。命令行程序需要借用`终端`和`Shell`来使用，我们下面会先讲一下终端和Shell。
 
 #### 终端和Shell
+
 终端，就是Mac上的`Terminal.app`，或者一些别的终端软件，比如我在用的`iTerm  2.app`。打开终端之后，我们进入的就是`Shell`，`Shell`的作用是将你输入的命令解释并执行。（演示在`iTerm  2.app`终端中⌘D开两个Shell）
 
 ```
@@ -104,6 +116,7 @@ which date
 查看Shell是如何解析这条命令的。也就是说，打开终端，在Shell里面输入命令`date`，Shell会将其解析为`/bin/date`，也就是根目录下`bin/`文件夹下的`date`程序，并且调用这个程序；这个`date`程序的功能就是输出当前的时间。
 
 #### Shell的工作路径
+
 查看命令前面，会有代表当前路径的地方。这说明，每条命令其实都是在某个文件夹下执行的。比如我们执行`mkdir`命令创建一个新的文件夹，`mkdir`会帮助我们在当前目录下创建一个文件夹，名字为`new_folder`。
 
 ```sh
@@ -113,6 +126,7 @@ mkdir new_folder
 使用`pwd`命令可以查看当前的路径。使用`cd`命令可以更改当前的路径。
 
 #### 常用命令
+
 命令后面会加一些参数，比如在`mkdir`后面加要创建的文件夹的名字；命令后面也会加一些选项，比如`--help` `-a`这些。
 
 ```sh
@@ -152,7 +166,9 @@ man <command> # 查看某个程序的帮助 manual
 OK 如果只是学Git，这些绝对够了。如果是要使用终端进行开发工作，这些说实话不怎么够。但我们学这些足够了。
 
 ## Git教程
+
 ### 安装/配置Git
+
 macOS自带Git（也许），我们可以直接使用（什么叫自带呢…相当于Finder、备忘录、日历这些预装软件）。使用下方命令查看Git的版本。
 
 ```
@@ -163,6 +179,7 @@ git version 2.24.3 (Apple Git-128)
 如果无法出现版本号，说明你需要安装`Xcode`或者`Command Line Tools`，安装的时候会顺带安装`Git`。推荐之后打算**学习iOS软件开发的同学**直接从`App Store`安装`Xcode`；Mac存储较小的同学或者之后不打算用`Xcode`的话在Apple Developer下载[Command Line Tools](https://developer.apple.com/download/more/)安装就好。如果希望使用更新版本的`Git`，需要使用`Homebrew`进行安装，这里不多说，因为自带的版本版本已经足够了。
 
 #### 添加Git用户名和邮箱
+
 ```sh
 ## 查看
 git config user.name
@@ -176,7 +193,9 @@ git config --global user.email <your email>
 由于Git会记录你的每一次操作，这些记录里面需要有操作者的信息，你在你的电脑上用，所以需要给你电脑上的Git配置你的名字和email。这里名字就用全名是比较好的，比如`Xijie Yang`这样，也可以用简写，比如`yxj`（并不规范）。这里添加名字和邮箱是方便以后别人看了你写的代码能够找到你…需要写真实的名字和邮箱
 
 ### Git基础
+
 #### 创建版本库
+
 在某个文件夹下执行：
 
 ```
@@ -187,7 +206,9 @@ Initialized empty Git repository in /Users/yangxijie/Desktop/git_notes/.git/
 该文件夹下会多出来一个`.git/`的文件夹，这个文件夹就是Git生成的，存储用来管理这个文件夹内文件的信息。我们在之后是不应该对这个文件夹内的东西做任何更改的。（复习：想要在Finder看到点开头的文件或文件夹，使用快捷键 ⇧⌘.）
 
 #### 工作区、暂存区、本地版本库
+
 ##### 概述
+
 在你执行`git init`的文件夹（存在`.git/`文件夹）中：
 
 工作区（Working Directory）：你在`Finder`/`Xcode`/`VS Code`的侧边栏文件管理器看到的所有文件。这些文件你可以任意修改，或者说，你修改的总是工作区的文件。
@@ -207,6 +228,7 @@ git add <file>
 可以添加文件，也可以添加文件夹。也可以按照通配符来添加。
 
 ##### git commit
+
 讨论：我到底应该什么时候commit？commit最重要的作用是，之后你可以通过某次commit版本号查看或者回到这次commit。一般来说，当你觉得改了一些东西的时候，都可以commit一下。也有不少人觉得应该每改一个文件add一次commit一次。都可以，这个看个人习惯。但是注意不要改了好多才commit，因为这样更改的记录就不是那么清晰了。
 
 
@@ -227,9 +249,11 @@ git commit -m "<message>" --amend
 来修补上一次commit。这样之前的一次commit就会变成你新提交的commit。
 
 ##### git status
+
 查看每个区的状态。
 
 ##### git diff
+
 ```sh
 git diff # worktree & stage (Changes in the working tree not yet staged for the next commit.)
 git diff HEAD # worktree & HEAD (Changes in the working tree since your last commit.)
@@ -247,6 +271,7 @@ git diff <commit> <commit> # between two commits
 * 像`Microsoft Word`的`.docx`文件就是二进制文件，一般不会用Git来管理。（除了Git还有很多别的版本管理工具/软件哦，大家感兴趣可以自行了解）
 
 ##### git log
+
 （多次commit之后查看）
 
 ```sh
@@ -262,6 +287,7 @@ log——日志
 也看到了每次commit附加的message，这样就能知道每次commit都做了什么。
 
 ##### git rm
+
 直接删除文件（⌘⌫或`rm`命令）——只删除了工作区的文件。这时你使用`git commit`命令提交这一更改，发现你刚刚的更改（删除）`Changes not staged for commit`。还记得讲`git commit`的时候，说要把东西添加到暂存区才能提交吗？
 
 所以我们使用`git add <file>`命令，将删除的文件添加到暂存区
@@ -279,6 +305,7 @@ log——日志
 git init/add/status/diff/commit/status/add/commit/log/diff
 
 #### 舍弃工作区/暂存区的修改
+
 舍弃更改`==`用某些之前的东西来覆盖
 
 ```sh
@@ -300,6 +327,7 @@ Specify the restore location. If neither option is specified, by default the wor
 ##### 案例：关于git restore
 
 #### 版本回退
+
 首先我们需要明确两点：每一次`commit`的编号，一方面代表所有文件的状态，另一方面代表这一次`commit`相比于上一次`commit`所做的更改。
 
 那么我们如果希望回到之前的某个`commit`，指的就是直接将工作区所有文件都恢复成那个`commit`之后的样子。
@@ -334,6 +362,7 @@ git revert -n <commit> # -n: --no-commit，自己提交
 注：向后回退一个版本可以写为`git reset --hard HEAD^`，`HEAD^^`表示当前版本向后2个`commit`，`HEAD~n`表示当前版本向后n个`commit`。
 
 ### Git进阶 - gitignore
+
 我们因为之后要进行合作开发，或者你想把你的Git仓库分享至网络，我们都需要上传`.git/`文件夹。这样的话，我们就不希望这个文件夹太大，不然别人下载起来很慢；我们也不希望一些私密的文件上传上去，比如含有某些密码的文件；以及一些乱七八糟的文件，我们也不想让别人看到。因此，在`git add`和`git commit`的时候，我们就要注意不要把一些很大的图片、视频、第三方包等大文件，还有一些密码、个人配置文件添加进Git仓库。
 
 我们可以在每次`git add`的时候都注意不去添加这些文件，但是刚刚说到，最常用的添加文件的方式是`git add .`，那么如何告诉Git我们不希望添加的那些文件，让Git自动帮我们排除添加这些文件呢？
@@ -356,10 +385,13 @@ git revert -n <commit> # -n: --no-commit，自己提交
 在开始写项目代码之前就创建好`.gitignore`并添加到Git中是一个好的习惯。
 
 ### Git进阶 - 分支
+
 #### 分支
+
 创建一个分支，你可以在这个分支上开发新功能A，过一段时间，你又想开发新功能B，这时你可以再开一个分支。过了一段时间，你两个新功能都开发好了，就可以将两个分支合在一起，这样你的产品就同时有了两个新的功能。
 
 #### 分支操作
+
 ```sh
 git branch --create(-c) <branch> # 创建分支
 git branch # 查看本地分支
@@ -374,6 +406,7 @@ git branch --delete(-d) <branch> # 删除开发新功能的分支，因为开发
 ```
 
 #### 解决冲突
+
 合并的时候可能会产生冲突。这时我们需要自己去解决冲突。比如你和同学一块写UI组件，各自开了一份文件来写，结果你俩把文件名起成了一样的，或者在同一份文件中修改了相同的地方，这时在第一个同学合并之后，第二个同学的合并就会出现冲突。解决冲突的方式很简单，在被Git用箭头标出来的地方进行删改就好了。
 
 #### 分支案例
@@ -398,7 +431,9 @@ git branch --move(-m) master main
 ```
 
 ### Git进阶 - 远程仓库
+
 #### 连接远程仓库
+
 远程仓库，就是一个Git服务器。它可以存放你的代码，然后多台电脑一起链接到这个Git服务器，大家就可以开始协作了。如果一个平台有很多的远程仓库，我们一般将其称作代码托管平台。世界知名度最高的代码托管平台是GitHub，大家都在用，我们之后也会用GitHub进行演示，以后大家也许也会使用GitHub进行合作开发。其实还有很多的代码托管平台，比如[gitee](https://gitee.com/)（码云），GitLab（企业可以自行使用部署，如<git.tsinghua.edu.cn>）
 
 连接这些代码托管平台，你得首先有一个账号，直接注册就好了。如果用的是THU的GitLab，用清华邮箱就可以登陆。
@@ -418,6 +453,7 @@ git branch --move(-m) master main
 再点击`Add SHH key`，之后本地和远程仓库之间连接就不需要输入账密了。
 
 #### 将本地仓库上传到代码托管平台
+
 一般来说，一个项目的远程仓库只有一个分支`main`。你开发新功能的时候会在本地新开一个分支`new_feature`，开发好了之后将这个分支merge到本地的`main`分支。如果要上传，则是将本地的`main`分支上传到远程仓库的`main`分支。
 
 假设我们现在本地已经有了一个Git仓库，我们现在希望将它上传到`GitHub`上，让别人也看到我这个仓库里面的文件：
@@ -439,14 +475,17 @@ git push -u origin main
 如果我们再在本地修改，提交，（由于我们已经设置了上游的分支）之后就可以使用`git push`将修改的内容同步到`GitHub`了！
 
 注：
+
 > We recommend every repository include a README, LICENSE, and .gitignore. —— GitHub
 
 其中`README.md`告诉别人怎么用你写的这个软件，怎么合作开发，使用需要注意什么；`LICENSE`里面写开源的协议，我们后面会说到；`.gitignore`我们前面讲过，别把一些乱七八糟的文件或者敏感信息
 
 #### 和他人合作开发一个项目
+
 如果是一个大型软件，几十个代码文件，一个人写肯定不现实，这时就需要大家来合作开发。
 
 ##### 有仓库的读写权限
+
 一般来说，如果是一个小团队的项目，每个人都有仓库的读写权的话，我们合作开发的步骤基本和上面自己上传代码到仓库是一样的。
 
 需要注意的是，在我们开发一个功能的时候，他人可能已经写了一些代码commit然后push到了远程仓库。这时我们一般需要将他人的代码merge到自己目前的分支上，保持自己的代码最新，减少之后自己开发完毕push到远端仓库出现冲突的情况，也减少重复开发的情况。
@@ -460,12 +499,14 @@ git merge # 将本地中远程仓库的内容merge到当前分支
 ```
 
 ##### 为开源项目添砖加瓦/没有仓库的读写权限
+
 有的项目，会有一些核心的人有着仓库的控制权限；其他人则需要通过这些核心的人的审核，才能对项目作出修改。一般我们将这些有着仓库控制权限的开发者叫做项目维护者（Maintainer），将参与项目开发但是没有直接操控权限的开发者叫做项目贡献者（Contributor）。上面所说的直接push可以作为Maintainer提交代码的一种方式。但如果是Contributor该如何提交代码呢？
 
 **Git使用实例**：`<team-repo-nickname>`开发
 说明：团队仓库名为`<team-repo-nickname>`，个人仓库名为`<my-repo-nickname>`
 
 ###### 1 将远程仓库下载、链接到本地
+
 〇 1.1 克隆原仓库到本地
 ```shell
 git clone <team-repo-url> --origin <team-repo-nickname> <project-folder>
@@ -501,9 +542,11 @@ git remote --verbose show <repo-nickname>
 `--verbose`:`-v`
 
 ###### 2 开始开发自己的功能
+
 注：一般团队的远程仓库只有一个main分支
 
 〇 2.1 先拉取最新内容
+
 ```shell
 git fetch <team-repo-nickname> # 或 git fetch --all
 ```
@@ -538,6 +581,7 @@ git merge <team-repo-nickname>/main
 比如增加文件、删除文件，增加代码、删除代码等
 
 〇 2.4.3 提交
+
 ```shell
 (newFeature) git add .
 (newFeature) git commit -m"add newFeature"
@@ -564,7 +608,9 @@ git fetch <team-repo-nickname> # 或 git fetch --all
 重复上述`修改`，`提交`，`拉取最新代码`的过程
 
 ###### 3 push到远端和提PR
+
 〇 3.1 push到自己的远端仓库
+
 ```shell
 git push <my-repo-nickname> newFeature:newFeature
 ```
@@ -584,23 +630,29 @@ git push <my-repo-nickname> newFeature:newFeature
 含义：将本地的当前分支推到远程主机的远程分支；如果远程仓库没有这一分支，则创建
 
 〇 3.2 提PR（Pull Request）
+
 登陆`GitHub`，在你的仓库可以拿着刚刚推到远程的`newFeature`分支向团队仓库提一个PR
 
 〇 3.3 等待开发者merge
+
 如果PR被拒绝，你可以继续更改代码、commit、push、提PR直到开发者觉得你的代码可以merge；也可以直接弃坑lol
 
 ###### 4 开发者merge之后删除newFeature分支
+
 〇 4.1 删除远程分支
 
 〇 方法一
+
 在团队仓库的PR界面，如果成功merge，那么你可以看到一个`delete branch`的按钮，可以直接点击按钮删除自己fork的仓库中的newFeature分支
 
 〇 方法二
+
 ```shell
 git push <my-repo-nickname> --delete newFeature
 ```
 
 〇 方法三
+
 ```shell
 git push <my-repo-nickname> :newFeature
 ```
@@ -608,16 +660,19 @@ git push <my-repo-nickname> :newFeature
 这里的语法是：`git push <远程主机> :<远程分支>`（注意和push到远端仓库做区分）
 
 〇 4.2 删除本地分支
+
 ```shell
 (main) git branch -d newFeature
 ```
 
 确认删除可以使用：
+
 ```shell
 (main) git branch -D newFeature
 ```
 
 〇 4.3 可能遇到的问题
+
 使用`git fetch --all`将所有远端仓库（`<team-repo-nickname>`和`<my-repo-nickname>`）的最新“状况”拉取到本地
 
 这时使用命令`git branch -a`查看所有分支，发现远端`<my-repo-nickname>`的newFeature分支并没有删除
@@ -626,8 +681,7 @@ git push <my-repo-nickname> :newFeature
 
 使用`git remote -v show yxj`查看分支状况，发现newFeature分支是陈旧的（stale）
 
-使用`git remote prune yxj`删掉本地陈旧的远端分支（就是
-远端已经删除掉了但是本地还没删除掉的分支）
+使用`git remote prune yxj`删掉本地陈旧的远端分支（就是远端已经删除掉了但是本地还没删除掉的分支）
 
 或者拉取信息的时候使用：
 
@@ -638,12 +692,15 @@ git fetch -p --all
 详情可以查看：[CSDN | Git远程分支的删除与同步](https://blog.csdn.net/dta0502/article/details/90214417)
 
 ##### 使用private仓库进行合作开发
+
 与参与开源项目是类似的。
 
 如果直接在`private项目`中添加他人的**access权限**（**添加collaborator**），相当于**添加maintainer**，maintainer**可以直接push**仓库；不过也可以fork之后提PR。注意，没有仓库的access权限应该是不能fork的！
 
 ### Git进阶 - 标签管理
+
 #### 为什么要添加标签
+
 > 发布一个版本时，我们通常先在版本库中打一个标签（tag），这样，就唯一确定了打标签时刻的版本。将来无论什么时候，取某个标签的版本，就是把那个打标签的时刻的历史版本取出来。所以，标签也是版本库的一个快照。
 > 
 > Git有commit，为什么还要引入tag？
@@ -671,6 +728,7 @@ git push --tags
 ```
 
 ### Git进阶 - 命令简写
+
 #### gitconfig
 `cat ~/.gitconfig`
 
@@ -686,6 +744,7 @@ git push --tags
 之后使用命令`git lg`就可以代替上面这一长串的命令啦！你也可以设置`c=commit`，这样你以后用`git c`
 
 #### zshrc
+
 如果你还是觉得上面的命令不够简化，你还可以这样，直接让Shell解析你简化的命令：
 
 `cat ~/.zshrc`（macOS版本需在10.15 Catalina及以上；什么，还没升级？快去升啊 笑）这是zsh的配置文件。
@@ -707,76 +766,82 @@ alias glg="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d
 
 之后我们就可以用`ga .`来添加所有文件，用`gc "update xxx"`来提交，用`glg`查看简要的提交历史……你也可以添加更多的简写
 
-
 ## 如何使用GitHub上的代码
+
 ### 说说开源
+
 #### 什么是开源
+
 开源就是把自己写的软件的源码公开，比如上传到GitHub并且设置仓库为`public` (instead of private)
 
 #### 开源者
-从开源者的角度，你的代码被别的优秀开发者看到，他们能帮你提出很多代码上的建议，会帮你一起开发软件，加速软件开发速度；
-从其他开发者的角度，你可以看到很多优秀的开源代码仓库，从而有了学习的内容；
-整体来说，开源加快了某种社区的发展，加快了软件的开发进程，加强了程序员之间的交流…
+
+- 从开源者的角度，你的代码被别的优秀开发者看到，他们能帮你提出很多代码上的建议，会帮你一起开发软件，加速软件开发速度；
+- 从其他开发者的角度，你可以看到很多优秀的开源代码仓库，从而有了学习的内容；
+- 整体来说，开源加快了某种社区的发展，加快了软件的开发进程，加强了程序员之间的交流…
 
 当然也会有一些弊端，比如开源者可能很难从开源中获得资金的支持…不过也许能获得好的名声，嗯，只是也许
 
 #### 开源协议
+
 有很多种开源协议。在GitHub上使用最多的是MIT协议。简单来说，开源协议告诉看开源代码的人该如何使用这份开源的代码。一般来说，开源者应该在代码中提供开源协议。你可以用现成的协议，也可以自己写。想了解更多可以查看：[从MIT协议谈契约精神](https://mp.weixin.qq.com/s/WyBZpChPA5xLo90rBHi8Mw)（如果之后打算开源自己的代码的话一定要仔细查看哦）
 
 ### GitHub简介
+
 GitHub是一个代码托管平台和世界最大的程序员交流社区。你可以将自己团队的项目放上去，然后大家一起push一起提pr（Pull Request）合作开发，这时你使用的是GitHub的代码托管功能，如果你不希望开源项目，你应该把repo（Repository）的属性设置为`private`；你也可以自己一个人开发，然后把代码放上去让更多的人看到（设置repo属性为`public`），如果有人跟你互动（比如在Issues模块反馈了几个bug，在`Discussion`模块和你简单交流），那么你就使用了GitHub的代码托管功能和交流社区的功能。
 
 有的时候，我们也会去GitHub搜索一些开源项目来借鉴学习。
 
 ### 如何查看GitHub代码仓库/使用别人写的代码
+
 你可以在GitHub上搜索你感兴趣的项目
 
 点开某个repo查看README.md，一般来说README.md都会将项目描述的很清楚
 
 想借鉴代码：
+
 * 如果只有几个文件的话可以直接复制粘贴
 * 直接`git clone`查看所有的代码
 * 下载代码文件（可能不带`.git`文件夹）
 
 想使用程序：
+
 * 下载可执行文件/安装包
 * `git clone`后自己进行编译/build
 
 想为这个开源项目贡献自己的力量：
+
 * 使用程序，在Issues模块提出自己发现的bug
 * `git clone`后自己对程序作出一些修改，对项目提出pr
 
 记得查看Licence，在许可证允许的范围内使用源代码。
 
 ## References
-〇 [Git Official Site](https://git-scm.com)
 
-〇 [廖雪峰｜Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-* **✡ RECOMMENDED ✡**
-* 非常通俗易懂的文字版Git教程，推荐多次翻阅
-
-〇 [Bilibili｜电子系科协2020年暑培 p1 Git](https://www.bilibili.com/video/BV1fv411B73p)
-
-〇 [可视化学习Git](https://learngitbranching.js.org/?locale=zh_CN)
-* 对Git中的高端操作不理解可以去试试可视动画
-* 初学阶段也可以通过闯关来加深对git的理解
-
-〇 [Git docs｜快速查阅git操作](https://git-scm.com/docs)
-
-〇 [GitHub｜git-flight-rules](https://github.com/k88hudson/git-flight-rules)
-* **✡ RECOMMENDED ✡**
-* 如果你在使用git的过程中遇到了棘手的问题应该都可以在这里找到解决方法
-
-〇 [一个挺详细的 Git 中文手册](http://iissnan.com/progit/html/zh/ch1_0.html)
-
-〇 [Git Pro｜进阶git的一本厚书](https://git-scm.com/book/en/v2)
-* 一般没有必要看
+- [Git Official Site](https://git-scm.com)
+- [廖雪峰｜Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+  - **✡ RECOMMENDED ✡**
+  - 非常通俗易懂的文字版Git教程，推荐多次翻阅
+- [Bilibili｜电子系科协2020年暑培 p1 Git](https://www.bilibili.com/video/BV1fv411B73p)
+- [可视化学习Git](https://learngitbranching.js.org/?locale=zh_CN)
+  - 对Git中的高端操作不理解可以去试试可视动画
+  - 初学阶段也可以通过闯关来加深对git的理解
+- [Git docs｜快速查阅git操作](https://git-scm.com/docs)
+- [GitHub｜git-flight-rules](https://github.com/k88hudson/git-flight-rules)
+  - **✡ RECOMMENDED ✡**
+  - 如果你在使用git的过程中遇到了棘手的问题应该都可以在这里找到解决方法
+- [一个挺详细的 Git 中文手册](http://iissnan.com/progit/html/zh/ch1_0.html)
+- [Git Pro｜进阶git的一本厚书](https://git-scm.com/book/en/v2)
+  - 一般没有必要看
 
 ## 补充内容
+
 ### 关于我讲的内容
+
 我讲的内容是做了删减的，并没有讲到Git的全部命令。我把核心放到开发常用的一些命令上，希望大家知道Git怎么真正辅助我们的开发。
 
 ### 什么是梯子
+
 什么是服务器——就是一台电脑
 
 网络如何访问（骨干网，路由器）
@@ -784,14 +849,17 @@ GitHub是一个代码托管平台和世界最大的程序员交流社区。你�
 概括的来说，能让你上网速度加快，能让你访问原本访问不了的网站的工具，就叫梯子/VPN/加速器…
 
 ### 使用THU GitLab
+
 注意无法和校外的同学一起使用
 
 ### 图形化Git
+
 有很多图形化的`Git`软件，我用过都觉得很难用…所以也没什么发言权，大家觉得命令行不好用也可以自己去探索一下
 
 在`Xcode`中使用`Git`，可以使用自带的一些功能（在菜单栏`Source Control`里面），但是我个人推荐使用终端命令行进行版本控制。注意打开终端之后需要先`cd`到项目的文件夹再使用`Git`。
 
 ### 终端进阶
+
 `echo hello world >> haha`
 
 `history | grep git`
@@ -799,9 +867,11 @@ GitHub是一个代码托管平台和世界最大的程序员交流社区。你�
 终端脚本的编写：需要掌握，在Xcode里面可能就要写的。但不是刚需。也很简单，用到的时候再简单学一下就好了
 
 ### GitHub CI
+
 查看[THU-iOS tutorial repo](https://github.com/THU-iOS/tutorial)中`.github/workflows`中的`yaml`文件，可以看到我们将上传的讲稿自动部署到`GitHub pages`
 
 ## Homework
+
 〇（Git基础）
 
 Git是目前世界上最先进的分布式（）控制系统

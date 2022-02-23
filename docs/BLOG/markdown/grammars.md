@@ -314,7 +314,7 @@ markdown文本内的连续两个或多个回车会被替换为一个回车
 - - -
 
 ```
-行内公式： $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+行内公式：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 块级公式：
 $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 $$ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
@@ -322,7 +322,7 @@ $$ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
 {1+\frac{e^{-8\pi}} {1+\ldots} } } } $$
 ```
 
-行内公式： $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+行内公式：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 
 块级公式：
 
@@ -339,6 +339,7 @@ $$\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-
 Markdown允许您使用反斜杠转义来生成文字字符，否则这些字符在Markdown的格式化语法中具有特殊含义。 例如，如果您想用文字星号包围一个单词，则可以在星号之前使用反斜杠，如`\*literal asterisks\*`  \*literal asterisks\*
 
 Markdown为以下字符提供反斜杠转义(但是CSDN不太支持)：
+
 \\反斜杠 \`反引号 \*星号 \_下划线 \{\}大括号 \[\]中括号 \(\)小括号  \#井号 \+加号 \-减号 \.英文句号 \!英文感叹号
 
 ### 内联 HTML 语法/特殊字符自动转义

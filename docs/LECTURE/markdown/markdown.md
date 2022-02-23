@@ -29,6 +29,7 @@ Hello, world!
 那么，这个txt文件其中的内容就是`H`后面跟上`e`再跟上…再跟上一个英文`!`再跟上一个换行符`\n`…再跟上一个中文`！`最后跟上一个文件结束符`EOF`（End of File）。而这些字符都是可以由计算机系统直接读取并且显示出来的，（当然了，本质上这些符号在计算机内还是以`0～1`的形式存储的），因此读取要比`Word`方便（不需要特定的软件）、读取速度要比`Word`快得多；由于其中不带格式，大小也要比`Word`文档小得多。
 
 ### Markdown引言
+
 刚刚我们说了文字是很常见的一种表达方式，用`txt`文件就可以在计算机中方便的呈现文字；我们也说了格式是可以增强文本的表现力的，比如用`Word`给这些文字添加格式。但问题是单单`txt`的表现能力捉急，`Word`中添加格式的操作成本、存储成本都太高了（后面讲`Git`还会说，由于`.docx`文件是二进制文件，其无法用`Git`进行逐行管理），能不能找到二者的平衡呢？
 
 有，这个东西就是`Markdown`。
@@ -36,6 +37,7 @@ Hello, world!
 `Markdown`其实是一种写作风格/方式，我们用这种风格/方式写出来的**纯文本文件**（和`.txt`是一样的）叫做**markdown文件**，一般以`.md`作为文件后缀（而不是`.txt`）。`.md`文件虽然是纯文本，但其中用一些特殊的字符（如`* # [] () …`）给纯文本带来格式（这与`html`文件是相似的，也可以将`markdown`看作是简单的`html`）。这些格式通过某种方式进行渲染（注：渲染：指将计算机中的某些数据呈现在屏幕上）你就可以看到它们代表的格式了！
 
 #### Markdown举例
+
 说了这么多，我们还没看到过`markdown`文件呢，来看几个例子吧：
 
 〇 （刚刚说到）开发者在写软件说明书的时候会用到`markdown`：
@@ -59,7 +61,8 @@ Hello, world!
 〇 代码注释：
 
 比如`Xcode`支持的`markup`注释风格（类似，换了个名字hh）
-[CSDN｜Swift Markup Formatting Syntax](https://blog.csdn.net/qq_45379253/article/details/113253433)
+
+[CSDN｜Swift Markup Formatting Syntax](https://blog.csdn.net/qq_45379253/article/details/113253433)
 
 ### Markdown语法
 下面我们来介绍`markdown`文件到底怎么写：
@@ -251,6 +254,7 @@ Content in the first column | Content in the second column
 方括号里面放你要呈现的名字，圆括号里面放网页的链接。
 
 更普通的，这个链接还可以换成文件：
+
 ```
 点击查看[帮助文档](./doc/help.md)
 ```
@@ -266,6 +270,7 @@ Content in the first column | Content in the second column
 ```
 
 #### 对url资源的理解
+
 在我们插入图片的时候，我们使用了这样的语法：
 
 ```
@@ -339,11 +344,13 @@ Content in the first column | Content in the second column
 还有一点，反斜线还有行内代码可以用来输入可能会被当作`markdown`语法的符号。比如你想在markdown中输入一个星号`*`，可能你一不小心就发现星号被markdown渲染成了格式。这时你可以用行内代码包裹，\`\*\`，或者用反斜线`\*`，这样markdown就不会把这些符号当成格式了。
 
 ### Markdown的导出
+
 有的时候（大多数时候）我们都需要将自己写的`markdown`发个别人看，这时当然我们希望别人看到的是带格式的，而不是纯文本文件。
 
 如果我们在`GitHub`上上传了`README.md`，那么`GitHub`会帮我们自动把`.md`文件渲染为带格式的网页方便查看。在`CSDN`和`简书`等平台发布也是一样的。
 
 不过如果是自己导出的话：
+
 * 可以导出`xxx.md`，但这样对方的电脑上需要有`markdown`编辑软件打开才能看到格式，不过这样的话对方不仅可以查看，也能编辑；
 * 如果只是让别人查看的话，一般我们会考虑导出`PDF文件`，也就是打印，然后选择保存PDF文件；
 * 也可以直接导出为`图片`（一些软件支持）；
@@ -428,6 +435,7 @@ mdbook server
 〇 （markdown语法：表格）
 
 参考：
+
 ```
 Monday | Tuesday | Wednesday | Thursday | Friday
 - | - | - | - | -
