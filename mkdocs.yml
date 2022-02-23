@@ -1,5 +1,5 @@
 # [Info]
-site_name: 杨希杰的个人网站 # top-left corner
+site_name: 杨希杰的个人网站 # 左上角标题
 site_url: https://yang-xijie.github.io
 site_author: 杨希杰
 site_description: 杨希杰的个人网站
@@ -9,13 +9,13 @@ site_description: 杨希杰的个人网站
 theme:
   name: material
   palette: 
-    - scheme: default # light mode
-      primary: indigo
-      accent: orange
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: orange # 链接等可交互元件的高亮色
       toggle:
-        icon: material/weather-night
-        name: 切换至夜间模式
-    - scheme: slate # dark mode
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
       primary: indigo
       accent: orange
       toggle:
@@ -29,18 +29,18 @@ theme:
   language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
-edit_uri: edit/main/docs # edit buttons
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io 
-repo_name: yang-xijie.github.io
+repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
+repo_name: yang-xijie.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: Copyright &copy; 2022 杨希杰
+copyright: Copyright &copy; 2022 杨希杰 # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/24502827
-      name: Bilibili | 我不是小杰
+      name: Bilibili | 我不是小杰 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
       link: https://github.com/Yang-Xijie
       name: GitHub | Yang-Xijie
