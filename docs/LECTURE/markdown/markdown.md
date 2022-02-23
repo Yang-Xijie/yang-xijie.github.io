@@ -1,4 +1,4 @@
-# 面向开发的Markdown学习
+# 面向开发的Markdown学习 Markdown Lecture
 
 > `v1.0` 210523 添加视频教程
 

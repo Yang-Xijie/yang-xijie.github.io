@@ -1,4 +1,4 @@
-# Git实例
+# Git实例 Git Demos
 
 ## git init/add/status/diff/commit/status/add/commit/log/diff
 

@@ -14,6 +14,6 @@
 
 ---
 
-- [番剧评价 - 神作](./anime_rating_extraordinary.md)
-- [番剧评价 - 上乘](./anime_rating_great.md)
-- [番剧评价 - 好](./anime_rating_good.md)
+- [番剧评价 - 神作](./anime-rating-extraordinary.md)
+- [番剧评价 - 上乘](./anime-rating-great.md)
+- [番剧评价 - 好](./anime-rating-good.md)
