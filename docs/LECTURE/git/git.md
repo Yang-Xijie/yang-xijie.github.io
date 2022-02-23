@@ -820,19 +820,19 @@ GitHub是一个代码托管平台和世界最大的程序员交流社区。你�
 
 - [Git Official Site](https://git-scm.com)
 - [廖雪峰｜Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-  - **✡ RECOMMENDED ✡**
-  - 非常通俗易懂的文字版Git教程，推荐多次翻阅
+    - **✡ RECOMMENDED ✡**
+    - 非常通俗易懂的文字版Git教程，推荐多次翻阅
 - [Bilibili｜电子系科协2020年暑培 p1 Git](https://www.bilibili.com/video/BV1fv411B73p)
 - [可视化学习Git](https://learngitbranching.js.org/?locale=zh_CN)
-  - 对Git中的高端操作不理解可以去试试可视动画
-  - 初学阶段也可以通过闯关来加深对git的理解
+    - 对Git中的高端操作不理解可以去试试可视动画
+    - 初学阶段也可以通过闯关来加深对git的理解
 - [Git docs｜快速查阅git操作](https://git-scm.com/docs)
 - [GitHub｜git-flight-rules](https://github.com/k88hudson/git-flight-rules)
-  - **✡ RECOMMENDED ✡**
-  - 如果你在使用git的过程中遇到了棘手的问题应该都可以在这里找到解决方法
+    - **✡ RECOMMENDED ✡**
+    - 如果你在使用git的过程中遇到了棘手的问题应该都可以在这里找到解决方法
 - [一个挺详细的 Git 中文手册](http://iissnan.com/progit/html/zh/ch1_0.html)
 - [Git Pro｜进阶git的一本厚书](https://git-scm.com/book/en/v2)
-  - 一般没有必要看
+    - 一般没有必要看
 
 ## 补充内容
 

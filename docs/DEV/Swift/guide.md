@@ -4,38 +4,6 @@
 > 
 > 阅读 `The Swift Programming Language (Swift 5.5)` 的笔记，只记录自己之前不懂的地方；有一定编程基础的话直接看也没问题
 
-- [Swift Language Guide](#swift-language-guide)
-  - [The Basics 54](#the-basics-54)
-  - [Basic Operators 104](#basic-operators-104)
-  - [Strings and Characters 132](#strings-and-characters-132)
-  - [Collection Types 177](#collection-types-177)
-  - [Control Flow 215](#control-flow-215)
-  - [Functions](#functions)
-  - [Closures](#closures)
-  - [Enumerations](#enumerations)
-  - [Structures and Classes](#structures-and-classes)
-  - [Properties](#properties)
-  - [Methods](#methods)
-  - [Subscripts](#subscripts)
-  - [Inheritance - Class](#inheritance---class)
-  - [Initialization](#initialization)
-  - [Deinitialization - Class](#deinitialization---class)
-  - [Optional Chaining](#optional-chaining)
-  - [Error Handling](#error-handling)
-  - [Concurrency](#concurrency)
-  - [Type Casting - Class](#type-casting---class)
-  - [Nested Types](#nested-types)
-  - [Extensions](#extensions)
-  - [Protocols](#protocols)
-  - [Generics](#generics)
-  - [Opaque Types](#opaque-types)
-  - [Automatic Reference Counting - Class](#automatic-reference-counting---class)
-  - [Memory Safety](#memory-safety)
-  - [Access Control](#access-control)
-  - [Advanced Operators](#advanced-operators)
-
-
-
 ## The Basics 54
 
 ```swift

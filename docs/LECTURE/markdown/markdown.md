@@ -110,20 +110,22 @@ _You **can** combine them_
 一般我们单个使用的时候用`*`多一些，但是两种格式组合使用的时候就随意了。
 
 ##### Lists 列表
+
 ###### Unordered 无序列表
+
 这里可以缩进的哦
 
 ```
 * Item 1
 * Item 2
-  * Item 2a
-  * Item 2b
+    * Item 2a
+    * Item 2b
 ```
 
 * Item 1
 * Item 2
-  * Item 2a
-  * Item 2b
+    * Item 2a
+    * Item 2b
 
 ###### Ordered 有序列表
 这里可以缩进的哦，缩进会重新编号，或者变成小标题（如`1.1` `2.1.3`这样）
@@ -132,17 +134,18 @@ _You **can** combine them_
 1. Item 1
 1. Item 2
 1. Item 3
-   1. Item 3a
-   1. Item 3b
+    1. Item 3a
+    1. Item 3b
 ```
 
 1. Item 1
 2. Item 2
 3. Item 3
-   1. Item 3a
-   2. Item 3b
+    1. Item 3a
+    2. Item 3b
 
 ###### Task Lists 任务列表
+
 ```
 - [x] this is a complete item
 - [ ] this is an incomplete item
@@ -152,6 +155,7 @@ _You **can** combine them_
 - [ ] this is an incomplete item
 
 ##### Links 链接
+
 `[Text](url)`：中括号，后面小括号。小括号里面放链接，中括号里面放说明（必须）；不需要说明的话，可以直接写链接
 
 直接写链接会直接被转换为可以点击的链接；也可以在两侧加上`<`和`>`
@@ -170,6 +174,7 @@ https://github.com
 <https://github.com>
 
 ##### Images 图片
+
 `![Text](url)`：感叹号，中括号，小括号。小括号里面放图片链接，中括号里面放图片说明（不必须；写了的话会在图片下方或某处显示说明，当因为某种原因图片无法加载的时候，显示时也会用说明替代图片）
 
 ```
@@ -181,6 +186,7 @@ https://github.com
 关于链接我们之后会详细来说。
 
 ##### Inline Code 行内代码
+
 ```
 `Swift`中，`var`定义变量，`let`定义常量
 ```
@@ -188,6 +194,7 @@ https://github.com
 `Swift`中，`var`定义变量，`let`定义常量
 
 ##### Code Block 代码块
+
 用一对三个反撇\`\`\`包裹，在最开始三个反撇后可以加代码的语言名称或简写以在渲染时获得高亮支持。
 
 \`\`\`swift
@@ -207,6 +214,7 @@ print(natural_numbers.capacity)
 一般支持的代码高亮会有很多，比如：`shell`、`bash`、`c`、`cpp`、`java`、`objectivec`、`python`、`swift`、`yaml`、`html`、`xml`等
 
 ##### Blockquotes 引用
+
 ```
 As Tim Cook said:
 
@@ -240,9 +248,11 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 #### 其他GitHub支持的语法
+
 更多`Github`支持的`markdown`语法可以查看[GitHub Guides | Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 #### 对文件路径的理解
+
 我们在插入链接的时候，会使用：
 
 ```
@@ -292,11 +302,13 @@ Content in the first column | Content in the second column
 有的时候，图片和代码相比起来，是个庞然大物（`1KB` vs `1MB`），这时我们不希望将图片加入到项目中（指不希望项目的体积很大，别人从`GitHub`上下载项目时花的时间过久），可是在项目说明中还需要加入图片进行说明，这时怎么办呢？最简单的，将图片压缩一下（`1MB->100KB`）扔进项目文件夹，这是最省心的…但要是图比较多，一般来说，我们会选择某些厂商的对象存储服务，将这些图片资源放到比如阿里云的服务器上，然后这个服务把图片的网络链接给你，你就可以在`markdown`中使用这个链接了。如果没有那么正式，那么这种服务叫做图床。比如我一直在用的[聚合图床](https://www.superbed.cn)，你把图片丢进去，它帮你将图片转为一个链接。但是使用这种服务也有需要注意的地方，如果运营图床的工作室哪天跑路了，你放进去的图片可能就没了。
 
 #### 添加目录
+
 不少平台都支持使用`[toc]`来添加目录。你只需要输入`[toc]`，平台就会帮你自动渲染生成目录。
 
 但也有一些平台不支持这样，这时你需要使用VS Code中的`Markdown All in One`插件，使用这个插件提供的`自动生成目录`功能来添加目录。
 
 #### 其他一些注意事项
+
 有的时候你在`markdown`明明换行了，可是上传到`GitHub`上面一看，文字都粘在一起了。这是为什么呢？
 
 英文在分段的时候，不像我们写文章段前空两格，他们会直接在两段之间多空一行。一般的回车只是用来方便阅读，不然一行的内容太长了。
@@ -306,8 +318,11 @@ Content in the first column | Content in the second column
 （注：多于2个的连续回车markdown会将它们当作一个回车哦）
 
 ### Markdown工具介绍
+
 #### macOS
+
 ##### Typora
+
 [Typora官网](https://www.typora.io)
 
 所见即所得的`markdown`编辑软件，全平台；各种意义上都应该是`markdown`编辑的首选！
@@ -315,6 +330,7 @@ Content in the first column | Content in the second column
 主要用来写单独的markdown（比如我今天要写讲稿了，用markdown写的话我就会考虑Typora）；也可以开一个文件夹专门放自己的笔记……
 
 ##### VS Code
+
 安装插件`Markdown All in One`，会支持不少快捷操作。
 
 `VS Code`作为程序员中口碑最好的编辑器，写写`markdown`什么的肯定没问题！拖入一个文件夹新建`markdown文件`就可以编辑了！
@@ -322,19 +338,22 @@ Content in the first column | Content in the second column
 一般来说，软件开发的项目中，代码都是和`markdown文件`在一起的，以后如果有一些需要在`VS Code`打开的项目，使用`VS Code`编写`README.md`或者其他的`markdown文件`也是很方便的一个选择。
 
 ##### Xcode
+
 在`Xcode`中也可以和添加`代码文件`一样添加`markdown文件`。
 
 ##### 其他
+
 如果你在听了这次lecture之后，打算和我一样以后自己的文稿都用`markdown`来写，那我觉得你可以考虑一些功能更强大的软件。这些软件基本都是付费的，在`App Store`搜索`markdown`就有很多；有些是买断制的，有些是订阅制的；都各自有一些独特的功能，比如发布服务、自动备份、图片上传等等，感兴趣的同学也可以看看知乎等平台的安利文章，自己下载试用版试用。
 
 #### 网络平台
+
 `CSDN`和`简书`支持`Markdown`写作。
 
-`CSDN`对各种语法支持的比较好；`简书`只支持比较基础的`Markdown`语法。
-
-`CSDN`的主要文章都是技术文章；`简书`可能偏杂文多一些，但也有不少质量很高的技术文章。大家以后自己的学习经历、开发笔记也都可以上传到这些平台让更多人看到。
+- `CSDN`对各种语法支持的比较好；`简书`只支持比较基础的`Markdown`语法。
+- `CSDN`的主要文章都是技术文章；`简书`可能偏杂文多一些，但也有不少质量很高的技术文章。大家以后自己的学习经历、开发笔记也都可以上传到这些平台让更多人看到。
 
 ### 关于不同风格和扩展的说明
+
 如果我们只是写简单的`Markdown`文稿，上面的这些语法已经完全够用了。
 
 不过既然能用符号表示格式，那么能不能添加更多的语法进来呢？当然可以，比如在`markdown`里面使用`$y=x^2$`表示这是一个`LaTeX`公式（怎么敲`LaTeX`可以查看我之前整理的[LaTeX整理 | 简易符号 Markdown公式编辑](https://blog.csdn.net/qq_45379253/article/details/105368552)），如果渲染`markdown`的软件支持，那么它就会被显示为$y=x^2$；比如说很多编辑器都支持`[toc]`表示插入全文目录（但可惜的是`GitHub`不支持，一般会用`VS Code`的插件来创建目录）；前面我们讲了表格，语法更多的`markdown`还可以以某种方式设定表格每列的对齐方式；由于`markdown`最终会被渲染为网页（`html文件`），因此你在其中加入`html标签`也是可以的。这些其他的格式大家都可以去`CSDN`搜索`markdown`教程找到，但是在使用的时候也要注意看自己的`markdown`编辑器是不是支持这些语法哦。
@@ -357,6 +376,7 @@ Content in the first column | Content in the second column
 * 或者我们还可以导出为`网页`（html），这样对方需要用浏览器才能打开也有些麻烦…不过如果你是导出为网页再部署，那么对方通过链接就可以访问，这就变得很方便了
 
 ### Markdown的发布
+
 下面的内容有些进阶也没那么重要。我讲这一块呢，是想告诉大家大家现在看到的这份讲稿和这个页面是怎么做出来的。一方面是想让大家了解`markdown文件`发布的过程，另一方面是希望大家学了Git、了解了GitHub之后也能一起修改现在网页上的这些讲稿。
 
 感兴趣的同学可以认真听一下；因为我不会花很多时间在这上面，也希望其他同学听一听：
@@ -390,6 +410,7 @@ mdbook server
 那么如何将这个文件夹上传至`GitHub`呢？我们可以将刚刚得到的`book`文件夹上传至`GitHub`，然后开启`GitHub Pages`的服务。但更方便的是，直接把这个文件夹传上去，使用`GitHub Action`将这个文件夹在另一个`Git`分支生成网页，然后用`GitHub Pages`发布出去；这样做的好处是：每次修改上传，发布都是自动的，这样被人看到你的网页/讲稿就总是最新的。如果大家也想帮忙一起建设`THU iOS Club`的`Tutorial`，在学了`Git`之后就可以提`Pull Request`喽！
 
 ### 文字编辑效率up技巧
+
 最后呢，再教大家一些快速写文档的方法。这种方法在macOS上的大多数文字/代码编辑软件上都适用（包括`Xcode`）。
 
 〇 双击选中一个词：这里词指一个中文的词语或者一个英文的单词
@@ -407,6 +428,7 @@ mdbook server
 〇 ⌥⌫、⌘⌫；fn⌫：删除词、删除到行首；向后删除 delete；⌘X也是一种删除的方式
 
 ## Homework
+
 〇 （markdown语法：粗体/斜体）
 
 用`markdown`写出带格式的文字：`Hello, world!`其中`Hello`用**粗体**，`world`用*斜体*。
@@ -424,6 +446,7 @@ mdbook server
 阅览`Github`支持的`markdown`语法[GitHub Guides | Mastering Markdown](https://guides.github.com/features/mastering-markdown/)，使用删除线语法在右边的文字中只添加符号来表示“Google是你最好的朋友”）：`Baidu Google is your best friend.`（提示：`crossed out`）
 
 ### Answer
+
 〇 （markdown语法：粗体/斜体）
 
 用`markdown`写出带格式的文字：`Hello, world!`其中`Hello`用**粗体**，`world`用*斜体*。

@@ -1,12 +1,5 @@
 # 211204 Cocoa新建项目的方式
 
-- [211204 Cocoa新建项目的方式](#211204-cocoa新建项目的方式)
-  - [新建NIB再使用WindowController进行控制](#新建nib再使用windowcontroller进行控制)
-  - [不使用NIB代码添加Window](#不使用nib代码添加window)
-  - [只使用Window并在mian入口中显示](#只使用window并在mian入口中显示)
-  - [不使用Controller](#不使用controller)
-    - [进一步优化](#进一步优化)
-
 > macOS 12.0.1 Xcode 13.1 Swift 5.5.1
 
 不考虑使用StoryBoard。保留MainMenu。
@@ -21,6 +14,7 @@
 https://www.youtube.com/watch?v=Xy0-x-Zf1YE
 
 新建ViewController
+
 * cmd N -> macOS.Source.Cocoa Class
 * Class: MainWindowController & Subclass of: NSWindowController & Also create XIB file for user interface & language: Swift
 

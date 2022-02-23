@@ -2,20 +2,6 @@
 
 > Written by 杨希杰 on 210324
 
-- [iOS网络服务应用尝试](#ios网络服务应用尝试)
-  - [GraphQL](#graphql)
-    - [Introduction](#introduction)
-    - [Resources](#resources)
-  - [GraphQL Client｜Apollo Client (iOS)](#graphql-clientapollo-client-ios)
-  - [GraphQL Server｜Hasura + Databse](#graphql-serverhasura--databse)
-  - [对象存储服务](#对象存储服务)
-  - [登录验证](#登录验证)
-  - [Hasura Tutorial](#hasura-tutorial)
-    - [Introduction to GraphQL](#introduction-to-graphql)
-    - [Frontend GraphQL Tutorial](#frontend-graphql-tutorial)
-    - [Hasura Tutorials](#hasura-tutorials)
-    - [Sample Apps](#sample-apps)
-
 ## GraphQL
 
 ### Introduction
@@ -31,12 +17,12 @@
 ### Resources
 
 * [GraphQL](https://graphql.org)
-  * GraphQL官网
+    * GraphQL官网
 * [GraphQL｜中文官网](https://graphql.cn)
-  * 推荐看英文官网
+    * 推荐看英文官网
 * [GraphQL | Learn](https://graphql.org/learn/)
-  * **IMPORTANT**
-  * 入门GraphQL
+    * **IMPORTANT**
+    * 入门GraphQL
 
 ## GraphQL Client｜Apollo Client (iOS)
 
@@ -45,12 +31,12 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 ```
 
 * [Apollo](https://www.apollographql.com)
-  * Apollo官网
+    * Apollo官网
 * [Apollo docs｜Apollo Basics](https://www.apollographql.com/docs/)
-  * **IMPORTANT**
+    * **IMPORTANT**
 * [Apollo Client | iOS](https://www.apollographql.com/docs/ios/)
-  * **IMPORTANT**
-  * [GitHub | Apollo Client | iOS](https://github.com/apollographql/apollo-ios)
+    * **IMPORTANT**
+    * [GitHub | Apollo Client | iOS](https://github.com/apollographql/apollo-ios)
 
 ## GraphQL Server｜Hasura + Databse
 
@@ -61,24 +47,24 @@ Apollo is the industry-standard GraphQL implementation, providing the data graph
 > The Hasura GraphQL engine makes your data instantly accessible over a real-time GraphQL API, so you can build and ship modern apps and APIs faster. Hasura connects to your databases, REST servers, GraphQL servers, and third party APIs to provide a unified realtime GraphQL API across all your data sources.
 
 * [Hasura](https://hasura.io)
-  * Hasura官网
+    * Hasura官网
 * [Hasura | Tutorials](https://hasura.io/learn/)
-  * **IMPORTANT**
-  * 教程资源整合，包括了从GraphQL到Hasura的所有内容
-  * 具体见下方
+    * **IMPORTANT**
+    * 教程资源整合，包括了从GraphQL到Hasura的所有内容
+    * 具体见下方
 * [Hasura | GraphQL Engine Documentation](https://hasura.io/docs/latest/graphql/core/index.html)
-  * **IMPORTANT**
-  * 关于Hasura的部署使用的文档
+    * **IMPORTANT**
+    * 关于Hasura的部署使用的文档
 * [GitHub | GraphQL engine](https://github.com/hasura/graphql-engine/)
-  * [实时聊天软件展示](https://realtime-chat.demo.hasura.app/)
+    * [实时聊天软件展示](https://realtime-chat.demo.hasura.app/)
 * [实时聊天软件repo](https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/realtime-chat)
-  * [其他的一些sample-app](https://github.com/hasura/graphql-engine/tree/master/community/sample-apps)
+    * [其他的一些sample-app](https://github.com/hasura/graphql-engine/tree/master/community/sample-apps)
 * [Hasura Cloud](https://cloud.hasura.io)
-  * Hasura Cloud相当于一个搭建好的Hasura平台，可以直接通过在其中创建的project开启console。
-  * 注意这个是不带数据库的，你需要将一个已有的postgres数据库链接到Hasura上（这里数据库可以用Heroku免费的，但我并不清楚有这个的使用是不是有限制）
-  * 免费版的可以自己尝试玩，但是有流量限制（1G/month），一分钟也只能请求60次
-  * 标准版流量可叠加（20G/month，2刀 per additional GB），但没有请求限制。每月100刀
-  * [Hasura Cloud Documentation](https://hasura.io/docs/latest/graphql/cloud/index.html)
+    * Hasura Cloud相当于一个搭建好的Hasura平台，可以直接通过在其中创建的project开启console。
+    * 注意这个是不带数据库的，你需要将一个已有的postgres数据库链接到Hasura上（这里数据库可以用Heroku免费的，但我并不清楚有这个的使用是不是有限制）
+    * 免费版的可以自己尝试玩，但是有流量限制（1G/month），一分钟也只能请求60次
+    * 标准版流量可叠加（20G/month，2刀 per additional GB），但没有请求限制。每月100刀
+    * [Hasura Cloud Documentation](https://hasura.io/docs/latest/graphql/cloud/index.html)
 
 其他：
 
