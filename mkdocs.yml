@@ -153,15 +153,19 @@ nav:
       - 纯代码创建项目: DEV/AppKit/programmatically.md
   - 二次元:
     - 2/index.md
-    - 可爱的二次元女生: 2/kawaii.md
-    - 喜欢的画师: 2/painters.md
-    - 喜欢的画: 2/pictures.md
     - 番:
       - 番剧评价: 2/ANIME/anime-rating.md
       - 神作: 2/ANIME/anime-rating-extraordinary.md
       - 上乘: 2/ANIME/anime-rating-great.md
       - 好: 2/ANIME/anime-rating-good.md
       - 制作公司: 2/ANIME/anime-production.md
+    - 可爱的二次元女生: 2/kawaii.md
+    - 喜欢的画师: 2/painters.md
+    - 喜欢的画: 2/pictures.md
+    - 喜欢的音声: 2/voice.md
+    - 喜欢的虚拟主播: 2/vtuber.md
+    - 原神:
+      - 计划: 2/genshin/plan.md
   - 三次元:
     - 3/index.md
     - 日记说明与索引: 3/diary-index.md
