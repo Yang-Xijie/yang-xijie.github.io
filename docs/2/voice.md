@@ -12,6 +12,7 @@
 
 现在觉得投稿中比较好的ASMR有这么几个，基本是没有人声的：
 
+- [【熟肉同人音声】膝枕掏耳](https://www.bilibili.com/video/BV16p4y1v7Kd)
 - [【熟肉同人音声】身穿浴衣来做可口的可尔必思](https://www.bilibili.com/video/BV1y54y1e7dk)
 - [【熟肉同人音声】伴着雨声的梵天掏耳](https://www.bilibili.com/video/BV1pz4y1y7D4)
 - [【熟肉同人音声】毛巾的舒心声音](https://www.bilibili.com/video/BV1254y1r7WM)
@@ -119,6 +120,8 @@ YouTube那边最近又恢复活动了吧。近期的ASMR感觉有点压抑ww。�
 觉得ASMR做的超级好！大概是设备的缘故吧ww 是那种戴着耳机很快就可以睡着的类型！！
 
 YouTube的公开稿件很多 B站搬运感觉少的有点可怜
+
+这个音声还挺喜欢的，一开始觉得有点吵，但后来觉得很温暖hh [【同人音声 CV. こりす】猫系幼馴染の耳かき添い寝](https://www.bilibili.com/video/BV16r4y1c7Wh)
 
 ## 一之瀬りと
 
