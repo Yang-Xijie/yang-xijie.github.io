@@ -117,6 +117,7 @@ nav:
         - 命令行MATLAB: BLOG/MATLAB/terminal-matlab.md
       - Python:
         - 复制拷贝: BLOG/Python/copy.md
+        - numpy速查表: BLOG/Python/numpy-overview.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/math/latex.md
