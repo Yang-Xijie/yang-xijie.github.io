@@ -168,11 +168,11 @@ nav:
       - 计划: 2/genshin/plan.md
   - 三次元:
     - 3/index.md
+    - 个人账号: ABOUT/accounts.md
     - 日记说明与索引: 3/diary-index.md
   - 关于: 
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
     - 网站构建: ABOUT/build.md
-    - 个人账号: ABOUT/accounts.md
     - 支持: ABOUT/support.md
     - 测试: ABOUT/test.md
 
