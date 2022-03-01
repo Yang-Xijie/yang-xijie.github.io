@@ -89,7 +89,8 @@ nav:
       - MAD制作流程: BLOG/macOS/mad.md
       - OBS开直播: BLOG/macOS/stream.md
     - Linux:
-      - Vim笔记: BLOG/Linux/vim.md
+      - vim: BLOG/Linux/vim.md
+      - tmux: BLOG/Linux/tmux.md
     - 编程:
       - Swift:
         - 并行计算: BLOG/swift/parallel.md
