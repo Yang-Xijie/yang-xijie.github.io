@@ -7,3 +7,9 @@
 - 连接 `tmux attach -t <session-name>`
 - 分离 `ctrl B D` `tmux` `detach`
 - 退出 `exit` `ctrl D`
+
+```
+alias tnew="tmux new -s "
+alias tls="tmux ls"
+alias tat="tmux attach -t "
+```
