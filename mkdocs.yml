@@ -165,12 +165,12 @@ nav:
     - 喜欢的画师: 2/artists.md
     - 喜欢的画: 2/pictures.md
     - 喜欢的音声: 2/voice.md
-    - 喜欢的虚拟主播: 2/vtuber.md
+    - 喜欢的vtuber: 2/vtuber.md
     - 原神:
       - 计划: 2/genshin/plan.md
   - 三次元:
     - 3/index.md
-    - 个人账号: ABOUT/accounts.md
+    - 个人账号: 3/accounts.md
     - 日记说明与索引: 3/diary-index.md
   - 关于: 
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
