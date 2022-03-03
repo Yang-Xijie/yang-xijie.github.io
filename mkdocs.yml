@@ -91,6 +91,7 @@ nav:
     - Linux:
       - vim: BLOG/Linux/vim.md
       - tmux: BLOG/Linux/tmux.md
+      - Unix: BLOG/Linux/unix.md
     - 编程:
       - Swift:
         - 并行计算: BLOG/swift/parallel.md
