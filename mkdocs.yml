@@ -118,6 +118,7 @@ nav:
         - 抛硬币的涨落问题: BLOG/MATLAB/coin.md
         - 命令行MATLAB: BLOG/MATLAB/terminal-matlab.md
       - Python:
+        - TODO 不喜欢Python的理由: BLOG/Python/dislike.md
         - 复制拷贝: BLOG/Python/copy.md
         - numpy速查表: BLOG/Python/numpy-overview.md
     - 基础:
