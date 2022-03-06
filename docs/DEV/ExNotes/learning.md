@@ -1,5 +1,12 @@
 # ExNotes Considerations and Learning
 
+考虑：
+
+- 不会使用PencilKit，因为定制化困难
+- 不会使用Metal，因为代码写起来困难，资料少，很难debug
+- 可以考虑PDFKit，也就是直接操作一个PDF
+- 可以考虑Core Graphics，因为这就是Apple提供的矢量操作框架
+
 ## Metal
 
 * <https://donaldpinckney.com/metal/2018/07/05/metal-intro-1.html#what-is-metal-and-why-use-it>
