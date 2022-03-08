@@ -70,6 +70,7 @@ nav:
       - 补充: LECTURE/vscode-cpp/11_补充.md
     - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
     - 英语音标教学: LECTURE/english/phonetic-symbol.md
+    - 应用开发设计: LECTURE/app/app-design.md
   - 博客:
     - BLOG/index.md
     - OS:
