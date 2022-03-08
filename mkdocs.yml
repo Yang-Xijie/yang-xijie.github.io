@@ -74,15 +74,16 @@ nav:
     - BLOG/index.md
     - OS:
       - TODO rCore笔记: BLOG/OS/rcore-learning.md
-      - TODO yxj OS设计: BLOG/OS/os-design.md
+      - TODO ExOS设计: BLOG/OS/os-design.md
     - 机器学习:
       - TODO 动手学深度学习笔记: BLOG/deeplearning/动手学深度学习.md
-      - 数据加载优化: BLOG/deeplearning/parallel-load.md
+      - TODO 数据加载优化: BLOG/deeplearning/parallel-load.md
     - 日语:
-      - TODO 语法笔记: BLOG/japanese/notes.md
-      - TODO 动词整理: BLOG/japanese/verb-note.md
-      - 形容词整理: BLOG/japanese/adj-note.md
-      - 名词整理: BLOG/japanese/noun-note.md
+      - TODO 笔记: BLOG/japanese/notes.md
+      - 动词整理: BLOG/japanese/verb.md
+      - 形容词整理: BLOG/japanese/adj.md
+      - 名词整理: BLOG/japanese/noun.md
+      - 语法整理: BLOG/japanese/grammar.md
     - macOS:
       - 使用tree命令和访达进行任务管理: BLOG/macOS/tree.md
       - 辅助功能缩放: BLOG/macOS/zoom.md
