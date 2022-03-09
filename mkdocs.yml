@@ -166,21 +166,24 @@ nav:
       - 上乘: 2/ANIME/anime-rating-great.md
       - 好: 2/ANIME/anime-rating-good.md
       - 制作公司: 2/ANIME/anime-production.md
-    - 可爱的二次元女生: 2/kawaii.md
-    - 喜欢的画师: 2/artists.md
-    - 喜欢的画: 2/pictures.md
-    - 喜欢的音声: 2/voice.md
-    - 喜欢的vtuber: 2/vtuber.md
     - 原神:
       - 计划: 2/genshin/plan.md
+    - 喜欢的:
+      - 二次元女生: 2/kawaii.md
+      - 插画: 2/pictures.md
+      - 画师: 2/artists.md
+      - 音声: 2/voice.md
+      - vtuber: 2/vtuber.md
   - 三次元:
     - 3/index.md
+    - 喜欢的:
+      - 散文: 3/proses.md
     - 个人账号: 3/accounts.md
     - 日记说明与索引: 3/diary-index.md
-  - 关于: 
+  - 关于:
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-    - 网站构建: ABOUT/build.md
     - 支持: ABOUT/support.md
+    - 网站构建: ABOUT/build.md
     - 测试: ABOUT/test.md
 
 # [Extensions]
