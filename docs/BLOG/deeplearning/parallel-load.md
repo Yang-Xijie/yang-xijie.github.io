@@ -1,5 +1,7 @@
 # 深度学习并行加载数据
 
+> 应该已经被做掉了
+
 ## 背景
 
 一次训练任务（比如人脸识别训练、语音识别训练）所需要的数据是庞大的，我们暂且假定这个数据在 1T-10T 的量级；这些数据一般存储在DISK上（速度为 200MB/s-1GB/s）。在计算机中做GPU运算时，GPU总是从RAM中取数据，这时RAM会从DISK中加载一次数据。注意这里假设GPU的算力足够；RAM的速度（20GB/s）远超DISK的读取速度。
@@ -42,3 +44,9 @@ for epoch in 0 ... epoch_num {
 
 `RAM=256G DATA=2T` 这种情况下，我们可以直接加内存到T的级别，也可以提高DISK的读取速度。但其实更好的是改变读取顺序的策略，不让RAM频繁从DISK中读取数据。
 
+## References
+
+1. [wenet/UIO.md at main · wenet-e2e/wenet (github.com)](https://github.com/wenet-e2e/wenet/blob/main/docs/UIO.md)
+2. [wenet/dataset.py at main · wenet-e2e/wenet (github.com)](https://github.com/wenet-e2e/wenet/blob/main/wenet/dataset/dataset.py)
+3. [Distributed Training with Uneven Inputs Using the Join Context Manager — PyTorch Tutorials 1.10.1+cu102 documentation](https://pytorch.org/tutorials/advanced/generic_join.html#how-does-join-work)
+4. [webdataset/webdataset: A high-performance Python-based I/O system for large (and small) deep learning problems, with strong support for PyTorch. (github.com)](https://github.com/webdataset/webdataset)

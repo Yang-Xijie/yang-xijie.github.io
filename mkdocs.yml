@@ -78,8 +78,8 @@ nav:
       - TODO ExOS设计: BLOG/OS/os-design.md
     - 机器学习:
       - TODO 动手学深度学习笔记: BLOG/deeplearning/动手学深度学习.md
-      - TODO 语音识别笔记: BLOG/deeplearning/speech-recognition.md
-      - TODO 数据加载优化: BLOG/deeplearning/parallel-load.md
+      - 语音识别笔记: BLOG/deeplearning/speech-recognition.md
+      - 数据加载优化: BLOG/deeplearning/parallel-load.md
     - 日语:
       - TODO 笔记: BLOG/japanese/notes.md
       - 动词整理: BLOG/japanese/verb.md
