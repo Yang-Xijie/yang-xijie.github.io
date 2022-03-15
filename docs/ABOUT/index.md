@@ -1,4 +1,4 @@
-# 你好 Hello
+# 你好
 
 这里是杨希杰的个人主页 <https://yang-xijie.github.io>
 

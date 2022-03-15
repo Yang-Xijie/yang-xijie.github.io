@@ -185,11 +185,13 @@ nav:
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
     - 支持: ABOUT/support.md
     - 网站构建: ABOUT/build.md
+    - 指南: ABOUT/dev.md
     - 测试: ABOUT/test.md
 
 # [Extensions]
 plugins:
   - search # 现在还不支持中文搜索 支持之后可以设置语言
+  - tags
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
       generic: true
@@ -200,6 +202,7 @@ markdown_extensions:
       # linenums: true # 显示行号
       # auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
+  - meta # 支持Markdown文件上方自定义标题标签等
 extra_javascript:
   - mkdocs/javascripts/mathjax.js # latex支持
   - https://polyfill.io/v3/polyfill.min.js?features=es6 # latex支持

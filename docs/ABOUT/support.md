@@ -1,4 +1,4 @@
-# 支持 Support Me
+# 支持
 
 ![](./media/頑張ります.png){ width="300" }
 
