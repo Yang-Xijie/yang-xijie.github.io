@@ -183,10 +183,10 @@ nav:
     - 日记说明与索引: 3/diary-index.md
   - 关于:
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-    - 支持: ABOUT/support.md
+    - 支持作者: ABOUT/support.md
+    - 文章编写帮助: ABOUT/help.md
     - 网站构建: ABOUT/build.md
-    - 指南: ABOUT/dev.md
-    - 测试: ABOUT/test.md
+    - 测试文档: ABOUT/test.md
 
 # [Extensions]
 plugins:
