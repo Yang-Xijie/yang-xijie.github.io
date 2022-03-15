@@ -1,4 +1,8 @@
-#  Git使用实例：eesast开发 Git Teamwork
+---
+title: Git合作开发实例
+---
+
+# Git合作开发实例：eesast开发
 
 说明：团队仓库名为`eesast`，个人仓库名为`yxj`
 

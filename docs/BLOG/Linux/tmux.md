@@ -1,4 +1,8 @@
-# tmux 使用指南
+---
+title: tmux使用指南
+---
+
+# tmux使用指南
 
 这篇教程已经写得很详细了 [tmux使用教程-阮一峰](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
 

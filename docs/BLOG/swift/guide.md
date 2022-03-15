@@ -1,7 +1,11 @@
-# Swift Language Guide
+---
+title: Swift Book
+tags:
+  - Swift Language Guide
+---
 
-> `211203` 添加之前的阅读部分，还有很多部分没有阅读
-> 
+# Swift Book
+
 > 阅读 `The Swift Programming Language (Swift 5.5)` 的笔记，只记录自己之前不懂的地方；有一定编程基础的话直接看也没问题
 
 ## The Basics 54

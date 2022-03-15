@@ -1,4 +1,8 @@
-# 在macOS上用VS Code写C++代码 Write Cpp Codes on macOS with VS Code
+---
+title: 在macOS上用VSCode写C++代码 0 简介
+---
+
+# 在macOS上用VSCode写C++代码 0 简介
 
 ## 简介
 

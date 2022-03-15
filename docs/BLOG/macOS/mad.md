@@ -1,4 +1,8 @@
-# MAD editing workflow on macOS
+---
+title: MAD production workflow on macOS
+---
+
+# MAD production workflow on macOS
 
 ## Conclusion
 

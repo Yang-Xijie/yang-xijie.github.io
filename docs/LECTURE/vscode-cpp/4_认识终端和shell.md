@@ -1,4 +1,8 @@
-# 4 认识终端和shell
+---
+title: 在macOS上用VSCode写C++代码 4 认识终端和shell
+---
+
+# 在macOS上用VSCode写C++代码 4 认识终端和shell
 
 上节课我们已经打开了终端。这节课我们要深入认识终端。
 

@@ -1,4 +1,8 @@
-# 英语音标教学 English Phonetic Symbol Lecture
+---
+title: 英语音标教学
+---
+
+# 英语音标教学
 
 > 作者：[杨希杰](https://github.com/Yang-Xijie)
 > 

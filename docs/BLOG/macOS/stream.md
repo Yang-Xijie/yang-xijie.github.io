@@ -1,6 +1,8 @@
-# macOS OBS 开直播
+---
+title: Mac使用OBS直播
+---
 
-> `220207` `v1`
+# Mac使用OBS直播
 
 ## OBS
 

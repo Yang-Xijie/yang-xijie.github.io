@@ -1,4 +1,8 @@
-# 个人账号 Accounts
+---
+title: 个人账号
+---
+
+# 个人账号
 
 [GitHub](https://github.com/Yang-Xijie) 
 

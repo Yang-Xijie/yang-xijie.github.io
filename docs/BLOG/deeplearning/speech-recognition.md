@@ -1,3 +1,10 @@
+---
+title: Speech Recognition 学习笔记
+tags:
+  - Speech Recognition
+  - 李宏毅
+---
+
 # Speech Recognition 学习笔记
 
 ## 李宏毅 2020

@@ -74,7 +74,6 @@ nav:
   - 博客:
     - BLOG/index.md
     - OS:
-      - TODO rCore笔记: BLOG/OS/rcore-learning.md
       - TODO ExOS设计: BLOG/OS/os-design.md
     - 机器学习:
       - TODO 动手学深度学习笔记: BLOG/deeplearning/动手学深度学习.md
@@ -97,6 +96,7 @@ nav:
       - tmux: BLOG/Linux/tmux.md
       - Unix: BLOG/Linux/unix.md
     - 编程:
+      - 推荐的学习路线: BLOG/Programming/recommendation.md
       - Swift:
         - 并行计算: BLOG/swift/parallel.md
         - Swift教学作业: BLOG/swift/hw.md
@@ -152,7 +152,7 @@ nav:
       - 新建文件注释: DEV/Xcode/file-header.md
       - 常用快捷键: DEV/Xcode/shortcuts.md
     - ExNotes:
-      - ExNotes设计文档: DEV/ExNotes/exnotes-doc.md
+      - ExNotes设计文档: DEV/ExNotes/design.md
       - ExNotes开发考量: DEV/ExNotes/learning.md
     - SwiftUI:
       - Data Essentials: DEV/SwiftUI/data-essentials.md
@@ -165,7 +165,6 @@ nav:
       - 神作: 2/ANIME/anime-rating-extraordinary.md
       - 上乘: 2/ANIME/anime-rating-great.md
       - 好: 2/ANIME/anime-rating-good.md
-      - 制作公司: 2/ANIME/anime-production.md
     - 原神:
       - 计划: 2/genshin/plan.md
     - 喜欢的:

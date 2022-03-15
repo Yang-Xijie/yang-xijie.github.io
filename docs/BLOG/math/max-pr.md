@@ -1,3 +1,7 @@
+---
+title: 最大似然估计
+---
+
 # 最大似然估计
 
 看完这个视频就懂了 下面整理一下 <https://www.bilibili.com/video/BV1Hb4y1m7rE>

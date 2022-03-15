@@ -1,6 +1,10 @@
-# 在macOS上用VS Code写Python、配置Python环境的一种思路
+---
+title: 在macOS上用VSCode配置Python环境的一种思路
+---
 
-> `v1.0` 210211 添加视频链接
+# 在macOS上用VSCode配置Python环境的一种思路
+
+> 此篇文章较过时 推荐使用miniconda配置虚拟环境 使用vscode编写python带啊吗
 
 > [Bilibili 视频版](https://www.bilibili.com/video/BV1Y5411E7yc)
 

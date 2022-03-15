@@ -1,4 +1,8 @@
-# Self-defined Shortcuts by Yang-Xijie - Programming in IDE
+---
+title: Self-used Shortcuts for Editors in IDEs
+---
+
+# Self-used Shortcuts for Editors in IDEs
 
 ## Common
 

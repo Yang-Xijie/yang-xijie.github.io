@@ -1,8 +1,10 @@
-# 7 用VS Code调试Cpp代码
+---
+title: 在macOS上用VSCode写C++代码 7 用VSCode调试Cpp代码
+---
 
-> `v1.1` 210902
+# 在macOS上用VSCode写C++代码 7 用VSCode调试Cpp代码
 
-### Intel Mac由于VS Code官方插件bug无法调试的说明
+## Intel Mac由于VS Code官方插件bug无法调试的说明
 
 大家好，今天(210902)有同学跟我反映说教程中`Intel Mac`无法调试，具体表现为：按F5开启调试之后弹出终端，终端一片空白，没有任何输出；上滑后发现一些从来没见过的命令。我在自己的电脑上试了一下也出现了这样的情况。
 

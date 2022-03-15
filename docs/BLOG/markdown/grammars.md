@@ -1,4 +1,8 @@
-# Markdown语法学习|精简版
+---
+title: Markdown语法学习 精简版
+---
+
+# Markdown语法学习 精简版
 
 > <span id="top">**文章开头**</span>
 

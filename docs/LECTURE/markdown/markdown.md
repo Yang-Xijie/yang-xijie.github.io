@@ -1,6 +1,8 @@
-# 面向开发的Markdown学习 Markdown Lecture
+---
+title: 面向开发的Markdown讲座
+---
 
-> `v1.0` 210523 添加视频教程
+# 面向开发的Markdown讲座
 
 > [Bilibili视频教程](https://www.bilibili.com/video/BV1jV411j7mz)
 

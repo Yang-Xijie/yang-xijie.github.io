@@ -1,4 +1,8 @@
-# macOS使用VS Code插件Code Runner运行MATLAB脚本
+---
+title: macOS使用VSCode插件CodeRunner运行MATLAB脚本
+---
+
+# macOS使用VSCode插件CodeRunner运行MATLAB脚本
 
 Referring to the official documentation of "Start MATLAB program from macOS Terminal" <https://ww2.mathworks.cn/help/matlab/ref/matlabmacos.html?lang=en>
 

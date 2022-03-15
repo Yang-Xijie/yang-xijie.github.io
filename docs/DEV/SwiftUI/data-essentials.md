@@ -1,3 +1,7 @@
+---
+title: Data Essentials in SwiftUI
+---
+
 # Apple Developer Notes | Data Essentials in SwiftUI
 
 ## Instantiate a Model Object in a View

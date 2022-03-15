@@ -1,4 +1,8 @@
-# Python | 复制拷贝(copy)的六种方法 举例辨析
+---
+title: Python复制拷贝的六种方法辨析
+---
+
+# Python复制拷贝的六种方法辨析
 
 ```py
 # 'A and B have the same id' => 'A is in sync with B' / 'A And B Are attached to the same thing'

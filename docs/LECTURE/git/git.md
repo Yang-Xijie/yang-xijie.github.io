@@ -1,4 +1,8 @@
-# Git讲座 Git Lecture
+---
+title: Git讲座
+---
+
+# Git讲座
 
 > `v1.0` 210523 更新视频教程
 

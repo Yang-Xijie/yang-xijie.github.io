@@ -1,4 +1,8 @@
-# 9 其他
+---
+title: 在macOS上用VSCode写C++代码 9 其他
+---
+
+# 在macOS上用VSCode写C++代码 9 其他
 
 ## 课程制作目标和个人概述
 

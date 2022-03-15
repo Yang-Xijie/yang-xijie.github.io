@@ -1,4 +1,8 @@
-# Swift｜parallel for loops
+---
+title: Swift | Parallel
+---
+
+# Swift | Parallel
 
 在我们使用for循环的时候，其中的语句总是在前一个for完成之后才执行下一个。当执行大批量任务时，如果其中的任务相互独立，可以使用`DispatchQueue.concurrentPerform`来使用多线程平行的同步执行这些任务来节省时间。
 

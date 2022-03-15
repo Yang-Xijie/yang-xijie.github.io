@@ -1,4 +1,8 @@
-# Test Doc
+---
+title: 测试文档
+---
+
+# 测试文档
 
 Here is an inline example, $\pi(\theta)$, 
 
