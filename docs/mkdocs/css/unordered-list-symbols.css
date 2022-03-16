@@ -1,9 +1,0 @@
-/* Custom styles to override MkDocs defaults and enhance theme */
-
-article ul ul {
-    list-style-type: circle !important;
-}
-
-article ul ul ul {
-    list-style-type: square !important;
-}
