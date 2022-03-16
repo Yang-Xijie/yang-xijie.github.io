@@ -79,6 +79,7 @@ nav:
       - TODO 动手学深度学习笔记: BLOG/Deeplearning/动手学深度学习.md
       - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
       - 数据加载优化: BLOG/Deeplearning/parallel-load.md
+      - torch.nn: BLOG/Deeplearning/torch-nn.md
     - 日语:
       - TODO 笔记: BLOG/Japanese/notes.md
       - 动词整理: BLOG/Japanese/verb.md
@@ -208,3 +209,4 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # latex支持
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
+  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
