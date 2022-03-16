@@ -1,0 +1,212 @@
+# [Info]
+site_name: 杨希杰的个人网站 # 左上角标题
+site_url: https://yang-xijie.github.io
+site_author: 杨希杰
+site_description: 杨希杰的个人网站
+
+# [UI]
+## [top]
+theme:
+  name: material
+  palette: 
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: orange # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  features:
+    - navigation.tabs # 使用Tab来进行分类
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
+    - navigation.expand # 打开Tab时左侧目录全部展开
+  language: zh # 一些提示性的文字会变成中文
+  icon:
+    repo: fontawesome/brands/github
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
+## [top-right corner]
+repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
+repo_name: yang-xijie.github.io # 右上角的名字
+## [bottom-left corner]
+copyright: Copyright &copy; 2022 杨希杰 # 左下角的版权声明
+## [bottom-right corner]
+extra:
+  social: # icons
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/24502827
+      name: Bilibili | 我不是小杰 # 鼠标悬浮提示
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yang-Xijie
+      name: GitHub | Yang-Xijie
+
+# [Navigtion]
+nav:
+  - 讲稿: 
+    - LECTURE/index.md 
+    - Linux: LECTURE/Linux/linux.md
+    - Markdown: LECTURE/Markdown/markdown.md
+    - Git: 
+      - Git: LECTURE/Git/git.md
+      - Git demos: LECTURE/Git/git-demos.md
+      - Git teamwork: LECTURE/Git/git-teamwork.md
+    - 在macOS上用VSCode写C++代码: 
+      - 0 介绍: LECTURE/vscode-cpp/0_about.md
+      - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
+      - 2 认识macOS的文件系统: LECTURE/vscode-cpp/2_认识macOS的文件系统.md
+      - 3 认识程序: LECTURE/vscode-cpp/3_认识程序.md
+      - 4 认识终端和shell: LECTURE/vscode-cpp/4_认识终端和shell.md
+      - 5 开启VSCode的大门: LECTURE/vscode-cpp/5_开启VSCode的大门.md
+      - 6 VSCode代码运行自动化: LECTURE/vscode-cpp/6_VSCode代码运行自动化.md
+      - 7 用VSCode调试Cpp代码: LECTURE/vscode-cpp/7_用VSCode调试Cpp代码.md
+      - 8 课程回顾: LECTURE/vscode-cpp/8_课程回顾.md
+      - 其他: LECTURE/vscode-cpp/9_others.md
+      - 极速版: LECTURE/vscode-cpp/10_极速版.md
+      - 补充: LECTURE/vscode-cpp/11_补充.md
+    - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
+    - 英语音标教学: LECTURE/English/phonetic-symbol.md
+    - 应用开发设计: LECTURE/App/app-design.md
+  - 博客:
+    - BLOG/index.md
+    - OS:
+      - TODO ExOS设计: BLOG/OS/os-design.md
+    - 机器学习:
+      - TODO 动手学深度学习笔记: BLOG/Deeplearning/动手学深度学习.md
+      - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
+      - 数据加载优化: BLOG/Deeplearning/parallel-load.md
+      - torch.nn: BLOG/Deeplearning/torch-nn.md
+    - 日语:
+      - TODO 笔记: BLOG/Japanese/notes.md
+      - 动词整理: BLOG/Japanese/verb.md
+      - 形容词整理: BLOG/Japanese/adj.md
+      - 名词整理: BLOG/Japanese/noun.md
+      - 语法整理: BLOG/Japanese/grammar.md
+    - macOS:
+      - 使用tree命令和访达进行任务管理: BLOG/macOS/tree.md
+      - 辅助功能缩放: BLOG/macOS/zoom.md
+      - Mac与Android的文件传输: BLOG/macOS/sharing-mac-android.md
+      - MAD制作流程: BLOG/macOS/mad.md
+      - OBS开直播: BLOG/macOS/stream.md
+    - Linux:
+      - vim: BLOG/Linux/vim.md
+      - tmux: BLOG/Linux/tmux.md
+      - Unix: BLOG/Linux/unix.md
+    - 编程:
+      - 推荐的学习路线: BLOG/Programming/recommendation.md
+      - Swift:
+        - 并行计算: BLOG/Programming/Swift/parallel.md
+        - Swift教学作业: BLOG/Programming/Swift/hw.md
+        - TODO Language Guide: BLOG/Programming/Swift/guide.md
+      - C:
+        - C常用函数: BLOG/Programming/C/final.md
+        - C语言知识点: BLOG/Programming/C/review.md
+      - C++:
+        - 1 C++的几个基本问题: BLOG/Programming/Cpp/1.md
+        - 2 函数重载: BLOG/Programming/Cpp/2.md
+        - 3 类: BLOG/Programming/Cpp/3.md
+        - 4 操作符重载: BLOG/Programming/Cpp/4.md
+        - 5 类的继承与派生: BLOG/Programming/Cpp/5.md
+        - 6 模版: BLOG/Programming/Cpp/6.md
+        - 7 异常处理: BLOG/Programming/Cpp/7.md
+        - 8 流类库的输入与输出: BLOG/Programming/Cpp/8.md
+        - List: BLOG/Programming/Cpp/list.md
+        - Stack: BLOG/Programming/Cpp/stack.md
+        - 类数据成员: BLOG/Programming/Cpp/class-properties.md
+        - Google风格: BLOG/Programming/Cpp/google-format.md
+      - MATLAB:
+        - MATLAB入门: BLOG/Programming/MATLAB/tour.md
+        - 抛硬币的涨落问题: BLOG/Programming/MATLAB/coin.md
+        - 命令行MATLAB: BLOG/Programming/MATLAB/terminal-matlab.md
+      - Python:
+        - 不喜欢Python的理由: BLOG/Programming/Python/dislike.md
+        - 复制拷贝: BLOG/Programming/Python/copy.md
+        - numpy速查表: BLOG/Programming/Python/numpy-overview.md
+    - 基础:
+      - 数学:
+        - Latex简易符号: BLOG/Foundation/Math/latex.md
+        - 线性代数笔记: BLOG/Foundation/Math/linear.md
+        - 常用泰勒级数: BLOG/Foundation/Math/taylor.md
+        - 最大似然估计: BLOG/Foundation/Math/max-pr.md
+      - 物理:
+        - Gauss公式和Stokes公式: BLOG/Foundation/Physics/guass-stokes.md
+        - 电磁学期末复习: BLOG/Foundation/Physics/electromagnetics.md
+      - 电子:
+        - 各种存储器间的关系: BLOG/Foundation/EE/storage.md
+        - 二阶线性时不变电路: BLOG/Foundation/EE/rlc.md
+    - Markdown:
+      - Markdown语法初学习: BLOG/Markdown/grammars.md
+      - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
+    - 其他:
+      - 视频信息初探: BLOG/Others/video-info.md
+      - GraphQL Hasura: BLOG/Others/network-graphql.md
+  - 开发:
+    - DEV/index.md
+    - Xcode:
+      - 新建开发模块: DEV/Xcode/scheme-dev.md
+      - Set Build Number: DEV/Xcode/set-build-number.md
+      - Markup Syntax: DEV/Xcode/markup.md
+      - 新建文件注释: DEV/Xcode/file-header.md
+      - 常用快捷键: DEV/Xcode/shortcuts.md
+    - ExNotes:
+      - ExNotes设计文档: DEV/ExNotes/design.md
+      - ExNotes开发考量: DEV/ExNotes/learning.md
+    - SwiftUI:
+      - Data Essentials: DEV/SwiftUI/data-essentials.md
+    - AppKit:
+      - 纯代码创建项目: DEV/AppKit/programmatically.md
+  - 二次元:
+    - 2/index.md
+    - 番:
+      - 番剧评价: 2/Anime/anime-rating.md
+      - 神作: 2/Anime/anime-rating-extraordinary.md
+      - 上乘: 2/Anime/anime-rating-great.md
+      - 好: 2/Anime/anime-rating-good.md
+    - 原神:
+      - 计划: 2/Genshin/plan.md
+    - 喜欢的:
+      - 二次元女生: 2/Sukina/kawaii.md
+      - 插画: 2/Sukina/pictures.md
+      - 画师: 2/Sukina/artists.md
+      - 音声: 2/Sukina/voice.md
+      - vtuber: 2/Sukina/vtuber.md
+  - 三次元:
+    - 3/index.md
+    - 喜欢的:
+      - 散文: 3/Literature/proses.md
+      - 诗歌: 3/Literature/poems.md
+    - 个人账号: 3/Info/accounts.md
+    - 日记说明与索引: 3/Articles/diary-index.md
+  - 关于:
+    - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
+    - 支持作者: ABOUT/support.md
+    - 文章编写帮助: ABOUT/help.md
+    - 网站构建: ABOUT/build.md
+    - 测试文档: ABOUT/test.md
+
+# [Extensions]
+plugins:
+  - search # 现在还不支持中文搜索 支持之后可以设置语言
+  - tags
+markdown_extensions:
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - attr_list # 给图片后面添加{width="300"}设置大小
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      # linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.superfences # 代码块高亮插件
+  - meta # 支持Markdown文件上方自定义标题标签等
+extra_javascript:
+  - mkdocs/javascripts/mathjax.js # latex支持
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 # latex支持
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # latex支持
+extra_css:
+  - mkdocs/css/no-footer.css # 不使用底部的翻页
+  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
