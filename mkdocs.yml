@@ -96,36 +96,6 @@ nav:
       - vim: BLOG/Linux/vim.md
       - tmux: BLOG/Linux/tmux.md
       - Unix: BLOG/Linux/unix.md
-    - 编程:
-      - 推荐的学习路线: BLOG/Programming/recommendation.md
-      - Swift:
-        - 并行计算: BLOG/Programming/Swift/parallel.md
-        - Swift教学作业: BLOG/Programming/Swift/hw.md
-        - TODO Language Guide: BLOG/Programming/Swift/guide.md
-      - C:
-        - C常用函数: BLOG/Programming/C/final.md
-        - C语言知识点: BLOG/Programming/C/review.md
-      - C++:
-        - 1 C++的几个基本问题: BLOG/Programming/Cpp/1.md
-        - 2 函数重载: BLOG/Programming/Cpp/2.md
-        - 3 类: BLOG/Programming/Cpp/3.md
-        - 4 操作符重载: BLOG/Programming/Cpp/4.md
-        - 5 类的继承与派生: BLOG/Programming/Cpp/5.md
-        - 6 模版: BLOG/Programming/Cpp/6.md
-        - 7 异常处理: BLOG/Programming/Cpp/7.md
-        - 8 流类库的输入与输出: BLOG/Programming/Cpp/8.md
-        - List: BLOG/Programming/Cpp/list.md
-        - Stack: BLOG/Programming/Cpp/stack.md
-        - 类数据成员: BLOG/Programming/Cpp/class-properties.md
-        - Google风格: BLOG/Programming/Cpp/google-format.md
-      - MATLAB:
-        - MATLAB入门: BLOG/Programming/MATLAB/tour.md
-        - 抛硬币的涨落问题: BLOG/Programming/MATLAB/coin.md
-        - 命令行MATLAB: BLOG/Programming/MATLAB/terminal-matlab.md
-      - Python:
-        - 不喜欢Python的理由: BLOG/Programming/Python/dislike.md
-        - 复制拷贝: BLOG/Programming/Python/copy.md
-        - numpy速查表: BLOG/Programming/Python/numpy-overview.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/Foundation/Math/latex.md
@@ -159,6 +129,36 @@ nav:
       - Data Essentials: DEV/SwiftUI/data-essentials.md
     - AppKit:
       - 纯代码创建项目: DEV/AppKit/programmatically.md
+    - 编程:
+      - 推荐的学习路线: DEV/Programming/recommendation.md
+      - Swift:
+        - 并行计算: DEV/Programming/Swift/parallel.md
+        - Swift教学作业: DEV/Programming/Swift/hw.md
+        - TODO Language Guide: DEV/Programming/Swift/guide.md
+      - C:
+        - C常用函数: DEV/Programming/C/final.md
+        - C语言知识点: DEV/Programming/C/review.md
+      - C++:
+        - 1 C++的几个基本问题: DEV/Programming/Cpp/1.md
+        - 2 函数重载: DEV/Programming/Cpp/2.md
+        - 3 类: DEV/Programming/Cpp/3.md
+        - 4 操作符重载: DEV/Programming/Cpp/4.md
+        - 5 类的继承与派生: DEV/Programming/Cpp/5.md
+        - 6 模版: DEV/Programming/Cpp/6.md
+        - 7 异常处理: DEV/Programming/Cpp/7.md
+        - 8 流类库的输入与输出: DEV/Programming/Cpp/8.md
+        - List: DEV/Programming/Cpp/list.md
+        - Stack: DEV/Programming/Cpp/stack.md
+        - 类数据成员: DEV/Programming/Cpp/class-properties.md
+        - Google风格: DEV/Programming/Cpp/google-format.md
+      - MATLAB:
+        - MATLAB入门: DEV/Programming/MATLAB/tour.md
+        - 抛硬币的涨落问题: DEV/Programming/MATLAB/coin.md
+        - 命令行MATLAB: DEV/Programming/MATLAB/terminal-matlab.md
+      - Python:
+        - 不喜欢Python的理由: DEV/Programming/Python/dislike.md
+        - 复制拷贝: DEV/Programming/Python/copy.md
+        - numpy速查表: DEV/Programming/Python/numpy-overview.md
   - 二次元:
     - 2/index.md
     - 番:
