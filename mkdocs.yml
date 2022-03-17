@@ -95,7 +95,7 @@ nav:
     - Linux:
       - vim: BLOG/Linux/vim.md
       - tmux: BLOG/Linux/tmux.md
-      - Unix: BLOG/Linux/unix.md
+      - UNIX: BLOG/Linux/unix.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/Foundation/Math/latex.md
@@ -181,6 +181,9 @@ nav:
       - 诗歌: 3/Literature/poems.md
     - 个人账号: 3/Info/accounts.md
     - 日记说明与索引: 3/Articles/diary-index.md
+  - 转载:
+    - REPRODUCE/index.md
+    - 提问的智慧: REPRODUCE/how-to-ask-questions-the-smart-way.md
   - 关于:
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
     - 支持作者: ABOUT/support.md
