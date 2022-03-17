@@ -23,6 +23,4 @@ title: 个人账号
     * [学习笔记](https://www.jianshu.com/nb/51920861)
     * [学习相关](https://www.jianshu.com/nb/51920861)
     * [吃](https://www.jianshu.com/nb/51813647)
-    * [应用开发](https://www.jianshu.com/nb/51963977)
     * [动漫](https://www.jianshu.com/nb/46310214)
-    * [转载](https://www.jianshu.com/nb/46983940)
