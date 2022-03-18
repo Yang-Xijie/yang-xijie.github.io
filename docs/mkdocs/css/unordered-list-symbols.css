@@ -1,11 +1,11 @@
 /* Custom styles to override MkDocs defaults and enhance theme */
 
 article ul {
-    list-style-type: square !important;
+    list-style-type: disc !important;
 }
 
 article ul ul {
-    list-style-type: disc !important;
+    list-style-type: square !important;
 }
 
 article ul ul ul {
