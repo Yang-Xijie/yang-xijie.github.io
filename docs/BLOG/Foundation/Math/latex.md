@@ -248,7 +248,7 @@ title: LaTeX常用符号整理
 ### 绝对值/取模
 
 `\left | a \right |` $\left | a \right |$
-`\left \| \boldsymbol{a} \right \|` $\left \| \boldsymbol{a} \right \|$
+`\left \| \vec{a} \right \|` $\left \| \vec{a} \right \|$
 
 ### 向量
 
@@ -348,7 +348,6 @@ $$
 | `\mathrm{A}` | $\mathrm{A}$ |
 | `\mathsf{A}` | $\mathsf{A}$ |
 | `\mathtt{A}` | $\mathtt{A}$ |
-| `\boldsymbol{\alpha}` | $\boldsymbol{\alpha}$ |
 | `\mathbb{A}` | $\mathbb{A}$ |
 | `\mathfrak{A}` | $\mathfrak{A}$ |
 | `\mathscr{A}` | $\mathscr{A}$ |

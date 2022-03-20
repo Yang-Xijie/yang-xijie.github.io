@@ -10,7 +10,7 @@ title: 大学物理电磁学笔记
 
 $e=1.6\times 10^{-19}\rm C$
 
-$\boldsymbol F_{21}=k\frac{q_1q_2}{r_{21}^2} \boldsymbol {e}_{r21}$
+$\vec F_{21}=k\frac{q_1q_2}{r_{21}^2} \vec {e}_{r21}$
 
 $k=9\times 10^9\rm N\cdot m^2/C^2$
 
@@ -22,9 +22,9 @@ $1\rm V/m=1\rm N/C$
 
 $E=\frac{\text d \Phi}{\text d S_\perp}$
 
-电通量: 通过面元的电场线条数 $\boldsymbol E\cdot \text d \boldsymbol S$
+电通量: 通过面元的电场线条数 $\vec E\cdot \text d \vec S$
 
-$\oint_S \boldsymbol E\cdot \text d \boldsymbol S=\frac{1}{\varepsilon_0}\sum q_{in}$
+$\oint_S \vec E\cdot \text d \vec S=\frac{1}{\varepsilon_0}\sum q_{in}$
 
 高斯定律比库仑定律更普遍
 
@@ -46,25 +46,25 @@ $\oint_S \boldsymbol E\cdot \text d \boldsymbol S=\frac{1}{\varepsilon_0}\sum q_
 
 ### 电偶极子
 
-沿 $\vec p$ 方向的场强 $\boldsymbol E=\frac{2\boldsymbol p}{4\pi \varepsilon_0 r^3}$
+沿 $\vec p$ 方向的场强 $\vec E=\frac{2\vec p}{4\pi \varepsilon_0 r^3}$
 
-中垂线上的场强 $\boldsymbol E=-\frac{\boldsymbol p}{4\pi \varepsilon_0 r^3}$
+中垂线上的场强 $\vec E=-\frac{\vec p}{4\pi \varepsilon_0 r^3}$
 
-一般情况场强 $\boldsymbol E=\frac{1}{4\pi \varepsilon_0 r^3}[\frac{3(\boldsymbol r\cdot \boldsymbol p)\boldsymbol r}{r^2}-\boldsymbol p]$
+一般情况场强 $\vec E=\frac{1}{4\pi \varepsilon_0 r^3}[\frac{3(\vec r\cdot \vec p)\vec r}{r^2}-\vec p]$
 
-力矩 $\boldsymbol M=\boldsymbol p\times \boldsymbol E$
+力矩 $\vec M=\vec p\times \vec E$
 
 ## 13 电势
 
-$\oint\boldsymbol E\cdot \text d \boldsymbol r=0$
+$\oint\vec E\cdot \text d \vec r=0$
 
 $U_{12}=\varphi_1-\varphi_2$
 
-$\varphi=\int_P^{\infty}\boldsymbol E\cdot \text d \boldsymbol r$
+$\varphi=\int_P^{\infty}\vec E\cdot \text d \vec r$
 
 $1\text V = 1\rm J/C$
 
-$\boldsymbol E=-\nabla \varphi$
+$\vec E=-\nabla \varphi$
 
 一个电荷在电场中某点的电势能, 是属于该电荷与产生电场的电荷系所共有的, 是一种相互作用能
 
@@ -76,11 +76,11 @@ $W=\frac{1}{2}\sum q_i \varphi_i=\frac{1}{2}\int_q \varphi \text d q$
 
 静电学中上式与 $W=\int_V w_e \text d V=\int_V \frac{\varepsilon_0 E^2}{2}\text d V$ 等价
 
-电偶极子电势 $\varphi=\frac{p\cos \theta}{4\pi\varepsilon_0 r^2}=\frac{\boldsymbol p\cdot \boldsymbol e_r}{4\pi\varepsilon_0 r^2}$
+电偶极子电势 $\varphi=\frac{p\cos \theta}{4\pi\varepsilon_0 r^2}=\frac{\vec p\cdot \vec e_r}{4\pi\varepsilon_0 r^2}$
 
 ## 14 静电场中的导体
 
-导体静电平衡的条件: $\boldsymbol E_{in}=\boldsymbol{0}, \boldsymbol E_S \perp 表面$
+导体静电平衡的条件: $\vec E_{in}=\vec{0}, \vec E_S \perp 表面$
 
 处于静电平衡的导体: $\sigma=\varepsilon_0 E$
 
@@ -107,27 +107,27 @@ $W=\frac{1}{2}\sum q_i \varphi_i=\frac{1}{2}\int_q \varphi \text d q$
 
 出现在电介质表面的电荷叫面束缚电荷 / 面极化电荷
 
-分子电矩 $\boldsymbol p=q\boldsymbol l$
+分子电矩 $\vec p=q\vec l$
 
-电极化强度: 单位体积内分子电矩矢量和 $\boldsymbol p=\frac{\sum \boldsymbol p_i}{\Delta V}$
+电极化强度: 单位体积内分子电矩矢量和 $\vec p=\frac{\sum \vec p_i}{\Delta V}$
 
-$\boldsymbol P=n\boldsymbol p$, $n$ 为电介质单位体积内的分子数, 单位 $\rm C/m^2$
+$\vec P=n\vec p$, $n$ 为电介质单位体积内的分子数, 单位 $\rm C/m^2$
 
-电极化强度 $\boldsymbol P=\varepsilon_0(\varepsilon_r -1)\boldsymbol E$
+电极化强度 $\vec P=\varepsilon_0(\varepsilon_r -1)\vec E$
 
 电极化率 $\chi =\varepsilon_r -1$
 
-面束缚电荷 $\sigma ' = \boldsymbol P\cdot\boldsymbol e_n$ $\boldsymbol e_n$ 由介质指向真空
+面束缚电荷 $\sigma ' = \vec P\cdot\vec e_n$ $\vec e_n$ 由介质指向真空
 
-体束缚电荷 $q_{in} '=-\oint \boldsymbol P\cdot\text d\boldsymbol S$
+体束缚电荷 $q_{in} '=-\oint \vec P\cdot\text d\vec S$
 
-$\rho'=-\nabla \cdot \boldsymbol P$
+$\rho'=-\nabla \cdot \vec P$
 
-电位移 $\boldsymbol D=\varepsilon_0 \boldsymbol E+\boldsymbol P$
+电位移 $\vec D=\varepsilon_0 \vec E+\vec P$
 
-$\oint \boldsymbol D\cdot \text d \boldsymbol S=\sum q_{0in}$ $q_{0in}$ 是自由电荷
+$\oint \vec D\cdot \text d \vec S=\sum q_{0in}$ $q_{0in}$ 是自由电荷
 
-$\boldsymbol D=\varepsilon \boldsymbol E=\varepsilon_0\varepsilon_r \boldsymbol E$
+$\vec D=\varepsilon \vec E=\varepsilon_0\varepsilon_r \vec E$
 
 边界条件 $E_{1t}=E_{2t}$ $D_{1n}=D_{2n}$
 
@@ -136,8 +136,8 @@ $\boldsymbol D=\varepsilon \boldsymbol E=\varepsilon_0\varepsilon_r \boldsymbol 
 电容器并联相加, 串联倒数相加
 
 电介质填充两种规律
-* (1) 按等势面填充: $\boldsymbol {D}$ 不变, $\boldsymbol {E}$ 变
-* (2) 按电场线填充: $\boldsymbol {D}$ 变, $\boldsymbol {E}$ 的分布“样子”不变
+* (1) 按等势面填充: $\vec {D}$ 不变, $\vec {E}$ 变
+* (2) 按电场线填充: $\vec {D}$ 变, $\vec {E}$ 的分布“样子”不变
 
 电容器的能量 $W=\frac{1}{2}CU^2=\frac{1}{2}QU=\frac{1}{2}\frac{Q^2}{C}$
 
@@ -159,35 +159,35 @@ $\boldsymbol D=\varepsilon \boldsymbol E=\varepsilon_0\varepsilon_r \boldsymbol 
 
 电流 $I$ 又叫电流强度
 
-电流密度 $\text d I=\boldsymbol J\cdot \text d \boldsymbol S$
+电流密度 $\text d I=\vec J\cdot \text d \vec S$
 
-电流 / 电流密度通亮 $I=\int_S \boldsymbol j \cdot \text d \boldsymbol S$
+电流 / 电流密度通亮 $I=\int_S \vec j \cdot \text d \vec S$
 
-$\boldsymbol J=qn\boldsymbol v$
+$\vec J=qn\vec v$
 
-$I=\int_S \boldsymbol J\cdot \text d \boldsymbol S=-\frac{\text d q_{in}}{\text d t}$
+$I=\int_S \vec J\cdot \text d \vec S=-\frac{\text d q_{in}}{\text d t}$
 
-微分形式 $\frac{\partial \rho}{\partial t}+\nabla \cdot \boldsymbol j=0$
+微分形式 $\frac{\partial \rho}{\partial t}+\nabla \cdot \vec j=0$
 
-若 $\oint_S \boldsymbol J\cdot \text d \boldsymbol S=0$, 则 I 为恒定电流
+若 $\oint_S \vec J\cdot \text d \vec S=0$, 则 I 为恒定电流
 
 恒定电场与静电场都服从高斯定律和场强环路积分为零的环路定理
 
 $R=\rho\frac{l}{S}=\frac{l}{\sigma S}$
 
-$\boldsymbol J=\sigma \boldsymbol E$
+$\vec J=\sigma \vec E$
 
-物质导电性能方程 $\boldsymbol j=\sigma\cdot\boldsymbol E$
+物质导电性能方程 $\vec j=\sigma\cdot\vec E$
 
-$\boldsymbol j=\sigma\cdot\boldsymbol E$ 比 $U=IR$ 适用范围更广, 对非均匀导体成立, 对非稳恒电流也成立
+$\vec j=\sigma\cdot\vec E$ 比 $U=IR$ 适用范围更广, 对非均匀导体成立, 对非稳恒电流也成立
 
 稳恒电流和静电场的综合求解的基本方程:
 
-稳恒条件 $\oint_S \boldsymbol J\cdot \text d \boldsymbol S=0$
+稳恒条件 $\oint_S \vec J\cdot \text d \vec S=0$
 
-环路定理 $\oint \boldsymbol E\cdot \text d\boldsymbol l=0$
+环路定理 $\oint \vec E\cdot \text d\vec l=0$
 
-欧姆定律 $\boldsymbol j=\sigma\cdot\boldsymbol E$
+欧姆定律 $\vec j=\sigma\cdot\vec E$
 
 界面关系 $j_{1n}=j_{2n}$, $E_{1t}=E_{2t}$
 
@@ -215,7 +215,7 @@ $u_c=\frac{Q}{C}e^{-\frac{t}{RC}}$
 
 在平行板电容器内填充两层导电介质, 厚度、介电常数和电导率分别为 $(d_{1}, \varepsilon_{1}, \sigma_{1})$
 
-和（$d_2, \varepsilon_{2}, \sigma_{2}$ ），设电容器两端电压为 $\boldsymbol{U}$
+和（$d_2, \varepsilon_{2}, \sigma_{2}$ ），设电容器两端电压为 $\vec{U}$
 
 ![](./images/C-problem.png)
 
@@ -238,7 +238,7 @@ $E_{1}=\frac{\sigma_{2}}{\sigma_{1} d_{2}+\sigma_{2} d_{1}} U, \quad E_{2}=\frac
 
 (2)在界面选扁柱画作少高斯面 $S$
 
-分别用 $\boldsymbol{E}$ 和 $\boldsymbol{D}$ 的高斯定理:
+分别用 $\vec{E}$ 和 $\vec{D}$ 的高斯定理:
 
 $\sigma_{e}=\varepsilon_{0}\left(E_{2}-E_{1}\right)=\frac{\varepsilon_{0}\left(\sigma_{1}-\sigma_{2}\right)}{\sigma_{1} d_{2}+\sigma_{2} d_{1}} U$
 
@@ -248,31 +248,31 @@ $\sigma_{e 0}=D_{2}-D_{1}=\varepsilon_{2} E_{2}-\varepsilon_{1} E_{1}=\frac{\var
 
 在所有情况下, 磁力都是运动电荷之间相互作用的表现.
 
-洛伦兹力 磁感应强度 $\boldsymbol F=q\boldsymbol v\times\boldsymbol B$
+洛伦兹力 磁感应强度 $\vec F=q\vec v\times\vec B$
 
 $1\text T=10^4\rm G$
 
-磁通量 $\Phi=\int_S \boldsymbol B\cdot\text d\boldsymbol S$
+磁通量 $\Phi=\int_S \vec B\cdot\text d\vec S$
 
-毕奥 - 萨伐尔定律 $\text d  \boldsymbol B=\frac{\mu_0}{4\pi}\frac{I\text d\boldsymbol l\times\boldsymbol e_r}{r^2}$
+毕奥 - 萨伐尔定律 $\text d  \vec B=\frac{\mu_0}{4\pi}\frac{I\text d\vec l\times\vec e_r}{r^2}$
 
 真空磁导率 $\mu_0=\frac{1}{\varepsilon_0 c^2}=4\pi\times 10^{-7}\rm N/A^2$
 
 $c=\frac{1}{\sqrt{\mu_0\varepsilon_0}}$
 
-磁通连续性定理 $\oint \boldsymbol B\cdot\text d\boldsymbol S=0$
+磁通连续性定理 $\oint \vec B\cdot\text d\vec S=0$
 
-$\text d  \boldsymbol B=\frac{\mu_0}{4\pi}\frac{q\boldsymbol v\times\boldsymbol e_r}{r^2}$
+$\text d  \vec B=\frac{\mu_0}{4\pi}\frac{q\vec v\times\vec e_r}{r^2}$
 
-安培环路定理 $\oint \boldsymbol B\cdot \text d \boldsymbol r =\mu_0\sum I_{in}$
+安培环路定理 $\oint \vec B\cdot \text d \vec r =\mu_0\sum I_{in}$
 
-$\oint\boldsymbol B\cdot\text d\boldsymbol r=\mu_0\int_S\left(\boldsymbol J_c+\varepsilon_0\frac{\partial \boldsymbol E}{\partial t}\right)\cdot \text d \boldsymbol S$
+$\oint\vec B\cdot\text d\vec r=\mu_0\int_S\left(\vec J_c+\varepsilon_0\frac{\partial \vec E}{\partial t}\right)\cdot \text d \vec S$
 
 传导电流 $I_c$
 
-位移电流 $I_d=\varepsilon_0 \frac{\text d\Phi}{\text d t}=\varepsilon_0\frac{\text d}{\text d t}\int_S\boldsymbol E\cdot \text d\boldsymbol S$
+位移电流 $I_d=\varepsilon_0 \frac{\text d\Phi}{\text d t}=\varepsilon_0\frac{\text d}{\text d t}\int_S\vec E\cdot \text d\vec S$
 
-位移电流密度 $\boldsymbol J_d=\varepsilon_0\frac{\partial \boldsymbol E}{\partial t}$
+位移电流密度 $\vec J_d=\varepsilon_0\frac{\partial \vec E}{\partial t}$
 
 全电流 $I=I_c+I_d$
 
@@ -292,9 +292,9 @@ $\oint\boldsymbol B\cdot\text d\boldsymbol r=\mu_0\int_S\left(\boldsymbol J_c+\v
 
 ### 磁矩
 
-$\boldsymbol B=\frac{\mu_o}{4\pi r^3}[\frac{3(\boldsymbol r\cdot \boldsymbol m)\boldsymbol r}{r^2}-\boldsymbol m], (r>> 磁矩线度)$
+$\vec B=\frac{\mu_o}{4\pi r^3}[\frac{3(\vec r\cdot \vec m)\vec r}{r^2}-\vec m], (r>> 磁矩线度)$
 
-磁矩、电流圈在外磁场中的势能 $W=-\boldsymbol m\boldsymbol B_ 外 =-IS\cdot \boldsymbol B_ 外$
+磁矩、电流圈在外磁场中的势能 $W=-\vec m\vec B_ 外 =-IS\cdot \vec B_ 外$
 
 ### 例题
 
@@ -304,13 +304,13 @@ $\boldsymbol B=\frac{\mu_o}{4\pi r^3}[\frac{3(\boldsymbol r\cdot \boldsymbol m)\
 
 对圆面 $S$ 有:
 
-$I_{d} =\iint_{S} \frac{\partial \boldsymbol{D}}{\partial t} \cdot \mathbf{d} \boldsymbol{S}=\iint_\boldsymbol{s}\varepsilon\frac{\mathbf{d} \boldsymbol{E}}{\mathbf{d} t}\mathbf{d} \boldsymbol{S}=\varepsilon \frac{\mathbf{d}\boldsymbol{E}}{\mathbf{d} t}\pi R^2$
+$I_{d} =\iint_{S} \frac{\partial \vec{D}}{\partial t} \cdot \mathbf{d} \vec{S}=\iint_\vec{s}\varepsilon\frac{\mathbf{d} \vec{E}}{\mathbf{d} t}\mathbf{d} \vec{S}=\varepsilon \frac{\mathbf{d}\vec{E}}{\mathbf{d} t}\pi R^2$
 
 过 P点垂直轴线作环形回路 $L$, 方向和圆面 $S^{\prime}$ 成右手关系:
 
-$\oint_{L} \boldsymbol{H} \cdot \mathbf{d} \boldsymbol{l}=\boldsymbol{H} \cdot \boldsymbol{2} \pi \boldsymbol{r}=\sum \boldsymbol{I}_{d内}$
+$\oint_{L} \vec{H} \cdot \mathbf{d} \vec{l}=\vec{H} \cdot \vec{2} \pi \vec{r}=\sum \vec{I}_{d内}$
 
-$\sum I_{d内}=\iint_{S^{\prime}} \frac{\partial \boldsymbol{D}}{\partial t} \cdot \mathbf{d} \boldsymbol{S}=\pi r^{2} \boldsymbol{\varepsilon} \frac{\mathbf{d} \boldsymbol{E}}{\mathbf{d} t}$
+$\sum I_{d内}=\iint_{S^{\prime}} \frac{\partial \vec{D}}{\partial t} \cdot \mathbf{d} \vec{S}=\pi r^{2} \vec{\varepsilon} \frac{\mathbf{d} \vec{E}}{\mathbf{d} t}$
 
 $H_{P}=\frac{\varepsilon r}{2} \frac{d E}{d t}$
 
@@ -326,29 +326,29 @@ $T=\frac{2\pi m}{Bq}$
 
 霍尔效应 $U_H=\frac{IB}{nqb}$
 
-$\boldsymbol F=\int_L I\text d \boldsymbol l\times \boldsymbol B$
+$\vec F=\int_L I\text d \vec l\times \vec B$
 
-磁矩 $\boldsymbol m=SI\boldsymbol e_n$
+磁矩 $\vec m=SI\vec e_n$
 
-力矩 $\boldsymbol M=\boldsymbol m\times \boldsymbol B$
+力矩 $\vec M=\vec m\times \vec B$
 
 ## 19 磁场中的磁介质
 
 $B=\mu_r B_0$, $\mu_0$ 为相对磁导率
 
-磁化强度 $\boldsymbol M=\frac{\sum \boldsymbol m_i}{\Delta V}$
+磁化强度 $\vec M=\frac{\sum \vec m_i}{\Delta V}$
 
-$\boldsymbol M=\frac{\mu_r-1}{\mu_0\mu_r}\boldsymbol B$
+$\vec M=\frac{\mu_r-1}{\mu_0\mu_r}\vec B$
 
-面束缚电流密度 $\boldsymbol j'=\boldsymbol M\times \boldsymbol e_n$
+面束缚电流密度 $\vec j'=\vec M\times \vec e_n$
 
-总束缚电流 $I'=\oint \text d I'=\oint_L\boldsymbol M\cdot \text d \boldsymbol r$
+总束缚电流 $I'=\oint \text d I'=\oint_L\vec M\cdot \text d \vec r$
 
-磁感应强度 $\boldsymbol B=\boldsymbol B_0+\boldsymbol B'$
+磁感应强度 $\vec B=\vec B_0+\vec B'$
 
-磁场强度 $\boldsymbol H=\frac{\boldsymbol B}{\mu}=\frac{\boldsymbol B}{\mu_0}-\boldsymbol M$
+磁场强度 $\vec H=\frac{\vec B}{\mu}=\frac{\vec B}{\mu_0}-\vec M$
 
-$\oint_L \boldsymbol H\cdot \text d \boldsymbol r=\sum I_{0in}$
+$\oint_L \vec H\cdot \text d \vec r=\sum I_{0in}$
 
 磁场的边界条件 $H_{1t}=H_{2t}$, $B_{1n}=B_{2n}$
 
@@ -362,15 +362,15 @@ $\oint_L \boldsymbol H\cdot \text d \boldsymbol r=\sum I_{0in}$
 
 当穿过各匝线圈的磁通量相等时,N 匝线圈的全磁通为 $\Psi=N\Phi$
 
-动生电动势 $\mathscr E=\oint_L(\boldsymbol v\times\boldsymbol B)\text d\boldsymbol l$
+动生电动势 $\mathscr E=\oint_L(\vec v\times\vec B)\text d\vec l$
 
 $|\mathscr E|=Blv$
 
-感生电动势 $\oint_L\boldsymbol E_i\cdot \text d\boldsymbol l=-\frac{\text d\Phi}{\text dt}=-\int_S \frac{\partial \boldsymbol B}{\partial t}\cdot \text d\boldsymbol S$
+感生电动势 $\oint_L\vec E_i\cdot \text d\vec l=-\frac{\text d\Phi}{\text dt}=-\int_S \frac{\partial \vec B}{\partial t}\cdot \text d\vec S$
 
 其中 $E_i$ 表示感生电场, 由于静电场的环路积分为零, 所以
 
-$\oint_L\boldsymbol E\cdot \text d\boldsymbol r=-\int_S \frac{\partial \boldsymbol B}{\partial t}\cdot \text d\boldsymbol S$
+$\oint_L\vec E\cdot \text d\vec r=-\int_S \frac{\partial \vec B}{\partial t}\cdot \text d\vec S$
 
 $\Psi_{21}=M_{21}i_1$
 
@@ -392,13 +392,13 @@ $\mathscr E_{L}=-\frac{\text d\Psi}{\text dt}=-L\frac{\text di}{\text dt}$, $L=\
 
 $$
 \left\{\begin{array}{l}
-\oint_{S} \boldsymbol{E} \cdot \mathrm{d} \boldsymbol{S}=\frac{q}{\varepsilon_{0}}=\frac{1}{\varepsilon_{0}} \int_{V} \rho \mathrm{d} V
+\oint_{S} \vec{E} \cdot \mathrm{d} \vec{S}=\frac{q}{\varepsilon_{0}}=\frac{1}{\varepsilon_{0}} \int_{V} \rho \mathrm{d} V
 \\
-\oint_{S} \boldsymbol{B} \cdot \mathrm{d} \boldsymbol{S}=0
+\oint_{S} \vec{B} \cdot \mathrm{d} \vec{S}=0
 \\
-\oint_{L} \boldsymbol{E} \cdot \mathrm{d} \boldsymbol{r}=-\frac{\mathrm{d} \Phi}{\mathrm{d} t}=-\int_{S} \frac{\partial \boldsymbol{B}}{\partial t} \cdot \mathrm{d} \boldsymbol{S}
+\oint_{L} \vec{E} \cdot \mathrm{d} \vec{r}=-\frac{\mathrm{d} \Phi}{\mathrm{d} t}=-\int_{S} \frac{\partial \vec{B}}{\partial t} \cdot \mathrm{d} \vec{S}
 \\
-\oint_{L} \boldsymbol{B} \cdot \mathrm{d} \boldsymbol{r}=\mu_{0} I+\frac{1}{c^{2}} \frac{\mathrm{d} \Phi_{\mathrm{e}}}{\mathrm{d} t}=\mu_{0} \int_{s}\left(\boldsymbol{J}+\varepsilon_{0} \frac{\partial \boldsymbol{E}}{\partial t}\right)\cdot \mathrm{d} \boldsymbol{S}
+\oint_{L} \vec{B} \cdot \mathrm{d} \vec{r}=\mu_{0} I+\frac{1}{c^{2}} \frac{\mathrm{d} \Phi_{\mathrm{e}}}{\mathrm{d} t}=\mu_{0} \int_{s}\left(\vec{J}+\varepsilon_{0} \frac{\partial \vec{E}}{\partial t}\right)\cdot \mathrm{d} \vec{S}
 \end{array}
 \right\}
 $$
@@ -407,10 +407,10 @@ $$
 
 $$
 \left\{\begin{array}{l}
-\oint_{S} \boldsymbol{D} \cdot \mathrm{d} \boldsymbol{S}=\int_{V} \rho_0 \mathrm{d} V \\
-\oint_{S} \boldsymbol{B} \cdot \mathrm{d} \boldsymbol{S}=0 \\
-\oint_{L} \boldsymbol{E} \cdot \mathrm{d} \boldsymbol{r}=-\int_{S} \frac{\partial \boldsymbol{B}}{\partial t} \cdot \mathrm{d} \boldsymbol{S} \\
-\oint_{L} \boldsymbol{H} \cdot \mathrm{d} \boldsymbol{r}=\int_{S}\left(\boldsymbol{j}_0+\frac{\partial \boldsymbol{D}}{\partial t}\right)\cdot \mathrm{d} \boldsymbol{S}
+\oint_{S} \vec{D} \cdot \mathrm{d} \vec{S}=\int_{V} \rho_0 \mathrm{d} V \\
+\oint_{S} \vec{B} \cdot \mathrm{d} \vec{S}=0 \\
+\oint_{L} \vec{E} \cdot \mathrm{d} \vec{r}=-\int_{S} \frac{\partial \vec{B}}{\partial t} \cdot \mathrm{d} \vec{S} \\
+\oint_{L} \vec{H} \cdot \mathrm{d} \vec{r}=\int_{S}\left(\vec{j}_0+\frac{\partial \vec{D}}{\partial t}\right)\cdot \mathrm{d} \vec{S}
 \end{array}
 \right\}
 $$
@@ -419,10 +419,10 @@ $$
 
 $$
 \left\{\begin{array}{l}
-\nabla \cdot \boldsymbol{D}=\rho_0 \\
-\nabla \cdot \boldsymbol{B}=0 \\
-\nabla \times \boldsymbol{E}=-\frac{\partial \boldsymbol{B}}{\partial t} \\
-\nabla \times \boldsymbol{H}=\boldsymbol{j}_0+\frac{\partial \boldsymbol{D}}{\partial t}
+\nabla \cdot \vec{D}=\rho_0 \\
+\nabla \cdot \vec{B}=0 \\
+\nabla \times \vec{E}=-\frac{\partial \vec{B}}{\partial t} \\
+\nabla \times \vec{H}=\vec{j}_0+\frac{\partial \vec{D}}{\partial t}
 \end{array}
 \right\}
 $$
@@ -430,12 +430,12 @@ $$
 对于各向同性的线形介质, 有
 
 $$
-\boldsymbol{D}=\varepsilon_{0} \varepsilon_{\mathrm{r}} \boldsymbol{E}, \quad \boldsymbol{B}=\mu_{0} \mu_{\mathrm{r}} \boldsymbol{H}, \quad \boldsymbol{j}_0=\sigma \boldsymbol{E}
+\vec{D}=\varepsilon_{0} \varepsilon_{\mathrm{r}} \vec{E}, \quad \vec{B}=\mu_{0} \mu_{\mathrm{r}} \vec{H}, \quad \vec{j}_0=\sigma \vec{E}
 $$
 
 洛伦兹力公式
 
-$\boldsymbol{F}=q\boldsymbol{E}+q\boldsymbol{v}\times\boldsymbol{B}$
+$\vec{F}=q\vec{E}+q\vec{v}\times\vec{B}$
 
 界面关系
 
@@ -443,7 +443,7 @@ $$
 \left\{\begin{array}{l}
 E_{1t}=E_{2t}\\
 D_{1n}-D_{2n}=\sigma_0\\
-H_{1t}-H_{2t}=(\boldsymbol{i_0}\times\boldsymbol{e_n})\cdot\boldsymbol{e_t}\\
+H_{1t}-H_{2t}=(\vec{i_0}\times\vec{e_n})\cdot\vec{e_t}\\
 B_{1n}=B_{2n}
 \end{array}
 \right\}
@@ -451,7 +451,7 @@ $$
 
 ### 平面电磁波是横波
 
-右手关系 $\frac{\boldsymbol{E}}{E}\times\frac{\boldsymbol H}{H}=\frac{\boldsymbol u}{u}$
+右手关系 $\frac{\vec{E}}{E}\times\frac{\vec H}{H}=\frac{\vec u}{u}$
 
 振幅关系 $\sqrt{\mu}H=\sqrt{\varepsilon}E$
 
@@ -459,16 +459,16 @@ $\frac{E}{B}=\frac{1}{\sqrt{\varepsilon\mu}}=u$
 
 波速、折射率 $u=\frac{1}{\sqrt{\varepsilon\mu}}$ $c=\frac{1}{\sqrt{\varepsilon_0\mu_0}}$ $n=\sqrt{\varepsilon_r\mu_r}$ $u=\frac{c}{n}$ (对于非铁磁质 $n=\sqrt{\varepsilon_r\mu_r}\approx\sqrt{\varepsilon_r}$)平面电磁波的能量密度 $w=\varepsilon E^2=\frac{EH}{u}$
 
-单位时间内通过与传播方向垂直的单位面积的能量, 叫电磁波的能流密度, 其时间平均值就是电磁波的强度. 能流密度矢量 $\boldsymbol S$ 又被称作波印亭矢量
+单位时间内通过与传播方向垂直的单位面积的能量, 叫电磁波的能流密度, 其时间平均值就是电磁波的强度. 能流密度矢量 $\vec S$ 又被称作波印亭矢量
 
-$\boldsymbol S=\boldsymbol E\times\boldsymbol H$
+$\vec S=\vec E\times\vec H$
 
-$\boldsymbol S_{//}$ 沿导线由电源传向负载
+$\vec S_{//}$ 沿导线由电源传向负载
 
-$\boldsymbol S_{\perp}$ 沿径向由外向内传播，补偿导线的焦耳热损耗
+$\vec S_{\perp}$ 沿径向由外向内传播，补偿导线的焦耳热损耗
 
 电磁波质量密度 $m=\frac{w}{c^2}=\frac{EH}{c^2u}$
 
-电磁波动量密度 $\boldsymbol g=m\boldsymbol u=\frac{1}{c^2}\boldsymbol E\times\boldsymbol H=\frac{\boldsymbol S}{c^2}$
+电磁波动量密度 $\vec g=m\vec u=\frac{1}{c^2}\vec E\times\vec H=\frac{\vec S}{c^2}$
 
 辐射压强 全反射 $p_r=2g\cdot c=2\frac{EH}{c}$ 全吸收 $p_r'=g\cdot c=\frac{EH}{c}$
