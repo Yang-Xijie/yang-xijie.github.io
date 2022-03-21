@@ -79,7 +79,10 @@ nav:
       - TODO 动手学深度学习笔记: BLOG/Deeplearning/动手学深度学习.md
       - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
       - 数据加载优化: BLOG/Deeplearning/parallel-load.md
-      - torch.nn: BLOG/Deeplearning/torch-nn.md
+      - DDP: 
+        - DDP调研: BLOG/Deeplearning/ddp.md
+        - ddp-note.py: BLOG/Deeplearning/ddp-note.md
+      - TODO torch.nn: BLOG/Deeplearning/torch-nn.md
     - 日语:
       - TODO 笔记: BLOG/Japanese/notes.md
       - 动词整理: BLOG/Japanese/verb.md
