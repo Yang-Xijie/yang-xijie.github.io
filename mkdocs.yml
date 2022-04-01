@@ -121,10 +121,11 @@ nav:
     - DEV/index.md
     - Xcode:
       - 新建开发模块: DEV/Xcode/scheme-dev.md
-      - Set Build Number: DEV/Xcode/set-build-number.md
       - Markup Syntax: DEV/Xcode/markup.md
       - 新建文件注释: DEV/Xcode/file-header.md
       - 常用快捷键: DEV/Xcode/shortcuts.md
+      - Set Build Number: DEV/Xcode/set-build-number.md
+      - Crash Analysis: DEV/Xcode/crash-analysis.md
     - ExNotes:
       - ExNotes设计文档: DEV/ExNotes/design.md
       - ExNotes开发考量: DEV/ExNotes/learning.md
