@@ -155,6 +155,7 @@ nav:
         - Stack: DEV/Programming/Cpp/stack.md
         - 类数据成员: DEV/Programming/Cpp/class-properties.md
         - Google风格: DEV/Programming/Cpp/google-format.md
+        - 考试复习: DEV/Programming/Cpp/final.md
       - MATLAB:
         - MATLAB入门: DEV/Programming/MATLAB/tour.md
         - 抛硬币的涨落问题: DEV/Programming/MATLAB/coin.md
