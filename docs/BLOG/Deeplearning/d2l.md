@@ -4,6 +4,8 @@ title: 动手学深度学习 笔记
 
 # 动手学深度学习 笔记
 
+<https://zh.d2l.ai/chapter_notation/index.html>
+
 `Release 2.0.0-beta0` `d2l-zh-pytorch.pdf`
 
 ## 0 安装

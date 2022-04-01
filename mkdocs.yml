@@ -75,14 +75,6 @@ nav:
     - BLOG/index.md
     - OS:
       - TODO ExOS设计: BLOG/OS/os-design.md
-    - 机器学习:
-      - TODO 动手学深度学习笔记: BLOG/Deeplearning/动手学深度学习.md
-      - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
-      - 数据加载优化: BLOG/Deeplearning/parallel-load.md
-      - DDP: 
-        - DDP调研: BLOG/Deeplearning/ddp.md
-        - ddp-note.py: BLOG/Deeplearning/ddp-note.md
-      - TODO torch.nn: BLOG/Deeplearning/torch-nn.md
     - 日语:
       - 笔记2/3: BLOG/Japanese/notes-2202-2203.md
       - 笔记4: BLOG/Japanese/notes-2204.md
@@ -100,6 +92,13 @@ nav:
       - vim: BLOG/Linux/vim.md
       - tmux: BLOG/Linux/tmux.md
       - UNIX: BLOG/Linux/unix.md
+    - 机器学习:
+      - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
+      - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
+      - 数据加载优化: BLOG/Deeplearning/parallel-load.md
+      - DDP: 
+        - DDP调研: BLOG/Deeplearning/ddp.md
+        - ddp-note.py: BLOG/Deeplearning/ddp-note.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/Foundation/Math/latex.md
