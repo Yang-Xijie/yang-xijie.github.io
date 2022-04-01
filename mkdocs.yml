@@ -133,6 +133,7 @@ nav:
       - Data Essentials: DEV/SwiftUI/data-essentials.md
     - AppKit:
       - 纯代码创建项目: DEV/AppKit/programmatically.md
+      - 苹果平台应用开发之路: DEV/AppKit/road.md
     - 编程:
       - 推荐的学习路线: DEV/Programming/recommendation.md
       - Swift:
@@ -156,6 +157,7 @@ nav:
         - 类数据成员: DEV/Programming/Cpp/class-properties.md
         - Google风格: DEV/Programming/Cpp/google-format.md
         - 考试复习: DEV/Programming/Cpp/final.md
+        - OJ技巧和策略: DEV/Programming/Cpp/oj.md
       - MATLAB:
         - MATLAB入门: DEV/Programming/MATLAB/tour.md
         - 抛硬币的涨落问题: DEV/Programming/MATLAB/coin.md

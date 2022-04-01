@@ -22,10 +22,12 @@ pip install d2l==0.17.3
 ## 1.3 各种机器学习问题
 
 有监督学习：
+
 - 回归 regression 标签为实数 平方损失函数
 - 分类 classification 标签为离散值 交叉熵损失函数
 
 无监督学习：
+
 - 你的老板可能会给你一大堆数据，然后让你用它做一些数据科学研究，却没有 对结果有要求
 - 聚类(clustering)
 - 主成分分析(principal component analysis)
