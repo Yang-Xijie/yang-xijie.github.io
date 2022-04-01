@@ -114,9 +114,12 @@ nav:
     - Markdown:
       - Markdown语法初学习: BLOG/Markdown/grammars.md
       - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
+    - 网络:
+      - 知识点总结: BLOG/Network/learning.md
+      - 专有名词速查: BLOG/Network/nouns.md
+      - GraphQL Hasura: BLOG/Network/graphql.md
     - 其他:
       - 视频信息初探: BLOG/Others/video-info.md
-      - GraphQL Hasura: BLOG/Others/network-graphql.md
   - 开发:
     - DEV/index.md
     - Xcode:
