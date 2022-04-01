@@ -179,11 +179,16 @@ nav:
       - vtuber: 2/Sukina/vtuber.md
   - 三次元:
     - 3/index.md
-    - 喜欢的:
+    - 个人账号: 3/Info/accounts.md
+    # - 随笔记:
+    #   - jottings...
+    - 杂记:
+      - 语言对比: 3/Articles/languages-comparision.md
+    - 文学:
       - 散文: 3/Literature/proses.md
       - 诗歌: 3/Literature/poems.md
-    - 个人账号: 3/Info/accounts.md
-    - 日记说明与索引: 3/Articles/diary-index.md
+    - 其他:
+      - 日记说明与索引: 3/Others/diary-index.md
   - 转载:
     - REPRODUCE/index.md
     - 提问的智慧: REPRODUCE/how-to-ask-questions-the-smart-way.md
