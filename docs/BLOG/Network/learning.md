@@ -220,7 +220,7 @@ ASK FSK PSK
 
 IP协议：
 
-![](https://upload-images.jianshu.io/upload_images/21158829-8c257b8bf4f5733a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](./images/ip-protocol.jpg)
 
 **定址**：
 
