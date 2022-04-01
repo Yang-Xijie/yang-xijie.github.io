@@ -19,8 +19,7 @@ title: 个人账号
 
 * [文集](https://www.jianshu.com/u/76b034c9f995)
     * [随笔记](https://www.jianshu.com/nb/46310605)
-    * [杂记](https://www.jianshu.com/nb/43089559)
     * [学习笔记](https://www.jianshu.com/nb/51920861)
     * [学习相关](https://www.jianshu.com/nb/51920861)
+    * [杂记](https://www.jianshu.com/nb/43089559)
     * [吃](https://www.jianshu.com/nb/51813647)
-    * [动漫](https://www.jianshu.com/nb/46310214)
