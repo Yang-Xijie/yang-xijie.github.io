@@ -188,8 +188,24 @@ nav:
   - 三次元:
     - 3/index.md
     - 个人账号: 3/Info/accounts.md
-    # - 随笔记:
-    #   - jottings...
+    - 随笔记:
+      - 3/Jottings/12.md
+      - 3/Jottings/11.md
+      - 3/Jottings/10.md
+      - 3/Jottings/9.md
+      - 3/Jottings/8.md
+      - 3/Jottings/7.md
+      - 3/Jottings/6.md
+      - 3/Jottings/5.md
+      - 3/Jottings/4.md
+      - 3/Jottings/3.md
+      - 3/Jottings/2.md
+      - 3/Jottings/1.md
+      - 3/Jottings/0.md
+      - 3/Jottings/2016.md
+      - 3/Jottings/2017.md
+      - 3/Jottings/2018-1.md
+      - 3/Jottings/2018-2.md
     - 文章:
       - TODO 课程: 3/Articles/cirriculum.md # TODO
       - 3/Articles/languages-comparision.md # 220402
