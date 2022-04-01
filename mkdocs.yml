@@ -187,7 +187,6 @@ nav:
       - vtuber: 2/Sukina/vtuber.md
   - 三次元:
     - 3/index.md
-    - 个人账号: 3/Info/accounts.md
     - 随笔记:
       - 3/Jottings/12.md
       - 3/Jottings/11.md
@@ -242,10 +241,11 @@ nav:
       - 3/Articles/dream-2017.md # 17
       - 3/Articles/affection-1.md # 14
     - 文学:
-      - 散文: 3/Literature/proses.md
-      - 诗歌: 3/Literature/poems.md
-    - 其他:
-      - 日记说明与索引: 3/Others/diary-index.md
+      - 3/Literature/proses.md
+      - 3/Literature/poems.md
+    - 个人信息:
+      - 3/Info/accounts.md
+      - 3/Info/diary-index.md
   - 转载:
     - REPRODUCE/index.md
     - 提问的智慧: REPRODUCE/how-to-ask-questions-the-smart-way.md
