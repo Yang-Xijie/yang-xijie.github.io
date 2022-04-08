@@ -82,6 +82,8 @@ nav:
       - 形容词整理: BLOG/Japanese/adj.md
       - 名词整理: BLOG/Japanese/noun.md
       - 语法整理: BLOG/Japanese/grammar.md
+    - UOS:
+      - 相关链接: BLOG/UOS/links.md
     - macOS:
       - 使用tree命令和访达进行任务管理: BLOG/macOS/tree.md
       - 辅助功能缩放: BLOG/macOS/zoom.md
