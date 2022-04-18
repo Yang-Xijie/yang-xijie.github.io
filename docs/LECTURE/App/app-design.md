@@ -8,12 +8,13 @@ title: 软件开发经验分享
 
 ## 准备
 
-- Mac的屏幕连接投影仪
-- Mac开勿扰模式开Keynote和讲稿
+- Mac插充电器、连接投影仪
+- Mac开勿扰模式、开Keynote（调整尺寸）和讲稿
 - Mac开录屏
-- Mac开腾讯会议投屏
+- Mac开腾讯会议共享桌面
 - 用教室的扩音器
-- iPad开github.io看讲稿
+- iPad开github.io看讲稿、通用控制
+- 手机开秒表
 
 ## 【自我介绍】
 
