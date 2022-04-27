@@ -98,6 +98,8 @@ nav:
       - tmux: BLOG/Linux/tmux.md
       - UNIX: BLOG/Linux/unix.md
       - 内核编译: BLOG/Linux/kernel-compile.md
+    - GitHub:
+      - 镜像到Gitee: BLOG/GitHub/mirror.md
     - 机器学习:
       - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
       - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
