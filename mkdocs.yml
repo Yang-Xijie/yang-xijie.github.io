@@ -76,6 +76,7 @@ nav:
     - OS:
       - TODO ExOS设计: BLOG/OS/os-design.md
       - TODO fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
+      - fork例: BLOG/OS/fork-example.md
     - 日语:
       - 笔记2/3: BLOG/Japanese/notes-2202-2203.md
       - 笔记4: BLOG/Japanese/notes-2204.md
