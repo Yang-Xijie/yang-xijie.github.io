@@ -157,6 +157,7 @@ nav:
         - 笔记整理: DEV/Programming/C/review.md
         - 常用函数: DEV/Programming/C/final.md
         - stdout按行刷新: DEV/Programming/C/stdout-fflush.md
+        - 二维数组调试: DEV/Programming/C/watch-matrix.md
       - C++:
         - 1 C++的几个基本问题: DEV/Programming/Cpp/1.md
         - 2 函数重载: DEV/Programming/Cpp/2.md
