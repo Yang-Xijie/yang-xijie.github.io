@@ -262,16 +262,22 @@ nav:
     - 文学:
       - 3/Literature/proses.md
       - 3/Literature/poems.md
-    - 个人信息:
-      - 3/Info/accounts.md
-      - 3/Info/diary-index.md
     - 日记:
       - 3/Diary2022/2205.md
       - 3/Diary2022/2204.md
       - 3/Diary2022/2203.md
       - 3/Diary2022/2202.md
       - 3/Diary2022/2201.md
-      # TODO 2004-2112
+      # TODO 2021
+      - 3/Diary2020/2012.md
+      - 3/Diary2020/2011.md
+      - 3/Diary2020/2010.md
+      - 3/Diary2020/2009.md
+      - 3/Diary2020/2008.md
+      - 3/Diary2020/2007.md
+      - 3/Diary2020/2006.md
+      - 3/Diary2020/2005.md
+      - 3/Diary2020/2004.md
       - 3/Diary2020/2003.md
       - 3/Diary2020/200312-start.md
       - 3/Diary2020/2001.md
@@ -279,7 +285,8 @@ nav:
       - 3/Diary2019/1909-12.md
       - 3/Diary2019/190714.md
       - 3/Diary2019/1901-winter-thu.md
-      - 3/Diary2018/1811-12.md
+      - 3/Diary2018/1812.md
+      - 3/Diary2018/1811.md
       - 3/Diary2018/1810.md
       - 3/Diary2018/1809.md
       - 3/Diary2018/1808.md
@@ -292,6 +299,9 @@ nav:
       - 3/Diary2017/1704-06.md
       - 3/Diary2017/1701-03.md
       - 3/Diary2016/16.md
+    - 个人信息:
+      - 3/Info/accounts.md
+      - 3/Info/diary-index.md
   - 转载:
     - REPRODUCE/index.md
     - 提问的智慧: REPRODUCE/how-to-ask-questions-the-smart-way.md
