@@ -90,7 +90,7 @@ Mac电脑选择macOS版本下载
     - 在屏幕上显示B站弹幕：
         - <https://comen.app> 输入直播间的id就可以进行直播间弹幕的捕获。
         - 问题是背景不是透明的 还在开发中
-        - [GitHub主页](https://github.com/3Shain/Comen)
+        - [GitHub | 3Shain - Comen](https://github.com/3Shain/Comen)
 
 ### 音频设置
 

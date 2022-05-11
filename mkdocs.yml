@@ -73,10 +73,6 @@ nav:
     - 应用开发设计: LECTURE/App/app-design.md
   - 博客:
     - BLOG/index.md
-    - OS:
-      - TODO ExOS设计: BLOG/OS/os-design.md
-      - TODO fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
-      - fork例: BLOG/OS/fork-example.md
     - 日语:
       - 笔记2/3: BLOG/Japanese/notes-2202-2203.md
       - 笔记4: BLOG/Japanese/notes-2204.md
@@ -87,6 +83,10 @@ nav:
       - 语法整理: BLOG/Japanese/grammar.md
       - 作文: BLOG/Japanese/essays.md
       - たんたんめん推特: BLOG/Japanese/tantanmen-translation.md
+    - OS:
+      - TODO ExOS设计: BLOG/OS/os-design.md
+      - fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
+      - fork例: BLOG/OS/fork-example.md
     - UOS:
       - 相关链接: BLOG/UOS/links.md
     - macOS:
@@ -102,13 +102,13 @@ nav:
       - 内核编译: BLOG/Linux/kernel-compile.md
     - GitHub:
       - 镜像到Gitee: BLOG/GitHub/mirror.md
-    - 机器学习:
-      - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
-      - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
-      - 数据加载优化: BLOG/Deeplearning/parallel-load.md
-      - DDP: 
-        - DDP调研: BLOG/Deeplearning/ddp.md
-        - ddp-note.py: BLOG/Deeplearning/ddp-note.md
+    - Markdown:
+      - Markdown语法初学习: BLOG/Markdown/grammars.md
+      - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
+    - 网络:
+      - 知识点总结: BLOG/Network/learning.md
+      - 专有名词速查: BLOG/Network/nouns.md
+      - GraphQL Hasura: BLOG/Network/graphql.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/Foundation/Math/latex.md
@@ -122,13 +122,13 @@ nav:
       - 电子:
         - 各种存储器间的关系: BLOG/Foundation/EE/storage.md
         - 二阶线性时不变电路: BLOG/Foundation/EE/rlc.md
-    - Markdown:
-      - Markdown语法初学习: BLOG/Markdown/grammars.md
-      - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
-    - 网络:
-      - 知识点总结: BLOG/Network/learning.md
-      - 专有名词速查: BLOG/Network/nouns.md
-      - GraphQL Hasura: BLOG/Network/graphql.md
+      - 机器学习:
+        - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
+        - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
+        - 数据加载优化: BLOG/Deeplearning/parallel-load.md
+        - DDP: 
+          - DDP调研: BLOG/Deeplearning/ddp.md
+          - ddp-note.py: BLOG/Deeplearning/ddp-note.md
     - 其他:
       - 视频信息初探: BLOG/Others/video-info.md
   - 开发:

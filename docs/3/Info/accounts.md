@@ -14,7 +14,7 @@
 [简书 Jinashu](https://www.jianshu.com/u/76b034c9f995)
 
 * [文集](https://www.jianshu.com/u/76b034c9f995)
-    * 在简书那边更新的原因是我不想给主页仓库里面添加过多图片
+    * 在简书那边更新的原因是我不想给个人主页仓库里面添加过多图片
     * [学习笔记](https://www.jianshu.com/nb/51920861)
         * 主要是图片形式的课程笔记 
     * [吃](https://www.jianshu.com/nb/51813647)

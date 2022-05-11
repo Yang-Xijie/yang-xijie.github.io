@@ -92,7 +92,7 @@ title: 个人履历
 
 ## 个人链接内容
 
-- [个人主页](https://yang-xijie.github.io)
+- [个人网站](https://yang-xijie.github.io)
     - [讲稿](https://yang-xijie.github.io/LECTURE/)
     - [博客](https://yang-xijie.github.io/BLOG/)
     - [开发笔记](https://yang-xijie.github.io/DEV/)
