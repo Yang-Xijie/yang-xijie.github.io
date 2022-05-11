@@ -220,7 +220,7 @@ nav:
       - 3/Jottings/2017.md
       - 3/Jottings/2016.md
     - 文章:
-      - TODO 课程: 3/Articles/cirriculum.md # TODO
+      - TODO 课程: 3/Articles/cirriculum.md
       - 3/Articles/220506-stop-jianshu.md
       - 3/Articles/220505-library-thu.md
       - 3/Articles/220415-interestx2.md
@@ -320,6 +320,7 @@ nav:
     - Tim Cook在Duke大学的演讲: REPRODUCE/tim-cook-at-duke.md
   - 关于:
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
+    - 个人履历: ABOUT/cv-full.md
     - 支持作者: ABOUT/support.md
     - 文章编写帮助: ABOUT/help.md
     - 网站构建: ABOUT/build.md
