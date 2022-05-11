@@ -1,10 +1,8 @@
-# 个人履历
+---
+title: 个人履历
+---
 
-> 此份文档为杨希杰个人详细履历 在实际使用时 针对方向特点精简凝练形成简历
-> 
-> 可以在简历中添加此份文档的链接
-> 
-> 2022.5.11 更新
+# 个人履历
 
 ## 目前
 
@@ -123,3 +121,9 @@
         - [软件开发经验](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139392)
     - [VLOG](https://space.bilibili.com/24502827/channel/collectiondetail?sid=181053)
     - 兴趣相关
+
+## 备注
+
+> 此份文档为杨希杰个人详细履历
+> 
+> 2022.5.11 更新
