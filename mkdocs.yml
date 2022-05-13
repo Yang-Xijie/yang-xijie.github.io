@@ -150,6 +150,8 @@ nav:
       - 苹果平台应用开发之路: DEV/AppKit/road.md
     - 编程:
       - 推荐的学习路线: DEV/Programming/recommendation.md
+      - C#:
+        - 学习笔记: DEV/Programming/Csharp/learning.md
       - Swift:
         - 并行计算: DEV/Programming/Swift/parallel.md
         - Swift教学作业: DEV/Programming/Swift/hw.md

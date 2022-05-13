@@ -17,7 +17,7 @@ title: 个人对Python的看法
 
 ## Python优点
 
-- 对比堪比火星文的 `shell脚本`，`Python` 确实强的太多了
+- 对比堪比火星文的 `shell脚本` `Python` 确实强的太多了
 - 深度学习的框架
 
 ---
