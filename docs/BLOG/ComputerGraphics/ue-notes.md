@@ -12,7 +12,7 @@
 ---
 
 - YouTube | Unreal Sensei
-    - [3D Modeling in Unreal Engine - Create a Donut in UE4 Tutorial](https://www.youtube.com/watch?v=iPdknzGqieE)
-    - [Learn Unreal Engine 5 for Blender Users - UE5 Beginner Tutorial](https://youtu.be/IQCNJ9Lpx-s)
-    - [How to Create a Game in Unreal Engine 5 - UE5 Beginner Tutorial](https://youtu.be/ITCWa3oLNAQ)
-    - [Unreal Engine 5 Beginner Tutorial - UE5 Starter Course!](https://youtu.be/gQmiqmxJMtA)
+    - [Unreal Engine 5 Beginner Tutorial - UE5 Starter Course!](https://youtu.be/gQmiqmxJMtA) 入门必看
+    - [Learn Unreal Engine 5 for Blender Users - UE5 Beginner Tutorial](https://youtu.be/IQCNJ9Lpx-s) 用过Blender可以看这个
+    - [How to Create a Game in Unreal Engine 5 - UE5 Beginner Tutorial](https://youtu.be/ITCWa3oLNAQ) 偏重于蓝图脚本
+    - [3D Modeling in Unreal Engine - Create a Donut in UE4 Tutorial](https://www.youtube.com/watch?v=iPdknzGqieE) 在UE中做三维建模
