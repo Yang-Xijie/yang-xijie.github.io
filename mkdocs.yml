@@ -83,6 +83,11 @@ nav:
       - 语法整理: BLOG/Japanese/grammar.md
       - 作文: BLOG/Japanese/essays.md
       - たんたんめん推特: BLOG/Japanese/tantanmen-translation.md
+    - CG:
+      - Computer Graphics: BLOG/ComputerGraphics/cg-notes.md
+      - Blender: BLOG/ComputerGraphics/blender-notes.md
+      - Unity: BLOG/ComputerGraphics/unity-notes.md
+      - UE: BLOG/ComputerGraphics/ue-notes.md
     - OS:
       - TODO ExOS设计: BLOG/OS/os-design.md
       - fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
