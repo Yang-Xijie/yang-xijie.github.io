@@ -3,7 +3,7 @@
 ## 学习资料
 
 - [Unity | Documentation](https://docs.unity3d.com/Manual/index.html)
-- [Bilibili | 10分钟了解游戏制作的全过程 游戏是如何开发出来的 - 奇乐编程学院](https://www.bilibili.com/video/BV1xJ41197e9)
+- Completed [Bilibili | 10分钟了解游戏制作的全过程 游戏是如何开发出来的 - 奇乐编程学院](https://www.bilibili.com/video/BV1xJ41197e9)
 - Completed [YouTube | Everything to know about the PARTICLE SYSTEM](https://www.youtube.com/watch?v=FEA1wTMJAR0)
     - 粒子效果介绍 就是一堆例子呈现在三维空间中的效果 想要很酷炫的话 你可以给粒子加上颜色、模型、物理、发光、时变等多种效果
 
