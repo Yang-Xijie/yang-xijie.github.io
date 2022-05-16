@@ -11,8 +11,6 @@
 
 - Completed [Bilibili | Unity 10分钟快速入门 - 奇乐编程学院](https://www.bilibili.com/video/BV1PL4y1e7hy)
     - 讲的清楚但完全不够用 只是个简介
-- Completed [Bilibili | 1h Unity入门 - 游戏谭](https://www.bilibili.com/video/BV1Yh411h7zk)
-    - 讲的不清楚但勉强够用
 
 ## 学习笔记
 

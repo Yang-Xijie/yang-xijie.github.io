@@ -15,6 +15,13 @@
     - 如果注重软件开发和相关背景可以通过这个视频了解
 - Completed [Bilibili | GPU是如何工作的？Shader图形编程入门 - 奇乐编程学院](https://www.bilibili.com/video/BV1eE411E7Jf)
 - 【看到 shader vs material】[YouTube | Shader Basics, Blending & Textures Shaders for Game Devs - Freya Holmér](https://youtu.be/kfM-yu0iQBk)
+- Completed [常用三维文件解析](https://all3dp.com/2/most-common-3d-file-formats-model/)
+    - 非常详细的说了三维文件里面都存了什么东西
+    - Blender Export
+        - .dae default ISO standard
+        - .stl 只有模型的网格信息（三角形）
+        - .obj 模型的Mesh、Material、Texture(单独存储在.mtl文件中) 不能存储动画
+        - .fbx 模型的全部信息 包括动画
 
 ## 学习笔记
 
