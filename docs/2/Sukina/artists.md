@@ -18,12 +18,3 @@ title: 喜欢的画师
 
 - [Pixiv](https://www.pixiv.net/en/users/854356)
 - [Twitter](https://twitter.com/mika_mikami)
-
-## いちはや
-
-いちはや画JC和妹妹比较多吧，画风很清新。剧情走向往往出人意料，但背后的故事还是蛮温暖的，这一点感觉很不错。
-
-- [Pixiv](https://www.pixiv.net/en/users/10704)
-- [Twitter](https://twitter.com/188_sch)
-
-代表作：妹は記憶喪失
