@@ -110,7 +110,10 @@ nav:
     - Markdown:
       - Markdown语法初学习: BLOG/Markdown/grammars.md
       - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
-      - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
+      - MkDocs静态网站构建: BLOG/Markdown/mdbook-site.md
+      - mdBook静态网站构建: BLOG/Markdown/mkdocs-site.md
+      - GitHub Pages简介: BLOG/Markdown/github-pages.md
+
     - 网络:
       - 知识点总结: BLOG/Network/learning.md
       - 专有名词速查: BLOG/Network/nouns.md

@@ -115,6 +115,7 @@ GitHub > Repository > Settings > Actions > General >
 
 ```
 $ git remote add origin git@github.com:Yang-Xijie/mdbook-site.git # change to your github repo
+$ git branch -M main
 $ git push -u origin main
 ```
 
