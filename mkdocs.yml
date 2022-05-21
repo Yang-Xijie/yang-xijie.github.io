@@ -110,6 +110,7 @@ nav:
     - Markdown:
       - Markdown语法初学习: BLOG/Markdown/grammars.md
       - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
+      - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
     - 网络:
       - 知识点总结: BLOG/Network/learning.md
       - 专有名词速查: BLOG/Network/nouns.md
@@ -228,6 +229,7 @@ nav:
       - 3/Jottings/2016.md
     - 文章:
       - TODO 课程: 3/Articles/cirriculum.md
+      - 3/Articles/220520-what-is-game.md
       - 3/Articles/220506-stop-jianshu.md
       - 3/Articles/220505-library-thu.md
       - 3/Articles/220415-interestx2.md
