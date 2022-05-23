@@ -15,7 +15,7 @@ title: 个人履历
 - 出生年月：2001.6
 - 联系方式
     - 清华邮箱：yang-xj19@mails.tsinghua.edu.cn
-    - 常用邮箱：564197835@qq.com
+    - 个人邮箱：564197835@qq.com
     - 手机电话：18220776484
 - 链接
     - 个人网站：<https://yang-xijie.github.io>
@@ -74,6 +74,7 @@ title: 个人履历
 - 软件使用：熟练使用`macOS`及相关软件
     - 熟练使用`Keynote`进行幻灯片制作 有较强的演讲与答辩能力
     - 熟练使用`Final Cut Pro`进行视频剪辑 在Bilibili视频平台有多份投稿 内容多元
+    - 熟练使用`Sketch`进行软件原型设计
 
 ## 兴趣方向
 

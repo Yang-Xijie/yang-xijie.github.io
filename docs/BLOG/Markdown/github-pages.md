@@ -2,7 +2,7 @@
 
 简单来说，`GitHub Pages` 是可以轻松快速部署静态网站的方式，你可以在 GitHub 的每一个仓库创建一个对应的静态网站，存放说明或文档。
 
-通俗来说，就是白嫖GitHub的服务器来建站，GitHub Pages，与Git管理超搭，免费不说，还相当稳定的，而且有全球的CDN加速，也没被墙，我只能说真爽。有了自己的主页<https://yang-xijie.github.io>之后，我几乎就很少在各种平台发博客了。
+通俗来说，就是白嫖GitHub的服务器来建站，GitHub Pages，与Git管理超搭，免费不说，还相当稳定的，而且有全球的CDN加速，也没被墙，我只能说真爽。有了自己的网站<https://yang-xijie.github.io>之后，我几乎就很少在各种平台发博客了。
 
 - https://pages.github.com
 - [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
