@@ -1,4 +1,4 @@
-#  开发前沿技术分享
+# 好应用的特质
 
 > 主讲人：王恒进 WWDR (Apple Worldwide Developer Relations)
 > 

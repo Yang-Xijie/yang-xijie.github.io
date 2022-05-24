@@ -55,6 +55,7 @@ nav:
       - Git: LECTURE/Git/git.md
       - Git demos: LECTURE/Git/git-demos.md
       - Git teamwork: LECTURE/Git/git-teamwork.md
+    - 应用开发设计: LECTURE/App/app-design.md
     - 在macOS上用VSCode写C++代码: 
       - 0 介绍: LECTURE/vscode-cpp/0_about.md
       - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
@@ -70,9 +71,13 @@ nav:
       - 补充: LECTURE/vscode-cpp/11_补充.md
     - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
     - 英语音标教学: LECTURE/English/phonetic-symbol.md
-    - 应用开发设计: LECTURE/App/app-design.md
   - 博客:
     - BLOG/index.md
+    - CG:
+      - Computer Graphics: BLOG/ComputerGraphics/cg-notes.md
+      - Blender: BLOG/ComputerGraphics/blender-notes.md
+      - Unity: BLOG/ComputerGraphics/unity-notes.md
+      - UE: BLOG/ComputerGraphics/ue-notes.md
     - 日语:
       - 笔记2/3: BLOG/Japanese/notes-2202-2203.md
       - 笔记4: BLOG/Japanese/notes-2204.md
@@ -83,28 +88,23 @@ nav:
       - 语法整理: BLOG/Japanese/grammar.md
       - 作文: BLOG/Japanese/essays.md
       - たんたんめん推特: BLOG/Japanese/tantanmen-translation.md
-    - CG:
-      - Computer Graphics: BLOG/ComputerGraphics/cg-notes.md
-      - Blender: BLOG/ComputerGraphics/blender-notes.md
-      - Unity: BLOG/ComputerGraphics/unity-notes.md
-      - UE: BLOG/ComputerGraphics/ue-notes.md
     - OS:
       - TODO ExOS设计: BLOG/OS/os-design.md
       - fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
       - fork例: BLOG/OS/fork-example.md
-    - UOS:
-      - 相关链接: BLOG/UOS/links.md
+    - Linux:
+      - vim: BLOG/Linux/vim.md
+      - tmux: BLOG/Linux/tmux.md
+      - UNIX: BLOG/Linux/unix.md
+      - 内核编译: BLOG/Linux/kernel-compile.md
     - macOS:
       - 使用tree命令和访达进行任务管理: BLOG/macOS/tree.md
       - 辅助功能缩放: BLOG/macOS/zoom.md
       - Mac与Android的文件传输: BLOG/macOS/sharing-mac-android.md
       - MAD制作流程: BLOG/macOS/mad.md
       - OBS开直播: BLOG/macOS/stream.md
-    - Linux:
-      - vim: BLOG/Linux/vim.md
-      - tmux: BLOG/Linux/tmux.md
-      - UNIX: BLOG/Linux/unix.md
-      - 内核编译: BLOG/Linux/kernel-compile.md
+    - UOS:
+      - 相关链接: BLOG/UOS/links.md
     - GitHub:
       - 镜像到Gitee: BLOG/GitHub/mirror.md
     - Markdown:
@@ -113,11 +113,6 @@ nav:
       - MkDocs静态网站构建: BLOG/Markdown/mdbook-site.md
       - mdBook静态网站构建: BLOG/Markdown/mkdocs-site.md
       - GitHub Pages简介: BLOG/Markdown/github-pages.md
-
-    - 网络:
-      - 知识点总结: BLOG/Network/learning.md
-      - 专有名词速查: BLOG/Network/nouns.md
-      - GraphQL Hasura: BLOG/Network/graphql.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/Foundation/Math/latex.md
@@ -131,6 +126,10 @@ nav:
       - 电子:
         - 各种存储器间的关系: BLOG/Foundation/EE/storage.md
         - 二阶线性时不变电路: BLOG/Foundation/EE/rlc.md
+      - 网络:
+        - 知识点总结: BLOG/Network/learning.md
+        - 专有名词速查: BLOG/Network/nouns.md
+        - GraphQL Hasura: BLOG/Network/graphql.md
       - 机器学习:
         - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
         - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
@@ -204,11 +203,11 @@ nav:
       - 计划: 2/Genshin/plan.md
       - 暴击爆伤配比: 2/Genshin/crit-calculation.md
     - 喜欢的:
-      - 二次元女生: 2/Sukina/kawaii.md
       - 插画: 2/Sukina/pictures.md
+      - 二次元女生: 2/Sukina/kawaii.md
       - 画师: 2/Sukina/artists.md
-      - 音声: 2/Sukina/voice.md
       - vtuber: 2/Sukina/vtuber.md
+      - 音声: 2/Sukina/voice.md
   - 三次元:
     - 3/index.md
     - 随笔记:
