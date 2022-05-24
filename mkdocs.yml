@@ -148,27 +148,31 @@ nav:
       - 常用快捷键: DEV/Xcode/shortcuts.md
       - Set Build Number: DEV/Xcode/set-build-number.md
       - Crash Analysis: DEV/Xcode/crash-analysis.md
-    - ExNotes:
-      - ExNotes设计文档: DEV/ExNotes/design.md
-      - ExNotes开发考量: DEV/ExNotes/learning.md
     - SwiftUI:
       - Data Essentials: DEV/SwiftUI/data-essentials.md
     - AppKit:
       - 纯代码创建项目: DEV/AppKit/programmatically.md
       - 苹果平台应用开发之路: DEV/AppKit/road.md
+    - ExNotes:
+      - ExNotes设计文档: DEV/ExNotes/design.md
+      - ExNotes开发考量: DEV/ExNotes/learning.md
     - 编程:
       - 推荐的学习路线: DEV/Programming/recommendation.md
-      - C#:
-        - 学习笔记: DEV/Programming/Csharp/learning.md
-      - Swift:
-        - 并行计算: DEV/Programming/Swift/parallel.md
-        - Swift教学作业: DEV/Programming/Swift/hw.md
-        - TODO Language Guide: DEV/Programming/Swift/guide.md
       - C:
         - 笔记整理: DEV/Programming/C/review.md
         - 常用函数: DEV/Programming/C/final.md
         - stdout按行刷新: DEV/Programming/C/stdout-fflush.md
         - 二维数组调试: DEV/Programming/C/watch-matrix.md
+      - Swift:
+        - 并行计算: DEV/Programming/Swift/parallel.md
+        - Swift教学作业: DEV/Programming/Swift/hw.md
+        - TODO Language Guide: DEV/Programming/Swift/guide.md
+      - Python:
+        - 不喜欢Python的理由: DEV/Programming/Python/dislike.md
+        - 复制拷贝: DEV/Programming/Python/copy.md
+        - numpy速查表: DEV/Programming/Python/numpy-overview.md
+      - C#:
+        - 学习笔记: DEV/Programming/Csharp/learning.md
       - C++:
         - 1 C++的几个基本问题: DEV/Programming/Cpp/1.md
         - 2 函数重载: DEV/Programming/Cpp/2.md
@@ -188,10 +192,6 @@ nav:
         - MATLAB入门: DEV/Programming/MATLAB/tour.md
         - 抛硬币的涨落问题: DEV/Programming/MATLAB/coin.md
         - 命令行MATLAB: DEV/Programming/MATLAB/terminal-matlab.md
-      - Python:
-        - 不喜欢Python的理由: DEV/Programming/Python/dislike.md
-        - 复制拷贝: DEV/Programming/Python/copy.md
-        - numpy速查表: DEV/Programming/Python/numpy-overview.md
   - 二次元:
     - 2/index.md
     - 番:
