@@ -6,9 +6,12 @@
 
 - 【持续更新】[Bilibili | 上帝视角看GPU](https://www.bilibili.com/video/BV1P44y1V7bu)
     - 可以先看这个了解GPU的工作原理，通过这个系列科普能把所有图形学的知识串起来；建议反复观看
-- 【看到二维矩阵变换】[Bilibili | GAMES101-现代计算机图形学入门 - 闫令琪](https://www.bilibili.com/video/BV1X7411F744)
+- [Bilibili | GAMES101-现代计算机图形学入门 - 闫令琪](https://www.bilibili.com/video/BV1X7411F744)
     - [课程主页](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
     - 算是计算机图形学理论入门教程 讲的是数学和算法
+- [Bilibili | GAMES104-现代游戏引擎：从入门到实践](https://www.bilibili.com/video/BV1oU4y1R7Km/)
+    - [课程主页](http://games-cn.org/games104/)
+    - 主要讲授游戏系统的各个方面 较基础
 
 ### 其他
 
