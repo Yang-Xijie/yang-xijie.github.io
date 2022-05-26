@@ -29,42 +29,87 @@ What is Game
 
 - [知乎｜游戏是什么 - EugeneJJ](https://zhuanlan.zhihu.com/p/266635398)
 
-## 我玩过的游戏
+## 个人玩过觉得不错的游戏
 
-- 弓箭手大作战
-- 贪吃蛇
-- 狂野飙车8
-- 狂野飙车9
-- COC
-- Boom Beach
-- 皇室战争
-- 保卫萝卜
-- 切绳子
-- FoxHime Zero
-- 水果忍者
-- 原神
-- Guitar Girl
-- 艾诺迪亚
-- 疯狂喷气机
-- 机械迷城
-- 我的世界
-- 迷你地铁
-- 纪念碑谷
-- 植物大战僵尸
-- Smash Hit
-- 魔灵召唤
-- 火车管理员
-- 神庙逃亡
-- 这是我的战争
-- 家园7
-- 鳄鱼小顽皮爱洗澡
-- 三国杀
-- 双生视界
-- 忍者必须死
-- 无尽之剑II
-- 碧蓝档案
-- 雀魂
-- 黄金矿工
-- 俄罗斯方块
-- 五子棋
-- 挖坑
+手游-二次元：双生视界
+碧蓝档案(ブルアカ)
+手游-挂机：魔灵召唤(Summoners War)
+手游-战略：部落冲突(Clash of Clans)
+皇室战争(Clash Royale)
+海岛奇兵(Boom Beach)
+神偷
+手游-吃鸡：弓箭手大作战(arrow.io)
+贪吃蛇大作战
+
+- 动作（交互至关重要）
+    - 无尽之剑II
+        - 亮点：中世界打怪
+    - 狂野飙车(Asphalt)
+        - 亮点：开车体验真实
+    - Extreme Skater
+        - 亮点：重力感应加手势操控
+- 跑酷（随时间分数增加 一定会死）
+    - 忍者必须死
+    - [Smash Hit](https://en.wikipedia.org/wiki/Smash_Hit)
+    - 迷你地铁(Mini Metro)
+    - 疯狂喷气机(Jetpack)
+    - 火车管理员(Train Conductor)
+    - 神庙逃亡(Temple Run)
+    - 水果忍者(Fruit Ninja)
+    - 俄罗斯方块
+    - 2048
+    - 滑雪大冒险
+    - 别踩白块(Piano TIles)
+    - Banana Kong
+    - 地铁跑酷(Subway Surfers)
+    - 黄金矿工
+    - 三维弹球
+- 单机-剧情（完成任务升级）
+    - 艾诺迪亚4(Inotia4)
+    - 罪恶都市(Vice City)
+- 生存（一定会死）
+    - 家园(Townsmen)
+    - 木架(Timberborn)
+    - 这是我的战争(This War of Mine)
+    - 秋战(Autumn Dynasty)
+- 养成（只有提升不会死）：Township
+    - 小小王国(Lil' Kingdom)
+    - 开心商店(Happy Mall Story)
+    - 爱养成
+    - Hay Day
+    - 开放世界（你想怎么探索你说了算）：原神(Genshin Impact)
+    - 我的世界(Minecraft)
+- 关卡-益智
+    - 植物大战僵尸(Plants vs Zombies)
+    - 鳄鱼小顽皮爱洗澡(Where's My Water?)
+    - 切绳子(Cut the Rope)
+    - 保卫萝卜
+    - 王国战争(Quest for Power)
+    - 疯狂农场(Farm Frenzyx)
+    - 怪怪水族馆
+    - 愤怒的小鸟(Angry Birds)
+    - 数独
+    - OOXX
+    - 一笔画
+    - 脑点子(Brain Dots)
+    - Can Toss Challenge
+- 棋牌
+    - 雀魂
+    - 三国杀
+    - 挖坑
+    - 象棋
+    - 五子棋
+    - 红心大战
+- 休闲
+    - Guitar Girl
+    - 祖玛
+    - 连连看
+    - [扫雷(Minesweeper)](https://en.wikipedia.org/wiki/Microsoft_Minesweeper)
+- Galgame
+    - [缘之空(ヨスガノソラ)](https://en.wikipedia.org/wiki/Yosuga_no_Sora)
+    - [FoxHime Zero](https://store.steampowered.com/app/720280/Fox_Hime/)
+- 解谜
+    - [机械迷城(Machinarium)](https://en.wikipedia.org/wiki/Machinarium)
+    - [纪念碑谷(Monument Valley)](https://en.wikipedia.org/wiki/Monument_Valley_(video_game))
+    - 史上最难游戏(Hardest Game Ever)
+    - 又一个案件解决了(Another Case Solved)
