@@ -10,7 +10,9 @@
     - [课程主页](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
     - 算是计算机图形学理论入门教程 讲的是数学和算法
 - [Bilibili | GAMES104-现代游戏引擎：从入门到实践](https://www.bilibili.com/video/BV1oU4y1R7Km/)
-    - [课程主页](http://games-cn.org/games104/)
+    - [课程主页 - games](http://games-cn.org/games104/)
+    - [课程主页 - boomingtech](https://games104.boomingtech.com/sc/course-list/)
+    - [GitHub | Pilot](https://github.com/BoomingTech/Pilot)
     - 主要讲授游戏系统的各个方面 较基础
 
 ### 其他
