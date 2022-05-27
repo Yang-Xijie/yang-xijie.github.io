@@ -54,7 +54,7 @@ What is Game
         - 建设 战斗 部落战 变数挺多的 但是刷资源略痛苦 听说最新版对这一点做出了改善
     - [秋战(Autumn Dynasty)](https://en.wikipedia.org/wiki/Autumn_Dynasty)
         - 单指双指对战场的掌控这种感觉很好 而且非常有古代战斗的气息
-    - [神偷](https://baike.baidu.com/item/神偷/17198056)
+    - [神偷 King of Thieves](https://baike.baidu.com/item/神偷/17198056)
         - 和coc差不多
 - 吃鸡（pvp一胜多负）
     - [弓箭手大作战](https://baike.baidu.com/item/弓箭手大作战/20358920)
@@ -104,6 +104,7 @@ What is Game
         - 简化的数独
     - [脑点子(Brain Dots)](https://play.google.com/store/apps/details?id=jp.co.translimit.braindots&hl=en&gl=US)
         - 与物理息息相关 可以创造能让玩家的思维发散出去
+    - 推箱子
 - 棋牌（规则较复杂的多人博弈）
     - [雀魂(Mahjong Soul)](https://en.wikipedia.org/wiki/Mahjong_Soul)
         - 日麻还是比较靠运气的
@@ -134,6 +135,8 @@ What is Game
         - 艺术表现力很足
     - [艾诺迪亚4(Inotia 4)](https://play.google.com/store/apps/details?id=com.com2us.inotia4.normal.freefull.google.global.android.common&hl=en&gl=US)
         - 剧情推动玩家发展
+    - 遗忘的勇士(Forgotten Warrior)
+        - 经典的王子救公主 打怪升级 不同的地图背景和武器技能给游戏添彩
 - 解谜（没有剧情推动 玩家自己找线索解谜）
     - [机械迷城(Machinarium)](https://en.wikipedia.org/wiki/Machinarium)
     - [纪念碑谷(Monument Valley)](https://en.wikipedia.org/wiki/Monument_Valley_(video_game))
