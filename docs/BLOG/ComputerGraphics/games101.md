@@ -4,11 +4,11 @@ title: GAMES101笔记
 
 # GAMES101笔记
 
-## L1 Overview of Computer Graphics
+## Overview of Computer Graphics (L1)
 
-## L2 Review of Linear Algebra
+## Review of Linear Algebra (L2)
 
-## L3 Transformation - 2D
+## Transformation - 2D (L3)
 
 ### 逆时针旋转 $\theta$
 
@@ -28,7 +28,7 @@ $R_\theta = R_{-\theta} = R_\theta^T$
 
 $M \begin{pmatrix} x \\ y \\ 1 \end{pmatrix} = A_n \cdots A_2 A_1 \begin{pmatrix} x \\ y \\ 1 \end{pmatrix}$ 
 
-## L4 Transformation - 3D
+## Transformation - 3D (L4)
 
 ### 三维旋转
 
@@ -70,7 +70,7 @@ $M=\begin{bmatrix} \frac{2}{r-l} & 0 & 0 & 0 \\ 0 & \frac{2}{t-b} & 0 & 0 \\ 0 &
 
 做完这一步之后再使用正交投影将$f$处的画面拉到$n$处即可
 
-## L5 Rasterization - Triangles
+## Rasterization - Triangles (L5)
 
 MVP做完之后我们会得到一个 $[-1,1]^3$ 的规范立方体
 
@@ -92,7 +92,7 @@ $\overrightarrow{AP} \times \overrightarrow{AB},\overrightarrow{BP} \times \over
 
 加速光栅化：不对所有的像素遍历 只遍历可能的像素
 
-## L6 Rasterization - Antialiasing
+## Rasterization - Antialiasing (L6)
 
 走样 - alias：以同一种频率采样两种不同频率的信号得到相同的结果
 
@@ -109,3 +109,36 @@ aliasing artifacts 采样的速度跟不上信号变化的速度
 - TAA(temporal) 利用两帧之间的运动信息
 
 其他：超分辨率 用深度学习模型来猜缺失的采样点
+
+## Rasterization - Z-Buffer (L7)
+
+画家算法
+
+- 先画远处的东西 将近处的东西依次覆盖其上
+- 对于三角形不适用
+
+Z-Buffer
+
+- 并行处理所有的三角形 光栅化后得到像素和深度
+- 得到一个像素的深度后 和`depth buffer`存储的现有最小深度作比较 如果近的话 就将像素的颜色覆盖到`frame buffer`上
+
+## Shading - Illumination (L7)
+
+- shading - 着色/上色 主要考虑的是一个小三角形面的材质对光线的反射 是局部的
+    - shading point 小面的中心点
+    - $\hat{n}$ 小面的法向量 注意面有厚度/有里外
+    - $\hat{l}$ 光线入射的方向
+    - $\hat{v}$ camera的方向
+- shadow - 阴影 考虑的是物体间的遮挡关系
+
+shading 
+
+- specular highlights - 高光 反射
+- diffuse reflection - 漫反射 光线入射后从半球均匀射出
+    - $L_d = k_d \frac{I}{r^2} \max(0,\hat{n}\cdot\hat{l})$
+        - $L_d$ 漫反射的光强度
+        - $k_d$ 漫反射系数 越大表示漫反射越强 也就是越亮
+        - $\frac{I}{r^2}$ 点光源发出的光强平方衰减
+        - $\cos\theta = \hat{n}\cdot\hat{l}$ 入射光线越倾斜 小面得到光强就越小
+        - $\max(0,\hat{n}\cdot\hat{l})$ 考虑光线从物体后方入射 这时没有反射
+- ambient lighting - 环境光 假定是常数
