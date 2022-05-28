@@ -8,7 +8,7 @@ title: GAMES101笔记
 
 ## L2 Review of Linear Algebra
 
-## L3 2D Transformation
+## L3 Transformation - 2D
 
 ### 逆时针旋转 $\theta$
 
@@ -28,7 +28,7 @@ $R_\theta = R_{-\theta} = R_\theta^T$
 
 $M \begin{pmatrix} x \\ y \\ 1 \end{pmatrix} = A_n \cdots A_2 A_1 \begin{pmatrix} x \\ y \\ 1 \end{pmatrix}$ 
 
-## L4 3D Transformation
+## L4 Transformation - 3D
 
 ### 三维旋转
 
@@ -69,3 +69,43 @@ $M=\begin{bmatrix} \frac{2}{r-l} & 0 & 0 & 0 \\ 0 & \frac{2}{t-b} & 0 & 0 \\ 0 &
 先将平面缩放到与期望的画布同大小 类似相似三角形 然后$z$对应的矩阵行用待定系数法确定 $M = \begin{bmatrix} n & 0 & 0 & 0 \\ 0 & n & 0 & 0 \\ 0 & 0 & n+f & -nf \\ 0 & 0 & 1 & 0 \end{bmatrix}$
 
 做完这一步之后再使用正交投影将$f$处的画面拉到$n$处即可
+
+## L5 Rasterization - Triangles
+
+MVP做完之后我们会得到一个 $[-1,1]^3$ 的规范立方体
+
+首先将这个立方体变换到 $[0,width],[0,height],[-1,1]$
+
+$M = \begin{bmatrix} w/2 & 0 & 0 & w/2 \\ 0 & h/2 & 0 & h/2 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$
+
+然后要将三角形变到像素（这里暂时不考虑深度）
+
+```
+for pixel in image {
+    pixel.toRasterize = isInside(triangle, pixel.centerX, pixel.centerY)
+}
+```
+
+`isInside()`的实现：判断三角形三边与要判断的点的关系
+
+$\overrightarrow{AP} \times \overrightarrow{AB},\overrightarrow{BP} \times \overrightarrow{BC},\overrightarrow{CP} \times \overrightarrow{CA}$ 的结果同向
+
+加速光栅化：不对所有的像素遍历 只遍历可能的像素
+
+## L6 Rasterization - Antialiasing
+
+走样 - alias：以同一种频率采样两种不同频率的信号得到相同的结果
+
+不希望看到的结果 - artifacts
+
+aliasing artifacts 采样的速度跟不上信号变化的速度
+
+解决方案
+
+- 提高屏幕分辨率
+- 先对三角形做模糊将高频分量抑制 然后再采样（回忆时域卷积-频率相乘）
+- MSAA(multi-sample) 将像素分割为小像素然后计算出颜色比例
+- FXAA(fast-approximate) 对有锯齿的图形作后期处理
+- TAA(temporal) 利用两帧之间的运动信息
+
+其他：超分辨率 用深度学习模型来猜缺失的采样点
