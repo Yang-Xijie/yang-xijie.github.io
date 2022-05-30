@@ -122,7 +122,7 @@ Z-Buffer
 - 并行处理所有的三角形 光栅化后得到像素和深度
 - 得到一个像素的深度后 和`depth buffer`存储的现有最小深度作比较 如果近的话 就将像素的颜色覆盖到`frame buffer`上
 
-## Shading - Illumination (L7)
+## Shading - Illumination (L7 L8)
 
 - shading - 着色/上色 主要考虑的是一个小三角形面的材质对光线的反射 是局部的
     - shading point 小面的中心点
@@ -131,9 +131,16 @@ Z-Buffer
     - $\hat{v}$ camera的方向
 - shadow - 阴影 考虑的是物体间的遮挡关系
 
-shading 
+shading Blinn-Phong
 
+- $L = L_s + L_d + L_a$
 - specular highlights - 高光 反射
+    - 经验判断：出射光和观察方向差不多 也即入射光和观察方向的平均与法向差不多
+    - $L_s = k_s \frac{I}{r^2} \max (0,\hat{n}\cdot\hat{h})$
+        - $L_s$ 高光反射的光强度
+        - $k_s$ 高光系数
+        - $\hat{h} = \frac{\hat{v}+\hat{l}}{2}$ 半程向量
+        - $p$ p越大 高光越明显 光点越小 一般取64/128
 - diffuse reflection - 漫反射 光线入射后从半球均匀射出
     - $L_d = k_d \frac{I}{r^2} \max(0,\hat{n}\cdot\hat{l})$
         - $L_d$ 漫反射的光强度
@@ -142,3 +149,59 @@ shading
         - $\cos\theta = \hat{n}\cdot\hat{l}$ 入射光线越倾斜 小面得到光强就越小
         - $\max(0,\hat{n}\cdot\hat{l})$ 考虑光线从物体后方入射 这时没有反射
 - ambient lighting - 环境光 假定是常数
+    - $L_a = k_a I_a$
+
+## Shading - Frequencies (L8)
+
+- Flat shading - shade each triangle
+    - 选取三角形的法向
+- Gouraud shading - shade each vertex
+    - 用顶点周围的三角形面的法向做平均得到方向
+- Phong shading - shade each pixel
+    - 用重心坐标差值得到
+
+## Shading - Graphics (Real-time Rendering) Pipeline (L8)
+
+- Application
+- Vertex Processing (Programmable: for each vertex)
+- Triancle Processing
+- Rasterization
+- Fragment Processing (Programmable: for each pixel/fragment)
+- Framebuffer Operations 
+- Display
+
+在线编写shader https://www.shadertoy.com
+
+## Shading - Texture Mapping (L8 L9)
+
+- 目的：将屏幕上的一个像素着色
+- 过程：
+    - 找到屏幕上的像素中心对应的三维三角形 ($x_sy_s \to xyz$)
+    - 找到这个像素中心在三角形的重心坐标系中的位置 ($xyz \to \alpha\beta\gamma$)
+    - 用材质上面的像素点的颜色去插值得到需要显示的颜色 ($\alpha\beta\gamma \to uv$) 如果材质的三角形顶点上有属性 也可以插值得到屏幕上那一点的属性
+        - 颜色插值方法
+            - Nearest 点在材质的那个像素里面 就用这个像素的颜色
+            - Bilinear 点所在位置四周的像素的颜色做一个位置平均（先上下 再左右）
+
+遇到的问题
+
+- 采样走样：远处的像素看不出纹理
+    - 发生原因：远处屏幕上一个像素应该用纹理的一个很大的区域来平均 而不是直接取一个点附近的四个像素平均 这样不足以代表这个像素
+    - 解决方案：使用Mipmap
+        - 提前对纹理进行正方形区域的平均值计算 存储多占用33% 但是查询非常快
+        - 在查询时可以查询两层之间的值 只要做插值就行
+- Mipmap斜的"像素"看起来很奇怪
+    - 原因：Mipmap只支持正方形查询
+    - 解决方案：各向异性过滤 Anisotropic Filtering
+        - 在纹理的存储图中存储矩形 存储量增大
+        - EWA filtering 使用椭圆切线处的纹理采样
+
+### Barycentric Coordinates
+
+点在三角形内部的话 $0 < \alpha,\beta,\gamma < 1$
+
+$\begin{aligned}
+\alpha &=\frac{-\left(x-x_{B}\right)\left(y_{C}-y_{B}\right)+\left(y-y_{B}\right)\left(x_{C}-x_{B}\right)}{-\left(x_{A}-x_{B}\right)\left(y_{C}-y_{B}\right)+\left(y_{A}-y_{B}\right)\left(x_{C}-x_{B}\right)} \\
+\beta &=\frac{-\left(x-x_{C}\right)\left(y_{A}-y_{C}\right)+\left(y-y_{C}\right)\left(x_{A}-x_{C}\right)}{-\left(x_{B}-x_{C}\right)\left(y_{A}-y_{C}\right)+\left(y_{B}-y_{C}\right)\left(x_{A}-x_{C}\right)} \\
+\gamma &=1-\alpha-\beta
+\end{aligned}$
