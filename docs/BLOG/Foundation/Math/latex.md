@@ -140,7 +140,7 @@ title: LaTeX常用符号整理
 |`90^\circ`|$90^\circ$|
 |`\overset{\frown}\psi` | $\overset{\frown}\psi$ |
 |`\overset{?}{=}`|$\overset{?}{=}$|
-|`\overset{ping yin}{拼音}る` | $\overset{ping yin}{拼音}$ |
+|`\overset{ping}{拼}\overset{yin}{音}` | $\overset{ping}{拼}\overset{yin}{音}$ |
 |`\overset{はい}{入}る` | $\overset{はい}{入}る$ |
 |`\underset{t\in R}{max}`|$\underset{t\in R}{max}$|
 
