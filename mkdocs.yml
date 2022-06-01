@@ -26,6 +26,8 @@ theme:
     - navigation.top # 返回顶部的按钮 在上滑时出现
     - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
     - navigation.expand # 打开Tab时左侧目录全部展开
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
   language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
@@ -277,57 +279,8 @@ nav:
     - 文学:
       - 3/Literature/proses.md
       - 3/Literature/poems.md
-    - 日记:
-      - 3/Diary2022/2205.md
-      - 3/Diary2022/2204.md
-      - 3/Diary2022/2203.md
-      - 3/Diary2022/2202.md
-      - 3/Diary2022/2201.md
-      - 3/Diary2021/2112.md
-      - 3/Diary2021/2111.md
-      - 3/Diary2021/2110.md
-      - 3/Diary2021/2109.md
-      - 3/Diary2021/2108.md
-      - 3/Diary2021/2107.md
-      - 3/Diary2021/2106.md
-      - 3/Diary2021/2105.md
-      - 3/Diary2021/2104.md
-      - 3/Diary2021/2103.md
-      - 3/Diary2021/2102.md
-      - 3/Diary2021/2101.md
-      - 3/Diary2020/2012.md
-      - 3/Diary2020/2011.md
-      - 3/Diary2020/2010.md
-      - 3/Diary2020/2009.md
-      - 3/Diary2020/2008.md
-      - 3/Diary2020/2007.md
-      - 3/Diary2020/2006.md
-      - 3/Diary2020/2005.md
-      - 3/Diary2020/2004.md
-      - 3/Diary2020/2003.md
-      - 3/Diary2020/200312-start.md
-      - 3/Diary2020/2001.md
-      - 3/Diary2019/191123.md
-      - 3/Diary2019/1909-12.md
-      - 3/Diary2019/190714.md
-      - 3/Diary2019/1901-winter-thu.md
-      - 3/Diary2018/1812.md
-      - 3/Diary2018/1811.md
-      - 3/Diary2018/1810.md
-      - 3/Diary2018/1809.md
-      - 3/Diary2018/1808.md
-      - 3/Diary2018/1807.md
-      - 3/Diary2018/1805-06.md
-      - 3/Diary2018/1803-04.md
-      - 3/Diary2018/1801-02.md
-      - 3/Diary2017/1710-12.md
-      - 3/Diary2017/1707-09.md
-      - 3/Diary2017/1704-06.md
-      - 3/Diary2017/1701-03.md
-      - 3/Diary2016/16.md
     - 个人信息:
       - 3/Info/accounts.md
-      - 3/Info/diary-index.md
   - 转载:
     - REPRODUCE/index.md
     - 提问的智慧: REPRODUCE/how-to-ask-questions-the-smart-way.md
@@ -342,8 +295,12 @@ nav:
 
 # [Extensions]
 plugins:
-  - search # 现在还不支持中文搜索 支持之后可以设置语言
-  - tags
+  - search: # 现在还不支持中文搜索 支持之后可以设置语言
+    # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
+    lang:
+      - en
+      - ja
+  - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
       generic: true

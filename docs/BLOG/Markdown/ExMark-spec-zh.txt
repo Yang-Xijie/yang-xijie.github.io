@@ -10,6 +10,7 @@ ExMark pronounced [E X mark]
 有vscode的编辑器扩展
 有GitHub pages自动部署的方式
 用katex渲染公式 https://katex.org
+加一个悬停
 
 ## 规定
 
