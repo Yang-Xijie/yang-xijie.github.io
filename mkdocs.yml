@@ -297,9 +297,9 @@ nav:
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
     # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
-    lang:
-      - en
-      - ja
+      lang:
+        - en
+        - ja
   - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
