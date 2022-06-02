@@ -144,6 +144,7 @@ nav:
       - 视频信息初探: BLOG/Others/video-info.md
   - 开发:
     - DEV/index.md
+    - DEV/app-dev-sum.md
     - Xcode:
       - 新建开发模块: DEV/Xcode/scheme-dev.md
       - Markup Syntax: DEV/Xcode/markup.md
@@ -156,9 +157,6 @@ nav:
     - AppKit:
       - 纯代码创建项目: DEV/AppKit/programmatically.md
       - 苹果平台应用开发之路: DEV/AppKit/road.md
-    - ExNotes:
-      - ExNotes设计文档: DEV/ExNotes/design.md
-      - ExNotes开发考量: DEV/ExNotes/learning.md
     - 编程:
       - 推荐的学习路线: DEV/Programming/recommendation.md
       - C:
@@ -195,6 +193,9 @@ nav:
         - MATLAB入门: DEV/Programming/MATLAB/tour.md
         - 抛硬币的涨落问题: DEV/Programming/MATLAB/coin.md
         - 命令行MATLAB: DEV/Programming/MATLAB/terminal-matlab.md
+    - ExNotes:
+      - ExNotes设计文档: DEV/ExNotes/design.md
+      - ExNotes开发考量: DEV/ExNotes/learning.md
   - 二次元:
     - 2/index.md
     - 番:
