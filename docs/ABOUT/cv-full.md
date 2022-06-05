@@ -4,6 +4,10 @@ title: 个人履历
 
 # 个人履历
 
+> 此份文档为杨希杰详细履历 实际简历以此为基础凝练
+> 
+> updated on 2022.6.6
+
 ## 目前
 
 清华大学 电子工程系 大三本科在读
@@ -35,8 +39,8 @@ title: 个人履历
 
 - `2019.9 - 2023.6` 清华大学 电子工程系 本科
     - 有扎实的数学物理基础
-    - 掌握电子信息学科的相关知识
-    - 掌握计算机基础知识和相关内容
+    - 掌握电子信息学科的基础知识
+    - 掌握计算机学科的基础知识和相关工具
         - 对软件设计开发了解较深入
         - 熟练使用Linux和相关工具
         - 编程能力强 熟练使用C/C++/Python/Swift/Rust等编程语言
@@ -71,8 +75,8 @@ title: 个人履历
 - 英语能力：熟练掌握英语听说读写 能够使用英语流利交流 有学术英语的能力
 - 日语能力：日语N4同等水平 能够使用日语进行日常对话
 - 软件使用：熟练使用`macOS`及相关软件
-    - 熟练使用`Keynote`进行幻灯片制作 有较强的演讲与答辩能力
     - 熟练使用`Final Cut Pro`进行视频剪辑 在Bilibili视频平台有多份投稿 内容多元
+    - 熟练使用`Keynote`进行幻灯片制作 有较强的演讲与答辩能力
     - 熟练使用`Sketch`进行软件原型设计和平面设计
 
 ## 预计方向
@@ -80,8 +84,13 @@ title: 个人履历
 - 软件方向
     - 桌面操作系统研发（注重交互体验 UOS）
     - 软件开发（macOS/iOS Swift AppKit/SwiftUI; UOS）
+        - 熟练使用Swift和AppKit/UIKit/SwiftUI构建苹果平台应用
 - 计算机方向
     - 计算机图形学（实时渲染 UE5 虚拟现实）
+        - 自学[GAMES101现代计算机图形学](https://www.bilibili.com/video/BV1X7411F744) [GAMES104现代游戏引擎导论](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
+        - 了解[GPU渲染流程](https://space.bilibili.com/2055684362/channel/collectiondetail?sid=318149)
+        - 了解Apple平台图形API Metal
+        - 了解Unity3D游戏制作/Blender3D建模/Live2D
     - 计算机体系架构优化（CPU/存储 RISC-V）
     - （仅感兴趣）操作系统内核研发（Linux kernel）
     - （仅感兴趣）视频图像信息处理（编码）
@@ -96,31 +105,28 @@ title: 个人履历
     - [讲稿](https://yang-xijie.github.io/LECTURE/)
     - [博客](https://yang-xijie.github.io/BLOG/)
     - [开发笔记](https://yang-xijie.github.io/DEV/)
-    - 个人文章和记录
+    - [个人文章](https://yang-xijie.github.io/3/)
 - [GitHub](https://github.com/Yang-Xijie)
     - 项目
-        - [浣熊财记](https://github.com/Racoon-Book/Racoon-Account-Book) iOS应用
-        - [Ex便签](https://github.com/Ex-Studio/ExSticky) macOS应用
-        - [Input Source Switcher](https://github.com/Yang-Xijie/InputSourceSwitcher) macOS应用
-        - [Scrollable MTKView](https://github.com/Yang-Xijie/ScrollablePencilMTKView) iOS Metal渲染
-        - [ExARLive2D](https://github.com/Yang-Xijie/ExARLive2D) iOS 人脸追踪结合Live2D
+        - [浣熊财记](https://github.com/Racoon-Book/Racoon-Account-Book) - iOS财记应用 获2021移动应用创新赛国赛二等奖
+        - [Ex便签](https://github.com/Ex-Studio/ExSticky) - macOS工具类应用
+        - [Input Source Switcher](https://github.com/Yang-Xijie/InputSourceSwitcher) - macOS工具类应用
+        - [Scrollable MTKView](https://github.com/Yang-Xijie/ScrollablePencilMTKView) - iOS Metal渲染
+        - [ExARLive2D](https://github.com/Yang-Xijie/ExARLive2D) - iOS 人脸追踪结合Live2D
+        - [macOS Metal](https://github.com/Yang-Xijie/AppKit-Metal) - macOS Metal playground
     - 工具
-        - [XCLog](https://github.com/Yang-Xijie/XCLog) Swift package
-        - [mkv2mp4](https://github.com/Yang-Xijie/mkv2mp4_fcp) shell脚本
-    - [洛谷](https://github.com/Yang-Xijie/Luogu)
+        - [XCLog](https://github.com/Yang-Xijie/XCLog) - Swift package
+        - [mkv2mp4](https://github.com/Yang-Xijie/mkv2mp4_fcp) - shell脚本
+    - LeetCode
+        - [LeetCode-Cpp](https://github.com/Yang-Xijie/LeetCode-Cpp)
+        - LeetCode-Rust working...
     - 模板和Demo
 - [Bilibili](https://space.bilibili.com/24502827)
     - 个人教程
         - [macOS使用VSCode编写C++代码](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139476)
-        - [使用FCP制作番剧剪辑](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139472)
-        - [英语音标教学](https://space.bilibili.com/24502827/channel/collectiondetail?sid=150764)
         - [开发基础教程](https://space.bilibili.com/24502827/channel/collectiondetail?sid=181017)
         - [软件开发经验](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139392)
+        - [使用FCP制作番剧剪辑](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139472)
+        - [英语音标教学](https://space.bilibili.com/24502827/channel/collectiondetail?sid=150764)
     - [VLOG](https://space.bilibili.com/24502827/channel/collectiondetail?sid=181053)
     - 兴趣相关
-
-## 备注
-
-> 此份文档为杨希杰个人详细履历 实际简历以此为基础凝练
-> 
-> 2022.5.26 更新
