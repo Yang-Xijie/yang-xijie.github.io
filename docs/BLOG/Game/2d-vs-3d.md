@@ -33,6 +33,8 @@ title: 2D和3D的差异
 
 所以我认为不存在2.5D游戏 游戏是2D还是3D看游戏素材是图片还是3D模型
 
+[知乎｜2D游戏3D游戏区别](https://zhuanlan.zhihu.com/p/378099126)中提到的四种类别：我认为 `full 2D` `orthographic 3D` 是我这里提到的2D游戏；`2D gameplay with 3D graphics` `full 3D` 是我这里提到的3D游戏
+
 ## 番剧
 
 - 2D制作
