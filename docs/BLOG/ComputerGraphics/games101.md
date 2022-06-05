@@ -205,3 +205,8 @@ $\begin{aligned}
 \beta &=\frac{-\left(x-x_{C}\right)\left(y_{A}-y_{C}\right)+\left(y-y_{C}\right)\left(x_{A}-x_{C}\right)}{-\left(x_{B}-x_{C}\right)\left(y_{A}-y_{C}\right)+\left(y_{B}-y_{C}\right)\left(x_{A}-x_{C}\right)} \\
 \gamma &=1-\alpha-\beta
 \end{aligned}$
+
+### Application of Textures
+
+将环境光记录在球面上
+

@@ -79,8 +79,11 @@ nav:
       - Computer Graphics: BLOG/ComputerGraphics/cg-notes.md
       - GAMES101: BLOG/ComputerGraphics/games101.md
       - Blender: BLOG/ComputerGraphics/blender-notes.md
-      - Unity: BLOG/ComputerGraphics/unity-notes.md
-      - UE: BLOG/ComputerGraphics/ue-notes.md
+    - 游戏:
+      - Unity: BLOG/Game/unity-notes.md
+      - UE: BLOG/Game/ue-notes.md
+      - 定义: BLOG/Game/what-is-game.md
+      - 2D和3D: BLOG/Game/2d-vs-3d.md
     - 日语:
       - 笔记2/3: BLOG/Japanese/notes-2202-2203.md
       - 笔记4: BLOG/Japanese/notes-2204.md
@@ -237,7 +240,7 @@ nav:
       - 3/Jottings/2016.md
     - 文章:
       - TODO 课程: 3/Articles/cirriculum.md
-      - 3/Articles/220520-what-is-game.md
+      - 3/Articles/2205-good-games.md
       - 3/Articles/220506-stop-jianshu.md
       - 3/Articles/220505-library-thu.md
       - 3/Articles/220415-interestx2.md
