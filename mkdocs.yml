@@ -162,6 +162,7 @@ nav:
       - 苹果平台应用开发之路: DEV/AppKit/road.md
     - 编程:
       - 推荐的学习路线: DEV/Programming/recommendation.md
+      - 我对编程语言的感受: DEV/Programming/my-feelings.md
       - C:
         - 笔记整理: DEV/Programming/C/review.md
         - 常用函数: DEV/Programming/C/final.md
