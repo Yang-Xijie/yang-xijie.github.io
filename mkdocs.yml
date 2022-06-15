@@ -109,6 +109,7 @@ nav:
       - Mac与Android的文件传输: BLOG/macOS/sharing-mac-android.md
       - MAD制作流程: BLOG/macOS/mad.md
       - OBS开直播: BLOG/macOS/stream.md
+      - Mac购买建议: BLOG/macOS/mac-recommend-2206.md
     - UOS:
       - 相关链接: BLOG/UOS/links.md
     - GitHub:
@@ -323,7 +324,7 @@ extra_javascript:
   # notice `curl https://polyfill.io/v3/polyfill.min.js?features=es6 > docs/mkdocs/javascripts/polyfill.min.js && curl https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js > docs/mkdocs/javascripts/tex-mml-chtml.js` not works... because there are other resources that need to load
   - mkdocs/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
