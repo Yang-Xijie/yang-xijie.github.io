@@ -48,6 +48,20 @@ jobs:
         debug: true
 ```
 
+## 60 days
+
+You might receive an email like this after 60 days:
+
+> [GitHub] The "mirror Github repos to Gitee" workflow in Yang-Xijie/Gitee-Mirror will be disabled soon
+> 
+> GitHub Actions scheduled workflow
+> 
+> Scheduled workflows are disabled automatically after 60 days of repository inactivity.
+>
+> You can prevent mirror Github repos to Gitee from being disabled on the workflows page.
+
+Just update your repo to reactive the sync action.
+
 ## References
 
 - [自动镜像 GitHub 仓库到 Gitee](https://shixiangwang.github.io/sync2gitee/)
