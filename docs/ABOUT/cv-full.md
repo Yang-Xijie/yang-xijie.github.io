@@ -6,7 +6,7 @@ title: 个人履历
 
 > 此份文档为杨希杰详细履历 实际简历以此为基础凝练
 > 
-> updated on 2022.6.6
+> updated on 2022.6.25
 
 ## 目前
 
@@ -43,7 +43,7 @@ title: 个人履历
     - 掌握计算机学科的基础知识和相关工具
         - 对软件设计开发了解较深入
         - 熟练使用Linux和相关工具
-        - 编程能力强 熟练使用C/C++/Python/Swift/Rust等编程语言
+        - 编程能力强 熟练使用C/Swift/Python/Rust等编程语言
 
 ### 社团活动
 
@@ -83,10 +83,11 @@ title: 个人履历
 
 - 软件方向
     - 桌面操作系统研发（注重交互体验 UOS）
-    - 软件开发（macOS/iOS Swift AppKit/SwiftUI; UOS）
+    - 用户应用开发（macOS/iOS Swift AppKit/SwiftUI; UOS）
         - 熟练使用Swift和AppKit/UIKit/SwiftUI构建苹果平台应用
+    - 软件研发
 - 计算机方向
-    - 计算机图形学（实时渲染 UE5 虚拟现实）
+    - 计算机图形学（实时渲染 虚拟现实）
         - 自学[GAMES101现代计算机图形学](https://www.bilibili.com/video/BV1X7411F744) [GAMES104现代游戏引擎导论](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
         - 了解[GPU渲染流程](https://space.bilibili.com/2055684362/channel/collectiondetail?sid=318149)
         - 了解Apple平台图形API Metal
@@ -111,16 +112,16 @@ title: 个人履历
         - [浣熊财记](https://github.com/Racoon-Book/Racoon-Account-Book) - iOS财记应用 获2021移动应用创新赛国赛二等奖
         - [Ex便签](https://github.com/Ex-Studio/ExSticky) - macOS工具类应用
         - [Input Source Switcher](https://github.com/Yang-Xijie/InputSourceSwitcher) - macOS工具类应用
-        - [Scrollable MTKView](https://github.com/Yang-Xijie/ScrollablePencilMTKView) - iOS Metal渲染
-        - [ExARLive2D](https://github.com/Yang-Xijie/ExARLive2D) - iOS 人脸追踪结合Live2D
-        - [macOS Metal](https://github.com/Yang-Xijie/AppKit-Metal) - macOS Metal playground
     - 工具
         - [XCLog](https://github.com/Yang-Xijie/XCLog) - Swift package
         - [mkv2mp4](https://github.com/Yang-Xijie/mkv2mp4_fcp) - shell脚本
     - LeetCode
-        - [LeetCode-Cpp](https://github.com/Yang-Xijie/LeetCode-Cpp)
-        - LeetCode-Rust working...
-    - 模板和Demo
+        - [Swift](https://github.com/Yang-Xijie/Swift-Exercises)
+        - C preparing...
+    - Demo
+        - [Scrollable MTKView](https://github.com/Yang-Xijie/ScrollablePencilMTKView) - iOS Metal渲染
+        - [ExARLive2D](https://github.com/Yang-Xijie/ExARLive2D) - iOS 人脸追踪结合Live2D
+        - [macOS Metal](https://github.com/Yang-Xijie/AppKit-Metal) - macOS Metal playground
 - [Bilibili](https://space.bilibili.com/24502827)
     - 个人教程
         - [macOS使用VSCode编写C++代码](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139476)
@@ -129,4 +130,3 @@ title: 个人履历
         - [使用FCP制作番剧剪辑](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139472)
         - [英语音标教学](https://space.bilibili.com/24502827/channel/collectiondetail?sid=150764)
     - [VLOG](https://space.bilibili.com/24502827/channel/collectiondetail?sid=181053)
-    - 兴趣相关
