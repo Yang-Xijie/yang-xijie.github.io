@@ -1,14 +1,96 @@
 ---
 title: Swift Book
-tags:
-  - Swift Language Guide
 ---
 
 # Swift Book
 
-> 阅读 `The Swift Programming Language (Swift 5.5)` 的笔记，只记录自己之前不懂的地方；有一定编程基础的话直接看也没问题
+> 阅读 `The Swift Programming Language (5.6)` 的笔记，只记录自己之前不懂的地方。
 
-## The Basics 54
+## A Swift Tour
+
+### 小知识点
+
+- 显式类型转换: Swift不支持隐式类型转换 有表达式的话 手动转一下 比如 `Double(x)`
+- 空字典 `[:]`
+- `if` `while` 这些后面写Bool表达式不用加括号
+- `repeat { ... } while ...`
+- 枚举可以用数字索引 如 `response.1`
+- 函数可以是变量
+- 枚举可以有函数 这样就不用纠结枚举的类型了
+- 枚举可以每个case都用一个类型
+
+### 函数编程
+
+```swift
+case let x where x.hasSuffix("pepper"):
+    print("Is it a spicy \(x)?")
+```
+
+### nested functions
+
+```swift
+func returnFifteen() -> Int {
+    var y = 10
+    func add() {
+        y += 5
+    }
+    add()
+    return y
+}
+returnFifteen()
+```
+
+### map函数
+
+完整
+
+```swift
+numbers.map({ (number: Int) -> Int in
+    let result = 3 * number
+    return result
+})
+```
+
+简化
+
+```swift
+numbers.map({ number in 3 * number })
+```
+
+```swift
+numbers.map({ 3 * $0 })
+```
+
+### 枚举类型
+
+```swift
+enum Response<DataType> {
+    case succeed(data: DataType, message: String)
+    case failure(error: String)
+}
+```
+
+### Optional实现
+
+```swift
+enum OptionalValue<Wrapped> {
+    case none
+    case some(Wrapped)
+}
+```
+
+---
+
+> Language Guide
+
+## The Basics 44
+
+Swift is a *type-safe* language, which means the language helps you to be clear about the types of values your code can work with.
+
+
+```swift
+var x = 0.0, y = 0.0, z = 0.0
+```
 
 ```swift
 let minValue = UInt8.min

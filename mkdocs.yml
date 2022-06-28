@@ -117,8 +117,8 @@ nav:
     - Markdown:
       - Markdown语法初学习: BLOG/Markdown/grammars.md
       - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
-      - MkDocs静态网站构建: BLOG/Markdown/mdbook-site.md
-      - mdBook静态网站构建: BLOG/Markdown/mkdocs-site.md
+      - MkDocs静态网站构建: BLOG/Markdown/mkdocs-site.md
+      - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
       - GitHub Pages简介: BLOG/Markdown/github-pages.md
     - 基础:
       - 数学:
@@ -170,9 +170,9 @@ nav:
         - stdout按行刷新: DEV/Programming/C/stdout-fflush.md
         - 二维数组调试: DEV/Programming/C/watch-matrix.md
       - Swift:
+        - Language Guide: DEV/Programming/Swift/book.md
+        - 教学作业: DEV/Programming/Swift/hw.md
         - 并行计算: DEV/Programming/Swift/parallel.md
-        - Swift教学作业: DEV/Programming/Swift/hw.md
-        - TODO Language Guide: DEV/Programming/Swift/guide.md
       - Python:
         - 不喜欢Python的理由: DEV/Programming/Python/dislike.md
         - 复制拷贝: DEV/Programming/Python/copy.md
