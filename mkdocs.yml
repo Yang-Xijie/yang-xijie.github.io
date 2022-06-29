@@ -120,6 +120,10 @@ nav:
       - MkDocs静态网站构建: BLOG/Markdown/mkdocs-site.md
       - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
       - GitHub Pages简介: BLOG/Markdown/github-pages.md
+    - 电子工程:
+      - Verilog仿真: BLOG/ElectronicEngineering/verilog-simulation.md
+      - 各种存储器间的关系: BLOG/ElectronicEngineering/storage.md
+      - 二阶线性时不变电路: BLOG/ElectronicEngineering/rlc.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/Foundation/Math/latex.md
@@ -130,9 +134,6 @@ nav:
       - 物理:
         - Gauss公式和Stokes公式: BLOG/Foundation/Physics/guass-stokes.md
         - 电磁学期末复习: BLOG/Foundation/Physics/electromagnetics.md
-      - 电子:
-        - 各种存储器间的关系: BLOG/Foundation/EE/storage.md
-        - 二阶线性时不变电路: BLOG/Foundation/EE/rlc.md
       - 网络:
         - 知识点总结: BLOG/Network/learning.md
         - 专有名词速查: BLOG/Network/nouns.md
