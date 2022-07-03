@@ -6,6 +6,7 @@ title: Verilog仿真流程
 
 - 首先明确，`Verilog`是硬件描述语言，描述的是数字电路信号的逻辑连接关系。
 - 其次明确，`Verilog`只是描述电路，没有说具体的实现。实现电路时可以用基础门连接、可以用查找表等。
+- 仿真是用软件模拟一些信号，测试所设计电路。综合就是把硬件描述语言，转换成实际的电路。
 
 ## 编写Verilog
 
@@ -21,7 +22,7 @@ assign out = ~in;
 endmodule
 ```
 
-在`Vivado`中，该文件被称作`design source`，后缀为`.h`。
+在`Vivado`中，该文件被称作`design source`，后缀为`.v`。
 
 ![](./images-verilog-simulation/Verilog%20source%20file.png)
 
