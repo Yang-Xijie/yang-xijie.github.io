@@ -137,9 +137,9 @@ title: 英语音标教学
 - `/v/` vet
 - `/ð/` they
 
- ## 对比
- 
- ### f v w
+## 对比
+
+### f v w
  
 * `/f/` fat 咬嘴唇
 * `/v/` vet 咬嘴唇 （`/w/` 不咬嘴唇）
@@ -147,35 +147,35 @@ title: 英语音标教学
 - five `/faɪv/` 咬两次嘴唇
 - Give me five! （Give me five fingers!）`/ɡɪv/ /mi:/ /faɪv/` 咬三次嘴唇
 
-#### θ ð s z
+### θ ð s z
 
 * `/θ/` mouth 咬舌（`/s/`不咬舌）
 * `/ð/` they 咬舌 （`/z/`不咬舌）
 
 There are three persons who support the fourth player.
 
-### 变化
+## 变化
 
-#### the
+### the
 
 * the cat `/ðə/` 普通
 * the egg `/ði/` 元音前
 * THE person `/ði/` 表示强调和特指
 
-#### a
+### a
 
 * a cat `/ə/` 普通
 * an egg `/ən/` 元音前（`/eɪ/` 不是很推荐）
 * A cat `/eɪ/` 表示强调和特指
 
-#### 清辅音发音弱化
+### 清辅音发音弱化
 
 一个单词里面如果挨着的两个清辅音都能读出发音的话，后面一个清辅音就会发音减弱成浊辅音
 
 * sky `/skaɪ/`
 * skeleton `/'skelɪt(ə)n/`
 
-### 音节与重音
+## 音节与重音
 
 前面所说的所有词的重音都在最前面，是你比较熟悉的读法。
 
