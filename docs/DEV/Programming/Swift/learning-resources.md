@@ -16,3 +16,8 @@ title: Swift 学习资源
 - Packages
     - [API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
     - [DocC](https://www.swift.org/documentation/docc/)
+
+## 安装
+
+- macOS
+    - App Store下载安装Xcode
