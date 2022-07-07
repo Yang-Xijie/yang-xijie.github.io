@@ -1,10 +1,10 @@
 ---
-title: Swift Book
+title: Swift笔记 ｜ Language Guide
 ---
 
-# Swift Book
+# Swift笔记 ｜ Language Guide
 
-> 阅读 `The Swift Programming Language (5.6)` 的笔记，只记录自己之前不懂的地方。
+> 阅读 `The Swift Programming Language (5.6)` 的笔记
 
 ## A Swift Tour
 

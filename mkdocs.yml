@@ -171,9 +171,11 @@ nav:
         - stdout按行刷新: DEV/Programming/C/stdout-fflush.md
         - 二维数组调试: DEV/Programming/C/watch-matrix.md
       - Swift:
-        - Language Guide: DEV/Programming/Swift/book.md
-        - 教学作业: DEV/Programming/Swift/hw.md
-        - 并行计算: DEV/Programming/Swift/parallel.md
+        - TODO 基础语法笔记: DEV/Programming/Swift/notes-basic-grammars.md
+        - TODO LanguageGuide笔记: DEV/Programming/Swift/notes-language-guide.md
+        - TODO 常用标准库函数笔记: DEV/Programming/Swift/notes-useful-foundation.md
+        - 教学作业: DEV/Programming/Swift/lecture-homework.md
+        - 并行计算: DEV/Programming/Swift/parallel-for.md
       - Python:
         - 不喜欢Python的理由: DEV/Programming/Python/dislike.md
         - 复制拷贝: DEV/Programming/Python/copy.md
@@ -244,7 +246,7 @@ nav:
     - 文章:
       - 3/Articles/220624-gratitude.md
       - 3/Articles/220621-bytedance-interview.md
-      - 3/Articles/220619-cirriculum.md
+      - TODO: 3/Articles/220619-cirriculum.md
       - 3/Articles/220612-reply.md
       - 3/Articles/2205-good-games.md
       - 3/Articles/220506-stop-jianshu.md
