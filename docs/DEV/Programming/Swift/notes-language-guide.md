@@ -4,93 +4,26 @@ title: Swift笔记 ｜ Language Guide
 
 # Swift笔记 ｜ Language Guide
 
-> 阅读 `The Swift Programming Language (5.6)` 的笔记
+> 阅读 `The Swift Programming Language (5.7) - Language Guide` 的笔记
 
-## A Swift Tour
+## The Basics
 
-### 小知识点
-
-- 显式类型转换: Swift不支持隐式类型转换 有表达式的话 手动转一下 比如 `Double(x)`
-- 空字典 `[:]`
-- `if` `while` 这些后面写Bool表达式不用加括号
-- `repeat { ... } while ...`
-- 枚举可以用数字索引 如 `response.1`
-- 函数可以是变量
-- 枚举可以有函数 这样就不用纠结枚举的类型了
-- 枚举可以每个case都用一个类型
-
-### 函数编程
-
-```swift
-case let x where x.hasSuffix("pepper"):
-    print("Is it a spicy \(x)?")
-```
-
-### nested functions
-
-```swift
-func returnFifteen() -> Int {
-    var y = 10
-    func add() {
-        y += 5
-    }
-    add()
-    return y
-}
-returnFifteen()
-```
-
-### map函数
-
-完整
-
-```swift
-numbers.map({ (number: Int) -> Int in
-    let result = 3 * number
-    return result
-})
-```
-
-简化
-
-```swift
-numbers.map({ number in 3 * number })
-```
-
-```swift
-numbers.map({ 3 * $0 })
-```
-
-### 枚举类型
-
-```swift
-enum Response<DataType> {
-    case succeed(data: DataType, message: String)
-    case failure(error: String)
-}
-```
-
-### Optional实现
-
-```swift
-enum OptionalValue<Wrapped> {
-    case none
-    case some(Wrapped)
-}
-```
+- fundamental types `Int` `Double` `Float` `Bool` `String`
+- collection types `Array` `Set` `Dictionary`
 
 ---
 
-> Language Guide
-
-## The Basics 44
-
 Swift is a *type-safe* language, which means the language helps you to be clear about the types of values your code can work with.
 
+---
+
+declare multiple constants or multiple variables on a single line: 
 
 ```swift
 var x = 0.0, y = 0.0, z = 0.0
 ```
+
+---
 
 ```swift
 let minValue = UInt8.min
@@ -115,7 +48,7 @@ let maxValue = UInt8.max
 
 `assert()` `precondition()` 早期开发可以用`fatalErros("Unimplemented")`
 
-## Basic Operators 104
+## Basic Operators
 
 主动溢出`a &+ b`
 
@@ -131,15 +64,15 @@ let maxValue = UInt8.max
 
 `...` `..<` `[2...]` `[...2]`
 
-## Strings and Characters 132
+## Strings and Characters
 
 
 
-## Collection Types 177
+## Collection Types
 
 
 
-## Control Flow 215
+## Control Flow
 
 
 
@@ -267,3 +200,5 @@ Swift一般不用指针，除非你想手动管理内存
 
 
 ## Advanced Operators
+
+
