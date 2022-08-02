@@ -123,6 +123,7 @@ nav:
       - Verilog仿真: BLOG/ElectronicEngineering/verilog-simulation.md
       - 各种存储器间的关系: BLOG/ElectronicEngineering/storage.md
       - 二阶线性时不变电路: BLOG/ElectronicEngineering/rlc.md
+      - yosys尝试: BLOG/ElectronicEngineering/yosys-try.md
     - 基础:
       - 数学:
         - Latex简易符号: BLOG/Foundation/Math/latex.md
