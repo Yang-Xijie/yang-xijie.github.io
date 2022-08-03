@@ -16,4 +16,5 @@ title: tmux使用指南
 alias tnew="tmux new -s "
 alias tls="tmux ls"
 alias tat="tmux attach -t "
+alias tkill="tmux kill-session -t "
 ```
