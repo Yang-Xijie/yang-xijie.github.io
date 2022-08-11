@@ -6,18 +6,21 @@ title: Swift笔记 ｜ 标准库常用函数
 
 > [Swift Standard Library](https://developer.apple.com/documentation/swift/swift-standard-library) Values and Collections
 
-## Numbers and Basic Values
+- Numbers and Basic Values
+- Strings and Text
+- Collections
+- Time
 
-### Bool
+## Bool
 
 ```swift
 var isPresenting = Bool.random() // https://developer.apple.com/documentation/swift/bool/random()
 isPresenting.toogle() // https://developer.apple.com/documentation/swift/bool/toggle()
 ```
 
-### Int
+## Int
 
-#### init
+### init
 
 用Double初始化时向0靠近
 
@@ -49,7 +52,7 @@ Int.max // 9223372036854775807
 Int.min // -9223372036854775808
 ```
 
-#### calculation
+### calculation
 
 整除
 
@@ -72,7 +75,7 @@ abs(2) // 2
 abs(-2) // 2
 ```
 
-#### binary representation
+### binary representation
 
 ```swift
 Int.bitWidth // 64
@@ -82,9 +85,9 @@ Int.bitWidth // 64
 0b11010.trailingZeroBitCount // 1
 ```
 
-### Double
+## Double
 
-#### init
+### init
 
 random
 
@@ -100,7 +103,7 @@ Double.infinity
 Double.nan
 ```
 
-#### calculation
+### calculation
 
 ```swift
 4.0.squareRoot() // 2
@@ -126,7 +129,7 @@ for radians in stride(from: 0.0, to: .pi * 2, by: .pi / 2) {
 // Degrees: 270, radians: 4.71238898038469
 ```
 
-### Range
+## Range
 
 ```swift
 let underFive = 0.0 ..< 5.0 
@@ -144,15 +147,15 @@ func clamped(to limits: Range<Bound>) -> Range<Bound>
 func overlaps(_ other: Range<Bound>) -> Bool
 ```
 
-### Global Numeric Functions
+## Global Numeric Functions
 
-```
+```swift
 min(...)
 max(...)
 abs(...)
 ```
 
-## Strings and Text
+## String
 
 ### init
 
@@ -230,7 +233,7 @@ let range = "Hello".range(of: "ll")! // 返回第一个查找到的词
 print("Hello"[range]) // ll 
 ```
 
-### modify
+### add
 
 ```swift
 var a = "Hello"
@@ -239,9 +242,11 @@ print(a)
 var b = "Hello"
 b.insert(contentsOf: ", world!", at: b.endIndex)
 print(b)
+var c = "Hello"
+print(c + ", world!")
 ```
 
-#### replace
+### replace
 
 ```swift
 var str = "Hello, world!"
@@ -272,10 +277,6 @@ func split(
 ) -> [Self.SubSequence]
 ```
 
-## Collections
+## Array
 
 
-
-## Time
-
-TODO
