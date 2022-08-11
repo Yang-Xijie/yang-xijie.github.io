@@ -22,27 +22,26 @@ isPresenting.toogle()
 
 ### init
 
-#### 用Double初始化时向0靠近
+#### Double
 
 ```swift
 let x = Int(21.5) // x == 21
 let y = Int(-21.5) // y == -21
 ```
 
-#### 使用x进制表示的字符串初始化Int
+#### radix
 
 ```swift
 let a = Int("100", radix: 2)! // a == 4
 let b = Int("FF", radix: 16)! // b == 255
 ```
 
-#### 生成范围内随机整数
-
+#### random
 ```swift
 let a = Int.random(in: 1..<100)
 ```
 
-#### 常量
+#### constants
 
 ```swift
 Int.zero // 0
@@ -52,7 +51,7 @@ Int.min // -9223372036854775808
 
 ### calculation
 
-#### 整除
+#### quotient
 
 ```swift
 let x = 1_000_000
@@ -64,7 +63,7 @@ let (q, r) = x.quotientAndRemainder(dividingBy: 933) // q == 1071, r == 757
 15.isMultiple(of: 4) // false
 ```
 
-#### 绝对值
+#### abs
 
 ```swift
 abs(2) // 2
@@ -313,11 +312,11 @@ func last(where predicate: (Self.Element) throws -> Bool) rethrows -> Self.Eleme
 func randomElement() -> Self.Element?
 ```
 
-### add and remove
+### append and remove
 
 ```swift
 mutating func append(_ newElement: Element)
-mutating func append<S>(contentsOf newElements: S) where Element == S.Element, S : Sequence
+mutating func append<S>(contentsOf newElements: S)
 mutating func insert<C>(contentsOf newElements: C, at i: Self.Index)
 ```
 
@@ -433,11 +432,60 @@ for (word, number) in zip(words, numbers) {
 
 ## Dictionary
 
+### properties
+
+```swift
+dict.keys
+dict.values
 ```
+
+### for-in
+
+```swift
 for (key, value) in dict { ... }
 ```
 
+## Set
+
+### properties
+
+```swift
+func contains(_ member: Element) -> Bool
+
+func isSubset(of other: Set<Element>) -> Bool
+func isStrictSubset(of other: Set<Element>) -> Bool
+func isSuperset(of other: Set<Element>) -> Bool
+func isStrictSuperset(of other: Set<Element>) -> Bool
+func isDisjoint(with other: Set<Element>) -> Bool
 ```
-dict.keys
-dict.values
+
+```swift
+func randomElement() -> Self.Element?
+```
+
+### insert and remove
+
+```swift
+@discardableResult mutating func insert(_ newMember: Element) -> (inserted: Bool, memberAfterInsert: Element)
+@discardableResult mutating func remove(_ member: Element) -> Element?
+```
+
+### operation
+
+#### return new set
+
+```swift
+func union<S>(_ other: S) -> Set<Element>
+func intersection<S>(_ other: S) -> Set<Element>
+func symmetricDifference<S>(_ other: S) -> Set<Element>
+func subtracting<S>(_ other: S) -> Set<Element>
+```
+
+#### modify original set
+
+```swift
+mutating func formUnion<S>(_ other: S)
+mutating func formIntersection<S>(_ other: S)
+mutating func formSymmetricDifference<S>(_ other: S)
+mutating func subtract<S>(_ other: S)
 ```
