@@ -369,6 +369,7 @@ func map<T>(_ transform: (Self.Element) throws -> T) rethrows -> [T]
 func flatMap<SegmentOfResult>(_ transform: (Self.Element) throws -> SegmentOfResult) rethrows -> [SegmentOfResult.Element] where SegmentOfResult : Sequence 
 // 将元素中为nil的项去除
 func compactMap<ElementOfResult>(_ transform: (Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]
+func filter(_ isIncluded: (Element) throws -> Bool) rethrows -> [Element]
 func reduce<Result>(
     _ initialResult: Result,
     _ nextPartialResult: (Result, Self.Element) throws -> Result
@@ -428,4 +429,15 @@ let numbers = 1...4
 for (word, number) in zip(words, numbers) {
     print("\(word): \(number)")
 }
+```
+
+## Dictionary
+
+```
+for (key, value) in dict { ... }
+```
+
+```
+dict.keys
+dict.values
 ```
