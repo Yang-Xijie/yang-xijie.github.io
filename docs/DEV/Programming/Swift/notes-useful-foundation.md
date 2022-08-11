@@ -14,37 +14,35 @@ title: Swift笔记 ｜ 标准库常用函数
 ## Bool
 
 ```swift
-var isPresenting = Bool.random() // https://developer.apple.com/documentation/swift/bool/random()
-isPresenting.toogle() // https://developer.apple.com/documentation/swift/bool/toggle()
+var isPresenting = Bool.random()
+isPresenting.toogle()
 ```
 
 ## Int
 
 ### init
 
-用Double初始化时向0靠近
+#### 用Double初始化时向0靠近
 
 ```swift
-// https://developer.apple.com/documentation/swift/int/init(_:)-8vbwo
 let x = Int(21.5) // x == 21
 let y = Int(-21.5) // y == -21
 ```
 
-使用x进制表示的字符串初始化Int
+#### 使用x进制表示的字符串初始化Int
 
 ```swift
-// https://developer.apple.com/documentation/swift/int/init(_:radix:)
 let a = Int("100", radix: 2)! // a == 4
 let b = Int("FF", radix: 16)! // b == 255
 ```
 
-生成范围内随机整数
+#### 生成范围内随机整数
 
 ```swift
 let a = Int.random(in: 1..<100)
 ```
 
-常量
+#### 常量
 
 ```swift
 Int.zero // 0
@@ -54,21 +52,19 @@ Int.min // -9223372036854775808
 
 ### calculation
 
-整除
+#### 整除
 
 ```swift
-// https://developer.apple.com/documentation/swift/int/quotientandremainder(dividingby:)
 let x = 1_000_000
 let (q, r) = x.quotientAndRemainder(dividingBy: 933) // q == 1071, r == 757
 ```
 
 ```swift
-// https://developer.apple.com/documentation/swift/int/ismultiple(of:)
 15.isMultiple(of: 3) // true
 15.isMultiple(of: 4) // false
 ```
 
-绝对值
+#### 绝对值
 
 ```swift
 abs(2) // 2
@@ -89,13 +85,13 @@ Int.bitWidth // 64
 
 ### init
 
-random
+#### random
 
 ```swift
 Double.random(in: 10.0 ..< 20.0)
 ```
 
-constants
+#### constants
 
 ```swift
 Double.pi
@@ -110,23 +106,14 @@ Double.nan
 ```
 
 ```swift
-// https://developer.apple.com/documentation/swift/double/round(_:)
-1.5.round(.down)
-1.5.round(.up)
-1.5.round(.towardZero)
-1.5.round(.awayFromZero)
-1.5.round(.toNearestOrAwayFromZero)
-```
+1.5.rounded(.down) // 1.0
+1.5.rounded(.up) // 2.0
+1.5.rounded(.towardZero) // 1.0
+1.5.rounded(.awayFromZero) // 2.0
+1.5.rounded(.toNearestOrAwayFromZero) // 2.0
 
-```swift
-for radians in stride(from: 0.0, to: .pi * 2, by: .pi / 2) {
-    let degrees = Int(radians * 180 / .pi)
-    print("Degrees: \(degrees), radians: \(radians)")
-}
-// Degrees: 0, radians: 0.0
-// Degrees: 90, radians: 1.5707963267949
-// Degrees: 180, radians: 3.14159265358979
-// Degrees: 270, radians: 4.71238898038469
+var floar = 1.5
+float.round(...)
 ```
 
 ## Range
@@ -267,7 +254,7 @@ let str = "Hello, world!"
 print(str.replacingOccurrences(of: "Hello", with: "Welcome")) // Welcome, world!
 ```
 
-### other operations
+### split and join
 
 ```swift
 func split(
@@ -275,8 +262,170 @@ func split(
     maxSplits: Int = Int.max,
     omittingEmptySubsequences: Bool = true
 ) -> [Self.SubSequence]
+func joined(separator: String = "") -> String
 ```
 
 ## Array
 
+### init
 
+```swift
+var emptyDoubles: [Double] = []
+var emptyFloats: Array<Float> = Array()
+var digitCounts = Array(repeating: 0, count: 10)
+```
+
+### properties
+
+```swift
+// When you need to check whether your collection is empty, use the isEmpty property instead of checking that the count property is equal to zero.
+var isEmpty: Bool { get }
+var count: Int { get }
+```
+
+```swift
+func contains(_ element: Self.Element) -> Bool
+func contains(where predicate: (Self.Element) throws -> Bool) rethrows -> Bool
+func allSatisfy(_ predicate: (Self.Element) throws -> Bool) rethrows -> Bool
+```
+
+### index
+
+```swift
+var startIndex: Int { get } // always 0
+var endIndex: Int { get } // use `..<`
+
+func firstIndex(of element: Self.Element) -> Self.Index?
+func lastIndex(of element: Self.Element) -> Self.Index?
+
+func index(of element: Self.Element) -> Self.Index?
+```
+
+### element
+
+```swift
+var first: Self.Element? { get }
+func first(where predicate: (Self.Element) throws -> Bool) rethrows -> Self.Element?
+
+var last: Self.Element? { get }
+func last(where predicate: (Self.Element) throws -> Bool) rethrows -> Self.Element?
+
+func randomElement() -> Self.Element?
+```
+
+### add and remove
+
+```swift
+mutating func append(_ newElement: Element)
+mutating func append<S>(contentsOf newElements: S) where Element == S.Element, S : Sequence
+mutating func insert<C>(contentsOf newElements: C, at i: Self.Index)
+```
+
+```swift
+@discardableResult mutating func removeFirst() -> Self.Element
+@discardableResult mutating func removeLast() -> Self.Element
+mutating func popLast() -> Self.Element?
+
+mutating func removeSubrange(_ bounds: Range<Self.Index>)
+mutating func removeAll(where shouldBeRemoved: (Self.Element) throws -> Bool) rethrows
+```
+
+### replace
+
+```swift
+mutating func replaceSubrange<C>(_ subrange: Range<Int>, with newElements: C)
+```
+
+### sort
+
+```swift
+mutating func sort(by areInIncreasingOrder: (Self.Element, Self.Element) throws -> Bool) rethrows
+func sorted(by areInIncreasingOrder: (Self.Element, Self.Element) throws -> Bool) rethrows -> [Self.Element]
+mutating func reverse()
+func reversed() -> ReversedCollection<Self>
+mutating func shuffle()
+func shuffled() -> [Self.Element]
+```
+
+### split and join
+
+```swift
+func split(
+    separator: Self.Element,
+    maxSplits: Int = Int.max,
+    omittingEmptySubsequences: Bool = true
+) -> [Self.SubSequence]
+func joined() -> FlattenSequence<Self>
+func joined<Separator>(separator: Separator) -> JoinedSequence<Self> where Separator : Sequence, Separator.Element == Self.Element.Element
+```
+
+### forEach and map
+
+```swift
+// forEach效果和map一样的 只不过不返回；与for-in相比 for-in可以使用break 因为本质上是循环 而forEach可以理解为一个函数调用 与循环无关所以不能使用break
+func forEach(_ body: (Self.Element) throws -> Void) rethrows
+func map<T>(_ transform: (Self.Element) throws -> T) rethrows -> [T]
+// `s.flatMap(transform)` is equivalent to `Array(s.map(transform).joined())`.
+func flatMap<SegmentOfResult>(_ transform: (Self.Element) throws -> SegmentOfResult) rethrows -> [SegmentOfResult.Element] where SegmentOfResult : Sequence 
+// 将元素中为nil的项去除
+func compactMap<ElementOfResult>(_ transform: (Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]
+func reduce<Result>(
+    _ initialResult: Result,
+    _ nextPartialResult: (Result, Self.Element) throws -> Result
+) rethrows -> Result
+```
+
+example
+
+```swift
+let possibleNumbers = ["1", "2", "three", "///4///", "5"]
+let mapped: [Int?] = possibleNumbers.map { str in Int(str) } // [1, 2, nil, nil, 5]
+let compactMapped: [Int] = possibleNumbers.compactMap { str in Int(str) } // [1, 2, 5]
+```
+
+### for-in
+
+```swift
+func enumerated() -> EnumeratedSequence<Self>
+
+func stride<T>(
+    from start: T,
+    to end: T, // to 不包含end; through 包含end
+    by stride: T.Stride
+) -> StrideTo<T> where T : Strideable
+
+func sequence<T>(
+    first: T,
+    next: @escaping (T) -> T?
+) -> UnfoldFirstSequence<T>
+
+func zip<Sequence1, Sequence2>(
+    _ sequence1: Sequence1,
+    _ sequence2: Sequence2
+) -> Zip2Sequence<Sequence1, Sequence2> where Sequence1 : Sequence, Sequence2 : Sequence
+```
+
+example
+
+```swift
+for (n, c) in "Swift".enumerated() {
+    print("\(n): '\(c)'")
+}
+
+for radians in stride(from: 0.0, to: .pi * 2, by: .pi / 2) {
+    let degrees = Int(radians * 180 / .pi)
+    print("Degrees: \(degrees), radians: \(radians)") // 0, 90, 180, 270
+}
+
+for value in sequence(first: 1, next: { $0 * 2 }) {
+    // value is 1, then 2, then 4, then 8, etc.
+    print(value) // last print 1048576
+    if value == 1024 * 1024 { break }
+}
+
+let words = ["one", "two", "three", "four"]
+let numbers = 1...4
+for (word, number) in zip(words, numbers) {
+    print("\(word): \(number)")
+}
+```
