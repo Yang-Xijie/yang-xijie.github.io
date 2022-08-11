@@ -172,9 +172,9 @@ nav:
         - 二维数组调试: DEV/Programming/C/watch-matrix.md
       - Swift:
         - 学习资源: DEV/Programming/Swift/learning-resources.md
-        - TODO 基础语法笔记: DEV/Programming/Swift/notes-basic-grammars.md
-        - TODO LanguageGuide笔记: DEV/Programming/Swift/notes-language-guide.md
-        - TODO 常用标准库函数笔记: DEV/Programming/Swift/notes-useful-foundation.md
+        - 基础语法笔记: DEV/Programming/Swift/notes-basic-grammars.md
+        - WORKING LanguageGuide笔记: DEV/Programming/Swift/notes-language-guide.md
+        - WORKING 常用标准库函数笔记: DEV/Programming/Swift/notes-useful-foundation.md
         - 教学作业: DEV/Programming/Swift/lecture-homework.md
         - 并行计算: DEV/Programming/Swift/parallel-for.md
       - Python:
