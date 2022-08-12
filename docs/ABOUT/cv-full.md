@@ -6,7 +6,7 @@ title: 个人履历
 
 > 此份文档为杨希杰详细履历 实际简历以此为基础凝练
 > 
-> updated on 2022.8.8
+> updated on 2022.8.13
 
 ## 目前
 
@@ -83,22 +83,25 @@ title: 个人履历
 ## 预计方向
 
 - 软件方向
-    - 桌面操作系统研发（注重交互体验 UOS）
-    - 用户应用开发（macOS/iOS Swift AppKit/SwiftUI; UOS）
+    - 应用程序开发（macOS/iOS Swift AppKit/SwiftUI; Flutter; UOS）
         - 熟练使用Swift和AppKit/UIKit/SwiftUI构建苹果平台应用
-    - 软件研发
+    - 桌面操作系统研发（注重用户交互体验 UOS）
+    - 基础软件研发
+        - 电路设计仿真器
 - 计算机方向
+    - 互联网框架开发
     - 计算机图形学（实时渲染 虚拟现实）
-        - 自学[GAMES101现代计算机图形学](https://www.bilibili.com/video/BV1X7411F744) [GAMES104现代游戏引擎导论](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
+        - 自学[GAMES101现代计算机图形学](https://www.bilibili.com/video/BV1X7411F744)和[GAMES104现代游戏引擎导论](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
         - 了解[GPU渲染流程](https://space.bilibili.com/2055684362/channel/collectiondetail?sid=318149)
         - 了解Apple平台图形API Metal
-        - 了解Unity3D游戏制作/Blender3D建模/Live2D
+        - 了解Unity3D游戏制作/Blender3D建模/Live2D技术
     - 计算机体系架构优化（CPU/存储 RISC-V）
     - （仅感兴趣）操作系统内核研发（Linux kernel）
     - （仅感兴趣）视频图像信息处理（编码）
 - 硬件方向
-    - （仅感兴趣）嵌入式设备（小型电子设备）
+    - 数字芯片设计
     - （仅感兴趣）存储器设计（RAM/SSD）
+    - （仅感兴趣）嵌入式设备（小型电子设备）
     - （仅感兴趣）显示屏制造技术
 
 ## 内容链接
