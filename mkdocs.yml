@@ -52,11 +52,14 @@ nav:
   - 讲稿: 
     - LECTURE/index.md 
     - Linux: LECTURE/Linux/linux.md
-    - Markdown: LECTURE/Markdown/markdown.md
+    - Markdown: 
+      - Markdown: LECTURE/Markdown/markdown.md
+      - VSCode及插件安装: LECTURE/Markdown/vscode-extension.md
     - Git: 
       - Git: LECTURE/Git/git.md
-      - Git demos: LECTURE/Git/git-demos.md
-      - Git teamwork: LECTURE/Git/git-teamwork.md
+      - Git例子: LECTURE/Git/git-demos.md
+      - Git合作: LECTURE/Git/git-teamwork.md
+      - Windows安装Git: LECTURE/Git/windows-install.md
     - 应用开发设计: LECTURE/App/app-design.md
     - 在macOS上用VSCode写C++代码: 
       - 0 介绍: LECTURE/vscode-cpp/0_about.md
