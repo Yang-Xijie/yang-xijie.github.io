@@ -51,9 +51,11 @@ extra:
 nav:
   - 讲稿: 
     - LECTURE/index.md 
-    - Linux: LECTURE/Linux/linux.md
+    - Linux: 
+      - Linux讲座: LECTURE/Linux/linux.md
+      - 命令行入门精简版: LECTURE/Linux/commands-concise.md
     - Markdown: 
-      - Markdown: LECTURE/Markdown/markdown.md
+      - Markdown讲座: LECTURE/Markdown/markdown.md
       - VSCode及插件安装: LECTURE/Markdown/vscode-extension.md
     - Git: 
       - Git: LECTURE/Git/git.md
