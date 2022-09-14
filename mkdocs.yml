@@ -155,6 +155,8 @@ nav:
   - 开发:
     - DEV/index.md
     - DEV/app-dev-sum.md
+    - Flutter:
+      - Notes: DEV/Flutter/notes.md
     - Xcode:
       - 新建开发模块: DEV/Xcode/scheme-dev.md
       - Markup Syntax: DEV/Xcode/markup.md
