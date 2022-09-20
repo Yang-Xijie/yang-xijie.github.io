@@ -37,6 +37,9 @@ flutter run --release
 # subcommands: apk macos web
 flutter build <subcommand>
 flutter build <subcommand> --release
+
+# 清理当前的项目
+flutter clean
 ```
 
 ## Learning materials
