@@ -99,6 +99,7 @@ nav:
       - 语法整理: BLOG/Japanese/grammar.md
       - 作文: BLOG/Japanese/essays.md
       - たんたんめん推特: BLOG/Japanese/tantanmen-translation.md
+      - 中文日语: BLOG/Japanese/chinese.md
     - OS:
       - TODO ExOS设计: BLOG/OS/os-design.md
       - fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
@@ -254,6 +255,7 @@ nav:
       - 3/Jottings/17.md
       - 3/Jottings/16.md
     - 文章:
+      - 3/Articles/220921-upgrade-introduction.md
       - 3/Articles/220715-macbook-story.md
       - 3/Articles/220624-gratitude.md
       - 3/Articles/220621-bytedance-interview.md
