@@ -10,35 +10,35 @@ title: Flutter Notes
 flutter --version
 flutter upgrade
 
-# 查看安装情况
+# check the installation and environment
 flutter doctor
 ```
 
 ```sh
-# 新建项目
+# create a new project
 flutter create <project_name>
 
-# 查看当前连接的设备
+# list connected devices
 flutter devices
 
-# 在 Chrome 中运行应用
+# run for Chrome
 flutter run -d chrome
-# 在 Mac 上运行应用
+# run for Mac
 flutter run -d mac
-# 在 iPad Simulator 上运行应用
+# run for iPad Simulator
 open -a simulator
 flutter run -d ipad
-# 在自己的 iPad 上运行应用
+# run for iPad
 flutter run -d 杨希杰
 
-# 用 release 模式运行
+# run using release mode
 flutter run --release
 
-# subcommands: apk macos web
+# build an app (subcommands: apk macos web)
 flutter build <subcommand>
 flutter build <subcommand> --release
 
-# 清理当前的项目
+# clean current project
 flutter clean
 ```
 
@@ -64,9 +64,26 @@ flutter clean
 - [Build and release a macOS app](https://docs.flutter.dev/deployment/macos)
 - [Build and release a web app](https://docs.flutter.dev/deployment/web)
 
-## Principles
+## My principles
 
-- Chrome(web) to debug
-- Mac(desktop) to test desktop
-- iPad(mobile) to test gestures
-- If flutter cannot do want you want, then go with the native development. Or just accept the fact and drop that feature.
+If flutter cannot do want you want, then go with the native development. Or just accept the fact and drop that feature.
+
+## Targets
+
+One app should deliver two targets with different designs:
+
+- Desktop (with mouse and keyboard)
+    - Native macOS / Windows / Linux
+    - Chrome on macOS / Windows / Linux
+- Mobile (with gestures)
+    - Native Android / iOS / iPadOS (portrait and landscape)
+    - Chrome on Android / iOS / iPadOS
+
+For web, there should be an introduction page to lead users to desktop or mobile.
+
+For debug usage:
+
+- Desktop native: macOS
+- Desktop web: Chrome on macOS
+- Mobile native: iPadOS
+- Mobile web: Safari on iPadOS
