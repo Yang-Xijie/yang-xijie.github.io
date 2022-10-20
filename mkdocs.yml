@@ -173,11 +173,8 @@ nav:
     - 编程:
       - 推荐的学习路线: DEV/Programming/recommendation.md
       - 我对编程语言的感受: DEV/Programming/my-feelings.md
-      - C:
-        - 笔记整理: DEV/Programming/C/review.md
-        - 常用函数: DEV/Programming/C/final.md
-        - stdout按行刷新: DEV/Programming/C/stdout-fflush.md
-        - 二维数组调试: DEV/Programming/C/watch-matrix.md
+      - Dart:
+        - 学习笔记: DEV/Programming/Dart/learning.md
       - Swift:
         - 学习资源: DEV/Programming/Swift/learning-resources.md
         - 基础语法笔记: DEV/Programming/Swift/notes-basic-grammars.md
@@ -189,6 +186,11 @@ nav:
         - 不喜欢Python的理由: DEV/Programming/Python/dislike.md
         - 复制拷贝: DEV/Programming/Python/copy.md
         - numpy速查表: DEV/Programming/Python/numpy-overview.md
+      - C:
+        - 笔记整理: DEV/Programming/C/review.md
+        - 常用函数: DEV/Programming/C/final.md
+        - stdout按行刷新: DEV/Programming/C/stdout-fflush.md
+        - 二维数组调试: DEV/Programming/C/watch-matrix.md
       - C#:
         - 学习笔记: DEV/Programming/Csharp/learning.md
       - C++:
@@ -340,6 +342,9 @@ markdown_extensions:
       # auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
+  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
+  - pymdownx.details # admonition需要
+
 extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
