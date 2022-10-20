@@ -1,4 +1,4 @@
-# 2022.6 苹果电脑购买建议
+# Mac购买建议
 
 > 个人观点 仅供参考 转载请注明出处
 > 
@@ -6,7 +6,7 @@
 >
 > 杨希杰 Bilibili@我不是小杰
 > 
-> 本文链接: https://yang-xijie.github.io/BLOG/macOS/mac-recommend-2206/
+> 本文链接: https://yang-xijie.github.io/BLOG/macOS/mac-recommend/
 
 ## 前提
 
