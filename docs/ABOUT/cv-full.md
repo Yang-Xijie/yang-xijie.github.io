@@ -6,14 +6,14 @@ title: 个人履历
 
 > 此页面为杨希杰的详细履历 实际简历以此为基础凝练形成
 > 
-> 更新于 2022.10.12
+> 更新于 2022.10.29
 
 [通用简历PDF](./files/cv-yxj.pdf)
 
 ## 目前
 
 - [清华大学电子工程系](https://www.ee.tsinghua.edu.cn) 本科在读 大四
-- [边无际](https://bianwuji.com) 文档工程师 实习
+- 参加题为广域多目标实时检测集群的本科毕业设计
 
 ## 基本信息
 
@@ -104,6 +104,14 @@ title: 个人履历
     - 相关报道
         - [少数派｜佳作频出，后生可畏：与葛越聊「移动应用创新赛」](https://sspai.com/post/75611)
         - [CNMO｜2022移动应用创新赛全记录](https://m.cnmo.com/news/738347.html)
+
+### 实习经历
+
+- `2022.8 - 2022.10` 边无际 文档工程师实习生 共约320h的工作时间
+    - 负责全新物联网管理和应用开发框架 [Shifu](https://github.com/edgenesis/shifu) 的[文档页面](https://shifu.run)重构
+    - 准备参与两次线下展示活动
+        - [shifu-meetup](https://shifu.run/technical-blogs/2022/09/30/meetup)
+        - [shifu-cloud-debut](https://shifu.run/technical-blogs/2022/10/18/shifu-cloud)
 
 ### 社团活动
 
