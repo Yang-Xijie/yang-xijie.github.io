@@ -318,8 +318,9 @@ nav:
       - 3/Info/accounts.md
   - 转载:
     - REPRODUCE/index.md
-    - 提问的智慧: REPRODUCE/how-to-ask-questions-the-smart-way.md
-    - Tim Cook在Duke大学的演讲: REPRODUCE/tim-cook-at-duke.md
+    - REPRODUCE/how-to-ask-questions-the-smart-way.md
+    - REPRODUCE/tim-cook-at-duke.md
+    - REPRODUCE/my-best-teacher.md
   - 关于:
     - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
     - 个人履历: ABOUT/cv-full.md

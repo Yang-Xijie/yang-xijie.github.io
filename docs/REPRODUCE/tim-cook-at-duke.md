@@ -1,7 +1,3 @@
----
-title: Tim Cook's Commencement Address at Duke University
----
-
 # Tim Cook's Commencement Address at Duke University, 2018
 
 > This address could be watched at [Bilibili](https://www.bilibili.com/video/BV19p411Z7TW) with English and Chinese bilingual subtitles.

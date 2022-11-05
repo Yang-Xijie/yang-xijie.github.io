@@ -1,7 +1,3 @@
----
-title: 提问的智慧
----
-
 # 提问的智慧
 
 > 原文链接: <https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md>
