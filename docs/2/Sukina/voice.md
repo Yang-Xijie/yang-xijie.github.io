@@ -147,3 +147,54 @@ YouTube的公开稿件很多 B站搬运感觉少的有点可怜
 awsl 和しなも的声线很像，懒懒的很温暖的感觉。嘛 vtb是本职 不过毕业了，但投稿都还在。
 
 [YouTube主页](https://www.youtube.com/channel/UC5nfcGkOAm3JwfPvJvzplHg)
+
+---
+
+> v4 221105
+
+## 月待にゃも
+
+特别喜欢的有下面这几个：
+
+- [【睡眠用/月待にゃも】身着制服的耳边轻语和精油按摩~](https://www.bilibili.com/video/BV18S4y1a79a/) 就 很有真实感
+- [【睡眠用/月待にゃも】可爱的妹妹陪伴你入睡♡温柔的掏耳朵♡](https://www.bilibili.com/video/BV1GF411M7xa/) 一直在轻语欧尼酱 awsl
+- [【睡眠用/月待にゃも】微醉女友的温柔耳边哈姆哈姆治愈♡1周年記念♡掏耳朵](https://www.bilibili.com/video/BV1pU4y1D7Sp/) 哈姆哈姆好棒 T_T
+
+感觉声音很轻  非常助眠。
+
+## 苺氷えな
+
+- [【睡眠用/苺氷えな】零距离的耳边sukisuki耐久♡](https://www.bilibili.com/video/BV1jP411H7eZ/) 最喜欢的一作啊！
+- [【睡眠用/苺氷えな】稍微撒娇一下也可以哦…？](https://www.bilibili.com/video/BV1bD4y1z7BW/)
+- [【睡眠用/苺氷えな】温柔的轻抚音，毛巾捂耳朵，触发音，掏耳朵，耳边呼气，吐息~](https://www.bilibili.com/video/BV1k14y1e7QD/)
+- [【睡眠用/苺氷えな】让耳朵深处变得乱糟糟的♡](https://www.bilibili.com/video/BV1St4y1A79w/)
+
+## 涼花みなせ
+
+我没看过她的DLSite作品哈……单纯觉得ASMR做得好
+
+- [【睡眠用/涼花みなせ】最喜欢你的女友带给你包含爱意的耳朵按摩♡](https://www.bilibili.com/video/BV1Eb4y1J7Mh/)
+- [【睡眠用/涼花みなせ】温柔陪伴你入睡，治愈你](https://www.bilibili.com/video/BV1jB4y1j7S2/)
+
+## 花云凛
+
+live2D做的超级好啊，感觉一点也不做作。
+
+- [【睡眠用/花云凛】直到早上为止，一起度过温柔的时光](https://www.bilibili.com/video/BV1a84y1q7go)
+
+## 琥珀ねね
+
+就  傻傻的……
+
+- [【琥珀ねね】お耳がぽかぽか癒されて眠くなる](https://www.bilibili.com/video/BV1Ye4y177vC)
+
+## 恋猫ちろる
+
+- [【睡眠用/恋猫ちろる】最强的无人声掏耳朵，绵棒，梵天，耳边呼气，吐息~](https://www.bilibili.com/video/BV1ua411R7Jk/) 确实是最强……力度很独特哈  不被免疫很神奇
+
+## Coromo Sara
+
+- [【Coromo Sara】掏耳朵、耳语](https://www.bilibili.com/video/BV1mA411e7Th/)
+- [【Coromo Sara】2018年新年特别篇](https://www.bilibili.com/video/BV1uK411H72q/)
+- [【Coromo Sara】手势、轻语助眠](https://www.bilibili.com/video/BV1aV41167EN/)
+- [【Coromo Sara】1小时拟声词耳语](https://www.bilibili.com/video/BV1vp4y1S7qw/)
