@@ -2,7 +2,7 @@
 
 参考：https://medium.com/podiihq/setting-up-lint-rules-in-dart-flutter-1ebbed0418a6
 
-新建项目之后，在 `analysis_options.yaml` 的 `linter > rules` 下面添加 `prefer_const_literals_to_create_immutables` 和 `prefer_const_constructors` 以防止 `Dart` 不停提示添加或移除 `const`（非实际项目）：
+新建项目之后，在 `analysis_options.yaml` 的 `linter > rules` 下面添加 `prefer_const_*` 以防止 `Dart` 不停提示添加或移除 `const`（非实际项目）：
 
 ```yml
 linter:
@@ -20,6 +20,7 @@ linter:
   rules:
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
-    prefer_const_literals_to_create_immutables: false
     prefer_const_constructors: false
+    prefer_const_constructors_in_immutables: false
+    prefer_const_literals_to_create_immutables: false
 ```
