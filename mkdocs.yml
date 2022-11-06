@@ -161,6 +161,7 @@ nav:
     - DEV/app-dev-sum.md
     - Flutter:
       - Notes: DEV/Flutter/notes.md
+      - Dart linter: DEV/Flutter/dart-lint.md
     - Xcode:
       - 新建开发模块: DEV/Xcode/scheme-dev.md
       - Markup Syntax: DEV/Xcode/markup.md
