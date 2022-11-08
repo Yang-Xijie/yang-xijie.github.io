@@ -1,7 +1,3 @@
----
-title: Flutter Notes
----
-
 # Flutter Notes
 
 ## Commands

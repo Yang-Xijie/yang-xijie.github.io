@@ -163,6 +163,7 @@ nav:
       - Notes: DEV/Flutter/notes.md
       - Dart linter: DEV/Flutter/dart-lint.md
       - Template: DEV/Flutter/template.md
+      - State Management: DEV/Flutter/state-management.md
       - Packages: DEV/Flutter/common-packages.md
     - Xcode:
       - 新建开发模块: DEV/Xcode/scheme-dev.md
