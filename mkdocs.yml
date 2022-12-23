@@ -63,6 +63,10 @@ nav:
       - Git合作: LECTURE/Git/git-teamwork.md
       - Windows安装Git: LECTURE/Git/windows-install.md
     - 应用开发设计: LECTURE/App/app-design.md
+    - Flutter学习教程:
+      - LECTURE/Flutter/macos-simulator-ios.md
+      - LECTURE/Flutter/macos-simulator-android.md
+      - LECTURE/Flutter/221120-consideration.md
     - 在macOS上用VSCode写C++代码: 
       - 0 介绍: LECTURE/vscode-cpp/0_about.md
       - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
@@ -247,6 +251,7 @@ nav:
   - 三次元:
     - 3/index.md
     - 随笔记:
+      - 3/Jottings/2211-2212.md
       - 3/Jottings/2209-2210.md
       - 3/Jottings/2207-2208.md
       - 3/Jottings/2205-2206.md
