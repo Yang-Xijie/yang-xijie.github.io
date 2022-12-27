@@ -8,7 +8,7 @@ site_description: 杨希杰的个人网站
 ## [top]
 theme:
   name: material
-  palette: 
+  palette:
     - scheme: default # 日间模式
       primary: indigo # 上方的
       accent: orange # 链接等可交互元件的高亮色
@@ -49,15 +49,15 @@ extra:
 
 # [Navigtion]
 nav:
-  - 讲稿: 
+  - 讲稿:
     - LECTURE/index.md 
-    - Linux: 
+    - Linux:
       - Linux讲座: LECTURE/Linux/linux.md
       - 命令行入门精简版: LECTURE/Linux/commands-concise.md
-    - Markdown: 
+    - Markdown:
       - Markdown讲座: LECTURE/Markdown/markdown.md
       - VSCode及插件安装: LECTURE/Markdown/vscode-extension.md
-    - Git: 
+    - Git:
       - Git: LECTURE/Git/git.md
       - Git例子: LECTURE/Git/git-demos.md
       - Git合作: LECTURE/Git/git-teamwork.md
@@ -67,7 +67,7 @@ nav:
       - LECTURE/Flutter/macos-simulator-ios.md
       - LECTURE/Flutter/macos-simulator-android.md
       - LECTURE/Flutter/221120-consideration.md
-    - 在macOS上用VSCode写C++代码: 
+    - 在macOS上用VSCode写C++代码:
       - 0 介绍: LECTURE/vscode-cpp/0_about.md
       - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
       - 2 认识macOS的文件系统: LECTURE/vscode-cpp/2_认识macOS的文件系统.md
@@ -156,7 +156,7 @@ nav:
         - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
         - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
         - 数据加载优化: BLOG/Deeplearning/parallel-load.md
-        - DDP: 
+        - DDP:
           - DDP调研: BLOG/Deeplearning/ddp.md
           - ddp-note.py: BLOG/Deeplearning/ddp-note.md
     - 其他:
@@ -276,6 +276,7 @@ nav:
       - 3/Jottings/17.md
       - 3/Jottings/16.md
     - 文章:
+      - 3/Articles/221227-expressvpn-refund.md
       - 3/Articles/220921-upgrade-introduction.md
       - 3/Articles/220715-macbook-story.md
       - 3/Articles/220624-gratitude.md
