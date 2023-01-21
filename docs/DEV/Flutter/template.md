@@ -1,34 +1,36 @@
 # Flutter Project Template
 
-
 `lib/main.dart`:
 
 ```dart
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        body: ContextView(),
-      ),
-      debugShowCheckedModeBanner: false,
-    ),
-  );
+  runApp(MyApp());
 }
 
-class ContextView extends StatelessWidget {
-  ContextView({super.key});
+class MyApp extends StatelessWidget {
+  MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "TodoApp",
+      home: Scaffold(body: ContentWidget()),
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
+
+class ContentWidget extends StatelessWidget {
+  ContentWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text('Row 1'),
-          Text('Row 2'),
-        ],
+      child: Text(
+        "Hello, world!",
+        style: TextStyle(fontSize: 36),
       ),
     );
   }

@@ -4,49 +4,6 @@ site_url: https://yang-xijie.github.io
 site_author: 杨希杰
 site_description: 杨希杰的个人网站
 
-# [UI]
-## [top]
-theme:
-  name: material
-  palette:
-    - scheme: default # 日间模式
-      primary: indigo # 上方的
-      accent: orange # 链接等可交互元件的高亮色
-      toggle:
-        icon: material/weather-night # 图标
-        name: 切换至夜间模式 # 鼠标悬浮提示
-    - scheme: slate # 夜间模式
-      primary: indigo
-      accent: orange
-      toggle:
-        icon: material/weather-sunny
-        name: 切换至日间模式
-  features:
-    - navigation.tabs # 使用Tab来进行分类
-    - navigation.top # 返回顶部的按钮 在上滑时出现
-    - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
-    - navigation.expand # 打开Tab时左侧目录全部展开
-    - search.suggest # 搜索输入一些字母时推荐补全整个单词
-    - search.highlight # 搜索出的文章关键词加入高亮
-  language: zh # 一些提示性的文字会变成中文
-  icon:
-    repo: fontawesome/brands/github
-edit_uri: edit/main/docs # 编辑按钮跳转的链接
-## [top-right corner]
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
-repo_name: yang-xijie.github.io # 右上角的名字
-## [bottom-left corner]
-copyright: Copyright &copy; 2022 杨希杰 # 左下角的版权声明
-## [bottom-right corner]
-extra:
-  social: # icons
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/24502827
-      name: Bilibili | 我不是小杰 # 鼠标悬浮提示
-    - icon: fontawesome/brands/github
-      link: https://github.com/Yang-Xijie
-      name: GitHub | Yang-Xijie
-
 # [Navigtion]
 nav:
   - 讲稿:
@@ -248,6 +205,8 @@ nav:
       - 画师: 2/Sukina/artists.md
       - vtuber: 2/Sukina/vtuber.md
       - 音声: 2/Sukina/voice.md
+    - Galgame:
+      - 2/Galgame/ddlc.md
   - 三次元:
     - 3/index.md
     - 随笔记:
@@ -340,6 +299,49 @@ nav:
     - 文章编写帮助: ABOUT/help.md
     - 网站构建: ABOUT/build.md
     - 测试文档: ABOUT/test.md
+
+# [UI]
+## [top]
+theme:
+  name: material
+  palette:
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: orange # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  features:
+    - navigation.tabs # 使用Tab来进行分类
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
+    - navigation.expand # 打开Tab时左侧目录全部展开
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+  language: zh # 一些提示性的文字会变成中文
+  icon:
+    repo: fontawesome/brands/github
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
+## [top-right corner]
+repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
+repo_name: yang-xijie.github.io # 右上角的名字
+## [bottom-left corner]
+copyright: 杨希杰 CC-BY-4.0 # 左下角的版权声明
+## [bottom-right corner]
+extra:
+  social: # icons
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/24502827
+      name: Bilibili | 我不是小杰 # 鼠标悬浮提示
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yang-Xijie
+      name: GitHub | Yang-Xijie
 
 # [Extensions]
 plugins:
