@@ -327,6 +327,7 @@ theme:
     - navigation.expand # 打开Tab时左侧目录全部展开
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
+    - content.code.copy # 可以通过按钮复制代码
   language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
