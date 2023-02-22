@@ -194,14 +194,6 @@ nav:
       - 上乘: 2/Anime/anime-rating-great.md
       - 好: 2/Anime/anime-rating-good.md
       - 补番倾向: 2/Anime/new-anime-criterion.md
-    - 原神:
-      - 喜欢的角色: 2/Games/Genshin/characters.md
-      - 计划: 2/Games/Genshin/plan.md
-      - 画质设置: 2/Games/Genshin/graphic-quality.md
-      - 手柄设置: 2/Games/Genshin/controller.md
-      - 料理制作: 2/Games/Genshin/food.md
-      - 暴击暴伤配比: 2/Games/Genshin/crit-calculation.md
-      - 频率与概率: 2/Games/Genshin/half-usual.md
     - 喜欢的:
       - 插画: 2/Sukina/pictures.md
       - 二次元女生: 2/Sukina/kawaii.md
@@ -210,6 +202,17 @@ nav:
       - 音声: 2/Sukina/voice.md
     - Galgame:
       - 2/Galgame/ddlc.md
+    - 原神:
+      - 喜欢的角色: 2/Games/Genshin/characters.md
+      - 计划: 2/Games/Genshin/plan.md
+      - 画质设置: 2/Games/Genshin/graphic-quality.md
+      - 手柄设置: 2/Games/Genshin/controller.md
+      - 料理制作: 2/Games/Genshin/food.md
+      - 暴击暴伤配比: 2/Games/Genshin/crit-calculation.md
+      - 频率与概率: 2/Games/Genshin/half-usual.md
+    - Apex:
+      - 2/Games/Apex/characters.md
+      - 2/Games/Apex/weapons.md
   - 三次元:
     - 3/index.md
     - 随笔记:
