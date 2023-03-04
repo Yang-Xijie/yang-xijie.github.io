@@ -198,3 +198,11 @@ live2D做的超级好啊，感觉一点也不做作。
 - [【Coromo Sara】2018年新年特别篇](https://www.bilibili.com/video/BV1uK411H72q/)
 - [【Coromo Sara】手势、轻语助眠](https://www.bilibili.com/video/BV1aV41167EN/)
 - [【Coromo Sara】1小时拟声词耳语](https://www.bilibili.com/video/BV1vp4y1S7qw/)
+
+---
+
+> v5 230304
+
+## 天使なの
+
+h的音声感觉很有意思。写实ASMR感觉也很不错。
