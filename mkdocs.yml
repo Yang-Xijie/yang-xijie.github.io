@@ -216,6 +216,7 @@ nav:
   - 三次元:
     - 3/index.md
     - 随笔记:
+      - 3/Jottings/2302.md
       - 3/Jottings/2301.md
       - 3/Jottings/2211-2212.md
       - 3/Jottings/2209-2210.md
@@ -242,6 +243,7 @@ nav:
       - 3/Jottings/17.md
       - 3/Jottings/16.md
     - 文章:
+      - 3/Articles/230305-cccc-memory.md
       - 3/Articles/221227-expressvpn-refund.md
       - 3/Articles/220921-upgrade-introduction.md
       - 3/Articles/220715-macbook-story.md
