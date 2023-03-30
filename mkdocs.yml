@@ -41,6 +41,7 @@ nav:
     - 英语音标教学: LECTURE/English/phonetic-symbol.md
   - 博客:
     - BLOG/index.md
+    - BLOG/others.md
     - CG:
       - Computer Graphics: BLOG/ComputerGraphics/cg-notes.md
       - GAMES101: BLOG/ComputerGraphics/games101.md
