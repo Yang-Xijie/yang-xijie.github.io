@@ -125,14 +125,14 @@
 - 黄金 蓝牛 SLR
 - 白金 拉法 SLR
 - 钻石 火山 狼崽
-- 传奇 自私
+- 传奇 复仇
 
 ### 循环独家赛事
 
 - LT 和 ACR -> BEAST
 - BEAST -> CIEN
 - CIEN 和 P1 -> 叶问
-- BEAST 和 CIEN 和 叶问 -> 自私
+- BEAST 和 CIEN 和 叶问 -> 复仇
 
 #### 奖励车辆
 
