@@ -187,6 +187,88 @@ nav:
     - ExNotes:
       - ExNotes设计文档: DEV/ExNotes/design.md
       - ExNotes开发考量: DEV/ExNotes/learning.md
+  - 随笔:
+    - ESSAY/index.md
+    - 随笔记:
+      - ESSAY/Jottings/2302.md
+      - ESSAY/Jottings/2301.md
+      - ESSAY/Jottings/2211-2212.md
+      - ESSAY/Jottings/2209-2210.md
+      - ESSAY/Jottings/2207-2208.md
+      - ESSAY/Jottings/2205-2206.md
+      - ESSAY/Jottings/2203-2204.md
+      - ESSAY/Jottings/2201-2202.md
+      - ESSAY/Jottings/2111-2112.md
+      - ESSAY/Jottings/2109-2110.md
+      - ESSAY/Jottings/2107-2108.md
+      - ESSAY/Jottings/2105-2106.md
+      - ESSAY/Jottings/2103-2104.md
+      - ESSAY/Jottings/2101-2102.md
+      - ESSAY/Jottings/2011-2012.md
+      - ESSAY/Jottings/2009-2010.md
+      - ESSAY/Jottings/2007-2008.md
+      - ESSAY/Jottings/2005-2006.md
+      - ESSAY/Jottings/2003-2004.md
+      - ESSAY/Jottings/2001-2002.md
+      - ESSAY/Jottings/0.md
+      - ESSAY/Jottings/1906-1912.md
+      - ESSAY/Jottings/1807-1812.md
+      - ESSAY/Jottings/1801-1806.md
+      - ESSAY/Jottings/17.md
+      - ESSAY/Jottings/16.md
+    - 文章:
+      - ESSAY/Articles/230403-buy-phone.md
+      - ESSAY/Articles/230305-cccc-memory.md
+      - ESSAY/Articles/221227-expressvpn-refund.md
+      - ESSAY/Articles/220921-upgrade-introduction.md
+      - ESSAY/Articles/220715-macbook-story.md
+      - ESSAY/Articles/220624-gratitude.md
+      - ESSAY/Articles/220621-bytedance-interview.md
+      - ESSAY/Articles/220612-reply.md
+      - ESSAY/Articles/2205-good-games.md
+      - ESSAY/Articles/220506-stop-jianshu.md
+      - ESSAY/Articles/220505-library-thu.md
+      - ESSAY/Articles/220415-interestx2.md
+      - ESSAY/Articles/220410-job-discussion.md
+      - ESSAY/Articles/220410-independence.md
+      - ESSAY/Articles/220408-appreciating-girl.md
+      - ESSAY/Articles/220402-languages-comparision.md
+      - ESSAY/Articles/220324-thoughts-996.md
+      - ESSAY/Articles/220107-want-to-be.md
+      - ESSAY/Articles/211104-emotion-bad.md
+      - ESSAY/Articles/210928-apple-recruitment-share.md
+      - ESSAY/Articles/2109-covid-influence.md
+      - ESSAY/Articles/2109-group-clear.md
+      - ESSAY/Articles/210820-cccc-event.md
+      - ESSAY/Articles/210801-affection-3.md
+      - ESSAY/Articles/210519-app-dev-experience.md
+      - ESSAY/Articles/210516-apple-education-address.md
+      - ESSAY/Articles/210502-extend-your-way.md
+      - ESSAY/Articles/201119-a-new-review.md
+      - ESSAY/Articles/200916-my-pursue.md
+      - ESSAY/Articles/200713-sutuo-and-me.md
+      - ESSAY/Articles/200703-talk-with-junior.md
+      - ESSAY/Articles/200607-gaokao-memory.md
+      - ESSAY/Articles/200604-small-goal.md
+      - ESSAY/Articles/200602-tennkinoko.md
+      - ESSAY/Articles/200506-why.md
+      - ESSAY/Articles/2005-travel.md
+      - ESSAY/Articles/190730-tangyan-rd-23.md
+      - ESSAY/Articles/190723-feelings-in-6-days.md
+      - ESSAY/Articles/190707-address-to-nonlocal-students.md
+      - ESSAY/Articles/190629-affection-2.md
+      - ESSAY/Articles/1905-non-intelligent.md
+      - ESSAY/Articles/1901-go-to-thu.md
+      - ESSAY/Articles/1811-do-it.md
+      - ESSAY/Articles/1808-ideality-and-reality.md
+      - ESSAY/Articles/1806-apply-thu.md
+      - ESSAY/Articles/18-tree.md
+      - ESSAY/Articles/18-what-i-love.md
+      - ESSAY/Articles/17-dream-2017.md
+      - ESSAY/Articles/14-affection-1.md
+    - 随笔:
+      - ESSAY/Literature/proses.md
+      - ESSAY/Literature/poems.md
   - 二次元:
     - 2/index.md
     - 番:
@@ -218,102 +300,23 @@ nav:
       - 2/Games/Apex/characters.md
       - 2/Games/Apex/weapons.md
       - 2/Games/Apex/map.md
-  - 三次元:
-    - 3/index.md
-    - 随笔记:
-      - 3/Jottings/2302.md
-      - 3/Jottings/2301.md
-      - 3/Jottings/2211-2212.md
-      - 3/Jottings/2209-2210.md
-      - 3/Jottings/2207-2208.md
-      - 3/Jottings/2205-2206.md
-      - 3/Jottings/2203-2204.md
-      - 3/Jottings/2201-2202.md
-      - 3/Jottings/2111-2112.md
-      - 3/Jottings/2109-2110.md
-      - 3/Jottings/2107-2108.md
-      - 3/Jottings/2105-2106.md
-      - 3/Jottings/2103-2104.md
-      - 3/Jottings/2101-2102.md
-      - 3/Jottings/2011-2012.md
-      - 3/Jottings/2009-2010.md
-      - 3/Jottings/2007-2008.md
-      - 3/Jottings/2005-2006.md
-      - 3/Jottings/2003-2004.md
-      - 3/Jottings/2001-2002.md
-      - 3/Jottings/0.md
-      - 3/Jottings/1906-1912.md
-      - 3/Jottings/1807-1812.md
-      - 3/Jottings/1801-1806.md
-      - 3/Jottings/17.md
-      - 3/Jottings/16.md
-    - 文章:
-      - 3/Articles/230403-buy-phone.md
-      - 3/Articles/230305-cccc-memory.md
-      - 3/Articles/221227-expressvpn-refund.md
-      - 3/Articles/220921-upgrade-introduction.md
-      - 3/Articles/220715-macbook-story.md
-      - 3/Articles/220624-gratitude.md
-      - 3/Articles/220621-bytedance-interview.md
-      - 3/Articles/220612-reply.md
-      - 3/Articles/2205-good-games.md
-      - 3/Articles/220506-stop-jianshu.md
-      - 3/Articles/220505-library-thu.md
-      - 3/Articles/220415-interestx2.md
-      - 3/Articles/220410-job-discussion.md
-      - 3/Articles/220410-independence.md
-      - 3/Articles/220408-appreciating-girl.md
-      - 3/Articles/220402-languages-comparision.md
-      - 3/Articles/220324-thoughts-996.md
-      - 3/Articles/220107-want-to-be.md
-      - 3/Articles/211104-emotion-bad.md
-      - 3/Articles/210928-apple-recruitment-share.md
-      - 3/Articles/2109-covid-influence.md
-      - 3/Articles/2109-group-clear.md
-      - 3/Articles/210820-cccc-event.md
-      - 3/Articles/210801-affection-3.md
-      - 3/Articles/210519-app-dev-experience.md
-      - 3/Articles/210516-apple-education-address.md
-      - 3/Articles/210502-extend-your-way.md
-      - 3/Articles/201119-a-new-review.md
-      - 3/Articles/200916-my-pursue.md
-      - 3/Articles/200713-sutuo-and-me.md
-      - 3/Articles/200703-talk-with-junior.md
-      - 3/Articles/200607-gaokao-memory.md
-      - 3/Articles/200604-small-goal.md
-      - 3/Articles/200602-tennkinoko.md
-      - 3/Articles/200506-why.md
-      - 3/Articles/2005-travel.md
-      - 3/Articles/190730-tangyan-rd-23.md
-      - 3/Articles/190723-feelings-in-6-days.md
-      - 3/Articles/190707-address-to-nonlocal-students.md
-      - 3/Articles/190629-affection-2.md
-      - 3/Articles/1905-non-intelligent.md
-      - 3/Articles/1901-go-to-thu.md
-      - 3/Articles/1811-do-it.md
-      - 3/Articles/1808-ideality-and-reality.md
-      - 3/Articles/1806-apply-thu.md
-      - 3/Articles/18-tree.md
-      - 3/Articles/18-what-i-love.md
-      - 3/Articles/17-dream-2017.md
-      - 3/Articles/14-affection-1.md
-    - 文学:
-      - 3/Literature/proses.md
-      - 3/Literature/poems.md
-    - 个人信息:
-      - 3/Info/accounts.md
   - 转载:
     - REPRODUCE/index.md
     - REPRODUCE/how-to-ask-questions-the-smart-way.md
     - REPRODUCE/tim-cook-at-duke.md
     - REPRODUCE/my-best-teacher.md
-  - 关于:
-    - ABOUT/index.md # 使用两个index 这样子左上角第一次打开会是所有Tab 而不是ABOUT
-    - 个人履历: ABOUT/cv-full.md
-    - 支持作者: ABOUT/support.md
-    - 文章编写帮助: ABOUT/help.md
-    - 网站构建: ABOUT/build.md
-    - 测试文档: ABOUT/test.md
+  # - 归档:
+  #   - ARCHIVE/TODO
+  - 我:
+    - ME/index.md
+    - 个人履历: ME/cv-full.md
+    - 支持作者: ME/support.md
+    - 组建家庭: ME/create-family.md
+  - 网站:
+    - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
+    - 网站构建: WEBSITE/build.md
+    - 文章编写帮助: WEBSITE/help.md
+    - 测试文档: WEBSITE/test.md
 
 # [UI]
 ## [top]
