@@ -63,7 +63,6 @@ nav:
       - たんたんめん推特: BLOG/Japanese/tantanmen-translation.md
       - 中文日语: BLOG/Japanese/chinese.md
     - OS:
-      - TODO ExOS设计: BLOG/OS/os-design.md
       - fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
       - fork例: BLOG/OS/fork-example.md
     - Linux:
@@ -89,7 +88,6 @@ nav:
       - 镜像到Gitee: BLOG/GitHub/mirror.md
     - Markdown:
       - Markdown语法初学习: BLOG/Markdown/grammars.md
-      - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
       - MkDocs静态网站构建: BLOG/Markdown/mkdocs-site.md
       - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
       - GitHub Pages简介: BLOG/Markdown/github-pages.md
@@ -305,8 +303,6 @@ nav:
     - REPRODUCE/how-to-ask-questions-the-smart-way.md
     - REPRODUCE/tim-cook-at-duke.md
     - REPRODUCE/my-best-teacher.md
-  # - 归档:
-  #   - ARCHIVE/TODO
   - 我:
     - ME/index.md
     - 个人履历: ME/cv-full.md
