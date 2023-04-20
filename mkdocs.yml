@@ -121,7 +121,11 @@ nav:
       - 视频信息初探: BLOG/Others/video-info.md
   - 开发:
     - DEV/index.md
-    - DEV/app-dev-sum.md
+    - App:
+      - DEV/App/app-dev-sum.md
+      - DEV/App/flutter-web-consideration.md
+    - React:
+      - DEV/React/notes.md
     - Flutter:
       - Notes: DEV/Flutter/notes.md
       - Dart linter: DEV/Flutter/dart-lint.md
