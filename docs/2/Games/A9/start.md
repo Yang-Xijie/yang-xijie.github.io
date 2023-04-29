@@ -152,7 +152,7 @@
         - 独家赛事
             - C / JAGUAR / F-TYPE SVR
             - **C / REZVANI / BEAST X**
-            - **B / PININFARINA / H2 SPEED**
+            - B / PININFARINA / H2 SPEED
             - A / FERRARI / F12tdf
 - A / VLF / FORCE 1 V10
     - 获得方式
@@ -160,7 +160,7 @@
             - B / NISSAN / GT-R NISMO
             - **B / CADILLAC / CIEN CONCEPT**
             - B / FERRARI / 488 GTB
-            - **A / McLAREN / P1**
+            - A / McLAREN / P1
 - S / TRION / NEMESIS
     - 简称
         - 复仇（Nemesis 复仇女神）
@@ -199,11 +199,10 @@
         - P1
     - 获得方式
         - 商店氪金 6 元获取（比较推荐）
-        - 12 级车库商店金币购买（确认 TODO）
+        - 12 级车库商店金币购买 一张图纸 12500
         - 寻车
     - 用途
-        - A / VLF / FORCE 1 V10（叶问）独家赛事的入场车辆
-        - 过生涯相应关卡
+        - 过生涯一些关卡
 
 ### 第零梯队
 
