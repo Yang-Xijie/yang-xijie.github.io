@@ -1,18 +1,6 @@
 # 喜欢的武器
 
-- 冲锋枪
-    - R99
-    - RE45
-    - 电冲
-    - 转换者
-- 步枪
-    - R301
-    - 平行
-- 霰弹枪
-    - EVA8
-    - 敖犬
-- 神射手
-    - 3030
-    - 长弓
-
-大逃杀带一把冲锋枪，剩下一把看情况带霰弹枪、步枪、神射手。
+![](images-weapons/冲锋枪.jpg)
+![](images-weapons/神射手.jpg)
+![](images-weapons/步枪.jpg)
+![](images-weapons/手枪.jpg){width="46%"}
