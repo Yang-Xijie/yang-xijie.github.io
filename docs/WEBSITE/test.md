@@ -1,7 +1,3 @@
----
-title: 测试文档
----
-
 # 测试文档
 
 Here is an inline example, $\pi(\theta)$, 
@@ -32,3 +28,10 @@ $\boldsymbol u$ $\boldsymbol{a}$
     - 2
         - 3
             - 4
+
+![](../ME/media/頑張ります.png){width="300"}
+
+![](../ME/media/頑張ります.png){width="50%"}
+
+![](../ME/media/頑張ります.png){width="40%"}
+![](../ME/media/頑張ります.png){width="40%"}
