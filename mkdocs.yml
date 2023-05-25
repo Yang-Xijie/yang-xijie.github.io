@@ -21,8 +21,6 @@ nav:
       - Windows安装Git: LECTURE/Git/windows-install.md
     - 应用开发设计: LECTURE/App/app-design.md
     - Flutter学习教程:
-      - LECTURE/Flutter/macos-simulator-ios.md
-      - LECTURE/Flutter/macos-simulator-android.md
       - LECTURE/Flutter/221120-consideration.md
     - 在macOS上用VSCode写C++代码:
       - 0 介绍: LECTURE/vscode-cpp/0_about.md
@@ -37,97 +35,93 @@ nav:
       - 其他: LECTURE/vscode-cpp/9_others.md
       - 极速版: LECTURE/vscode-cpp/10_极速版.md
       - 补充: LECTURE/vscode-cpp/11_补充.md
-    - 在macOS上用VSCode写Python: LECTURE/vscode-python/vscode-python.md
     - 英语音标教学: LECTURE/English/phonetic-symbol.md
   - 博客:
     - BLOG/index.md
     - BLOG/others.md
     - CG:
-      - Computer Graphics: BLOG/ComputerGraphics/cg-notes.md
-      - GAMES101: BLOG/ComputerGraphics/games101.md
-      - Blender: BLOG/ComputerGraphics/blender-notes.md
+      - BLOG/ComputerGraphics/cg-notes.md
+      - BLOG/ComputerGraphics/games101.md
+      - BLOG/ComputerGraphics/blender-notes.md
     - 游戏:
-      - Unity: BLOG/Game/unity-notes.md
-      - UE: BLOG/Game/ue-notes.md
-      - 定义: BLOG/Game/what-is-game.md
-      - 2D和3D: BLOG/Game/2d-vs-3d.md
+      - BLOG/Game/unity-notes.md
+      - BLOG/Game/ue-notes.md
+      - BLOG/Game/what-is-game.md
+      - BLOG/Game/2d-vs-3d.md
     - 日语:
-      - 笔记2/3: BLOG/Japanese/notes-2202-2203.md
-      - 笔记4: BLOG/Japanese/notes-2204.md
-      - 笔记5: BLOG/Japanese/notes-2205.md
-      - 动词整理: BLOG/Japanese/verb.md
-      - 形容词整理: BLOG/Japanese/adj.md
-      - 名词整理: BLOG/Japanese/noun.md
-      - 语法整理: BLOG/Japanese/grammar.md
-      - 作文: BLOG/Japanese/essays.md
-      - たんたんめん推特: BLOG/Japanese/tantanmen-translation.md
-      - 中文日语: BLOG/Japanese/chinese.md
+      - BLOG/Japanese/notes-2202-2203.md
+      - BLOG/Japanese/notes-2204.md
+      - BLOG/Japanese/notes-2205.md
+      - BLOG/Japanese/verb.md
+      - BLOG/Japanese/adj.md
+      - BLOG/Japanese/noun.md
+      - BLOG/Japanese/grammar.md
+      - BLOG/Japanese/essays.md
+      - BLOG/Japanese/tantanmen-translation.md
+      - BLOG/Japanese/chinese.md
     - OS:
-      - fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
-      - fork例: BLOG/OS/fork-example.md
+      - BLOG/OS/fork-exec-spawn.md
+      - BLOG/OS/fork-example.md
     - Linux:
-      - vim: BLOG/Linux/vim.md
-      - tmux: BLOG/Linux/tmux.md
-      - UNIX: BLOG/Linux/unix.md
-      - 内核编译: BLOG/Linux/kernel-compile.md
-      - 连接树莓派: BLOG/Linux/pi-start.md
+      - BLOG/Linux/vim.md
+      - BLOG/Linux/tmux.md
+      - BLOG/Linux/unix.md
+      - BLOG/Linux/kernel-compile.md
+      - BLOG/Linux/pi-start.md
     - macOS:
-      - 使用tree命令和访达进行任务管理: BLOG/macOS/tree.md
-      - 辅助功能缩放: BLOG/macOS/zoom.md
-      - Mac与Android的文件传输: BLOG/macOS/sharing-mac-android.md
-      - MAD制作流程: BLOG/macOS/mad.md
-      - OBS开直播: BLOG/macOS/stream.md
+      - BLOG/macOS/tree.md
+      - BLOG/macOS/zoom.md
+      - BLOG/macOS/sharing-mac-android.md
+      - BLOG/macOS/mad.md
+      - BLOG/macOS/stream.md
     - 显示器:
       - BLOG//Display/sony-extend.md
-    - UOS:
-      - 相关链接: BLOG/UOS/links.md
     - Apple:
-      - iPad购买建议: BLOG/Apple/ipad-recommend.md
-      - Mac购买建议: BLOG/Apple/mac-recommend.md
+      - BLOG/Apple/ipad-recommend.md
+      - BLOG/Apple/mac-recommend.md
     - GitHub:
-      - 镜像到Gitee: BLOG/GitHub/mirror.md
+      - BLOG/GitHub/mirror.md
     - Markdown:
-      - Markdown语法初学习: BLOG/Markdown/grammars.md
-      - MkDocs静态网站构建: BLOG/Markdown/mkdocs-site.md
-      - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
-      - GitHub Pages简介: BLOG/Markdown/github-pages.md
+      - BLOG/Markdown/grammars.md
+      - BLOG/Markdown/mkdocs-site.md
+      - BLOG/Markdown/mdbook-site.md
+      - BLOG/Markdown/github-pages.md
     - 电子工程:
-      - Verilog仿真: BLOG/ElectronicEngineering/verilog-simulation.md
-      - 各种存储器间的关系: BLOG/ElectronicEngineering/storage.md
-      - 二阶线性时不变电路: BLOG/ElectronicEngineering/rlc.md
-      - yosys尝试: BLOG/ElectronicEngineering/yosys-try.md
+      - BLOG/ElectronicEngineering/verilog-simulation.md
+      - BLOG/ElectronicEngineering/storage.md
+      - BLOG/ElectronicEngineering/rlc.md
+      - BLOG/ElectronicEngineering/yosys-try.md
     - 基础:
       - 数学:
-        - Latex简易符号: BLOG/Foundation/Math/latex.md
-        - 线性代数笔记: BLOG/Foundation/Math/linear.md
-        - 常用泰勒级数: BLOG/Foundation/Math/taylor.md
-        - 最大似然估计: BLOG/Foundation/Math/max-pr.md
+        - BLOG/Foundation/Math/latex.md
+        - BLOG/Foundation/Math/linear.md
+        - BLOG/Foundation/Math/taylor.md
+        - BLOG/Foundation/Math/max-pr.md
         - BLOG/Foundation/Math/sympy-det.md
       - 物理:
-        - Gauss公式和Stokes公式: BLOG/Foundation/Physics/guass-stokes.md
-        - 电磁学期末复习: BLOG/Foundation/Physics/electromagnetics.md
+        - BLOG/Foundation/Physics/guass-stokes.md
+        - BLOG/Foundation/Physics/electromagnetics.md
       - 网络:
-        - 知识点总结: BLOG/Network/learning.md
-        - 专有名词速查: BLOG/Network/nouns.md
-        - GraphQL Hasura: BLOG/Network/graphql.md
+        - BLOG/Network/learning.md
+        - BLOG/Network/nouns.md
       - 机器学习:
-        - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
-        - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
-        - 数据加载优化: BLOG/Deeplearning/parallel-load.md
+        - BLOG/Deeplearning/d2l.md
+        - BLOG/Deeplearning/speech-recognition.md
+        - BLOG/Deeplearning/parallel-load.md
         - DDP:
-          - DDP调研: BLOG/Deeplearning/ddp.md
-          - ddp-note.py: BLOG/Deeplearning/ddp-note.md
+          - BLOG/Deeplearning/ddp.md
+          - BLOG/Deeplearning/ddp-note.md
     - 其他:
-      - 视频信息初探: BLOG/Others/video-info.md
+      - BLOG/Others/video-info.md
   - 开发:
     - DEV/index.md
     - App:
       - DEV/App/flutter-web-consideration.md
     - Flutter:
-      - Notes: DEV/Flutter/notes.md
-      - Dart linter: DEV/Flutter/dart-lint.md
-      - Template: DEV/Flutter/template.md
-      - State Management: DEV/Flutter/state-management.md
+      - DEV/Flutter/notes.md
+      - DEV/Flutter/dart-lint.md
+      - DEV/Flutter/template.md
+      - DEV/Flutter/state-management.md
     - React:
       - DEV/React/notes.md
     - 编程:
