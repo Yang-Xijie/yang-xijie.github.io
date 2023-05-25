@@ -1,7 +1,3 @@
----
-title: 在macOS上用VSCode写C++代码 7 用VSCode调试Cpp代码
----
-
 # 在macOS上用VSCode写C++代码 7 用VSCode调试Cpp代码
 
 ## Intel Mac由于VS Code官方插件bug无法调试的说明

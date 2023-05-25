@@ -1,7 +1,3 @@
----
-title: 在macOS上用VSCode写C++代码 0 简介
----
-
 # 在macOS上用VSCode写C++代码 0 简介
 
 ## 简介

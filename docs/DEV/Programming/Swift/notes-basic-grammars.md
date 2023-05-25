@@ -1,7 +1,3 @@
----
-title: Swift笔记 ｜ 基础语法
----
-
 # Swift笔记 ｜ 基础语法
 
 > - [A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)

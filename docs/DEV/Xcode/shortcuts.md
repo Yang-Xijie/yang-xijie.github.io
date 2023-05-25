@@ -1,7 +1,3 @@
----
-title: Self-used Shortcuts for Editors in IDEs
----
-
 # Self-used Shortcuts for Editors in IDEs
 
 ## Common

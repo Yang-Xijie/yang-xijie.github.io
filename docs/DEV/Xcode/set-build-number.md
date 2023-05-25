@@ -1,7 +1,3 @@
----
-title: Set Build Number in Xcode
----
-
 # Set Build Number in Xcode
 
 > NOTICE: This method might make your project unable to upload to App Store Connect.

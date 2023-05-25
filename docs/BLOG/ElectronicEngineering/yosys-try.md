@@ -1,13 +1,9 @@
----
-title: yosys简单入门
----
-
-# yosys简单入门
+# yosys 简单入门
 
 ## 背景知识
 
 - 命令行
-- Verilog硬件描述语言
+- Verilog 硬件描述语言
 - FPGA
 - 数字电路设计流程
     - [Qflow: An Open-Source Digital Synthesis Flow](http://opencircuitdesign.com/qflow/)

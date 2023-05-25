@@ -1,8 +1,4 @@
----
-title: ExNotes设计文档
----
-
-# ExNotes设计文档
+# ExNotes 设计文档
 
 > Author: [Yang-Xijie](https://github.com/Yang-Xijie)
 > 

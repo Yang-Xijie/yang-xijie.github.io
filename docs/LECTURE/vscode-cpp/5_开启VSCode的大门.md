@@ -1,7 +1,3 @@
----
-title: 在macOS上用VSCode写C++代码 5 开启VSCode的大门
----
-
 # 在macOS上用VSCode写C++代码 5 开启VSCode的大门
 
 （因为这一课内容比较多，可能会分为上下两部分）

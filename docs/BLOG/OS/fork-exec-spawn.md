@@ -1,8 +1,4 @@
----
-title: fork/exec/spawn辨析
----
-
-# fork/exec/spawn辨析
+# fork/exec/spawn 辨析
 
 ## 总结
 

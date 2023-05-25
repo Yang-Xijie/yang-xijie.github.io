@@ -1,11 +1,3 @@
----
-title: 深度学习并行加载数据
-tags: 
-  - DDP
-  - webdataset
-  - WeNet/UIO
----
-
 # 深度学习并行加载数据
 
 > 问题应该已经解决了

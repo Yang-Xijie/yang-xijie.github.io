@@ -1,8 +1,4 @@
----
-title: C++笔记 | Google C++ 风格指南学习 命名约定
----
-
-# C++笔记 | Google C++ 风格指南学习 命名约定
+# C++ 笔记 | Google C++ 风格指南学习 命名约定
 
 > 摘自：[Google开源项目风格 | C++风格指南 7.命名约定](https://zh-google-styleguide.readthedocs.io/en/latest/contents/)
 > 

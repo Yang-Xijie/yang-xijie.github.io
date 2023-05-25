@@ -1,8 +1,4 @@
----
-title: Gauss公式和Stokes公式
----
-
-# Gauss公式和Stokes公式
+# Gauss 公式和 Stokes 公式
 
 # Gauss公式 | 基本形式
 

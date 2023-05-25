@@ -1,7 +1,3 @@
----
-title: 动手学深度学习 笔记
----
-
 # 动手学深度学习 笔记
 
 <https://zh.d2l.ai/chapter_notation/index.html>

@@ -1,8 +1,4 @@
----
-title: Cocoa新建项目的方式
----
-
-# Cocoa新建项目的方式
+# Cocoa 新建项目的方式
 
 > macOS 12.0.1 Xcode 13.1 Swift 5.5.1
 

@@ -16,14 +16,6 @@
 
 ![](images/Superelletra-2.jpeg)
 
-## LAMBORGHINI / HURACAN EVO SPYDER
-
-![](images/EVO-0.jpeg)
-
-![](images/EVO-1.jpeg)
-
-![](images/EVO-2.jpeg)
-
 ## LAMBORGHINI / GALLARDO LP 560-4
 
 ![](images/GALLARDO-0.jpeg)

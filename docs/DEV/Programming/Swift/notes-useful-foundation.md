@@ -1,8 +1,4 @@
----
-title: Swift笔记 ｜ 标准库常用函数
----
-
-# Swift笔记 ｜ 标准库常用函数
+# Swift 笔记 ｜ 标准库常用函数
 
 > [Swift Standard Library](https://developer.apple.com/documentation/swift/swift-standard-library) Values and Collections
 

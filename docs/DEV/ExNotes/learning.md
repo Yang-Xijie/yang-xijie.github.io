@@ -1,7 +1,3 @@
----
-title: ExNotes Considerations and Learning
----
-
 # ExNotes Considerations and Learning
 
 考虑：

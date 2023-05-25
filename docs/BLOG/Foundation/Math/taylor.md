@@ -1,10 +1,3 @@
----
-title: 常用泰勒级数
-tags:
-  - Taylor Series
-  - 泰勒级数
----
-
 # 常用泰勒级数
 
 $\begin{aligned} \frac{1}{1-x} &=1+x+x^{2}+x^{3}+x^{4}+\cdots \\ &=1+\sum_{k=1}^{\infty} x^{k} \end{aligned}$

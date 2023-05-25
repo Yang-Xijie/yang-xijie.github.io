@@ -1,8 +1,4 @@
----
-title: Mac使用OBS直播
----
-
-# Mac使用OBS直播
+# Mac 使用 OBS 直播
 
 ## OBS
 

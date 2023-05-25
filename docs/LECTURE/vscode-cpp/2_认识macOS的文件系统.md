@@ -1,7 +1,3 @@
----
-title: 在macOS上用VSCode写C++代码 2 认识macOS的文件系统
----
-
 # 在macOS上用VSCode写C++代码 2 认识macOS的文件系统
 
 文件是什么呢？（展示下载文件夹中的图片，视频，`txt`，`word`等）

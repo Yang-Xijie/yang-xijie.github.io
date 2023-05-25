@@ -1,7 +1,3 @@
----
-title: Unix and Linux
----
-
 # Unix and Linux
 
 The design of Unix systems is based on “Unix Philosophy”

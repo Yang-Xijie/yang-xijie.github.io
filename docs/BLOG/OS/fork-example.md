@@ -1,8 +1,4 @@
----
-title: fork例
----
-
-# fork例
+# fork 例
 
 ```py
 # learnfork.py

@@ -1,8 +1,4 @@
----
-title: Swift笔记 ｜ Language Guide
----
-
-# Swift笔记 ｜ Language Guide
+# Swift 笔记 ｜ Language Guide
 
 > 阅读[The Swift Programming Language (5.7) - Language Guide](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)的笔记
 

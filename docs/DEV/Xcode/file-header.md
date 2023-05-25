@@ -1,8 +1,4 @@
----
-title: Xcode自定义新建文件注释
----
-
-# Xcode自定义新建文件注释
+# Xcode 自定义新建文件注释
 
 打开`Finder`，⇧⌘G 前往 `~/Library/Developer/Xcode/UserData`
 

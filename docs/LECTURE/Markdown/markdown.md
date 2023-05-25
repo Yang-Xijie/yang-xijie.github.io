@@ -1,8 +1,4 @@
----
-title: 面向开发的Markdown讲座
----
-
-# 面向开发的Markdown讲座
+# 面向开发的 Markdown 讲座
 
 > [Bilibili视频教程](https://www.bilibili.com/video/BV1jV411j7mz)
 

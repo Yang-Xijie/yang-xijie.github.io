@@ -1,7 +1,3 @@
----
-title: MAD production workflow on macOS
----
-
 # MAD production workflow on macOS
 
 ## Conclusion

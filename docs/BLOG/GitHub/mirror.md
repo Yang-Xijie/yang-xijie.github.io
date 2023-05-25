@@ -1,8 +1,4 @@
----
-title: GitHub镜像到Gitee
----
-
-# GitHub镜像到Gitee
+# GitHub 镜像到 Gitee
 
 ```
 $ ssh-keygen

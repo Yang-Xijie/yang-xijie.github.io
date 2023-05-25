@@ -1,7 +1,3 @@
----
-title: 技术栈梳理
----
-
 # Summary of App Dev Framework
 
 From an indie's perspective:

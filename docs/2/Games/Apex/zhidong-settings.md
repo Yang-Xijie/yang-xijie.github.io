@@ -1,4 +1,4 @@
-# 致动 O 手柄 Apex 设置
+# Apex 致动 O 手柄设置
 
 买的是这一款 [致动 O 手柄](https://item.m.jd.com/product/10041172079755.html?gx=RnE2l29cOWHay9RP--tzXYzsmLrDjI43RTK4&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL)，[说明书](http://pro71e7a1c3.pic11.websiteonline.cn/upload/ZD-OWirelessLowLightManualChinese_2ozk.pdf)。
 

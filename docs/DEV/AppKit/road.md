@@ -1,8 +1,4 @@
----
-title: 我的Apple APP开发之路
----
-
-# 我的Apple APP开发之路
+# 我的 Apple app 开发之路
 
 210708
 

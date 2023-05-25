@@ -1,8 +1,4 @@
----
-title: Vim学习笔记
----
-
-# Vim学习笔记
+# Vim 学习笔记
 
 > Author: 杨希杰 [Yang Xijie](https://github.com/Yang-Xijie)
 > 

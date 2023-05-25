@@ -276,27 +276,24 @@ nav:
   - 二次元:
     - 2/index.md
     - 番:
-      - 番剧评价: 2/Anime/anime-rating.md
-      - 神作: 2/Anime/anime-rating-extraordinary.md
-      - 上乘: 2/Anime/anime-rating-great.md
-      - 好: 2/Anime/anime-rating-good.md
-      - 补番倾向: 2/Anime/new-anime-criterion.md
+      - 2/Anime/anime-rating.md
+      - 2/Anime/anime-rating-extraordinary.md
+      - 2/Anime/anime-rating-great.md
+      - 2/Anime/anime-rating-good.md
+      - 2/Anime/new-anime-criterion.md
     - 喜欢的:
-      - 插画: 2/Sukina/pictures.md
-      - 二次元女生: 2/Sukina/kawaii.md
-      - 画师: 2/Sukina/artists.md
-      - vtuber: 2/Sukina/vtuber.md
-      - 音声: 2/Sukina/voice.md
+      - 2/Sukina/pictures.md
+      - 2/Sukina/kawaii.md
+      - 2/Sukina/artists.md
+      - 2/Sukina/vtuber.md
+      - 2/Sukina/voice.md
     - Galgame:
       - 2/Galgame/ddlc.md
     - 原神:
-      - 喜欢的角色: 2/Games/Genshin/characters.md
-      - 计划: 2/Games/Genshin/plan.md
-      - 画质设置: 2/Games/Genshin/graphic-quality.md
-      - 手柄设置: 2/Games/Genshin/controller.md
-      - 料理制作: 2/Games/Genshin/food.md
-      - 暴击暴伤配比: 2/Games/Genshin/crit-calculation.md
-      - 频率与概率: 2/Games/Genshin/half-usual.md
+      - 2/Games/Genshin/characters.md
+      - 2/Games/Genshin/graphic-quality.md
+      - 2/Games/Genshin/controller.md
+      - 2/Games/Genshin/food.md
     - 狂野飙车9:
       - 2/Games/A9/start.md
       - 2/Games/A9/hoshii.md
@@ -319,9 +316,9 @@ nav:
     - ME/support.md
   - 网站:
     - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
-    - 网站构建: WEBSITE/build.md
-    - 文章编写帮助: WEBSITE/help.md
-    - 测试文档: WEBSITE/test.md
+    - WEBSITE/build.md
+    - WEBSITE/help.md
+    - WEBSITE/test.md
 
 # [UI]
 ## [top]

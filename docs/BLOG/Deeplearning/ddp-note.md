@@ -1,7 +1,3 @@
----
-title: ddp-note.py
----
-
 # ddp-note.py
 
 ```py

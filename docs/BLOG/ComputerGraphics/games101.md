@@ -1,8 +1,4 @@
----
-title: GAMES101笔记
----
-
-# GAMES101笔记
+# GAMES101 笔记
 
 ## Overview of Computer Graphics (L1)
 
