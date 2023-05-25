@@ -1,4 +1,4 @@
-# 设置Dart的lint规则
+# 设置 Dart 的 lint 规则
 
 参考：https://medium.com/podiihq/setting-up-lint-rules-in-dart-flutter-1ebbed0418a6
 

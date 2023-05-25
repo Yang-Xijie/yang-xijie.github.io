@@ -122,73 +122,34 @@ nav:
   - 开发:
     - DEV/index.md
     - App:
-      - DEV/App/app-dev-sum.md
       - DEV/App/flutter-web-consideration.md
-    - React:
-      - DEV/React/notes.md
     - Flutter:
       - Notes: DEV/Flutter/notes.md
       - Dart linter: DEV/Flutter/dart-lint.md
       - Template: DEV/Flutter/template.md
       - State Management: DEV/Flutter/state-management.md
-      - Packages: DEV/Flutter/common-packages.md
-    - Xcode:
-      - 新建开发模块: DEV/Xcode/scheme-dev.md
-      - Markup Syntax: DEV/Xcode/markup.md
-      - 新建文件注释: DEV/Xcode/file-header.md
-      - 常用快捷键: DEV/Xcode/shortcuts.md
-      - Set Build Number: DEV/Xcode/set-build-number.md
-      - Crash Analysis: DEV/Xcode/crash-analysis.md
-    - SwiftUI:
-      - Data Essentials: DEV/SwiftUI/data-essentials.md
-    - AppKit:
-      - 纯代码创建项目: DEV/AppKit/programmatically.md
-      - 苹果平台应用开发之路: DEV/AppKit/road.md
+    - React:
+      - DEV/React/notes.md
     - 编程:
-      - 推荐的学习路线: DEV/Programming/recommendation.md
-      - 我对编程语言的感受: DEV/Programming/my-feelings.md
-      - Dart:
-        - 学习笔记: DEV/Programming/Dart/learning.md
-      - Swift:
-        - 学习资源: DEV/Programming/Swift/learning-resources.md
-        - 基础语法笔记: DEV/Programming/Swift/notes-basic-grammars.md
-        - WORKING LanguageGuide笔记: DEV/Programming/Swift/notes-language-guide.md
-        - WORKING 常用标准库函数笔记: DEV/Programming/Swift/notes-useful-foundation.md
-        - 教学作业: DEV/Programming/Swift/lecture-homework.md
-        - 并行计算: DEV/Programming/Swift/parallel-for.md
+      - DEV/Programming/recommendation.md
+      - DEV/Programming/my-feelings.md
       - Python:
-        - 不喜欢Python的理由: DEV/Programming/Python/dislike.md
-        - 复制拷贝: DEV/Programming/Python/copy.md
-        - numpy速查表: DEV/Programming/Python/numpy-overview.md
+        - DEV/Programming/Python/copy.md
+        - DEV/Programming/Python/numpy-overview.md
+      - Dart:
+        - DEV/Programming/Dart/learning.md
+      - Swift:
+        - DEV/Programming/Swift/learning-resources.md
+        - DEV/Programming/Swift/notes-basic-grammars.md
+        - DEV/Programming/Swift/notes-language-guide.md
+        - DEV/Programming/Swift/notes-useful-foundation.md
+        - DEV/Programming/Swift/lecture-homework.md
+        - DEV/Programming/Swift/parallel-for.md
       - C:
-        - 笔记整理: DEV/Programming/C/review.md
-        - 常用函数: DEV/Programming/C/final.md
-        - stdout按行刷新: DEV/Programming/C/stdout-fflush.md
-        - 二维数组调试: DEV/Programming/C/watch-matrix.md
-      - C#:
-        - 学习笔记: DEV/Programming/Csharp/learning.md
-      - C++:
-        - 1 C++的几个基本问题: DEV/Programming/Cpp/1.md
-        - 2 函数重载: DEV/Programming/Cpp/2.md
-        - 3 类: DEV/Programming/Cpp/3.md
-        - 4 操作符重载: DEV/Programming/Cpp/4.md
-        - 5 类的继承与派生: DEV/Programming/Cpp/5.md
-        - 6 模版: DEV/Programming/Cpp/6.md
-        - 7 异常处理: DEV/Programming/Cpp/7.md
-        - 8 流类库的输入与输出: DEV/Programming/Cpp/8.md
-        - List: DEV/Programming/Cpp/list.md
-        - Stack: DEV/Programming/Cpp/stack.md
-        - 类数据成员: DEV/Programming/Cpp/class-properties.md
-        - Google风格: DEV/Programming/Cpp/google-format.md
-        - 考试复习: DEV/Programming/Cpp/final.md
-        - OJ技巧和策略: DEV/Programming/Cpp/oj.md
-      - MATLAB:
-        - MATLAB入门: DEV/Programming/MATLAB/tour.md
-        - 抛硬币的涨落问题: DEV/Programming/MATLAB/coin.md
-        - 命令行MATLAB: DEV/Programming/MATLAB/terminal-matlab.md
-    - ExNotes:
-      - ExNotes设计文档: DEV/ExNotes/design.md
-      - ExNotes开发考量: DEV/ExNotes/learning.md
+        - DEV/Programming/C/review.md
+        - DEV/Programming/C/final.md
+        - DEV/Programming/C/stdout-fflush.md
+        - DEV/Programming/C/watch-matrix.md
   - 随笔:
     - ESSAY/index.md
     - 随笔记:
