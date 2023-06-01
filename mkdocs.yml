@@ -147,6 +147,7 @@ nav:
   - 随笔:
     - ESSAY/index.md
     - 随笔记:
+      - ESSAY/Jottings/2305.md
       - ESSAY/Jottings/2304.md
       - ESSAY/Jottings/2303.md
       - ESSAY/Jottings/2302.md
@@ -263,6 +264,7 @@ nav:
     - REPRODUCE/how-to-ask-questions-the-smart-way.md
     - REPRODUCE/tim-cook-at-duke.md
     - REPRODUCE/my-best-teacher.md
+    - REPRODUCE/kasi/watagumo.md
   - 我:
     - ME/index.md
     - ME/cv-full.md
