@@ -329,7 +329,7 @@ $\Longrightarrow \hat{\vec x}$ 是 $A^TA \vec x=A^T \vec v$ 的解
 
 $$
 \vec w_1=\vec v_1 \\
-\vec w_2=\vec v_2-\frac{{\vec w_1}^T \vec v_2}{{\vec w_1}^T \vec w_1}\vec w_1 \\
+\vec w_2=\vec v_2-\frac{{\vec {w_1}}^T \vec v_2}{{\vec w_1}^T \vec w_1}\vec w_1 \\
 \vec w_3=\vec v_3-\frac{{\vec w_1}^T \vec v_3}{{\vec w_1}^T \vec w_1}\vec w_1-\frac{{\vec w_2}^T \vec v_3}{{\vec w_2}^T \vec w_2}\vec w_2
 $$
 
