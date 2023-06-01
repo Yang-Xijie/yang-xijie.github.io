@@ -118,7 +118,7 @@ nav:
     - App:
       - DEV/App/flutter-web-consideration.md
     - Flutter:
-      - DEV/Flutter/notes.md
+      - DEV/Flutter/commands.md
       - DEV/Flutter/dart-lint.md
       - DEV/Flutter/template.md
       - DEV/Flutter/state-management.md

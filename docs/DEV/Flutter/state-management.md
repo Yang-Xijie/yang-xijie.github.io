@@ -1,66 +1,66 @@
 # App State Management
 
-> Reference to <https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple>.
+## Provider 黑夜模式案例
 
-`main.dart`
+`lib/main.dart`
 
 ```dart
-import 'package:provider/provider.dart';
-
 import 'package:flutter/material.dart';
-
-class MyModel extends ChangeNotifier {
-  bool isOperating = false; // source of states
-
-  void startOperating() {
-    isOperating = true;
-    notifyListeners(); // re-build widgets
-  }
-
-  void endOperating() {
-    isOperating = false;
-    notifyListeners(); // re-build widgets
-  }
-}
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: ChangeNotifierProvider( // put `ChangeNotifierProvider` above the widgets that need to access it
-          create: (context) => MyModel(),
-          child: ContextView(),
+        body: ChangeNotifierProvider(
+          create: (context) => ThemeModel(),
+          child: MyPage(),
         ),
       ),
-      debugShowCheckedModeBanner: false,
     ),
   );
 }
 
-class ContextView extends StatelessWidget {
-  ContextView({super.key});
+class ThemeModel extends ChangeNotifier {
+  bool isDarkModeOn = false;
+
+  void toggleDarkMode() {
+    isDarkModeOn = !isDarkModeOn;
+    notifyListeners();
+  }
+}
+
+class MyPage extends StatelessWidget {
+  MyPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Consumer<MyModel>( // use `Consumer` to get the model in `builder`
-        builder: (context, model, child) {
-          if (model.isOperating) {
-            return ElevatedButton(
-                onPressed: () {
-                  model.endOperating(); // call function from the model (to update widgets)
-                },
-                child: Text("End Operating"));
-          } else {
-            return ElevatedButton(
-                onPressed: () {
-                  model.startOperating(); // call function from the model (to update widgets)
-                },
-                child: Text("Start Operating"));
-          }
-        },
-      ),
+    return Consumer<ThemeModel>(
+      builder: (context, model, child) {
+        return GestureDetector(
+          onTap: () {
+            model.toggleDarkMode();
+          },
+          child: Container(
+            color: model.isDarkModeOn ? Colors.black : Colors.white,
+            child: Center(
+              child: Text(
+                "Hello, world!",
+                style: TextStyle(
+                  color: model.isDarkModeOn ? Colors.white : Colors.black,
+                  fontSize: 36,
+                ),
+              ),
+            ),
+          ),
+        );
+      },
     );
   }
 }
 ```
+
+## References
+
+- https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
