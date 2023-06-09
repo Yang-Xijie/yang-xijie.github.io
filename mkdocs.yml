@@ -91,6 +91,8 @@ nav:
       - BLOG/ElectronicEngineering/storage.md
       - BLOG/ElectronicEngineering/rlc.md
       - BLOG/ElectronicEngineering/yosys-try.md
+    - FPGA:
+      - BLOG/Fpga/compare.md
     - 基础:
       - 数学:
         - BLOG/Foundation/Math/latex.md
