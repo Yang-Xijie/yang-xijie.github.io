@@ -256,11 +256,12 @@ nav:
       - 2/Games/A9/start.md
       - 2/Games/A9/hoshii.md
     - Apex:
-      - 2/Games/Apex/17.md
-      - 2/Games/Apex/characters.md
+      - 2/Games/Apex/controller-aim.md
       - 2/Games/Apex/controller-settings.md
       - 2/Games/Apex/zhidong-settings.md
       - 2/Games/Apex/key-mouse-settings.md
+      - 2/Games/Apex/characters.md
+      - 2/Games/Apex/17.md
   - 转载:
     - REPRODUCE/index.md
     - REPRODUCE/how-to-ask-questions-the-smart-way.md
