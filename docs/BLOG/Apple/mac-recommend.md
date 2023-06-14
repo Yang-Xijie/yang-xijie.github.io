@@ -4,7 +4,7 @@
 > 
 > 此推荐有时效性 发布于2022.6.15 更新于2022.10.21
 >
-> 杨希杰 Bilibili@我不是小杰
+> Bilibili@杨希杰619
 > 
 > 本文链接: https://yang-xijie.github.io/BLOG/macOS/mac-recommend/
 
