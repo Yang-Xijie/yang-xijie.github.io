@@ -146,6 +146,48 @@ nav:
         - DEV/Programming/C/final.md
         - DEV/Programming/C/stdout-fflush.md
         - DEV/Programming/C/watch-matrix.md
+  - 二次元:
+    - 2/index.md
+    - 番:
+      - 2/Anime/anime-rating.md
+      - 2/Anime/anime-rating-extraordinary.md
+      - 2/Anime/anime-rating-great.md
+      - 2/Anime/anime-rating-good.md
+      - 2/Anime/new-anime-criterion.md
+    - 喜欢的:
+      - 2/Sukina/pictures.md
+      - 2/Sukina/kawaii.md
+      - 2/Sukina/artists.md
+      - 2/Sukina/vtuber.md
+      - 2/Sukina/voice.md
+    - Galgame:
+      - 2/Galgame/ddlc.md
+    - 原神:
+      - 2/Games/Genshin/characters.md
+      - 2/Games/Genshin/graphic-quality.md
+      - 2/Games/Genshin/controller.md
+      - 2/Games/Genshin/food.md
+    - 狂野飙车9:
+      - 2/Games/A9/start.md
+      - 2/Games/A9/hoshii.md
+    - Apex:
+      - 2/Games/Apex/controller-aim.md
+      - 2/Games/Apex/controller-settings.md
+      - 2/Games/Apex/zhidong-settings.md
+      - 2/Games/Apex/key-mouse-settings.md
+      - 2/Games/Apex/characters.md
+      - 2/Games/Apex/17.md
+  - 转载:
+    - REPRODUCE/index.md
+    - REPRODUCE/how-to-ask-questions-the-smart-way.md
+    - REPRODUCE/tim-cook-at-duke.md
+    - REPRODUCE/my-best-teacher.md
+    - REPRODUCE/kasi/watagumo.md
+  - 网站:
+    - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
+    - WEBSITE/build.md
+    - WEBSITE/help.md
+    - WEBSITE/test.md
   - 随笔:
     - ESSAY/index.md
     - 随笔记:
@@ -232,54 +274,12 @@ nav:
     - 随笔:
       - ESSAY/Literature/proses.md
       - ESSAY/Literature/poems.md
-  - 二次元:
-    - 2/index.md
-    - 番:
-      - 2/Anime/anime-rating.md
-      - 2/Anime/anime-rating-extraordinary.md
-      - 2/Anime/anime-rating-great.md
-      - 2/Anime/anime-rating-good.md
-      - 2/Anime/new-anime-criterion.md
-    - 喜欢的:
-      - 2/Sukina/pictures.md
-      - 2/Sukina/kawaii.md
-      - 2/Sukina/artists.md
-      - 2/Sukina/vtuber.md
-      - 2/Sukina/voice.md
-    - Galgame:
-      - 2/Galgame/ddlc.md
-    - 原神:
-      - 2/Games/Genshin/characters.md
-      - 2/Games/Genshin/graphic-quality.md
-      - 2/Games/Genshin/controller.md
-      - 2/Games/Genshin/food.md
-    - 狂野飙车9:
-      - 2/Games/A9/start.md
-      - 2/Games/A9/hoshii.md
-    - Apex:
-      - 2/Games/Apex/controller-aim.md
-      - 2/Games/Apex/controller-settings.md
-      - 2/Games/Apex/zhidong-settings.md
-      - 2/Games/Apex/key-mouse-settings.md
-      - 2/Games/Apex/characters.md
-      - 2/Games/Apex/17.md
-  - 转载:
-    - REPRODUCE/index.md
-    - REPRODUCE/how-to-ask-questions-the-smart-way.md
-    - REPRODUCE/tim-cook-at-duke.md
-    - REPRODUCE/my-best-teacher.md
-    - REPRODUCE/kasi/watagumo.md
   - 我:
     - ME/index.md
     - ME/cv-full.md
     - ME/suki.md
     - ME/create-family.md
     - ME/support.md
-  - 网站:
-    - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
-    - WEBSITE/build.md
-    - WEBSITE/help.md
-    - WEBSITE/test.md
 
 # [UI]
 ## [top]
