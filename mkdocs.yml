@@ -36,6 +36,8 @@ nav:
       - 极速版: LECTURE/vscode-cpp/10_极速版.md
       - 补充: LECTURE/vscode-cpp/11_补充.md
     - 英语音标教学: LECTURE/English/phonetic-symbol.md
+    - 魔方:
+      - LECTURE/Cube/basic.md
   - 博客:
     - BLOG/index.md
     - BLOG/others.md
