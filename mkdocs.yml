@@ -186,6 +186,8 @@ nav:
     - REPRODUCE/tim-cook-at-duke.md
     - REPRODUCE/my-best-teacher.md
     - REPRODUCE/kasi/watagumo.md
+    - REPRODUCE/proses.md
+    - REPRODUCE/poems.md
   - 网站:
     - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
     - WEBSITE/build.md
@@ -275,9 +277,6 @@ nav:
       - ESSAY/Articles/18-what-i-love.md
       - ESSAY/Articles/17-dream-2017.md
       - ESSAY/Articles/14-affection-1.md
-    - 随笔:
-      - ESSAY/Literature/proses.md
-      - ESSAY/Literature/poems.md
   - 我:
     - ME/index.md
     - ME/cv-full.md
