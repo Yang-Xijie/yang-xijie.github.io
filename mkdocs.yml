@@ -1,8 +1,8 @@
 # [Info]
-site_name: 杨希杰的个人网站 # 左上角标题
-site_url: https://yang-xijie.github.io
-site_author: 杨希杰
-site_description: 杨希杰的个人网站
+site_name: ziao德的个人网站 # 左上角标题
+site_url: https://cxd-Gilneas.github.io
+site_author: ziao德
+site_description: ziao德的个人网站
 
 # [Navigtion]
 nav:
@@ -51,25 +51,25 @@ theme:
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
     - content.code.copy # 可以通过按钮复制代码
-    - content.action.edit # 点击按钮跳转到编辑页面  需要结合 edit_uri 一起使用
+    #- content.action.edit # 点击按钮跳转到编辑页面  需要结合 edit_uri 一起使用
   language: zh # 一些提示性的文字会变成中文
   icon:
     repo: fontawesome/brands/github
-edit_uri: edit/main/docs # 编辑按钮跳转的链接
+#edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
-repo_name: yang-xijie.github.io # 右上角的名字
+#repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
+#repo_name: yang-xijie.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: 杨希杰 CC-BY-4.0 # 左下角的版权声明
+copyright: ziao德 CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
     - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/24502827
-      name: Bilibili | 杨希杰619 # 鼠标悬浮提示
+      link: https://space.bilibili.com/184359860
+      name: Bilibili | ziao德 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://github.com/Yang-Xijie
-      name: GitHub | Yang-Xijie
+      link: https://github.com/cxd-Gilneas
+      name: GitHub | ziao德
 
 # [Extensions]
 plugins:
