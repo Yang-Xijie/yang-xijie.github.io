@@ -7,14 +7,19 @@
 
 ## 核心
 
-- MacBook / macOS
-- 编程
-    - 语言：Python / Dart / C
-    - 前端：Flutter / React
-    - 后端：Django / FastAPI
-    - 算法：AI models
-- 日本語
-- 二次元のかわいい女の子
-    - 2D 绘画
-    - Live2D
-    - 3D 模型
+- 三维
+    - 三维物体和场景的各种表示方法
+    - ExImageV（将一张二次元图片输入模型得到一个三维的人脸模型用于虚拟直播）
+    - Landmarks（书生-天际）
+    - Vision Pro
+- App
+    - Next + Django 构建网页 App
+    - 支持手柄的游戏
+- 娱乐
+    - 学日语
+        - 小鹿老师的日语教程
+        - 绿书 N2 词汇
+    - 看二次元番剧
+    - 学二次元绘画
+    - 在 Windows、iPadOS、Android 上玩游戏
+    - 花钱买东西
