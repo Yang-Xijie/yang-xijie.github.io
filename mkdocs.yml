@@ -121,6 +121,8 @@ nav:
       - BLOG/Others/video-info.md
   - 开发:
     - DEV/index.md
+    - Three:
+      - DEV/Three/setup.md
     - App:
       - DEV/App/flutter-web-consideration.md
     - Flutter:
