@@ -139,7 +139,7 @@
 
 ![](images-basic/顶面4-2.svg)
 
-**(R U' U' R' U) (R U R' U) (R U' R')**
+**(R U' U' R' U') (R U R' U') (R U' R')**
 
 ## 顶层角块
 
@@ -157,7 +157,7 @@
 
 ![](images-basic/顶层棱块2.svg)
 
-**(R U 'R) U (R U R U') (R' U' R2)**
+**(R U' R) U (R U R U') (R' U' R2)**
 
 ![](images-basic/顶层棱块3.svg)
 
