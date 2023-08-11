@@ -72,7 +72,7 @@
 
 #### 华北地区一等奖
 
-![](images-credentials/CCCC22-%E5%A4%8D%E8%B5%9B-Audioc.jpeg){width=60%}
+![](images-credentials/CCCC21-%E5%A4%8D%E8%B5%9B-%E6%B5%A3%E7%86%8A%E8%B4%A2%E8%AE%B0.jpeg){width=60%}
 
 #### 全国二等奖
 
@@ -82,7 +82,7 @@
 
 #### 华北地区一等奖
 
-![](images-credentials/CCCC21-%E5%A4%8D%E8%B5%9B-%E6%B5%A3%E7%86%8A%E8%B4%A2%E8%AE%B0.jpeg){width=60%}
+![](images-credentials/CCCC22-%E5%A4%8D%E8%B5%9B-Audioc.jpeg){width=60%}
 
 #### 全国二等奖
 
