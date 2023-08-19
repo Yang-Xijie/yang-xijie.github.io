@@ -1,12 +1,12 @@
-# iPad 购买建议
+# 小杰的 iPad 购买建议
 
-> 本文链接: https://yang-xijie.github.io/BLOG/Apple/ipad-recommend/
+> 本文链接: <https://yang-xijie.github.io/BLOG/Apple/ipad-recommend/>
 >
-> 作者：Bilibili@杨希杰619
+> 作者：[Bilibili | 杨希杰619](https://space.bilibili.com/24502827) [GitHub | Yang-Xijie](https://github.com/Yang-Xijie)
 > 
-> 个人观点，仅供参考，转载请注明出处
+> 个人观点，仅供参考，转载请注明作者和出处。
 > 
-> 此推荐更新于 230726，可能具有时效性
+> 此推荐更新于 230726，可能具有时效性。
 
 ## 需求分析
 
