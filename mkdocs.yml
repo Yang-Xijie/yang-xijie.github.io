@@ -121,17 +121,18 @@ nav:
       - BLOG/Others/video-info.md
   - 开发:
     - DEV/index.md
-    - Three:
-      - DEV/Three/setup.md
-    - App:
-      - DEV/App/flutter-web-consideration.md
-    - Flutter:
-      - DEV/Flutter/commands.md
-      - DEV/Flutter/dart-lint.md
-      - DEV/Flutter/template.md
-      - DEV/Flutter/state-management.md
     - React:
       - DEV/React/notes.md
+    - Three:
+      - DEV/Three/setup.md
+    - WebGPU:
+      - DEV/Webgpu/articles.md
+    - Flutter:
+      - DEV/Flutter/commands.md
+      - DEV/Flutter/template.md
+      - DEV/Flutter/dart-lint.md
+      - DEV/Flutter/state-management.md
+      - DEV/Flutter/web-consideration.md
     - 编程:
       - DEV/Programming/recommendation.md
       - DEV/Programming/my-feelings.md
