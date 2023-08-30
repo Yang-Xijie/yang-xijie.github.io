@@ -127,6 +127,7 @@ nav:
       - DEV/Three/setup.md
     - WebGPU:
       - DEV/Webgpu/articles.md
+      - DEV/Webgpu/first-triangle.md
     - Flutter:
       - DEV/Flutter/commands.md
       - DEV/Flutter/template.md

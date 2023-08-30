@@ -10,6 +10,7 @@
 
 ## 学习
 
+- [Codelab | Your first WebGPU app](https://codelabs.developers.google.com/your-first-webgpu-app#0)
 - [MDN Documentation | WebGPU API](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
 - [Google | Tour of WGSL](https://google.github.io/tour-of-wgsl/)
 - [Blog | WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
