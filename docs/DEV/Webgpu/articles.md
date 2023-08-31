@@ -10,13 +10,21 @@
 
 ## 学习
 
-- [Codelab | Your first WebGPU app](https://codelabs.developers.google.com/your-first-webgpu-app#0)
-- [MDN Documentation | WebGPU API](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
-- [Google | Tour of WGSL](https://google.github.io/tour-of-wgsl/)
-- [Blog | WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
+- 代码
+    - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+        - 得先学 TypeScript，不然代码没有任何提示，根本没法写
+- 教程
+    - [Codelab | Your first WebGPU app](https://codelabs.developers.google.com/your-first-webgpu-app#0)
+        - 概念不是那么清楚，最好边看这个教程边看 [WebGPU Introduction](https://gpuweb.github.io/gpuweb/#intro) 理解各个类之间的关系
+    - [Blog | Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
+    - [Blog | WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
+- 说明
+    - [MDN Documentation | WebGPU API](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
+    - [Google | Tour of WGSL](https://google.github.io/tour-of-wgsl/)
 
 ## 标准
 
 - [WebGPU](https://gpuweb.github.io/gpuweb/)
+    - [Types](https://github.com/gpuweb/types)
 - [WGSL](https://gpuweb.github.io/gpuweb/wgsl/)
 - [WebGPU Explainer](https://gpuweb.github.io/gpuweb/explainer/)
