@@ -121,9 +121,8 @@ nav:
       - BLOG/Others/video-info.md
   - 开发:
     - DEV/index.md
-    - H5:
-      - DEV/H5/notes.md
     - React:
+      - DEV/React/h5.md
       - DEV/React/notes.md
       - DEV/React/vite.md
     - Three:
