@@ -10,9 +10,6 @@
 
 ## 学习
 
-- 代码
-    - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-        - 得先学 TypeScript，不然代码没有任何提示，根本没法写
 - 教程
     - [Codelab | Your first WebGPU app](https://codelabs.developers.google.com/your-first-webgpu-app#0)
         - 概念不是那么清楚，最好边看这个教程边看 [WebGPU Introduction](https://gpuweb.github.io/gpuweb/#intro) 理解各个类之间的关系

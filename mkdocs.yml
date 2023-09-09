@@ -125,6 +125,7 @@ nav:
       - DEV/H5/notes.md
     - React:
       - DEV/React/notes.md
+      - DEV/React/vite.md
     - Three:
       - DEV/Three/setup.md
     - WebGPU:
