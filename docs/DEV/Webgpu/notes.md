@@ -24,12 +24,12 @@
 ## How-to
 
 - Render
-    - https://webgpu.github.io/webgpu-samples/
+    - [WebGPU Samples](https://webgpu.github.io/webgpu-samples/)
 - Data
-    - https://toji.dev/webgpu-best-practices/buffer-uploads
-    - https://toji.dev/webgpu-best-practices/bind-groups
+    - [Best practices | Buffer Uploads](https://toji.dev/webgpu-best-practices/buffer-uploads)
+    - [Best practices | Bind Group](https://toji.dev/webgpu-best-practices/bind-groups)
 - Shader
-    - https://toji.dev/webgpu-best-practices/dynamic-shader-construction
+    - [Best practices | Dynamic Shader Construction](https://toji.dev/webgpu-best-practices/dynamic-shader-construction)
     - [Google | Tour of WGSL](https://google.github.io/tour-of-wgsl/)
 - C++ to use WebGPU natively
     - [Chrome Developer | WebGPU: the cross-platform graphics API of tomorrow](https://developer.chrome.com/blog/webgpu-cross-platform/)
