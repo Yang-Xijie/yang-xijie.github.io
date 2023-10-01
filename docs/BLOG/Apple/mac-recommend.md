@@ -197,13 +197,49 @@
 
 ## 显示器推荐
 
-针对用习惯了 iMac 或 MacBook 的用户，显示器我只推荐这两台**有苹果官方支持的显示器**（支持 Retina 分辨率、有着一流的色彩表现、Type-C 口的雷电线即插即用、反向充电、唤醒速度快、可以用 macOS 来控制显示器亮度和声音）：
+如果目标是适配 Mac 的 Retina 屏幕，我个人推荐下面的显示器：
 
-- **LG UltraFine 4K（24 寸 3840x2160，约 5000 元）**
-    - 曾经可以在苹果官网直接下单购买。在 Studio Display 出来之后需要在经销商处购买。
-    - 支持菊花链，如果你希望连着接好多台显示器，菊花链还是非常实用的功能。
-- **Studio Display（27 寸 5120x2880，11500 元）**
-    - 直接在苹果官网下单购买即可。
-    - 除非你在户外使用这台显示器，否则没必要加 2000 元买 Nano-texture 纳米纹理玻璃，标准玻璃看起来是最清楚的。
-    - 没必要加 3000 元买可调倾斜度及高度的支架，因为高度只能调节 10 cm 左右，不如买个升降桌。是否选购 VESA 支架转换器因人而异，但注意选购后无法更换，所以想好再购买。
-    - 平替是 LG UltraFine 5K，10000 元，两者的显示器面板是一样的，体验也几乎一致。Studio Display 多出来的 1500 相当于将塑料材质升级成了一体的纯铝合金的材质，出自苹果，更好看一些，感觉还是 Studio Display 更划算。
+- 官方
+    - Apple Studio Display, 2022.3 (5K, 27 inch, ppi 218) 11500
+    - LG UltraFine 4K / LG 24MD4KL, 2019.5 (4K, 24 inch, ppi 185) 5400
+- 非官方 24 4K 或 27 5K，市面上很少，需要自己找。如：
+    - ViewSonic VG2481-4K, 2023.6 (4K, 24 inch, ppi 185) 2200
+
+结论：
+
+```py
+if ("一体机"):
+  return "iMac"
+elif ("Type-C + HDMI"):
+  return "非官方 24 4K 或 27 5K"
+elif ("HDR 创作"):
+  return "Pro Display XDR"
+elif ("Mac mini / Mac Studio 主显示器"):
+  return "Apple Studio Display"
+elif ("MacBook 外接"):
+  if ("觉得 11500 不贵"):
+    return "Apple Studio Display"
+  elif ("愿意多花 3000 买更通透的镜面屏"):
+    return "LG UltraFine 4K"
+  else:
+    return "非官方 24 4K 或 27 5K"
+```
+
+### ViewSonic VG2481-4K 简单使用体验
+
+- 优点
+    - Type-C 连接反向 96W 充电
+    - PPI 185，虽然比不上 MacBook 200 往上的 PPI，但是正常坐姿看起来是非常清晰的
+    - 色彩表现和 Mac 内屏接近
+    - 2200 的价格完全可以接受
+    - 有 HDMI 和 DP 接口
+    - 窄边框，爽
+    - 上下平移、俯仰调节、左右旋转很轻松，支持竖屏
+    - 电源适配器外置，显示器几乎不发热
+    - 4K 16:9 对屏幕录制很友善
+- 缺点
+    - 雾面屏，离近看屏幕表面比较花，长期离近看的话感觉容易视疲劳
+    - 电源适配器大
+    - 有音响，但音质全损，相当于没有
+    - 没有麦克风
+    - 没有摄像头
