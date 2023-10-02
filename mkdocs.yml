@@ -83,6 +83,8 @@ nav:
     - Apple:
       - BLOG/Apple/mac-recommend.md
       - BLOG/Apple/ipad-recommend.md
+    - GPU:
+      - BLOG/Gpu/note.md
     - GitHub:
       - BLOG/GitHub/mirror.md
     - Markdown:
@@ -203,6 +205,7 @@ nav:
   - 随笔:
     - ESSAY/index.md
     - 随笔记:
+      - ESSAY/Jottings/2309.md
       - ESSAY/Jottings/2308.md
       - ESSAY/Jottings/2307.md
       - ESSAY/Jottings/2306.md
