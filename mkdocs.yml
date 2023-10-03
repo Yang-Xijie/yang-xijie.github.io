@@ -293,12 +293,17 @@ nav:
       - ESSAY/Articles/14-affection-1.md
   - 我:
     - ME/index.md
-    - ME/cv-full.md
-    - ME/credentials.md
-    - ME/curriculum-thu.md
-    - ME/idea.md
-    - ME/necessary-things-in-life.md
-    - ME/create-family.md
+    - ME/introduction.md
+    - ME/profile.md
+    - ME/contact.md
+    - ME/account.md
+    - ME/description.md
+    - ME/ability.md
+    - ME/experience.md
+    - ME/thu-curriculum.md
+    - ME/thu-certificate.md
+    - ME/daily-necessities.md
+    - ME/girlfriend.md
     - ME/support.md
 
 # [UI]

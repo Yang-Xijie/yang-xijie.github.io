@@ -1,57 +1,35 @@
-# 个人履历
+# 个人经历
 
-> 此页面为杨希杰的详细履历  实际简历以此为基础凝练形成
-> 
-> 更新于 2023.5.25
+TODO 不用过于分类，按照项目去写
 
-## 基本信息
+- 项目
+    - [浣熊财记](https://github.com/Racoon-Book/Racoon-Account-Book)
+        - 简介：iOS 财记应用
+        - 技术：SwiftUI
+        - 奖项：获中国高校计算机大赛2021移动应用创新赛国赛二等奖
+        - 应用特点：截图记账、语音记账、财记故事系统、标签关注系统
+    - [Ex便签](https://github.com/Ex-Studio/ExSticky)
+        - 简介：macOS透明便签 触手可及的纯文本编辑器
+        - 技术：AppKit SwiftUI
+        - 状态：已完成主要功能开发，待上架 App Store
+    - [Input Source Switcher](https://github.com/Yang-Xijie/InputSourceSwitcher)
+        - 简介：macOS工具类应用 帮助用户快速切换输入法
+        - 技术：AppleScript
+        - 状态：因 macOS API 变动，已停止维护
+    - [VerilogOJ](https://github.com/VerilogOJ)
+        - 简介：电子系数字逻辑课程Verilog在线练习平台
+        - 技术：Vue Django FastAPI Docker Verilog开源工具
+    - [Audioc](https://github.com/AudiocProject/Audioc)（未开源）
+        - 简介：iPadOS 文字音频剪辑工具
+        - 技术：SwiftUI 腾讯云语音识别
+        - 奖项：获中国高校计算机大赛2022移动应用创新赛二等奖
+        - 应用特点：用文字编辑的直观方式实现音频剪辑 极大提高音频创作者的剪辑效率 有较大的商业化潜力
+- 工具
+    - [mkv2mp4](https://github.com/Yang-Xijie/mkv2mp4_fcp) - shell脚本 将MKV封装格式提取视频轨和音轨后重新封装为MP4（TODO 加上 B 站的合集）
 
-- 姓名：杨希杰
-- 性别：男
-- 出生年月：2001.6
-- 联系方式
-    - 邮箱：564197835`@`qq.com
-    - 微信：y564197835
-    - 手机：182 2077 6484
-- 相关链接
-    - 个人网站 <https://yang-xijie.github.io>
-    - GitHub <https://github.com/Yang-Xijie>
-    - Bilibili <https://space.bilibili.com/24502827>
+上面的这一些其实都是项目
 
-## 现状
-
-### 目前
-
-- 清华大学电子工程系本科四年级生
-    - 毕业设计题目：基于 NIPC-5 开发板的视频加速计算
-    - 主要工作：在 FPGA 上接入实时视频流并实现边缘检测算法；在 FPGA 上实现目标跟踪算法
-- 清华大学 2022-2023 春季学期移动应用开发课程助教
-    - 主要负责 Flutter 部分授课内容的准备
-- 清华大学 2022-2023 春季学期数字逻辑与处理器实验课程助教
-    - 主要负责在线 Verilog 判题系统的部署与维护
-
-### 未来
-
-- `2023.9 - ` 浙江大学与上海人工智能实验室（浦江实验室）的联合培养  人工智能数字化内容生成方向  直博
-
-## 个人特点
-
-- 有较强的**学习钻研能力**  对前沿技术感兴趣
-- 有良好的**动手能力**  喜欢工程实践  试错能力较高
-- 有良好的**组织管理能力**  多次主动担任团队队长  擅长信息整合
-- **热爱生活**  性格乐观  擅长思考  喜欢分享知识
-
-### 概述
-
-我有较强的学习钻研能力，对前沿技术很感兴趣。在学习电子系课内知识的同时，我也自学了很多计算机相关的知识，有着较扎实的计算机科学基础；我对电子产品、物联网、操作系统、互联网等领域的创新很感兴趣。
-
-我有良好的动手能力，喜欢工程实践，试错能力较高。本科阶段多次参加创新相关的比赛和活动，实际动手开发应用、设计产品。我很享受将一个想法变为实现的过程。
-
-我有良好的组织管理能力，多次主动担任团队队长，擅长信息整合。我作为队长组织参加暑期实践，团队获得校级银奖；作为队长组织参加移动应用创新赛，团队获得全国二等奖。我对数据和信息比较敏感，擅长做归纳总结。
-
-此外，我热爱生活，性格乐观，擅长思考，喜欢分享知识。本科阶段我在校内举办过一些讲座，帮助很多同学理解计算机知识；我也创建了自己的视频平台账号，分享自己的生活。在闲暇时间，我也会放空思考，写一些文章。
-
-## 个人经历
+---
 
 ### 学习经历
 
@@ -76,7 +54,7 @@
         - 清华电子工程系 电子与通信工程 先进电子信息技术 硕士推免名额（已放弃）
         - 浙江大学计算机学院 计算机科学与技术 直博预录取名额（已接受）
 
-#### 大学所学课程
+#### 本科课程
 
 - 数理基础
     - 数学（线性代数 离散数学 微积分 复变函数与数理方程 概率论与随机过程）
@@ -93,6 +71,12 @@
 - 文化素质（写作与沟通 沟通表达基础与进阶 中国古典诗歌研究与赏析 中国技术思想史）
 - 语言（英语听说交流 英语阅读写作 日语）
 - 其他（视觉信息获取与显示 工程图学基础 制造工程实践 工业生产概论 综合论文训练）
+
+[点击查看更多](./thu-curriculum.md)
+
+#### 本科证书
+
+[点击查看](./thu-certificate.md)
 
 ### 软件开发
 
@@ -165,80 +149,3 @@
 - `2022.9` 北京海淀区中关村 Shifu Meetup
     - 通过线下演示  介绍物联网全新框架 Shifu 接入设备与应用开发的能力
     - [活动链接](https://mp.weixin.qq.com/s/8PjDxuVKxzyKI3CJqk6Xfg) [活动总结](https://mp.weixin.qq.com/s/8PkOxv902KFLepaFMGKqzw)
-
-## 其他能力
-
-- 英语能力：熟练掌握英语听说读写  能够使用英语流利交流  有学术英语的能力
-- 日语能力：N3 同等水平  能够使用日语进行日常对话
-- 软件使用：熟练使用 macOS 及相关软件
-    - 熟练使用 Final Cut Pro 进行视频剪辑  在 Bilibili 视频平台有多份投稿  内容多元
-    - 熟练使用 Keynote 进行幻灯片制作  有较强的演讲和答辩能力
-    - 熟练使用 Sketch 进行软件原型设计和平面设计
-
-## 相关链接
-
-- [个人网站](https://yang-xijie.github.io)
-    - [讲稿](https://yang-xijie.github.io/LECTURE/)
-    - [博客](https://yang-xijie.github.io/BLOG/)
-    - [开发笔记](https://yang-xijie.github.io/DEV/)
-    - [个人文章](https://yang-xijie.github.io/3/)
-- [GitHub](https://github.com/Yang-Xijie)
-    - 项目
-        - [浣熊财记](https://github.com/Racoon-Book/Racoon-Account-Book)
-            - 简介：iOS 财记应用
-            - 技术：SwiftUI
-            - 奖项：获中国高校计算机大赛2021移动应用创新赛国赛二等奖
-            - 应用特点：截图记账、语音记账、财记故事系统、标签关注系统
-        - [Ex便签](https://github.com/Ex-Studio/ExSticky)
-            - 简介：macOS透明便签 触手可及的纯文本编辑器
-            - 技术：AppKit SwiftUI
-            - 状态：已完成主要功能开发，待上架 App Store
-        - [Input Source Switcher](https://github.com/Yang-Xijie/InputSourceSwitcher)
-            - 简介：macOS工具类应用 帮助用户快速切换输入法
-            - 技术：AppleScript
-            - 状态：因 macOS API 变动，已停止维护
-        - [VerilogOJ](https://github.com/VerilogOJ)
-            - 简介：电子系数字逻辑课程Verilog在线练习平台
-            - 技术：Vue Django FastAPI Docker Verilog开源工具
-        - [Audioc](https://github.com/AudiocProject/Audioc)（未开源）
-            - 简介：iPadOS 文字音频剪辑工具
-            - 技术：SwiftUI 腾讯云语音识别
-            - 奖项：获中国高校计算机大赛2022移动应用创新赛二等奖
-            - 应用特点：用文字编辑的直观方式实现音频剪辑 极大提高音频创作者的剪辑效率 有较大的商业化潜力
-    - 工具
-        - [XCLog](https://github.com/Yang-Xijie/XCLog) - Swift package 可以在编写Swift代码的过程中输出更详细的调试信息
-        - [mkv2mp4](https://github.com/Yang-Xijie/mkv2mp4_fcp) - shell脚本 将MKV封装格式提取视频轨和音轨后重新封装为MP4
-    - Demo
-        - [Scrollable MTKView](https://github.com/Yang-Xijie/ScrollablePencilMTKView) - iOS Metal渲染 基本上采用底层的方式实现了ScrollView
-        - [ExARLive2D](https://github.com/Yang-Xijie/ExARLive2D) - iOS 人脸追踪结合Live2D 借助CubismSDK和ARKit实现人脸追踪
-        - [macOS Metal](https://github.com/Yang-Xijie/AppKit-Metal) - macOS Metal playground 在macOS上的Metal渲染尝试
-- [Bilibili](https://space.bilibili.com/24502827)
-    - 个人教程
-        - [macOS使用VSCode编写C++代码](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139476)
-        - [开发基础教程](https://space.bilibili.com/24502827/channel/collectiondetail?sid=181017)
-        - [软件开发经验](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139392)
-        - [使用FCP制作番剧剪辑](https://space.bilibili.com/24502827/channel/collectiondetail?sid=139472)
-        - [英语音标教学](https://space.bilibili.com/24502827/channel/collectiondetail?sid=150764)
-        - [VerilogOJ项目简介](https://space.bilibili.com/24502827/channel/collectiondetail?sid=605743)
-    - [VLOG](https://space.bilibili.com/24502827/channel/collectiondetail?sid=181053)
-
-## 感兴趣的方向
-
-- 计算机方向
-    - 计算机图形学和实时渲染相关的算法研究和工程实现
-    - 计算机体系架构优化与创新
-    - Linux 操作系统内核相关的研发
-    - 视频图像信息处理与编码
-- 人工智能方向
-    - 虚拟现实研发落地
-    - 数字媒体生成
-    - 图像和视频的理解和优化
-    - AI 与脑科学和生物界相关的研究
-- 软件方向
-    - 注重用户交互体验的桌面操作系统研发
-    - 使用 Flutter 进行跨平台用户应用程序开发
-    - 电子信息行业相关的基础软件研发
-- 硬件方向
-    - 数字芯片研发
-    - 高速存储器设计制造
-    - 高清显示屏设计制造
