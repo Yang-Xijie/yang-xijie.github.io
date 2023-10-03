@@ -20,8 +20,6 @@ nav:
       - Git合作: LECTURE/Git/git-teamwork.md
       - Windows安装Git: LECTURE/Git/windows-install.md
     - 应用开发设计: LECTURE/App/app-design.md
-    - Flutter学习教程:
-      - LECTURE/Flutter/221120-consideration.md
     - 在macOS上用VSCode写C++代码:
       - 0 介绍: LECTURE/vscode-cpp/0_about.md
       - 1 前言和课程说明: LECTURE/vscode-cpp/1_前言和课程说明.md
