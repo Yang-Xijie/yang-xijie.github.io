@@ -41,16 +41,49 @@ nav:
   - 博客:
     - BLOG/index.md
     - BLOG/others.md
-    - CG:
-      - BLOG/ComputerGraphics/cg-notes.md
-      - BLOG/ComputerGraphics/games101.md
-      - BLOG/ComputerGraphics/blender-notes.md
-    - 游戏:
-      - BLOG/Game/unity-notes.md
-      - BLOG/Game/ue-notes.md
-      - BLOG/Game/what-is-game.md
-      - BLOG/Game/2d-vs-3d.md
-      - BLOG/Game/controller.md
+    - Apple:
+      - BLOG/Apple/mac-recommend.md
+      - BLOG/Apple/ipad-recommend.md
+    - macOS:
+      - BLOG/macOS/tree.md
+      - BLOG/macOS/zoom.md
+      - BLOG/macOS/sharing-mac-android.md
+      - BLOG/macOS/mad.md
+      - BLOG/macOS/stream.md
+      - BLOG/macOS/intel-windows.md
+    - Markdown:
+      - BLOG/Markdown/grammars.md
+      - BLOG/Markdown/mkdocs-site.md
+      - BLOG/Markdown/mdbook-site.md
+      - BLOG/Markdown/github-pages.md
+    - Linux:
+      - BLOG/Linux/vim.md
+      - BLOG/Linux/tmux.md
+      - BLOG/Linux/unix.md
+      - BLOG/Linux/kernel-compile.md
+      - BLOG/Linux/pi-start.md
+    - OS:
+      - BLOG/OS/fork-exec-spawn.md
+      - BLOG/OS/fork-example.md
+    - 计算机网络:
+      - BLOG/Network/learning.md
+      - BLOG/Network/nouns.md
+    - 数学:
+      - BLOG/Math/latex.md
+      - BLOG/Math/linear.md
+      - BLOG/Math/taylor.md
+      - BLOG/Math/max-pr.md
+      - BLOG/Math/sympy-det.md
+    - 物理:
+      - BLOG/Physics/guass-stokes.md
+      - BLOG/Physics/electromagnetics.md
+    - 电子工程:
+      - BLOG/ElectronicEngineering/verilog-simulation.md
+      - BLOG/ElectronicEngineering/storage.md
+      - BLOG/ElectronicEngineering/rlc.md
+      - BLOG/ElectronicEngineering/yosys-try.md
+    - FPGA:
+      - BLOG/Fpga/compare.md
     - 日语:
       - BLOG/Japanese/notes-2202-2203.md
       - BLOG/Japanese/notes-2204.md
@@ -62,65 +95,13 @@ nav:
       - BLOG/Japanese/essays.md
       - BLOG/Japanese/tantanmen-translation.md
       - BLOG/Japanese/chinese.md
-    - OS:
-      - BLOG/OS/fork-exec-spawn.md
-      - BLOG/OS/fork-example.md
-    - Linux:
-      - BLOG/Linux/vim.md
-      - BLOG/Linux/tmux.md
-      - BLOG/Linux/unix.md
-      - BLOG/Linux/kernel-compile.md
-      - BLOG/Linux/pi-start.md
-    - macOS:
-      - BLOG/macOS/tree.md
-      - BLOG/macOS/zoom.md
-      - BLOG/macOS/sharing-mac-android.md
-      - BLOG/macOS/mad.md
-      - BLOG/macOS/stream.md
-      - BLOG/macOS/intel-windows.md
-    - 显示器:
-      - BLOG//Display/sony-extend.md
-    - Apple:
-      - BLOG/Apple/mac-recommend.md
-      - BLOG/Apple/ipad-recommend.md
-    - GPU:
-      - BLOG/Gpu/note.md
-    - GitHub:
-      - BLOG/GitHub/mirror.md
-    - Markdown:
-      - BLOG/Markdown/grammars.md
-      - BLOG/Markdown/mkdocs-site.md
-      - BLOG/Markdown/mdbook-site.md
-      - BLOG/Markdown/github-pages.md
-    - 电子工程:
-      - BLOG/ElectronicEngineering/verilog-simulation.md
-      - BLOG/ElectronicEngineering/storage.md
-      - BLOG/ElectronicEngineering/rlc.md
-      - BLOG/ElectronicEngineering/yosys-try.md
-    - FPGA:
-      - BLOG/Fpga/compare.md
-    - 基础:
-      - 数学:
-        - BLOG/Foundation/Math/latex.md
-        - BLOG/Foundation/Math/linear.md
-        - BLOG/Foundation/Math/taylor.md
-        - BLOG/Foundation/Math/max-pr.md
-        - BLOG/Foundation/Math/sympy-det.md
-      - 物理:
-        - BLOG/Foundation/Physics/guass-stokes.md
-        - BLOG/Foundation/Physics/electromagnetics.md
-      - 网络:
-        - BLOG/Network/learning.md
-        - BLOG/Network/nouns.md
-      - 机器学习:
-        - BLOG/Deeplearning/d2l.md
-        - BLOG/Deeplearning/speech-recognition.md
-        - BLOG/Deeplearning/parallel-load.md
-        - DDP:
-          - BLOG/Deeplearning/ddp.md
-          - BLOG/Deeplearning/ddp-note.md
+    - 游戏:
+      - BLOG/Game/what-is-game.md
+      - BLOG/Game/2d-vs-3d.md
+      - BLOG/Game/controller.md
     - 其他:
       - BLOG/Others/video-info.md
+      - BLOG/Others/sony-extend.md
   - 开发:
     - DEV/index.md
     - React:
@@ -129,9 +110,14 @@ nav:
       - DEV/React/vite.md
     - Three:
       - DEV/Three/setup.md
+    - GPU:
+      - DEV/Gpu/gpu.md
+      - DEV/Gpu/cuda.md
     - WebGPU:
       - DEV/Webgpu/notes.md
       - DEV/Webgpu/first-triangle.md
+    - SwiftUI:
+      - DEV/SwiftUI/data-essentials.md
     - Flutter:
       - DEV/Flutter/commands.md
       - DEV/Flutter/template.md
@@ -141,11 +127,14 @@ nav:
     - 编程:
       - DEV/Programming/recommendation.md
       - DEV/Programming/my-feelings.md
+      - C:
+        - DEV/Programming/C/review.md
+        - DEV/Programming/C/final.md
+        - DEV/Programming/C/stdout-fflush.md
+        - DEV/Programming/C/watch-matrix.md
       - Python:
         - DEV/Programming/Python/copy.md
         - DEV/Programming/Python/numpy-overview.md
-      - Dart:
-        - DEV/Programming/Dart/learning.md
       - Swift:
         - DEV/Programming/Swift/learning-resources.md
         - DEV/Programming/Swift/notes-basic-grammars.md
@@ -153,11 +142,29 @@ nav:
         - DEV/Programming/Swift/notes-useful-foundation.md
         - DEV/Programming/Swift/lecture-homework.md
         - DEV/Programming/Swift/parallel-for.md
-      - C:
-        - DEV/Programming/C/review.md
-        - DEV/Programming/C/final.md
-        - DEV/Programming/C/stdout-fflush.md
-        - DEV/Programming/C/watch-matrix.md
+      - Dart:
+        - DEV/Programming/Dart/learning.md
+      - Cpp:
+        - DEV/Programming/Cpp/1.md
+        - DEV/Programming/Cpp/2.md
+        - DEV/Programming/Cpp/3.md
+        - DEV/Programming/Cpp/4.md
+        - DEV/Programming/Cpp/5.md
+        - DEV/Programming/Cpp/6.md
+        - DEV/Programming/Cpp/7.md
+        - DEV/Programming/Cpp/8.md
+        - DEV/Programming/Cpp/google-format.md
+        - DEV/Programming/Cpp/class-properties.md
+        - DEV/Programming/Cpp/list.md
+        - DEV/Programming/Cpp/stack.md
+        - DEV/Programming/Cpp/final.md
+        - DEV/Programming/Cpp/oj.md
+  - 研究:
+    - RESEARCH/index.md
+    - CG:
+      - RESEARCH/CG/cg.md
+      - RESEARCH/CG/games101.md
+      - RESEARCH/CG/blender.md
   - 二次元:
     - 2/index.md
     - 番:
@@ -165,7 +172,6 @@ nav:
       - 2/Anime/anime-rating-extraordinary.md
       - 2/Anime/anime-rating-great.md
       - 2/Anime/anime-rating-good.md
-      - 2/Anime/new-anime-criterion.md
     - 喜欢的:
       - 2/Sukina/pictures.md
       - 2/Sukina/kawaii.md
@@ -179,9 +185,6 @@ nav:
       - 2/Games/Genshin/graphic-quality.md
       - 2/Games/Genshin/controller.md
       - 2/Games/Genshin/food.md
-    - 狂野飙车9:
-      - 2/Games/A9/start.md
-      - 2/Games/A9/hoshii.md
     - Apex:
       - 2/Games/Apex/controller-aim.md
       - 2/Games/Apex/controller-settings.md
