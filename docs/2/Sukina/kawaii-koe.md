@@ -16,6 +16,8 @@
 
 赤城みりあ AkagiMiria - 黒沢ともよ KurosawaTomoyo
 
+超有活力的声音 ⭐︎
+
 ## はなび
 
 安楽岡花火 YasuraokaHanabi - 安済知佳 AnnzaiChika
@@ -39,3 +41,7 @@
 園田優 SonodaYuu - 井口裕香 IguchiYuka
 
 完全纯真可爱的声音。
+
+---
+
+除了ひなの都是短发啊ww
