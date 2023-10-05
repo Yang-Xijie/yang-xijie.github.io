@@ -108,9 +108,6 @@ nav:
       - DEV/React/vite.md
     - Three:
       - DEV/Three/setup.md
-    - GPU:
-      - DEV/Gpu/gpu.md
-      - DEV/Gpu/cuda.md
     - WebGPU:
       - DEV/Webgpu/notes.md
       - DEV/Webgpu/first-triangle.md
@@ -160,9 +157,13 @@ nav:
   - 研究:
     - RESEARCH/index.md
     - CG:
-      - RESEARCH/CG/cg.md
       - RESEARCH/CG/games101.md
       - RESEARCH/CG/blender.md
+      - RESEARCH/CG/format.md
+      - RESEARCH/CG/format-usdz.md
+    - GPU:
+      - RESEARCH/Gpu/gpu.md
+      - RESEARCH/Gpu/cuda.md
   - 二次元:
     - 2/index.md
     - 番:
