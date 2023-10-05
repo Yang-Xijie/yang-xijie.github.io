@@ -14,3 +14,7 @@
 
 - [Pixiv](https://www.pixiv.net/en/users/854356)
 - [Twitter](https://twitter.com/mika_mikami)
+
+## 関谷あさみ
+
+表情超细腻超丰富。
