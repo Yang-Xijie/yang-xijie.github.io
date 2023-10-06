@@ -102,6 +102,7 @@ nav:
       - BLOG/Others/sony-extend.md
   - 开发:
     - DEV/index.md
+    - DEV/interests.md
     - React:
       - DEV/React/h5.md
       - DEV/React/notes.md
