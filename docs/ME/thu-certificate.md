@@ -92,4 +92,6 @@
 
 ## Thu iOS Club
 
+（非官方）
+
 ![](images-certificate/iOS-Club-功勋.jpeg)
