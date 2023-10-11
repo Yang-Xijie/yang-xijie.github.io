@@ -10,7 +10,7 @@
     - [PyTorch](https://pytorch.org) / [Python](https://www.python.org)
     - [WebGPU](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
 - App
-    - [Vite](https://vitejs.dev) / [React](https://react.dev) / [JS](https://en.wikipedia.org/wiki/JavaScript) / [TS](https://www.typescriptlang.org) / [AndDesign](https://ant.design)
+    - [Vite](https://vitejs.dev) / [React](https://react.dev) / [JS](https://en.wikipedia.org/wiki/JavaScript) / [TS](https://www.typescriptlang.org) / [AntDesign](https://ant.design)
     - [Flutter](https://flutter.dev) / [Dart](https://dart.dev)
     - [FastAPI](https://fastapi.tiangolo.com) / [Django](https://www.djangoproject.com)
 - 3D

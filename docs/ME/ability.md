@@ -12,7 +12,7 @@
     - [WebGPU](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
 - Web
     - Frontend
-        - [Vite](https://vitejs.dev) / [React](https://react.dev) / [JS](https://en.wikipedia.org/wiki/JavaScript) / [TS](https://www.typescriptlang.org) / [AndDesign](https://ant.design)
+        - [Vite](https://vitejs.dev) / [React](https://react.dev) / [JS](https://en.wikipedia.org/wiki/JavaScript) / [TS](https://www.typescriptlang.org) / [AntDesign](https://ant.design)
     - Backend
         - [FastAPI](https://fastapi.tiangolo.com) / [Django](https://www.djangoproject.com)
 - App
