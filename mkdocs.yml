@@ -159,7 +159,8 @@ nav:
     - RESEARCH/index.md
     - CG:
       - RESEARCH/CG/games101.md
-      - RESEARCH/CG/blender.md
+      - RESEARCH/CG/blender-donut.md
+      - RESEARCH/CG/blender-manual.md
       - RESEARCH/CG/format.md
       - RESEARCH/CG/format-usdz.md
     - GPU:

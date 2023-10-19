@@ -8,6 +8,8 @@ Blender是一个开源软件（开源yyds），主要用来做3D模型建模；�
 
 ## 1
 
+Blender 软件的基本操作
+
 - 下方是有快捷键提示的
 - 渲染：Render > Render Image (F12)
 - 旋转画面：触控板滑动
@@ -24,6 +26,8 @@ Blender是一个开源软件（开源yyds），主要用来做3D模型建模；�
 - 重命名：双击右上角的名字
 
 ## 2 Editing
+
+添加 torus mesh 并开始简单编辑形成 Donut
 
 - sft A 添加物体
     - 刚添加完左下角可以调整参数
@@ -52,6 +56,8 @@ Blender是一个开源软件（开源yyds），主要用来做3D模型建模；�
 
 ## 3 Modofiers
 
+复制 Donut 上半部分，生成一个 Icing
+
 - 在正交视图下选中上一半的顶点
     - Toggle X-ray - opt Z 可以直接穿过去选
 - sft D 复制
@@ -62,4 +68,11 @@ Blender是一个开源软件（开源yyds），主要用来做3D模型建模；�
 
 ## 4 Modeling
 
-TODO https://www.youtube.com/watch?v=R1isb0x4zYw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=4
+制作 Icing 的样子
+
+- 左上角可以切换窗口的，有 General、Animation、Scripting、Data 这四种类别的窗口。可以选择 Image Editor 然后放一张参考图片在旁边的。
+- 点击窗口四周鼠标变成十字的时候可以 split。
+
+## 5 Sculpting
+
+
