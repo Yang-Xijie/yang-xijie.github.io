@@ -71,8 +71,20 @@ Blender 软件的基本操作
 制作 Icing 的样子
 
 - 左上角可以切换窗口的，有 General、Animation、Scripting、Data 这四种类别的窗口。可以选择 Image Editor 然后放一张参考图片在旁边的。
-- 点击窗口四周鼠标变成十字的时候可以 split。
+- 点击窗口四周鼠标变成十字的时候可以 split。右键窗口和窗口的拼接处可以 split。
+- 用 Modifier/Shrinkwrap 使得一个 mesh 可以紧贴另一个 mesh。使用时注意 Modifier 的顺序。
+- 在 Edit Mode 下选中几个 vertices，按 E 可以在不影响相邻 vertices 的情况下将这几个点拽出来。
 
 ## 5 Sculpting
 
+- 在 Properties/Modifier（小扳手）界面，单个 Modifier 的小箭头下来点击 Apply 可以直接把效果放到物体上，而不是独立于物体。
+- Sculpt 和 Edit 差不多，反正都是改变形状，感觉哪个更好用就用哪个。两个一起用也挺好的。
+- 常用的 brush：
+    - Draw
+    - Grab
+    - Smooth
+    - Inflate（Properties / Active Tool / Stroke Method / Aribrush）然后可以把某一块拉出来
 
+## 6 Rendering
+
+https://www.youtube.com/watch?v=_WRUW_fs1g8&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=6&pp=iAQB

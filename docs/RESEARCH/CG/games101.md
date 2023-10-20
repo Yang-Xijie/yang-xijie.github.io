@@ -1,4 +1,7 @@
-# GAMES101 笔记
+# GAMES101 Computer Graphics
+
+- https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html
+- https://www.bilibili.com/video/BV1X7411F744
 
 ## Overview of Computer Graphics (L1)
 

@@ -1,6 +1,8 @@
 # USDZ
 
-感觉对于研究来说好像没什么帮助……
+[SIGGRAPH 23 Course | USD in Production](https://dl.acm.org/doi/10.1145/3587423.3595531)
+
+个人感觉对于研究来说好像没什么帮助……
 
 ---
 
