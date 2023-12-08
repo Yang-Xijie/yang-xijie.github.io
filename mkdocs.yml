@@ -166,7 +166,6 @@ nav:
       - RESEARCH/CG/games105.md
       - RESEARCH/CG/format.md
       - RESEARCH/CG/format-usdz.md
-      - RESEARCH/CG/quaternion-axis-rotation.md
     - GPU:
       - RESEARCH/Gpu/gpu.md
       - RESEARCH/Gpu/cuda.md

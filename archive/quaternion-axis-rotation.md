@@ -1,14 +1,12 @@
-# 四元数旋转表示转为轴角旋转表示
+# 四元数旋转表示转为欧拉角旋转表示
 
 > 作者：杨希杰
 
 ## 起因
 
-四元数 $q=(q_r, q_x, q_y, q_z)$ 可以表达一种旋转过程。绕三个坐标轴 xyz 旋转的角度也可以表达一种旋转过程 $\theta_x, \theta_y, \theta_z$。理论上来说，这两种表达是可以相互转换的。
+四元数 $q=(q_r, q_x, q_y, q_z)$ 可以表达一种旋转过程。绕三个坐标轴 xyz 旋转的角度也可以表达一种旋转过程 $\theta_x, \theta_y, \theta_z$，被称作欧拉角。理论上来说，这两种表达是可以相互转换的。
 
-但是在 https://zhuanlan.zhihu.com/p/45404840 里面，并没有提到四元数和轴角表示旋转的对应关系。在评论中，用户「浊劣」说「您好，想问问为什么四元数和旋转矩阵，都没办法转换为轴角诶？只能轴角往其他的格式转，不能其他格式转换为轴角嘛？」
-
-本文探究将四元数的旋转表示转为轴角的表示。
+本文探究将四元数的旋转表示转为欧拉角的表示。
 
 ## 问题定义
 
@@ -175,6 +173,32 @@ print(f"{answers=}")
 
 于是得到了结果。
 
+## 边界情况
+
+那么，如果 $\cos \theta_y = 0$ 呢？给定数据 `quaterion=(0.9780198, -0.19049281, -0.05851993, -0.06136183)`，计算得到 `costy=1.510758708743239e-08`, `C=0.9205759050431686`, `costx=60934674.72439538`，可以看到 $\cos \theta_y$ 的值非常接近 0，进而得到的 $\cos \theta_x$ 超过了 arccos 的定义域范围，会报错 `ValueError: math domain error`。
+
+当 $\cos \theta_y = 0$ 时，$\theta_y = \frac{1}{2}\pi, \frac{3}{2}\pi, \frac{5}{2}\pi, \frac{7}{2}\pi$。对于上面每一组数据，代入 $\cos \theta_y = 0$ 之后得到的永远是不等式，很神奇。这说明这一组数据没有办法被表示为欧拉角的形式，所谓的万向节锁死问题。
+
+这时我们可以令 $\theta_x = 0$，解出剩下两个角度：
+
+$$
+\cos(\theta_y/2) \cos(\theta_z/2)= q_r \\
+- \sin(\theta_y/2) \sin(\theta_z/2) = q_x \\
+\sin(\theta_y/2) \cos(\theta_z/2)= q_y \\
+\cos(\theta_y/2) \sin(\theta_z/2)= q_z
+$$
+
+有
+
+$$
+\cos(\theta_y/2) = \pm \sqrt{q_r^2 + q_z^2} \\
+\cos(\theta_z/2) = \pm \sqrt{q_r^2 + q_y^2}
+$$
+
+这里两个角都会解出四种情况，还是直接用 Python 来做判断。
+
+
+
 ## References
 
 - [知乎｜鸡哥｜三维旋转：欧拉角、四元数、旋转矩阵、轴角之间的转换](https://zhuanlan.zhihu.com/p/45404840)
@@ -183,3 +207,5 @@ print(f"{answers=}")
 - [知乎｜四元数(Quaternions)](https://www.zhihu.com/tardis/bd/art/97186723)
 - Meurer A, Smith CP, Paprocki M, Čertík O, Kirpichev SB, Rocklin M, Kumar A, Ivanov S, Moore JK, Singh S, Rathnayake T, Vig S, Granger BE, Muller RP, Bonazzi F, Gupta H, Vats S, Johansson F, Pedregosa F, Curry MJ, Terrel AR, Roučka Š, Saboo A, Fernando I, Kulal S, Cimrman R, Scopatz A. (2017) SymPy: symbolic computing in Python. *PeerJ Computer Science* 3:e103 https://doi.org/10.7717/peerj-cs.103
 - [sympy Documentation｜Find the Roots of a Polynomial Algebraically or Numerically](https://docs.sympy.org/latest/guides/solving/find-roots-polynomial.html)
+- https://xie.infoq.cn/article/03d50d73ab19a5fc4d02d8a33
+- https://www.zhihu.com/question/47736315/answer/236284413
