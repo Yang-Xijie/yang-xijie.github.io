@@ -6,6 +6,19 @@ site_description: 杨希杰的个人网站
 
 # [Navigtion]
 nav:
+  - 我:
+    - ME/index.md
+    - ME/introduction.md
+    - ME/profile.md
+    - ME/contact.md
+    - ME/account.md
+    - ME/description.md
+    - ME/ability.md
+    - ME/experience.md
+    - ME/thu-curriculum.md
+    - ME/thu-certificate.md
+    - ME/daily-necessities.md
+    - ME/support.md
   - 讲稿:
     - LECTURE/index.md 
     - Linux:
@@ -197,27 +210,6 @@ nav:
       - 2/Games/Apex/key-mouse-settings.md
       - 2/Games/Apex/characters.md
       - 2/Games/Apex/17.md
-  - 转载:
-    - REPRODUCE/index.md
-    - 演讲:
-      - REPRODUCE/speech/tim-cook-at-duke.md
-    - 摘录:
-      - REPRODUCE/book/harford-occupation-choice.md
-      - REPRODUCE/book/the-long-view.md
-    - 文章:
-      - REPRODUCE/article/proses.md
-      - REPRODUCE/article/my-best-teacher.md
-    - 博客:
-      - REPRODUCE/blog/how-to-ask-questions-the-smart-way.md
-    - 歌词:
-      - REPRODUCE/lyrics/watagumo.md
-    - 诗:
-      - REPRODUCE/poem/poems.md
-  - 网站:
-    - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
-    - WEBSITE/build.md
-    - WEBSITE/help.md
-    - WEBSITE/test.md
   - 随笔:
     - ESSAY/index.md
     - 随笔记:
@@ -311,20 +303,27 @@ nav:
       - ESSAY/Articles/18-what-i-love.md
       - ESSAY/Articles/17-dream-2017.md
       - ESSAY/Articles/14-affection-1.md
-  - 我:
-    - ME/index.md
-    - ME/introduction.md
-    - ME/profile.md
-    - ME/contact.md
-    - ME/account.md
-    - ME/description.md
-    - ME/ability.md
-    - ME/experience.md
-    - ME/thu-curriculum.md
-    - ME/thu-certificate.md
-    - ME/daily-necessities.md
-    - ME/girlfriend.md
-    - ME/support.md
+  - 转载:
+    - REPRODUCE/index.md
+    - 演讲:
+      - REPRODUCE/speech/tim-cook-at-duke.md
+    - 摘录:
+      - REPRODUCE/book/harford-occupation-choice.md
+      - REPRODUCE/book/the-long-view.md
+    - 文章:
+      - REPRODUCE/article/proses.md
+      - REPRODUCE/article/my-best-teacher.md
+    - 博客:
+      - REPRODUCE/blog/how-to-ask-questions-the-smart-way.md
+    - 歌词:
+      - REPRODUCE/lyrics/watagumo.md
+    - 诗:
+      - REPRODUCE/poem/poems.md
+  - 网站:
+    - WEBSITE/index.md # 访客打开网站第一个看到的是 docs/index.md（会报错 The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md 不要紧）  如果访客之后想要重新看到这个界面  可以在 docs/WEBSITE/index.md 找到
+    - WEBSITE/build.md
+    - WEBSITE/help.md
+    - WEBSITE/test.md
 
 # [UI]
 ## [top]
@@ -392,6 +391,7 @@ markdown_extensions:
   - meta # 支持Markdown文件上方自定义标题标签等
   - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
   - pymdownx.details # admonition需要
+  - footnotes # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
 
 extra_javascript:
   # 数学公式支持

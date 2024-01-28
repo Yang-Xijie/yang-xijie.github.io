@@ -264,16 +264,17 @@ markdown文本内的连续两个或多个回车会被替换为一个回车
 ```
 使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2]。
 
-[^1]:Markdown是一种纯文本标记语言
-[^2]:HyperText Markup Language 超文本标记语言
+[^1]: Markdown 是一种纯文本标记语言
+[^2]: HyperText Markup Language 超文本标记语言
 ```
 
 使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2]。
 
 点击[这里](#bottom)跳转到结尾查看<span id="footnote">**注脚**</span>的显示效果
 
-[^1]:Markdown是一种纯文本标记语言
-[^2]:HyperText Markup Language 超文本标记语言
+[^1]: Markdown 是一种纯文本标记语言
+
+[^2]: HyperText Markup Language 超文本标记语言
 
 ### 多级引用
 

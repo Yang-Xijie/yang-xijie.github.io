@@ -1,17 +1,6 @@
 # 个人介绍
 
-> 更新于 231013
-
-## 现状
-
-- (2023.9 - 2028.6) [浙江大学](https://www.zju.edu.cn)与[上海人工智能实验室](https://www.shlab.org.cn)联合培养直博
-    - 第一导师 [汤晓鸥](https://scholar.google.com/citations?user=qpBtpGsAAAAJ&hl=en)
-    - 第二导师 [吴飞](https://person.zju.edu.cn/wufei)
-    - 课题组 [Intelligent Digital Creation Group](https://idc-sh.github.io)
-        - PI [戴勃](http://daibo.info)
-        - mentor [徐霖宁](https://eveneveno.github.io/lnxu/)
-    - 主要研究方向
-        - 3D representation
+> 更新于 240128
 
 ## 信息
 
