@@ -54,6 +54,8 @@ nav:
   - 博客:
     - BLOG/index.md
     - BLOG/others.md
+    - Vision Pro:
+      - BLOG/VisionPro/240223-experience.md
     - Apple:
       - BLOG/Apple/mac-recommend.md
       - BLOG/Apple/ipad-recommend.md
