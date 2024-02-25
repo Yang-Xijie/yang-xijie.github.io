@@ -1,20 +1,33 @@
 # 喜欢的画师
 
+> 更新于 240225
+
 ## たんたんめん
 
-超想去临摹的一位画师 画风很柔 很简洁
+超想去临摹的一位画师。画的妹子简洁可爱，算是我心中完美的日系二次元画风了。
 
-- [Pixiv](https://www.pixiv.net/en/users/188106) 补充糖分！
-- [Pixiv Fanbox](https://km170.fanbox.cc) PSD很方便学习 500日元支持一下就都能下到
-- [Twitter](https://twitter.com/km170) 作者会在Twitter上发一些人生感悟 感觉还挺真实的
+- [Pixiv](https://www.pixiv.net/en/users/188106)
+- [Pixiv Fanbox](https://km170.fanbox.cc)
+- [Twitter](https://twitter.com/km170)
+- [Skeb](https://skeb.jp/@km170)
 
 ## 三上ミカ
 
-兄妹 系列 纯爱本、只能说太强了。好像还动画化了（雾）
+おやすみせっくす系列入坑，兄妹纯爱系列本，只能说太强。甚至还动画化了（雾）。
 
 - [Pixiv](https://www.pixiv.net/en/users/854356)
+- [Pixiv Fanbox](https://mikami.fanbox.cc)
 - [Twitter](https://twitter.com/mika_mikami)
 
 ## 関谷あさみ
 
 表情超细腻超丰富。
+
+- [Twitter](https://twitter.com/fkfk_oftn/media)
+- [Pixiv Fanbox](https://fukafuka.fanbox.cc)
+
+## 鸦居丶
+
+线条很随意，但描绘出来的贴贴超级可爱。
+
+- [米游社](https://www.miyoushe.com/ys/accountCenter/postList?id=75259669)
