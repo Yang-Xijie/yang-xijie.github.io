@@ -9,12 +9,13 @@
 
 ---
 
-> 更新于 240128
+> 以下信息更新于 240329
 
-## 个人现状
+## 主要经历与个人现状
 
-- (2023.9 - 2028.6) [浙江大学计算机学院](http://www.cs.zju.edu.cn/csen/)与[上海人工智能实验室](https://www.shlab.org.cn)联合培养直博生
-    - 导师 [汤晓鸥](https://baike.baidu.com/item/汤晓鸥)
+- (2019.9 - 2023.6) [清华大学电子工程系](https://www.ee.tsinghua.edu.cn)本科
+- (2023.9 - 2028.6 预计) [浙江大学计算机学院](http://www.cs.zju.edu.cn/csen/)与[上海人工智能实验室](https://www.shlab.org.cn)联合培养直博生
+    - 导师 [汤晓鸥](https://baike.baidu.com/item/汤晓鸥)（更换中）
     - 课题组 [Intelligent Digital Creation Group](https://idc-sh.github.io)
         - PI [戴勃](http://daibo.info)
         - mentor [徐霖宁](https://eveneveno.github.io/lnxu/)
