@@ -25,4 +25,4 @@
 
 ## 个人信息
 
-更多信息请查看 [个人介绍](./ME/introduction.md)
+更多信息请查看 [个人介绍](../ME/introduction.md)
