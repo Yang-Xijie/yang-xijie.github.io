@@ -119,7 +119,7 @@ $ git branch -M main
 $ git push -u origin main
 ```
 
-GitHub > Repository > Settings > Pages > Source > gh-pages > Click Save
+GitHub > Repository > Settings > Pages > Branch > gh-pages > Click Save
 
 ## Postscript
 
