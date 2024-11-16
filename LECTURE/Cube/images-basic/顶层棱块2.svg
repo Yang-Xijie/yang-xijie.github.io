@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>顶层棱块2</title>
+    <g id="顶层棱块2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="边框" transform="translate(7, 7)" stroke="#000000" stroke-linecap="square">
+            <line x1="0.5" y1="0.5" x2="33.5" y2="0.5" id="Line"></line>
+            <line x1="0.5" y1="11.5" x2="33.5" y2="11.5" id="Line-Copy"></line>
+            <line x1="0.5" y1="22.5" x2="33.5" y2="22.5" id="Line-Copy-2"></line>
+            <line x1="0.5" y1="33.5" x2="33.5" y2="33.5" id="Line-Copy-3"></line>
+            <line x1="0.5" y1="0.5" x2="0.5" y2="33.5" id="Line-Copy-3"></line>
+            <line x1="11.5" y1="0.5" x2="11.5" y2="33.5" id="Line-Copy-4"></line>
+            <line x1="22.5" y1="0.5" x2="22.5" y2="33.5" id="Line-Copy-5"></line>
+            <line x1="33.5" y1="0.5" x2="33.5" y2="33.5" id="Line-Copy-6"></line>
+        </g>
+        <line x1="22.75" y1="15.25" x2="22.75" y2="32.75" id="Line-2-Copy" stroke="#000000" stroke-linecap="round" transform="translate(22.75, 24) rotate(-90) translate(-22.75, -24)"></line>
+        <line x1="27.5" y1="31.5" x2="34.5" y2="24.5" id="Line-2-Copy" stroke="#000000" stroke-linecap="round" transform="translate(31, 28) scale(-1, -1) translate(-31, -28)"></line>
+        <line x1="16.5" y1="34.5" x2="23.5" y2="27.5" id="Line-2-Copy-2" stroke="#000000" stroke-linecap="round" transform="translate(20, 31) scale(1, -1) translate(-20, -31)"></line>
+        <path d="M24.2496602,34.896267 L25.1635534,35.8101602 L23.335767,35.8101602 L24.2496602,34.896267 Z" id="Triangle-Copy-3" stroke="#000000" fill="#000000" transform="translate(24.2497, 35.2497) rotate(-225) translate(-24.2497, -35.2497)"></path>
+        <path d="M35.2496602,23.396267 L36.1635534,24.3101602 L34.335767,24.3101602 L35.2496602,23.396267 Z" id="Triangle-Copy-6" stroke="#000000" fill="#000000" transform="translate(35.2497, 23.7497) scale(-1, -1) rotate(-135) translate(-35.2497, -23.7497)"></path>
+        <path d="M13,23.7071068 L13.7928932,24.5 L12.2071068,24.5 L13,23.7071068 Z" id="Triangle-Copy-7" stroke="#000000" fill="#000000" transform="translate(13, 24) scale(-1, 1) rotate(-270) translate(-13, -24)"></path>
+    </g>
+</svg>
