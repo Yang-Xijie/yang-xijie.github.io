@@ -22,6 +22,10 @@
 
 (2010) ヨスガノソラ / 缘之空
 
+## (2010) はなまる幼稚園
+
+[はなまる幼稚園](https://bangumi.tv/subject/3848)
+
 ## 萝球社
 
 (2011) ロウきゅーぶ！ / 萝球社！
@@ -110,6 +114,10 @@
 
 (2017) にゃんこデイズ / 猫咪日常
 
+## (2017) BanG Dream!
+
+[BanG Dream!](https://bangumi.tv/subject/186515)
+
 ## 踏切时间
 
 (2018) 踏切時間 / 踏切时间
@@ -137,6 +145,10 @@
 ## 魔女之旅
 
 (2020) 魔女の旅々 / 魔女之旅
+
+## (2021) Blue Reflection Ray
+
+[Blue Reflection Ray](https://bangumi.tv/subject/328032)
 
 ## 我家女友不只可爱
 
