@@ -5,6 +5,8 @@ site_url: https://yang-xijie.github.io
 site_author: 杨希杰
 site_description: 杨希杰的个人网站
 
+
+
 # [Navigtion]
 nav:
   - 我:
@@ -363,6 +365,7 @@ nav:
 # [UI]
 # [top]
 theme:
+  favicon: assets/icon.svg
   name: material
   # [切换日间模式和夜间模式]
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
@@ -442,12 +445,6 @@ extra:
     - name: Bilibili | 杨希杰619
       icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/24502827
-    - name: 小杰答疑群 QQ 796233390
-      icon: fontawesome/brands/qq
-      link: https://yang-xijie.github.io/ME/qq-groups/
-    - name: 小杰水群 QQ 824114857
-      icon: fontawesome/brands/qq
-      link: https://yang-xijie.github.io/ME/qq-groups/
     - name: 小红书 | 杨希杰
       icon: fontawesome/solid/images
       link: https://www.xiaohongshu.com/user/profile/61be0cc10000000021024369
