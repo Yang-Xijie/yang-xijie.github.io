@@ -159,6 +159,12 @@ S1 / S2 / S3
 
 
 
+## (2015) 学园孤岛
+
+[がっこうぐらし! / SCHOOL-LIVE! / 学园孤岛](https://bangumi.tv/subject/106693)
+
+
+
 ## (2016) 你的名字
 
 [君の名は。 / 你的名字。 / Your Name. / 君名](https://bangumi.tv/subject/160209)
@@ -304,14 +310,20 @@ except the last episode
 
 
 
-## (2024) Girls Band Cry
+##  (2023) おにまい
 
-[Girls Band Cry / ガールズバンドクライ / 少女乐队哭泣](https://bangumi.tv/subject/431767)
+[别当欧尼酱了 / お兄ちゃんはおしまい](https://bangumi.tv/subject/378862)
 
 
 
 ## (2025) Summer Pockets
 
 [Summer Pockets / 夏日口袋](https://bangumi.tv/subject/363957)
+
+
+
+## (2026) 超かぐや姫
+
+[超かぐや姫 / 超时空辉夜姬](https://bangumi.tv/subject/604826)
 
 
