@@ -40,6 +40,12 @@ K-ON！ / けいおん！ / 轻音少女
 
 
 
+## (2010) 文学少女
+
+[文学少女](https://bangumi.tv/subject/3183)
+
+
+
 ## (2010) はなまる幼稚園
 
 [はなまる幼稚園](https://bangumi.tv/subject/3848)

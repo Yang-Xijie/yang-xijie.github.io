@@ -316,6 +316,12 @@ except the last episode
 
 
 
+## (2023) 薬屋のひとりごと
+
+[薬屋のひとりごと　/ 药屋少女的呢喃](https://bangumi.tv/subject/420628)
+
+
+
 ## (2025) Summer Pockets
 
 [Summer Pockets / 夏日口袋](https://bangumi.tv/subject/363957)
@@ -324,6 +330,12 @@ except the last episode
 
 ## (2026) 超かぐや姫
 
-[超かぐや姫 / 超时空辉夜姬](https://bangumi.tv/subject/604826)
+[超かぐや姫 / 超辉夜姬](https://bangumi.tv/subject/604826)
+
+
+
+## (2026) 牡丹百合
+
+[上伊那ぼたん、酔へる姿は百合の花](https://bangumi.tv/subject/543360)
 
 
