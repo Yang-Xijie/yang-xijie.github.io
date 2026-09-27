@@ -18,25 +18,25 @@
 
 ## (2007) Clannad S1
 
-CLANNAD -クラナド- / Clannad
+[CLANNAD -クラナド- / Clannad](https://bangumi.tv/subject/51)
 
 
 
 ## (2009) 轻音少女
 
-K-ON！ / けいおん！ / 轻音少女
+[K-ON！ / けいおん！ / 轻音少女](https://bangumi.tv/subject/1424)
 
 
 
 ## (2009) 学园都市
 
-とある科学の超電磁砲 / 科学超电磁炮 / 学园都市
+[とある科学の超電磁砲 / 科学超电磁炮 / 学园都市](https://bangumi.tv/subject/2585)
 
 
 
 ## (2010) 缘之空
 
-ヨスガノソラ / 缘之空
+[ヨスガノソラ / 缘之空](https://bangumi.tv/subject/7157)
 
 
 
@@ -60,7 +60,7 @@ K-ON！ / けいおん！ / 轻音少女
 
 ## (2011) 萝球社
 
-ロウきゅーぶ！ / 萝球社！
+[ロウきゅーぶ！ / 萝球社！](https://bangumi.tv/subject/13485)
 
 
 
@@ -78,13 +78,13 @@ K-ON！ / けいおん！ / 轻音少女
 
 ## (2012) 听爸爸的话
 
-パパのいうことを聞きなさい! / 听爸爸的话
+[パパのいうことを聞きなさい! / 听爸爸的话](https://bangumi.tv/subject/25444)
 
 
 
 ## (2012) 樱花庄的宠物女孩
 
-さくら荘のペットな彼女 / 樱花庄的宠物女孩
+[さくら荘のペットな彼女 / 樱花庄的宠物女孩](https://bangumi.tv/subject/41488)
 
 
 
@@ -102,7 +102,7 @@ K-ON！ / けいおん！ / 轻音少女
 
 ## (2013) 某人的目光
 
-だれかのまなざし / 某人的目光
+[だれかのまなざし / 某人的目光](https://bangumi.tv/subject/62628)
 
 
 
@@ -138,13 +138,13 @@ K-ON！ / けいおん！ / 轻音少女
 
 ## (2014) 伪恋
 
-ニセコイ / 伪恋
+[ニセコイ / 伪恋](https://bangumi.tv/subject/74628)
 
 
 
 ## (2014) 月刊少女野崎君
 
-月刊少女野崎くん / 月刊少女野崎君
+[月刊少女野崎くん / 月刊少女野崎君](https://bangumi.tv/subject/100449)
 
 
 
@@ -156,13 +156,13 @@ K-ON！ / けいおん！ / 轻音少女
 
 ## (2014) 青春之旅
 
-アオハライド / 青春之旅
+[アオハライド / 青春之旅](https://bangumi.tv/subject/92836)
 
 
 
 ## (2014) 白箱
 
-SHIROBAKO / 白箱
+[SHIROBAKO / 白箱](https://bangumi.tv/subject/110467)
 
 
 
@@ -174,67 +174,67 @@ SHIROBAKO / 白箱
 
 ## 群居姐妹
 
-(2015) だんちがい / 群居姐妹
+[(2015) だんちがい / 群居姐妹](https://bangumi.tv/subject/125896)
 
 
 
 ## (2016) ReLIFE
 
-リライフ / ReLIFE / 重返17岁
+[リライフ / ReLIFE / 重返17岁](https://bangumi.tv/subject/126173)
 
 
 
 ## (2016) 声之形
 
-聲の形 / 声之形
+[聲の形 / 声之形](https://bangumi.tv/subject/117777)
 
 
 
 ## (2016) 小桃小栗Love物语
 
-ももくり / 小桃小栗LoveLove物语 / 小桃小栗Love物语
+[ももくり / 小桃小栗LoveLove物语 / 小桃小栗Love物语](https://bangumi.tv/subject/185001)
 
 
 
 ## (2016) 田中君总是如此懒惰
 
-田中くんはいつもけだるげ / 田中君总是如此懒惰
+[田中くんはいつもけだるげ / 田中君总是如此懒惰](https://bangumi.tv/subject/155704)
 
 
 
 ## (2017) 月色真美
 
-月がきれい / 月色真美
+[月がきれい / 月色真美](https://bangumi.tv/subject/207573)
 
 
 
 ## (2017) Just Because
 
-Just Because!
+[Just Because!](https://bangumi.tv/subject/212278)
 
 
 
 ## (2017) 品酒要在成为夫妻后
 
-お酒は夫婦になってから / 品酒要在成为夫妻后
+[お酒は夫婦になってから / 品酒要在成为夫妻后](https://bangumi.tv/subject/214167)
 
 
 
 ## (2017) 捏造陷阱
 
-捏造トラップ-NTR- / 捏造陷阱-NTR- / 捏造陷阱
+[捏造トラップ-NTR- / 捏造陷阱-NTR- / 捏造陷阱](https://bangumi.tv/subject/198099)
 
 
 
 ## (2017) 此花亭奇谭
 
-このはな綺譚 / 此花绮谭 / 此花亭奇谭
+[このはな綺譚 / 此花绮谭 / 此花亭奇谭](https://bangumi.tv/subject/211934)
 
 
 
 ## (2017) 猫咪日常
 
-にゃんこデイズ / 猫咪日常
+[にゃんこデイズ / 猫咪日常](https://bangumi.tv/subject/193282)
 
 
 
@@ -252,19 +252,19 @@ Just Because!
 
 ## (2018) 踏切时间
 
-踏切時間 / 踏切时间
+[踏切時間 / 踏切时间](https://bangumi.tv/subject/236103)
 
 
 
 ## (2018) 摇曳露营
 
-ゆるキャン△ / 摇曳露营△
+[ゆるキャン△ / 摇曳露营△](https://bangumi.tv/subject/207195)
 
 
 
 ## (2018) 宅饮
 
-たくのみ。 / 宅饮。
+[たくのみ。 / 宅饮。](https://bangumi.tv/subject/221819)
 
 
 
@@ -286,15 +286,9 @@ Just Because!
 
 
 
-## (2020) 成神之日
-
-神様になった日 / 成神之日
-
-
-
 ## (2020) 魔女之旅
 
-魔女の旅々 / 魔女之旅
+[魔女の旅々 / 魔女之旅](https://bangumi.tv/subject/292970)
 
 
 
@@ -318,7 +312,7 @@ Just Because!
 
 ## (2022) 我家女友不只可爱
 
-可愛いだけじゃない式守さん / 式守同学不只可爱 / 我家女友不只可爱
+[可愛いだけじゃない式守さん / 式守同学不只可爱 / 我家女友不只可爱](https://bangumi.tv/subject/324295)
 
 
 

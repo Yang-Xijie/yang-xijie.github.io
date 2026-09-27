@@ -268,7 +268,7 @@ S1 / S2 / S3
 
 ## (2020) 22/7
 
-[ナナブンノニジュウニ](https://227anime.com/?innerlink)
+[ナナブンノニジュウニ](https://bangumi.tv/subject/220445)
 
 except the last episode
 
