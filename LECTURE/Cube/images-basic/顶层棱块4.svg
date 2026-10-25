@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>顶层棱块4</title>
+    <g id="顶层棱块4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="边框" transform="translate(7, 7)" stroke="#000000" stroke-linecap="square">
+            <line x1="0.5" y1="0.5" x2="33.5" y2="0.5" id="Line"></line>
+            <line x1="0.5" y1="11.5" x2="33.5" y2="11.5" id="Line-Copy"></line>
+            <line x1="0.5" y1="22.5" x2="33.5" y2="22.5" id="Line-Copy-2"></line>
+            <line x1="0.5" y1="33.5" x2="33.5" y2="33.5" id="Line-Copy-3"></line>
+            <line x1="0.5" y1="0.5" x2="0.5" y2="33.5" id="Line-Copy-3"></line>
+            <line x1="11.5" y1="0.5" x2="11.5" y2="33.5" id="Line-Copy-4"></line>
+            <line x1="22.5" y1="0.5" x2="22.5" y2="33.5" id="Line-Copy-5"></line>
+            <line x1="33.5" y1="0.5" x2="33.5" y2="33.5" id="Line-Copy-6"></line>
+        </g>
+        <g id="Group" transform="translate(18.4997, 29.4997) rotate(-90) translate(-18.4997, -29.4997)translate(10.5, 21.5)" stroke="#000000">
+            <line x1="3" y1="13" x2="13" y2="3" id="Line-2-Copy" stroke-linecap="round" transform="translate(8, 8) scale(-1, -1) translate(-8, -8)"></line>
+            <path d="M13.7496602,1.89626701 L14.6635534,2.81016022 L12.835767,2.81016022 L13.7496602,1.89626701 Z" id="Triangle-Copy-6" fill="#000000" transform="translate(13.7497, 2.2497) scale(-1, -1) rotate(-135) translate(-13.7497, -2.2497)"></path>
+            <path d="M2.24966022,13.396267 L3.16355344,14.3101602 L1.33576701,14.3101602 L2.24966022,13.396267 Z" id="Triangle-Copy-8" fill="#000000" transform="translate(2.2497, 13.7497) scale(-1, -1) rotate(-315) translate(-2.2497, -13.7497)"></path>
+        </g>
+        <g id="Group" transform="translate(29.4997, 18.4997) rotate(-90) translate(-29.4997, -18.4997)translate(21.5, 10.5)" stroke="#000000">
+            <line x1="3" y1="13" x2="13" y2="3" id="Line-2-Copy" stroke-linecap="round" transform="translate(8, 8) scale(-1, -1) translate(-8, -8)"></line>
+            <path d="M13.7496602,1.89626701 L14.6635534,2.81016022 L12.835767,2.81016022 L13.7496602,1.89626701 Z" id="Triangle-Copy-6" fill="#000000" transform="translate(13.7497, 2.2497) scale(-1, -1) rotate(-135) translate(-13.7497, -2.2497)"></path>
+            <path d="M2.24966022,13.396267 L3.16355344,14.3101602 L1.33576701,14.3101602 L2.24966022,13.396267 Z" id="Triangle-Copy-8" fill="#000000" transform="translate(2.2497, 13.7497) scale(-1, -1) rotate(-315) translate(-2.2497, -13.7497)"></path>
+        </g>
+    </g>
+</svg>
